@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Tư liệu về Hugh Thompson, phi công Mỹ đã can thiệp để cứu người dân trong vụ thảm sát Sơn Mỹ năm 1968. Hành động của ông thể hiện sự phản đối tội ác chiến tranh ngay trong hàng ngũ quân đội Mỹ. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với châu Mỹ. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Hugh Thompson cứu người dân Sơn Mỹ 1968",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Hugh Thompson cứu người dân Sơn Mỹ 1968",
+        "year": 1968
+      },
+      "id": "hugh-thompson-cuu-nguoi-dan-son-my-1968",
+      "images": [
+        {
+          "caption": "Hugh Thompson cứu người dân Sơn Mỹ 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1G6GZZdk56gxtlguopUhGVWdjzy48D4Mw/view",
+          "filename": "hugh-thompson-cuu-nguoi-dan-son-my-1968_01.jpg",
+          "id": "hugh-thompson-cuu-nguoi-dan-son-my-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hugh Thompson cứu người dân Sơn Mỹ 1968",
+      "slug": "hugh-thompson-cuu-nguoi-dan-son-my-1968",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my",
+        "1968"
+      ]
+    }
+  ]
+}

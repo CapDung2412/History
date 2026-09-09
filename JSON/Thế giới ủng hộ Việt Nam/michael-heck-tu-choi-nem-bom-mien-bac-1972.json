@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Tư liệu về phi công Michael Heck từ chối tiếp tục nhiệm vụ ném bom miền Bắc Việt Nam năm 1972. Quyết định này phản ánh sự phản đối chiến tranh xuất hiện ngay trong quân đội Mỹ. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với châu Mỹ. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Michael Heck từ chối ném bom miền Bắc 1972",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Michael Heck từ chối ném bom miền Bắc 1972",
+        "year": 1972
+      },
+      "id": "michael-heck-tu-choi-nem-bom-mien-bac-1972",
+      "images": [
+        {
+          "caption": "Michael Heck từ chối ném bom miền Bắc 1972 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1qYYxa4v-fxazpSKvTA73OhW4SJTqbVNj/view",
+          "filename": "michael-heck-tu-choi-nem-bom-mien-bac-1972_01.jpg",
+          "id": "michael-heck-tu-choi-nem-bom-mien-bac-1972_01",
+          "view": "toan-canh",
+          "year": 1972
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Michael Heck từ chối ném bom miền Bắc 1972",
+      "slug": "michael-heck-tu-choi-nem-bom-mien-bac-1972",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my",
+        "1972"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đạn carbine. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng trường hoặc carbine, được nhận diện theo mẫu súng ghi trong hồ sơ trưng bày. Tư liệu giúp đối chiếu hình dáng và tên gọi của các loại súng bộ binh thời chiến.",
+        "event": "Đạn carbine",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đạn carbine",
+        "year": null
+      },
+      "id": "dan-carbine",
+      "images": [
+        {
+          "caption": "Đạn carbine – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1SvLNhQXC8YYD_qO-wlmXjzr709XHdb6Y/view",
+          "filename": "dan-carbine_01.jpg",
+          "id": "dan-carbine_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đạn carbine – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1ybhraDtfFfjyGJTBtk-s0VPdsMdCV-Hn/view",
+          "filename": "dan-carbine_02.jpg",
+          "id": "dan-carbine_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đạn carbine – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1mQKkcdc4qr9kLYx6RhY3KFwvgmDZWtwz/view",
+          "filename": "dan-carbine_03.jpg",
+          "id": "dan-carbine_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đạn carbine",
+      "slug": "dan-carbine",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

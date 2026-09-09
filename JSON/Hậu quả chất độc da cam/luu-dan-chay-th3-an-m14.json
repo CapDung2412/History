@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "luu-dan-chay-th3-an-m14",
+      "name": "Lựu đạn cháy TH3 AN-M14",
+      "slug": "luu-dan-chay-th3-an-m14",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "luu-dan-chay-th3-an-m14"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lựu đạn cháy TH3 AN-M14",
+        "description": "Hiện vật được nhận diện là Lựu đạn cháy TH3 AN-M14. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Lựu đạn cháy TH3 AN-M14",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "luu-dan-chay-th3-an-m14_01",
+          "filename": "luu-dan-chay-th3-an-m14_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1L2g2osO-sm9vhfK1ivhAeSeWscuM2pEx/view",
+          "caption": "Lựu đạn cháy TH3 AN-M14 – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "luu-dan-chay-th3-an-m14_02",
+          "filename": "luu-dan-chay-th3-an-m14_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1azqLQcYyx8BFzkyoIXG1KcM6UeFSfTac/view",
+          "caption": "Lựu đạn cháy TH3 AN-M14 – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "luu-dan-chay-th3-an-m14_03",
+          "filename": "luu-dan-chay-th3-an-m14_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1aCFMvWVx5OU1GWEcPMFr2CBgP4O02umb/view",
+          "caption": "Lựu đạn cháy TH3 AN-M14 – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

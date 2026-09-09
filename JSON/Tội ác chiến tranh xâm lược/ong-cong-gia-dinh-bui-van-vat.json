@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Ống cống gia đình Bùi Văn Vát. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật gắn với đời sống dân thường, gia đình hoặc ký ức về những người chịu tác động của chiến tranh. Nội dung chuyển trọng tâm từ vũ khí sang những mất mát và dấu tích còn lại trong đời sống con người.",
+        "event": "Ống cống gia đình Bùi Văn Vát",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ống cống gia đình Bùi Văn Vát",
+        "year": null
+      },
+      "id": "ong-cong-gia-dinh-bui-van-vat",
+      "images": [
+        {
+          "caption": "Ống cống gia đình Bùi Văn Vát – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1-kugJBFTzMqV1KQl_jJ8Z7kmEsUjHIwl/view",
+          "filename": "ong-cong-gia-dinh-bui-van-vat_01.jpg",
+          "id": "ong-cong-gia-dinh-bui-van-vat_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Ống cống gia đình Bùi Văn Vát – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1RHaNR1cV6DuXsTuVYcoej3067TCEeKqt/view",
+          "filename": "ong-cong-gia-dinh-bui-van-vat_02.jpg",
+          "id": "ong-cong-gia-dinh-bui-van-vat_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Ống cống gia đình Bùi Văn Vát – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1F_1fQXMNCdkWvmSkoBkY-l9Vp-n4FATm/view",
+          "filename": "ong-cong-gia-dinh-bui-van-vat_03.jpg",
+          "id": "ong-cong-gia-dinh-bui-van-vat_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Ống cống gia đình Bùi Văn Vát – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1ptB8yVJGvUfvxGoFFDpmqdpOG8joJLvd/view",
+          "filename": "ong-cong-gia-dinh-bui-van-vat_04.jpg",
+          "id": "ong-cong-gia-dinh-bui-van-vat_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ống cống gia đình Bùi Văn Vát",
+      "slug": "ong-cong-gia-dinh-bui-van-vat",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

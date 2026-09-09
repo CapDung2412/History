@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "sung-phong-rocket-m72-law",
+      "name": "Súng phóng rocket M72 LAW",
+      "slug": "sung-phong-rocket-m72-law",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "sung-phong-rocket-m72-law"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Súng phóng rocket M72 LAW",
+        "description": "Hiện vật được nhận diện là Súng phóng rocket M72 LAW. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm vũ khí hoặc đạn phản lực, được định danh theo đúng kiểu loại ghi trong tên trưng bày. Trong bộ sưu tập, hiện vật bổ sung bối cảnh về trang bị quân sự và không được đồng nhất với chất độc da cam/dioxin.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Súng phóng rocket M72 LAW",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "sung-phong-rocket-m72-law_01",
+          "filename": "sung-phong-rocket-m72-law_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1kJltsqLvYqLgrjDrgqTWbAscFm3mfGSe/view",
+          "caption": "Súng phóng rocket M72 LAW – góc chụp 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "sung-phong-rocket-m72-law_02",
+          "filename": "sung-phong-rocket-m72-law_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1sqlIZSdvcpJ8FzQV0KMB0R6v4ufElNqK/view",
+          "caption": "Súng phóng rocket M72 LAW – góc chụp 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "sung-phong-rocket-m72-law_03",
+          "filename": "sung-phong-rocket-m72-law_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BAJTgsV7cOrqDbK7NLOsUu0vMQTwBM0K/view",
+          "caption": "Súng phóng rocket M72 LAW – góc chụp 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "sung-phong-rocket-m72-law_04",
+          "filename": "sung-phong-rocket-m72-law_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1AyLeeQL-TMHnAB_3rG6cEN2l9INRBMtt/view",
+          "caption": "Súng phóng rocket M72 LAW – góc chụp 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}
+

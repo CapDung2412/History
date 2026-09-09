@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ kéo lê người bị bắt sau xe tăng. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh lính Mỹ kéo lê người bị bắt sau xe tăng",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ kéo lê người bị bắt sau xe tăng",
+        "year": null
+      },
+      "id": "anh-linh-my-keo-le-nguoi-bi-bat-sau-xe-tang",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ kéo lê người bị bắt sau xe tăng – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/16dvm1uhQ9vpInhYPIHhYx7UflWjLIcfK/view",
+          "filename": "anh-linh-my-keo-le-nguoi-bi-bat-sau-xe-tang_01.jpg",
+          "id": "anh-linh-my-keo-le-nguoi-bi-bat-sau-xe-tang_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ kéo lê người bị bắt sau xe tăng",
+      "slug": "anh-linh-my-keo-le-nguoi-bi-bat-sau-xe-tang",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

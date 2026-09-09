@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại biểu tình Congo chấm dứt chiến tranh Việt Nam 1967. Những người tham gia đòi chấm dứt chiến tranh và lập lại hòa bình cho Việt Nam; sự kiện cho thấy phong trào quần chúng ủng hộ Việt Nam đã lan rộng tại châu Phi. Sự tham gia của người dân và các tổ chức xã hội cho thấy phản đối chiến tranh không chỉ là quan điểm của một nhóm chính trị riêng lẻ. Khẩu hiệu và hành động công khai đã đưa vấn đề chiến tranh Việt Nam vào đời sống chính trị, xã hội tại châu Phi.",
+        "event": "Biểu tình Congo chấm dứt chiến tranh Việt Nam 1967",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Biểu tình Congo chấm dứt chiến tranh Việt Nam 1967",
+        "year": 1967
+      },
+      "id": "bieu-tinh-congo-cham-dut-chien-tranh-viet-nam-1967",
+      "images": [
+        {
+          "caption": "Biểu tình Congo chấm dứt chiến tranh Việt Nam 1967 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1kXIerCZ4L9uoRz7lXXZmcI5LZTVh0KML/view",
+          "filename": "bieu-tinh-congo-cham-dut-chien-tranh-viet-nam-1967_01.jpg",
+          "id": "bieu-tinh-congo-cham-dut-chien-tranh-viet-nam-1967_01",
+          "view": "toan-canh",
+          "year": 1967
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Biểu tình Congo chấm dứt chiến tranh Việt Nam 1967",
+      "slug": "bieu-tinh-congo-cham-dut-chien-tranh-viet-nam-1967",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-phi",
+        "1967"
+      ]
+    }
+  ]
+}

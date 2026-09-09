@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đạn 40 mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Đạn 40 mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đạn 40 mm",
+        "year": null
+      },
+      "id": "dan-40mm",
+      "images": [
+        {
+          "caption": "Đạn 40 mm – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1bgCs_yo1XFeITTC_ULHc8cP2VcnP4tmX/view",
+          "filename": "dan-40mm_01.jpg",
+          "id": "dan-40mm_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đạn 40 mm – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1Y6FJuH-y1XyORZw8bA2Iy9x-URLQacLT/view",
+          "filename": "dan-40mm_02.jpg",
+          "id": "dan-40mm_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đạn 40 mm – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1xXLpxiggyXGv33XxHGThiBEjI5Tdx6uc/view",
+          "filename": "dan-40mm_03.jpg",
+          "id": "dan-40mm_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Đạn 40 mm – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1FUdgmqQSeaKsu4_wIrKuhKZUS4zY3wPZ/view",
+          "filename": "dan-40mm_04.jpg",
+          "id": "dan-40mm_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đạn 40 mm",
+      "slug": "dan-40mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

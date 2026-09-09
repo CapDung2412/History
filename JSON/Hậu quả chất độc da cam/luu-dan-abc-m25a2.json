@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "luu-dan-abc-m25a2",
+      "name": "Lựu đạn ABC M25A2",
+      "slug": "luu-dan-abc-m25a2",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "luu-dan-abc-m25a2"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lựu đạn ABC M25A2",
+        "description": "Hiện vật được nhận diện là Lựu đạn ABC M25A2. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Lựu đạn ABC M25A2",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "luu-dan-abc-m25a2_01",
+          "filename": "luu-dan-abc-m25a2_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/19vS4EdCKS4vQr7xp61oN3cacOBlxapJh/view",
+          "caption": "Lựu đạn ABC M25A2 – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "luu-dan-abc-m25a2_02",
+          "filename": "luu-dan-abc-m25a2_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ECZ6pYSmkLd30WSGOxrNDt52EeGBKoga/view",
+          "caption": "Lựu đạn ABC M25A2 – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "luu-dan-abc-m25a2_03",
+          "filename": "luu-dan-abc-m25a2_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xULxrGaZ7l6wcfXDFOAKMxB0HcTVjq2x/view",
+          "caption": "Lựu đạn ABC M25A2 – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

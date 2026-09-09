@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày tổng hợp hợp tác Việt – Mỹ khắc phục hậu quả chiến tranh. Nội dung nêu các hoạt động, lực lượng tham gia và hình thức đóng góp cụ thể đối với Việt Nam. Các tên riêng, mốc thời gian và nội dung được trình bày trên bảng là căn cứ để đọc đúng các ảnh và hiện vật đi kèm. Nhờ đó, người xem có thể phân biệt rõ nhân vật, tổ chức, sự kiện và hình thức đóng góp được giới thiệu trong chuyên đề.",
+        "event": "Bảng hợp tác Việt – Mỹ khắc phục hậu quả chiến tranh",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng hợp tác Việt – Mỹ khắc phục hậu quả chiến tranh",
+        "year": null
+      },
+      "id": "bang-hop-tac-viet-my-khac-phuc-hau-qua-chien-tranh",
+      "images": [
+        {
+          "caption": "Bảng hợp tác Việt – Mỹ khắc phục hậu quả chiến tranh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1_vZ2UNXPCUucqdTtLa637aPrpnOE_95T/view",
+          "filename": "bang-hop-tac-viet-my-khac-phuc-hau-qua-chien-tranh_01.jpg",
+          "id": "bang-hop-tac-viet-my-khac-phuc-hau-qua-chien-tranh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng hợp tác Việt – Mỹ khắc phục hậu quả chiến tranh",
+      "slug": "bang-hop-tac-viet-my-khac-phuc-hau-qua-chien-tranh",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_panel",
+        "to-chuc-quoc-te"
+      ]
+    }
+  ]
+}

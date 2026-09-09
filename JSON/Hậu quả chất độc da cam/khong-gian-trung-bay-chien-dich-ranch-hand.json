@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "khong-gian-trung-bay-chien-dich-ranch-hand",
+      "name": "Không gian trưng bày Chiến dịch Ranch Hand",
+      "slug": "khong-gian-trung-bay-chien-dich-ranch-hand",
+      "category": "museum_exhibition",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "museum_exhibition",
+        "khong-gian-trung-bay-chien-dich-ranch-hand"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Không gian trưng bày Chiến dịch Ranch Hand",
+        "description": "Không gian hoặc bộ trưng bày tập trung vào không gian trưng bày Chiến dịch Ranch Hand. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung liên quan đến việc nhận diện, sử dụng hoặc phân bố các chất diệt cỏ và chất độc hóa học trong chiến tranh. Tư liệu giúp xác định phạm vi chiến dịch, loại hóa chất hoặc dấu tích vật chứa còn được lưu giữ trong trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Không gian trưng bày Chiến dịch Ranch Hand",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "khong-gian-trung-bay-chien-dich-ranch-hand_01",
+          "filename": "khong-gian-trung-bay-chien-dich-ranch-hand_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1TN6Cx1Lm7B6kwxt-s_JSGVZoSulGGVch/view",
+          "caption": "Không gian trưng bày Chiến dịch Ranch Hand – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

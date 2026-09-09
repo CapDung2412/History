@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_map",
+      "historical_info": {
+        "description": "Tư liệu tập trung vào bản đồ các địa điểm sát hại tại Sơn Mỹ. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là bản đồ các địa điểm sát hại tại Sơn Mỹ. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Bản đồ các địa điểm sát hại tại Sơn Mỹ",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bản đồ các địa điểm sát hại tại Sơn Mỹ",
+        "year": null
+      },
+      "id": "ban-do-cac-dia-diem-sat-hai-tai-son-my",
+      "images": [
+        {
+          "caption": "Bản đồ các địa điểm sát hại tại Sơn Mỹ – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1l83RhmvXendKeF7lCFnjrasUcj9O9QBw/view",
+          "filename": "ban-do-cac-dia-diem-sat-hai-tai-son-my_01.jpg",
+          "id": "ban-do-cac-dia-diem-sat-hai-tai-son-my_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bản đồ các địa điểm sát hại tại Sơn Mỹ – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1lfLf6TJyKEr5RxNx-PUqarzZbQ_l6wv_/view",
+          "filename": "ban-do-cac-dia-diem-sat-hai-tai-son-my_02.jpg",
+          "id": "ban-do-cac-dia-diem-sat-hai-tai-son-my_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bản đồ các địa điểm sát hại tại Sơn Mỹ",
+      "slug": "ban-do-cac-dia-diem-sat-hai-tai-son-my",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_map"
+      ]
+    }
+  ]
+}
+

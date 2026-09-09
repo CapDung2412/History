@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "may-bay-trinh-sat-o1",
+      "name": "Máy bay trinh sát O-1",
+      "slug": "may-bay-trinh-sat-o1",
+      "category": "military_vehicle",
+      "tags": [
+        "may-bay-xe-tang-truc-thang",
+        "military_vehicle",
+        "may-bay-trinh-sat-o1"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Máy bay trinh sát O-1",
+        "description": "Hiện vật được nhận diện là Máy bay trinh sát O-1. Hiện vật được đặt trong bối cảnh Chiến tranh Việt Nam (1954–1975). O-1 được định danh trong trưng bày là máy bay trinh sát, phục vụ nhiệm vụ quan sát và chỉ thị mục tiêu. Hiện vật giúp nhận diện nhóm máy bay hạng nhẹ dùng cho hoạt động trinh sát trên chiến trường.",
+        "historical_period": "Chiến tranh Việt Nam (1954–1975)",
+        "year": null,
+        "event": "Máy bay trinh sát O-1",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "may-bay-trinh-sat-o1_01",
+          "filename": "may-bay-trinh-sat-o1_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ZwuChxLfTHaQOAdEI8KoKThurY3VXLuV/view",
+          "caption": "Máy bay trinh sát O-1 – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "may-bay-trinh-sat-o1_02",
+          "filename": "may-bay-trinh-sat-o1_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1AfsObq9VGoFPNmlx3Zr31IvOPQitPbO4/view",
+          "caption": "Máy bay trinh sát O-1 – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "may-bay-trinh-sat-o1_03",
+          "filename": "may-bay-trinh-sat-o1_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Q122zLRaINC5H2bfL0gVQUD7rF9uyvLK/view",
+          "caption": "Máy bay trinh sát O-1 – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

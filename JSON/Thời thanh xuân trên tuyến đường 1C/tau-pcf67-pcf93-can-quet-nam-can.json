@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại tàu PCF-67 PCF-93 càn quét Năm Căn. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Tàu PCF-67 PCF-93 càn quét Năm Căn",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Tàu PCF-67 PCF-93 càn quét Năm Căn",
+        "year": null
+      },
+      "id": "tau-pcf67-pcf93-can-quet-nam-can",
+      "images": [
+        {
+          "caption": "Tàu PCF-67 PCF-93 càn quét Năm Căn – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/19yCuxqsqG48JMwImzPG2L8zmC3usFmZD/view",
+          "filename": "tau-pcf67-pcf93-can-quet-nam-can_01.jpg",
+          "id": "tau-pcf67-pcf93-can-quet-nam-can_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tàu PCF-67 PCF-93 càn quét Năm Căn",
+      "slug": "tau-pcf67-pcf93-can-quet-nam-can",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

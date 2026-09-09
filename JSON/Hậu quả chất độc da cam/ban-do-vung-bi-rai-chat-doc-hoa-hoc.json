@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "ban-do-vung-bi-rai-chat-doc-hoa-hoc",
+      "name": "Bản đồ vùng bị rải chất độc hóa học",
+      "slug": "ban-do-vung-bi-rai-chat-doc-hoa-hoc",
+      "category": "historical_map",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "historical_map",
+        "ban-do-vung-bi-rai-chat-doc-hoa-hoc"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bản đồ vùng bị rải chất độc hóa học",
+        "description": "Nội dung trung tâm là bản đồ vùng bị rải chất độc hóa học. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung liên quan đến việc nhận diện, sử dụng hoặc phân bố các chất diệt cỏ và chất độc hóa học trong chiến tranh. Tư liệu giúp xác định phạm vi chiến dịch, loại hóa chất hoặc dấu tích vật chứa còn được lưu giữ trong trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Bản đồ vùng bị rải chất độc hóa học",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "ban-do-vung-bi-rai-chat-doc-hoa-hoc_01",
+          "filename": "ban-do-vung-bi-rai-chat-doc-hoa-hoc_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1OQKNo1cvWxTirArgnElHV9EornrepQAw/view",
+          "caption": "Bản đồ vùng bị rải chất độc hóa học – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,9 @@
+.next/
+node_modules/
+coverage/
+*.tsbuildinfo
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*

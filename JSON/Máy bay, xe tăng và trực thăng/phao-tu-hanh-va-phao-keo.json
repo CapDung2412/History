@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phao-tu-hanh-va-phao-keo",
+      "name": "Pháo tự hành và pháo kéo",
+      "slug": "phao-tu-hanh-va-phao-keo",
+      "category": "military_vehicle",
+      "tags": [
+        "may-bay-xe-tang-truc-thang",
+        "military_vehicle",
+        "phao-tu-hanh-va-phao-keo"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Pháo tự hành và pháo kéo",
+        "description": "Hiện vật được nhận diện là Pháo tự hành và pháo kéo. Hiện vật được đặt trong bối cảnh Chiến tranh Việt Nam (1954–1975). Nhóm hiện vật gồm pháo tự hành và pháo kéo, thể hiện hai cách bố trí khả năng cơ động của hỏa lực pháo binh. Tư liệu giúp so sánh loại pháo tích hợp trên phương tiện với loại phải dùng phương tiện khác để kéo.",
+        "historical_period": "Chiến tranh Việt Nam (1954–1975)",
+        "year": null,
+        "event": "Pháo tự hành và pháo kéo",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phao-tu-hanh-va-phao-keo_01",
+          "filename": "phao-tu-hanh-va-phao-keo_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1SfdY3-blBr1rEezo4gI2-EEMXq3r16Ua/view",
+          "caption": "Pháo tự hành và pháo kéo – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

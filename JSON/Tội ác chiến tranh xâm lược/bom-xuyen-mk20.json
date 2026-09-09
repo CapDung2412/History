@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bom xuyên MK20. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Đây là súng phóng lựu hoặc bộ phận liên quan, được phân biệt theo kiểu loại ghi trong tên hiện vật. Hiện vật phản ánh hỏa lực bộ binh và khả năng sử dụng đạn nổ trong tác chiến.",
+        "event": "Bom xuyên MK20",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bom xuyên MK20",
+        "year": null
+      },
+      "id": "bom-xuyen-mk20",
+      "images": [
+        {
+          "caption": "Bom xuyên MK20 – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1iGG4Di7yuYlAzYh_5raBIOtIScBKwiL9/view",
+          "filename": "bom-xuyen-mk20_01.jpg",
+          "id": "bom-xuyen-mk20_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bom xuyên MK20 – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1LiiYWye115Q0XZU_dOaCFT-khWCzU6V1/view",
+          "filename": "bom-xuyen-mk20_02.jpg",
+          "id": "bom-xuyen-mk20_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Bom xuyên MK20 – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1eGA_LI7idQEFu64gOAWvjoq1Rr68T4BI/view",
+          "filename": "bom-xuyen-mk20_03.jpg",
+          "id": "bom-xuyen-mk20_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bom xuyên MK20",
+      "slug": "bom-xuyen-mk20",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

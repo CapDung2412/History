@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Gio nan tre đựng cá. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật gắn với đời sống dân thường, gia đình hoặc ký ức về những người chịu tác động của chiến tranh. Nội dung chuyển trọng tâm từ vũ khí sang những mất mát và dấu tích còn lại trong đời sống con người.",
+        "event": "Gio nan tre đựng cá",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Gio nan tre đựng cá",
+        "year": null
+      },
+      "id": "gio-nan-tre-dung-ca",
+      "images": [
+        {
+          "caption": "Gio nan tre đựng cá – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1ISJVlt81pgJMw0gIdl-ABxbOEs0_qSmV/view",
+          "filename": "gio-nan-tre-dung-ca_01.jpg",
+          "id": "gio-nan-tre-dung-ca_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Gio nan tre đựng cá – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1ORgJjkk6Wn8-UvrcD0f-4zN0Dr-yB8Pj/view",
+          "filename": "gio-nan-tre-dung-ca_02.jpg",
+          "id": "gio-nan-tre-dung-ca_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Gio nan tre đựng cá – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1iZXpiXkcoDixigBHChID7NmsY4Tr1L43/view",
+          "filename": "gio-nan-tre-dung-ca_03.jpg",
+          "id": "gio-nan-tre-dung-ca_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Gio nan tre đựng cá",
+      "slug": "gio-nan-tre-dung-ca",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

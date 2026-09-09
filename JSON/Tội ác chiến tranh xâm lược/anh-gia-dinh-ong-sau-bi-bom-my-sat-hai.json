@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại gia đình ông Sáu bị bom Mỹ sát hại. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hình ảnh cho thấy thiệt hại đối với con người, gia đình, công trình hoặc khu dân cư do bom đạn gây ra. Tư liệu làm rõ hậu quả trực tiếp của hoạt động đánh phá đối với dân thường và cơ sở dân sinh.",
+        "event": "Ảnh gia đình ông Sáu bị bom Mỹ sát hại",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh gia đình ông Sáu bị bom Mỹ sát hại",
+        "year": null
+      },
+      "id": "anh-gia-dinh-ong-sau-bi-bom-my-sat-hai",
+      "images": [
+        {
+          "caption": "Ảnh gia đình ông Sáu bị bom Mỹ sát hại – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1cj0Ya8V6oB0TzDDhpu4WtKccK70lsuVx/view",
+          "filename": "anh-gia-dinh-ong-sau-bi-bom-my-sat-hai_01.jpg",
+          "id": "anh-gia-dinh-ong-sau-bi-bom-my-sat-hai_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh gia đình ông Sáu bị bom Mỹ sát hại",
+      "slug": "anh-gia-dinh-ong-sau-bi-bom-my-sat-hai",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

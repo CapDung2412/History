@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phu-hieu-phao-binh-thuoc-dia-10",
+      "name": "Phù hiệu Pháo binh thuộc địa số 10",
+      "slug": "phu-hieu-phao-binh-thuoc-dia-10",
+      "category": "military_insignia",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_insignia",
+        "phu-hieu-phao-binh-thuoc-dia-10"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Phù hiệu Pháo binh thuộc địa số 10",
+        "description": "Hiện vật được nhận diện là Phù hiệu Pháo binh thuộc địa số 10. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Phù hiệu thể hiện dấu hiệu nhận diện của đơn vị quân sự được nêu trong tên hiện vật. Bộ hiện vật bổ sung thông tin về tổ chức, nguồn gốc và biểu trưng của các đơn vị xuất hiện trong bối cảnh chiến tranh.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Phù hiệu Pháo binh thuộc địa số 10",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phu-hieu-phao-binh-thuoc-dia-10_01",
+          "filename": "phu-hieu-phao-binh-thuoc-dia-10_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Ik4HQ2D6-6wS__FOFrB0zJHptdUnL8Ld/view",
+          "caption": "Phù hiệu Pháo binh thuộc địa số 10 – góc chụp 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "phu-hieu-phao-binh-thuoc-dia-10_02",
+          "filename": "phu-hieu-phao-binh-thuoc-dia-10_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1iEMaVnbeOOzzNd0mJge6WoEh99Codmme/view",
+          "caption": "Phù hiệu Pháo binh thuộc địa số 10 – góc chụp 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại xạ thủ trên máy bay. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là ảnh xạ thủ trên máy bay. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Ảnh xạ thủ trên máy bay",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh xạ thủ trên máy bay",
+        "year": null
+      },
+      "id": "anh-xa-thu-tren-may-bay",
+      "images": [
+        {
+          "caption": "Ảnh xạ thủ trên máy bay – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/17M2_kWv1BtAepeX0oHUvefb_AOPaPmPX/view",
+          "filename": "anh-xa-thu-tren-may-bay_01.jpg",
+          "id": "anh-xa-thu-tren-may-bay_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh xạ thủ trên máy bay",
+      "slug": "anh-xa-thu-tren-may-bay",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại giấu xuồng trong rừng tràm. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy vật chất chi viện được tiếp nhận hoặc vận chuyển bằng xuồng, thuyền hoặc tuyến đường thủy tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Giấu xuồng trong rừng tràm",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Giấu xuồng trong rừng tràm",
+        "year": null
+      },
+      "id": "giau-xuong-trong-rung-tram",
+      "images": [
+        {
+          "caption": "Giấu xuồng trong rừng tràm – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1uaXaOO7KhbK5N8iLzUQI24ZS8zU8vkrl/view",
+          "filename": "giau-xuong-trong-rung-tram_01.jpg",
+          "id": "giau-xuong-trong-rung-tram_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Giấu xuồng trong rừng tràm",
+      "slug": "giau-xuong-trong-rung-tram",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

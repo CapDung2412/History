@@ -1,0 +1,99 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng chống tăng M72. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm vũ khí chống tăng hoặc súng không giật, dùng để tấn công mục tiêu bọc thép hay công sự. Tư liệu giúp phân biệt nhóm vũ khí hỏa lực mạnh với súng bộ binh thông thường.",
+        "event": "Súng chống tăng M72",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng chống tăng M72",
+        "year": null
+      },
+      "id": "sung-chong-tang-m72",
+      "images": [
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 1/8.",
+          "drive_url": "https://drive.google.com/file/d/1N5hxXb-c5E51iRhRMq3OpASsFry4W5tl/view",
+          "filename": "sung-chong-tang-m72_01.jpg",
+          "id": "sung-chong-tang-m72_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 2/8.",
+          "drive_url": "https://drive.google.com/file/d/1mCYCfGPBHjMBb51q4Kk2eNLFplBIZtmF/view",
+          "filename": "sung-chong-tang-m72_02.jpg",
+          "id": "sung-chong-tang-m72_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 3/8.",
+          "drive_url": "https://drive.google.com/file/d/1ds-hhLkriDJ9BPSOUD2nFH98mDhXxGhn/view",
+          "filename": "sung-chong-tang-m72_03.jpg",
+          "id": "sung-chong-tang-m72_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 4/8.",
+          "drive_url": "https://drive.google.com/file/d/1iHs0FDgMUVGIvS6SupKRwb9f58-HFii4/view",
+          "filename": "sung-chong-tang-m72_04.jpg",
+          "id": "sung-chong-tang-m72_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 5/8.",
+          "drive_url": "https://drive.google.com/file/d/1PbZ05weOrLDlarhqaV7aLSRl76mc0T7b/view",
+          "filename": "sung-chong-tang-m72_05.jpg",
+          "id": "sung-chong-tang-m72_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 6/8.",
+          "drive_url": "https://drive.google.com/file/d/1UZLR52cQnxiptQboe1v0L8kp09YvuhZy/view",
+          "filename": "sung-chong-tang-m72_06.jpg",
+          "id": "sung-chong-tang-m72_06",
+          "view": "goc-nhin-06",
+          "year": null
+        },
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 7/8.",
+          "drive_url": "https://drive.google.com/file/d/1jle3_pUF56_ztke44hBk-prjsCeF7mky/view",
+          "filename": "sung-chong-tang-m72_07.jpg",
+          "id": "sung-chong-tang-m72_07",
+          "view": "goc-nhin-07",
+          "year": null
+        },
+        {
+          "caption": "Súng chống tăng M72 – góc chụp 8/8.",
+          "drive_url": "https://drive.google.com/file/d/1FZ-xTTKLJ_nO6A2UTem9JihkN8UvFpbh/view",
+          "filename": "sung-chong-tang-m72_08.jpg",
+          "id": "sung-chong-tang-m72_08",
+          "view": "goc-nhin-08",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng chống tăng M72",
+      "slug": "sung-chong-tang-m72",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

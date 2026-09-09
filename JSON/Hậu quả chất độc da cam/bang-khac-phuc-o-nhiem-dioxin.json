@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bang-khac-phuc-o-nhiem-dioxin",
+      "name": "Bảng khắc phục ô nhiễm dioxin",
+      "slug": "bang-khac-phuc-o-nhiem-dioxin",
+      "category": "exhibition_panel",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "exhibition_panel",
+        "bang-khac-phuc-o-nhiem-dioxin"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng khắc phục ô nhiễm dioxin",
+        "description": "Tư liệu trình bày bảng khắc phục ô nhiễm dioxin. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung ghi nhận hoạt động xử lý ô nhiễm dioxin và khắc phục các điểm tồn lưu sau chiến tranh. Tư liệu cho thấy quá trình khắc phục hậu quả được triển khai bằng khảo sát, công nghệ xử lý và hợp tác giữa các bên liên quan.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Bảng khắc phục ô nhiễm dioxin",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "bang-khac-phuc-o-nhiem-dioxin_01",
+          "filename": "bang-khac-phuc-o-nhiem-dioxin_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1fUcmpuRzlShDlYunHHtCeLJM0KolclTK/view",
+          "caption": "Bảng khắc phục ô nhiễm dioxin – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

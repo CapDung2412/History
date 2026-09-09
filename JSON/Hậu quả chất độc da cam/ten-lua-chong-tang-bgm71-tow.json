@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "ten-lua-chong-tang-bgm71-tow",
+      "name": "Tên lửa chống tăng BGM-71 TOW",
+      "slug": "ten-lua-chong-tang-bgm71-tow",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "ten-lua-chong-tang-bgm71-tow"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tên lửa chống tăng BGM-71 TOW",
+        "description": "Hiện vật được nhận diện là Tên lửa chống tăng BGM-71 TOW. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm vũ khí hoặc đạn phản lực, được định danh theo đúng kiểu loại ghi trong tên trưng bày. Trong bộ sưu tập, hiện vật bổ sung bối cảnh về trang bị quân sự và không được đồng nhất với chất độc da cam/dioxin.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Tên lửa chống tăng BGM-71 TOW",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "ten-lua-chong-tang-bgm71-tow_01",
+          "filename": "ten-lua-chong-tang-bgm71-tow_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1b4dyb80IPB9DIDew-P9P5ciJg5J5bNXB/view",
+          "caption": "Tên lửa chống tăng BGM-71 TOW – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "ten-lua-chong-tang-bgm71-tow_02",
+          "filename": "ten-lua-chong-tang-bgm71-tow_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1UOMT3kGjypYF06uYMOrd0UVdVlXKeU2w/view",
+          "caption": "Tên lửa chống tăng BGM-71 TOW – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "ten-lua-chong-tang-bgm71-tow_03",
+          "filename": "ten-lua-chong-tang-bgm71-tow_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/16WBDcOiLUfTEN9csz10Eht73payqe6vU/view",
+          "caption": "Tên lửa chống tăng BGM-71 TOW – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

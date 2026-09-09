@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại người yêu nước bị lính Mỹ bắt giải. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh người yêu nước bị lính Mỹ bắt giải",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh người yêu nước bị lính Mỹ bắt giải",
+        "year": null
+      },
+      "id": "anh-nguoi-yeu-nuoc-bi-linh-my-bat-giai",
+      "images": [
+        {
+          "caption": "Ảnh người yêu nước bị lính Mỹ bắt giải – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1DK7RT161uEZEtm7FEVh3hKqazT9dIS_F/view",
+          "filename": "anh-nguoi-yeu-nuoc-bi-linh-my-bat-giai_01.jpg",
+          "id": "anh-nguoi-yeu-nuoc-bi-linh-my-bat-giai_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh người yêu nước bị lính Mỹ bắt giải",
+      "slug": "anh-nguoi-yeu-nuoc-bi-linh-my-bat-giai",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Tủ trưng bày giới thiệu mìn Claymore và mìn bộ binh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Tủ trưng bày mìn Claymore và mìn bộ binh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Tủ trưng bày mìn Claymore và mìn bộ binh",
+        "year": null
+      },
+      "id": "tu-trung-bay-min-claymore-va-min-bo-binh",
+      "images": [
+        {
+          "caption": "Tủ trưng bày mìn Claymore và mìn bộ binh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1eHAnu3A7f6Q_9nTAg3JB6Q5NL8dNmBzn/view",
+          "filename": "tu-trung-bay-min-claymore-va-min-bo-binh_01.jpg",
+          "id": "tu-trung-bay-min-claymore-va-min-bo-binh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tủ trưng bày mìn Claymore và mìn bộ binh",
+      "slug": "tu-trung-bay-min-claymore-va-min-bo-binh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}

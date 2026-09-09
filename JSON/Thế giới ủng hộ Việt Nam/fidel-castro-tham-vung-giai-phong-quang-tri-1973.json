@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại Chủ tịch Cuba Fidel Castro thăm vùng giải phóng Quảng Trị năm 1973. Chuyến thăm trở thành biểu tượng nổi bật của tình đoàn kết Cuba – Việt Nam trong những năm chiến tranh. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với châu Mỹ. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Fidel Castro thăm vùng giải phóng Quảng Trị 1973",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Fidel Castro thăm vùng giải phóng Quảng Trị 1973",
+        "year": 1973
+      },
+      "id": "fidel-castro-tham-vung-giai-phong-quang-tri-1973",
+      "images": [
+        {
+          "caption": "Fidel Castro thăm vùng giải phóng Quảng Trị 1973 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/162NN81Cnmc2fyd3YOdfaONO434fzB_FH/view",
+          "filename": "fidel-castro-tham-vung-giai-phong-quang-tri-1973_01.jpg",
+          "id": "fidel-castro-tham-vung-giai-phong-quang-tri-1973_01",
+          "view": "toan-canh",
+          "year": 1973
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Fidel Castro thăm vùng giải phóng Quảng Trị 1973",
+      "slug": "fidel-castro-tham-vung-giai-phong-quang-tri-1973",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my",
+        "1973"
+      ]
+    }
+  ]
+}

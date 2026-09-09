@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nữ thanh niên xung phong nghỉ trên võng. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Lực lượng được ghi nhận là thanh niên xung phong, trực tiếp nghỉ ngơi trong điều kiện dã chiến. Hình ảnh cho thấy tuổi trẻ vừa đảm nhiệm công việc nặng nhọc, vừa duy trì đời sống và tinh thần trong điều kiện chiến tranh.",
+        "event": "Nữ thanh niên xung phong nghỉ trên võng",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Nữ thanh niên xung phong nghỉ trên võng",
+        "year": null
+      },
+      "id": "nu-thanh-nien-xung-phong-nghi-tren-vong",
+      "images": [
+        {
+          "caption": "Nữ thanh niên xung phong nghỉ trên võng – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1X1BFjTzqHt40z3HXJ2xRMafUSjNC8RGI/view",
+          "filename": "nu-thanh-nien-xung-phong-nghi-tren-vong_01.jpg",
+          "id": "nu-thanh-nien-xung-phong-nghi-tren-vong_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Nữ thanh niên xung phong nghỉ trên võng",
+      "slug": "nu-thanh-nien-xung-phong-nghi-tren-vong",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

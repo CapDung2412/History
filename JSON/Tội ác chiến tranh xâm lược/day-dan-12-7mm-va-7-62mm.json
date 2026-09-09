@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Dây đạn 12,7 mm và 7 62mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Dây đạn 12,7 mm và 7 62mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Dây đạn 12,7 mm và 7 62mm",
+        "year": null
+      },
+      "id": "day-dan-12-7mm-va-7-62mm",
+      "images": [
+        {
+          "caption": "Dây đạn 12,7 mm và 7 62mm – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1S9ZMDzelRP24nMhFfg7kgizRXPKwizjE/view",
+          "filename": "day-dan-12-7mm-va-7-62mm_01.jpg",
+          "id": "day-dan-12-7mm-va-7-62mm_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Dây đạn 12,7 mm và 7 62mm",
+      "slug": "day-dan-12-7mm-va-7-62mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

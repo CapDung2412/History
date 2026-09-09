@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lễ công bố hoàn thành giai đoạn 1 xử lý dioxin tại sân bay Đà Nẵng năm 2016. Sự kiện đánh dấu một bước tiến trong hợp tác Việt – Mỹ khắc phục ô nhiễm chất độc hóa học sau chiến tranh. Trọng tâm của hoạt động là xử lý ô nhiễm dioxin và hỗ trợ nạn nhân chất độc da cam. Kết quả của những chương trình này góp phần giảm nguy cơ cho cộng đồng, phục hồi sinh kế và thúc đẩy quan hệ hợp tác sau chiến tranh.",
+        "event": "Công bố giai đoạn 1 xử lý dioxin sân bay Đà Nẵng 2016",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Công bố giai đoạn 1 xử lý dioxin sân bay Đà Nẵng 2016",
+        "year": 2016
+      },
+      "id": "cong-bo-giai-doan-1-xu-ly-dioxin-san-bay-da-nang-2016",
+      "images": [
+        {
+          "caption": "Công bố giai đoạn 1 xử lý dioxin sân bay Đà Nẵng 2016 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1V_qzopmsB1PROvsx7p02BNhXo3GZinDk/view",
+          "filename": "cong-bo-giai-doan-1-xu-ly-dioxin-san-bay-da-nang-2016_01.jpg",
+          "id": "cong-bo-giai-doan-1-xu-ly-dioxin-san-bay-da-nang-2016_01",
+          "view": "toan-canh",
+          "year": 2016
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Công bố giai đoạn 1 xử lý dioxin sân bay Đà Nẵng 2016",
+      "slug": "cong-bo-giai-doan-1-xu-ly-dioxin-san-bay-da-nang-2016",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "2016"
+      ]
+    }
+  ]
+}

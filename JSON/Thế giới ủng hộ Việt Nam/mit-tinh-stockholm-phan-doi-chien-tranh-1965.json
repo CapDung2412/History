@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại mít tinh Stockholm phản đối chiến tranh 1965. Cuộc mít tinh tập hợp đông đảo người tham gia để phản đối chiến tranh và bày tỏ lập trường phản chiến, qua đó thể hiện sức lan tỏa của phong trào quốc tế. Sự tham gia của người dân và các tổ chức xã hội cho thấy phản đối chiến tranh không chỉ là quan điểm của một nhóm chính trị riêng lẻ. Khẩu hiệu và hành động công khai đã đưa vấn đề chiến tranh Việt Nam vào đời sống chính trị, xã hội tại châu Âu.",
+        "event": "Mít tinh Stockholm phản đối chiến tranh 1965",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Mít tinh Stockholm phản đối chiến tranh 1965",
+        "year": 1965
+      },
+      "id": "mit-tinh-stockholm-phan-doi-chien-tranh-1965",
+      "images": [
+        {
+          "caption": "Mít tinh Stockholm phản đối chiến tranh 1965 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1fDxkxcZnp_UkctG-lbQjqpJNjItIp5iR/view",
+          "filename": "mit-tinh-stockholm-phan-doi-chien-tranh-1965_01.jpg",
+          "id": "mit-tinh-stockholm-phan-doi-chien-tranh-1965_01",
+          "view": "toan-canh",
+          "year": 1965
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mít tinh Stockholm phản đối chiến tranh 1965",
+      "slug": "mit-tinh-stockholm-phan-doi-chien-tranh-1965",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-au",
+        "1965"
+      ]
+    }
+  ]
+}

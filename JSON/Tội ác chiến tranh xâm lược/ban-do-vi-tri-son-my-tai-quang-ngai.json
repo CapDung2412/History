@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_map",
+      "historical_info": {
+        "description": "Tư liệu tập trung vào bản đồ vị trí Sơn Mỹ tại Quảng Ngãi. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là bản đồ vị trí Sơn Mỹ tại Quảng Ngãi. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Bản đồ vị trí Sơn Mỹ tại Quảng Ngãi",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bản đồ vị trí Sơn Mỹ tại Quảng Ngãi",
+        "year": null
+      },
+      "id": "ban-do-vi-tri-son-my-tai-quang-ngai",
+      "images": [
+        {
+          "caption": "Bản đồ vị trí Sơn Mỹ tại Quảng Ngãi – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1h1HtSuKenLvVAj9sPCo5ueWO_3hOUevB/view",
+          "filename": "ban-do-vi-tri-son-my-tai-quang-ngai_01.jpg",
+          "id": "ban-do-vi-tri-son-my-tai-quang-ngai_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bản đồ vị trí Sơn Mỹ tại Quảng Ngãi",
+      "slug": "ban-do-vi-tri-son-my-tai-quang-ngai",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_map"
+      ]
+    }
+  ]
+}
+

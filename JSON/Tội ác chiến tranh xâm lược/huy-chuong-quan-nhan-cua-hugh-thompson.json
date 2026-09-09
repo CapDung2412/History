@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại huy chương quân nhân của Hugh Thompson. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nhân vật và hiện vật được xác định trực tiếp theo tên ghi trong tư liệu. Nội dung thuộc mạch tư liệu về Sơn Mỹ và những phản ứng của cá nhân trước hành vi bạo lực đối với dân thường.",
+        "event": "Huy chương quân nhân của Hugh Thompson",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Huy chương quân nhân của Hugh Thompson",
+        "year": null
+      },
+      "id": "huy-chuong-quan-nhan-cua-hugh-thompson",
+      "images": [
+        {
+          "caption": "Huy chương quân nhân của Hugh Thompson – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1d_bvgZWuMd_zzZXo-zOrljhW7K3MBMI4/view",
+          "filename": "huy-chuong-quan-nhan-cua-hugh-thompson_01.jpg",
+          "id": "huy-chuong-quan-nhan-cua-hugh-thompson_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Huy chương quân nhân của Hugh Thompson",
+      "slug": "huy-chuong-quan-nhan-cua-hugh-thompson",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

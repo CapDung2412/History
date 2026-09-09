@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Nội dung trưng bày ghi lại trích dẫn William Clay về chiến tranh Việt Nam. Lời nói hoặc tuyên bố này phản ánh lập trường phản đối chiến tranh, đề cao đoàn kết quốc tế và ủng hộ quyền tự quyết của nhân dân Việt Nam. Các tên riêng, mốc thời gian và nội dung được trình bày trên bảng là căn cứ để đọc đúng các ảnh và hiện vật đi kèm. Nhờ đó, người xem có thể phân biệt rõ nhân vật, tổ chức, sự kiện và hình thức đóng góp được giới thiệu trong chuyên đề.",
+        "event": "Trích dẫn William Clay về chiến tranh Việt Nam 1969",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Trích dẫn William Clay về chiến tranh Việt Nam 1969",
+        "year": 1969
+      },
+      "id": "trich-dan-william-clay-ve-chien-tranh-viet-nam-1969",
+      "images": [
+        {
+          "caption": "Trích dẫn William Clay về chiến tranh Việt Nam 1969 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1yOEa3c0zy7GDwOXl422e14neGrDjMHZC/view",
+          "filename": "trich-dan-william-clay-ve-chien-tranh-viet-nam-1969_01.jpg",
+          "id": "trich-dan-william-clay-ve-chien-tranh-viet-nam-1969_01",
+          "view": "toan-canh",
+          "year": 1969
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Trích dẫn William Clay về chiến tranh Việt Nam 1969",
+      "slug": "trich-dan-william-clay-ve-chien-tranh-viet-nam-1969",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_panel",
+        "chau-my",
+        "1969"
+      ]
+    }
+  ]
+}

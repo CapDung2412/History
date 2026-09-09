@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đại liên sáu nòng. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Đại liên sáu nòng",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đại liên sáu nòng",
+        "year": null
+      },
+      "id": "dai-lien-sau-nong",
+      "images": [
+        {
+          "caption": "Đại liên sáu nòng – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1EcQ3L0IPBHErCRlTcwqIT3OwqZCI6kao/view",
+          "filename": "dai-lien-sau-nong_01.jpg",
+          "id": "dai-lien-sau-nong_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đại liên sáu nòng – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1NGMW3GrKWiIB5CKaf9mUZ18rvSntFGBi/view",
+          "filename": "dai-lien-sau-nong_02.jpg",
+          "id": "dai-lien-sau-nong_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đại liên sáu nòng – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1yl_9SFpy0CZqPrB9-bHD_dfI0h4m2SHi/view",
+          "filename": "dai-lien-sau-nong_03.jpg",
+          "id": "dai-lien-sau-nong_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Đại liên sáu nòng – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1pHPuIFvOCN-fgfh6N-t21r3Wy0TDwiEH/view",
+          "filename": "dai-lien-sau-nong_04.jpg",
+          "id": "dai-lien-sau-nong_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đại liên sáu nòng",
+      "slug": "dai-lien-sau-nong",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

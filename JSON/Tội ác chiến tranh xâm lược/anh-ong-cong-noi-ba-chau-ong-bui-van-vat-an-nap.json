@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại ống cống nơi ba cháu ông Bùi Văn Vát ẩn nấp. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật gắn với đời sống dân thường, gia đình hoặc ký ức về những người chịu tác động của chiến tranh. Nội dung chuyển trọng tâm từ vũ khí sang những mất mát và dấu tích còn lại trong đời sống con người.",
+        "event": "Ảnh ống cống nơi ba cháu ông Bùi Văn Vát ẩn nấp",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh ống cống nơi ba cháu ông Bùi Văn Vát ẩn nấp",
+        "year": null
+      },
+      "id": "anh-ong-cong-noi-ba-chau-ong-bui-van-vat-an-nap",
+      "images": [
+        {
+          "caption": "Ảnh ống cống nơi ba cháu ông Bùi Văn Vát ẩn nấp – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/176M38-xJ3DBJScaYnOUlND86bZ9T-sas/view",
+          "filename": "anh-ong-cong-noi-ba-chau-ong-bui-van-vat-an-nap_01.jpg",
+          "id": "anh-ong-cong-noi-ba-chau-ong-bui-van-vat-an-nap_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh ống cống nơi ba cháu ông Bùi Văn Vát ẩn nấp",
+      "slug": "anh-ong-cong-noi-ba-chau-ong-bui-van-vat-an-nap",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

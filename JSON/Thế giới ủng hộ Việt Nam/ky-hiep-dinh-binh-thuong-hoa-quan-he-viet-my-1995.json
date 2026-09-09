@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện bình thường hóa quan hệ Việt – Mỹ năm 1995. Đây là dấu mốc chuyển quan hệ hai nước từ đối đầu trong chiến tranh sang đối thoại và hợp tác. Nhân vật và tổ chức xuất hiện trong sự kiện đã chuyển sự đồng tình với Việt Nam thành hoạt động ngoại giao, pháp lý hoặc hợp tác chính thức. Tư liệu giúp xác định vai trò của các tổ chức quốc tế trong việc giải quyết các vấn đề do chiến tranh để lại và mở rộng hợp tác sau chiến tranh.",
+        "event": "Ký hiệp định bình thường hóa quan hệ Việt – Mỹ 1995",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Ký hiệp định bình thường hóa quan hệ Việt – Mỹ 1995",
+        "year": 1995
+      },
+      "id": "ky-hiep-dinh-binh-thuong-hoa-quan-he-viet-my-1995",
+      "images": [
+        {
+          "caption": "Ký hiệp định bình thường hóa quan hệ Việt – Mỹ 1995 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Ptm5C5Jg5HTKyL0sVp4PQ6n8sfxiWwFK/view",
+          "filename": "ky-hiep-dinh-binh-thuong-hoa-quan-he-viet-my-1995_01.jpg",
+          "id": "ky-hiep-dinh-binh-thuong-hoa-quan-he-viet-my-1995_01",
+          "view": "toan-canh",
+          "year": 1995
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ký hiệp định bình thường hóa quan hệ Việt – Mỹ 1995",
+      "slug": "ky-hiep-dinh-binh-thuong-hoa-quan-he-viet-my-1995",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "1995"
+      ]
+    }
+  ]
+}

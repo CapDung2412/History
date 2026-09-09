@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại phan Minh Tánh và Trần Minh Hữu đường 1C 1969. Mốc thời gian được ghi nhận là năm 1969, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Chủ thể trung tâm của tư liệu là phan Minh Tánh và Trần Minh Hữu đường 1C 1969, được đặt trong mạch hoạt động của tuyến đường 1C. Tư liệu bổ sung một lát cắt cụ thể về con người, địa bàn hoặc nhiệm vụ trên tuyến vận tải Tây Nam Bộ.",
+        "event": "Phan Minh Tánh và Trần Minh Hữu đường 1C 1969",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Phan Minh Tánh và Trần Minh Hữu đường 1C 1969",
+        "year": 1969
+      },
+      "id": "phan-minh-tanh-va-tran-minh-huu-duong-1c-1969",
+      "images": [
+        {
+          "caption": "Phan Minh Tánh và Trần Minh Hữu đường 1C 1969 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1ZtMV71cj4ZesP_CETyvqhMn2Fwt0hne5/view",
+          "filename": "phan-minh-tanh-va-tran-minh-huu-duong-1c-1969_01.jpg",
+          "id": "phan-minh-tanh-va-tran-minh-huu-duong-1c-1969_01",
+          "view": "toan-canh",
+          "year": 1969
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Phan Minh Tánh và Trần Minh Hữu đường 1C 1969",
+      "slug": "phan-minh-tanh-va-tran-minh-huu-duong-1c-1969",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1969"
+      ]
+    }
+  ]
+}
+

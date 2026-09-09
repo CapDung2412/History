@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại đoàn xe Trung Quốc chở lương thực giúp Việt Nam. Hoạt động viện trợ vật chất này góp phần thể hiện sự ủng hộ của nhân dân Trung Quốc đối với Việt Nam trong chiến tranh. Sự ủng hộ được thể hiện bằng hành động cụ thể như vận động chính trị, quyên góp, viện trợ vật chất, hỗ trợ chuyên môn hoặc giao lưu nhân dân. Tư liệu vì vậy phản ánh chiều sâu của tình đoàn kết dành cho Việt Nam tại châu Á, không chỉ dừng ở lời tuyên bố.",
+        "event": "Đoàn xe Trung Quốc chở lương thực giúp Việt Nam",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Đoàn xe Trung Quốc chở lương thực giúp Việt Nam",
+        "year": null
+      },
+      "id": "doan-xe-trung-quoc-cho-luong-thuc-giup-viet-nam",
+      "images": [
+        {
+          "caption": "Đoàn xe Trung Quốc chở lương thực giúp Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/14ytupHB6UqXNd3O1zCD9wjeswrZRv1HE/view",
+          "filename": "doan-xe-trung-quoc-cho-luong-thuc-giup-viet-nam_01.jpg",
+          "id": "doan-xe-trung-quoc-cho-luong-thuc-giup-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đoàn xe Trung Quốc chở lương thực giúp Việt Nam",
+      "slug": "doan-xe-trung-quoc-cho-luong-thuc-giup-viet-nam",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-a"
+      ]
+    }
+  ]
+}

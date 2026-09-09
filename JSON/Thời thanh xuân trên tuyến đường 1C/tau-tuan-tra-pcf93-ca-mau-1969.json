@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại tàu tuần tra PCF-93 Cà Mau 1969. Mốc thời gian được ghi nhận là năm 1969, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Tàu tuần tra PCF-93 Cà Mau 1969",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Tàu tuần tra PCF-93 Cà Mau 1969",
+        "year": 1969
+      },
+      "id": "tau-tuan-tra-pcf93-ca-mau-1969",
+      "images": [
+        {
+          "caption": "Tàu tuần tra PCF-93 Cà Mau 1969 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1sQalGtvIbcC5hRuUk5t1OkMlNPORSIE6/view",
+          "filename": "tau-tuan-tra-pcf93-ca-mau-1969_01.jpg",
+          "id": "tau-tuan-tra-pcf93-ca-mau-1969_01",
+          "view": "toan-canh",
+          "year": 1969
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tàu tuần tra PCF-93 Cà Mau 1969",
+      "slug": "tau-tuan-tra-pcf93-ca-mau-1969",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1969"
+      ]
+    }
+  ]
+}
+

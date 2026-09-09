@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại vận chuyển lương thức vũ khí tu Kiên Giang. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy lương thực và vũ khí được tiếp nhận hoặc vận chuyển bằng các phương tiện phù hợp với địa hình tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Vận chuyển lương thức vũ khí tu Kiên Giang",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Vận chuyển lương thức vũ khí tu Kiên Giang",
+        "year": null
+      },
+      "id": "van-chuyen-luong-thuc-vu-khi-tu-kien-giang",
+      "images": [
+        {
+          "caption": "Vận chuyển lương thức vũ khí tu Kiên Giang – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1NbncOKEcJ6OInpVgLzZ25QrYqh1Y5OvE/view",
+          "filename": "van-chuyen-luong-thuc-vu-khi-tu-kien-giang_01.jpg",
+          "id": "van-chuyen-luong-thuc-vu-khi-tu-kien-giang_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Vận chuyển lương thức vũ khí tu Kiên Giang",
+      "slug": "van-chuyen-luong-thuc-vu-khi-tu-kien-giang",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

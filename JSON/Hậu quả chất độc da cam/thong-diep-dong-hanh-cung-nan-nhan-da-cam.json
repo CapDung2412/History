@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "thong-diep-dong-hanh-cung-nan-nhan-da-cam",
+      "name": "Thông điệp đồng hành cùng nạn nhân da cam",
+      "slug": "thong-diep-dong-hanh-cung-nan-nhan-da-cam",
+      "category": "documentary_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "documentary_artifact",
+        "thong-diep-dong-hanh-cung-nan-nhan-da-cam"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Thông điệp đồng hành cùng nạn nhân da cam",
+        "description": "Tư liệu trình bày thông điệp đồng hành cùng nạn nhân da cam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung phản ánh thương tổn, lời chứng, nhu cầu phục hồi hoặc hành trình đòi công lý của những người chịu ảnh hưởng chất độc da cam/dioxin. Tư liệu nhấn mạnh hậu quả lâu dài đối với con người và sự cần thiết của hoạt động chăm sóc, hỗ trợ và bảo vệ quyền lợi nạn nhân.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Thông điệp đồng hành cùng nạn nhân da cam",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "thong-diep-dong-hanh-cung-nan-nhan-da-cam_01",
+          "filename": "thong-diep-dong-hanh-cung-nan-nhan-da-cam_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BhOw32QVMfIeWkynUWdPF8Bsx5I9ITrC/view",
+          "caption": "Thông điệp đồng hành cùng nạn nhân da cam – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

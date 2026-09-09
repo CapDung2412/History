@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_map",
+      "historical_info": {
+        "description": "Tư liệu ghi nhận bản đồ tuyến tiếp tế Tây Nam Bộ. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy vật chất chi viện được tiếp nhận hoặc vận chuyển bằng các phương tiện phù hợp với địa hình tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Bản đồ tuyến tiếp tế Tây Nam Bộ",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Bản đồ tuyến tiếp tế Tây Nam Bộ",
+        "year": null
+      },
+      "id": "ban-do-tuyen-tiep-te-tay-nam-bo",
+      "images": [
+        {
+          "caption": "Bản đồ tuyến tiếp tế Tây Nam Bộ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1yfk1zyYOVJt6X_y82wO9mleqpMDMLTre/view",
+          "filename": "ban-do-tuyen-tiep-te-tay-nam-bo_01.jpg",
+          "id": "ban-do-tuyen-tiep-te-tay-nam-bo_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bản đồ tuyến tiếp tế Tây Nam Bộ",
+      "slug": "ban-do-tuyen-tiep-te-tay-nam-bo",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_map"
+      ]
+    }
+  ]
+}
+

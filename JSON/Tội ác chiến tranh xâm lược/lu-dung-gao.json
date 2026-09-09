@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Lu đựng gạo. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật gắn với đời sống dân thường, gia đình hoặc ký ức về những người chịu tác động của chiến tranh. Nội dung chuyển trọng tâm từ vũ khí sang những mất mát và dấu tích còn lại trong đời sống con người.",
+        "event": "Lu đựng gạo",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Lu đựng gạo",
+        "year": null
+      },
+      "id": "lu-dung-gao",
+      "images": [
+        {
+          "caption": "Lu đựng gạo – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1lzCqLUYDRnpTpS7e1Ooca55ibWljgU__/view",
+          "filename": "lu-dung-gao_01.jpg",
+          "id": "lu-dung-gao_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Lu đựng gạo – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1zMNnCug5NVe7lqbIlxApwkAhrj6B99YP/view",
+          "filename": "lu-dung-gao_02.jpg",
+          "id": "lu-dung-gao_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Lu đựng gạo – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1vzjeNTKcKfljtV0qw6VnUauOjBzXbywC/view",
+          "filename": "lu-dung-gao_03.jpg",
+          "id": "lu-dung-gao_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Lu đựng gạo – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1ZfZrJFGD1KbzFB6VBudpww44ju2hOcfG/view",
+          "filename": "lu-dung-gao_04.jpg",
+          "id": "lu-dung-gao_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Lu đựng gạo",
+      "slug": "lu-dung-gao",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

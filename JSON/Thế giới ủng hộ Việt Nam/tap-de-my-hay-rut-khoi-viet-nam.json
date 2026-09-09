@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Chiếc tạp dề in thông điệp “Mỹ hãy rút khỏi Việt Nam” được sử dụng như một phương tiện biểu đạt phản chiến. Khẩu hiệu trực tiếp yêu cầu Mỹ rút khỏi Việt Nam, thể hiện lập trường rõ ràng của người sử dụng. Người sở hữu có thể đeo, mang, treo hoặc trưng bày hiện vật để thể hiện công khai thái độ và sự lựa chọn của mình. Dấu vết vật chất này giúp nhận diện trực tiếp ngôn ngữ, biểu tượng và cách vận động được sử dụng trong từng phong trào.",
+        "event": "Tạp dề Mỹ hãy rút khỏi Việt Nam",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Tạp dề Mỹ hãy rút khỏi Việt Nam",
+        "year": null
+      },
+      "id": "tap-de-my-hay-rut-khoi-viet-nam",
+      "images": [
+        {
+          "caption": "Tạp dề Mỹ hãy rút khỏi Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1bmLr87Lo7RvFVXExJJhJ1c4xeBq1Wtdf/view",
+          "filename": "tap-de-my-hay-rut-khoi-viet-nam_01.jpg",
+          "id": "tap-de-my-hay-rut-khoi-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        },
+        {
+          "caption": "Tạp dề Mỹ hãy rút khỏi Việt Nam – góc chụp thứ hai.",
+          "drive_url": "https://drive.google.com/file/d/1913SKe9NBKJESTXFLn2QboXkOQ09Z2Au/view",
+          "filename": "tap-de-my-hay-rut-khoi-viet-nam_02.jpg",
+          "id": "tap-de-my-hay-rut-khoi-viet-nam_02",
+          "view": "goc-chup-2",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tạp dề Mỹ hãy rút khỏi Việt Nam",
+      "slug": "tap-de-my-hay-rut-khoi-viet-nam",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Sinh viên Karachi phản đối chiến tranh 1964”. Tư liệu cho thấy phong trào phản chiến đã lan rộng trong nhiều tầng lớp xã hội và tạo sức ép đòi chấm dứt chiến tranh ở Việt Nam. Sự tham gia của sinh viên cho thấy phản đối chiến tranh không chỉ là quan điểm của một nhóm chính trị riêng lẻ. Khẩu hiệu và hành động công khai đã đưa vấn đề chiến tranh Việt Nam vào đời sống chính trị, xã hội tại châu Á.",
+        "event": "Sinh viên Karachi phản đối chiến tranh 1964",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Sinh viên Karachi phản đối chiến tranh 1964",
+        "year": 1964
+      },
+      "id": "sinh-vien-karachi-phan-doi-chien-tranh-1964",
+      "images": [
+        {
+          "caption": "Sinh viên Karachi phản đối chiến tranh 1964 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/15Movn-Lli1a2aPPgjhcHGavpRDx-Cf7d/view",
+          "filename": "sinh-vien-karachi-phan-doi-chien-tranh-1964_01.jpg",
+          "id": "sinh-vien-karachi-phan-doi-chien-tranh-1964_01",
+          "view": "toan-canh",
+          "year": 1964
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Sinh viên Karachi phản đối chiến tranh 1964",
+      "slug": "sinh-vien-karachi-phan-doi-chien-tranh-1964",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-a",
+        "1964"
+      ]
+    }
+  ]
+}

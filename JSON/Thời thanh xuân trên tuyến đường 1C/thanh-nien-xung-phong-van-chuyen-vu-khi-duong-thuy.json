@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại thanh niên xung phong vận chuyển vũ khí đường thủy. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Lực lượng được ghi nhận là thanh niên xung phong, trực tiếp vận chuyển và tiếp nhận hàng chi viện. Hình ảnh cho thấy tuổi trẻ vừa đảm nhiệm công việc nặng nhọc, vừa duy trì đời sống và tinh thần trong điều kiện chiến tranh.",
+        "event": "Thanh niên xung phong vận chuyển vũ khí đường thủy",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Thanh niên xung phong vận chuyển vũ khí đường thủy",
+        "year": null
+      },
+      "id": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy",
+      "images": [
+        {
+          "caption": "Thanh niên xung phong vận chuyển vũ khí đường thủy – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1O3LvezmNxG9wch-hyeMjkGTIpn_AaV01/view",
+          "filename": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy_01.jpg",
+          "id": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Thanh niên xung phong vận chuyển vũ khí đường thủy – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1vJNuCXm6JUManvWqJrMNQOybIKhKlsrL/view",
+          "filename": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy_02.jpg",
+          "id": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Thanh niên xung phong vận chuyển vũ khí đường thủy – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1gq0hYQCEbnQqfQW2SmFA3oq5Ga-5iBq3/view",
+          "filename": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy_03.jpg",
+          "id": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Thanh niên xung phong vận chuyển vũ khí đường thủy",
+      "slug": "thanh-nien-xung-phong-van-chuyen-vu-khi-duong-thuy",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

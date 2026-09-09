@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại ông Bùi Văn Vát. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là ảnh ông Bùi Văn Vát. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Ảnh ông Bùi Văn Vát",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh ông Bùi Văn Vát",
+        "year": null
+      },
+      "id": "anh-ong-bui-van-vat",
+      "images": [
+        {
+          "caption": "Ảnh ông Bùi Văn Vát – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1g0-CyjdY6YFqfdulXxn8Rhj5xLHE19wB/view",
+          "filename": "anh-ong-bui-van-vat_01.jpg",
+          "id": "anh-ong-bui-van-vat_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh ông Bùi Văn Vát",
+      "slug": "anh-ong-bui-van-vat",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

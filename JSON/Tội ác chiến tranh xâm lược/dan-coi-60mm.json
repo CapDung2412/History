@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đạn cối 60mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Đạn cối 60mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đạn cối 60mm",
+        "year": null
+      },
+      "id": "dan-coi-60mm",
+      "images": [
+        {
+          "caption": "Đạn cối 60mm – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1wrY3G9cCG07bgnaWucfS7LsEACDWOBQY/view",
+          "filename": "dan-coi-60mm_01.jpg",
+          "id": "dan-coi-60mm_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đạn cối 60mm",
+      "slug": "dan-coi-60mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

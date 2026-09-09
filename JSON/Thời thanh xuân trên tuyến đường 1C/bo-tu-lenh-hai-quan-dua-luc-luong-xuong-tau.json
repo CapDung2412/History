@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại bộ Tư lệnh hải quân đưa lực lượng xuống tàu. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Chủ thể trung tâm của tư liệu là bộ Tư lệnh hải quân đưa lực lượng xuống tàu, được đặt trong mạch hoạt động của tuyến đường 1C. Tư liệu bổ sung một lát cắt cụ thể về con người, địa bàn hoặc nhiệm vụ trên tuyến vận tải Tây Nam Bộ.",
+        "event": "Bộ Tư lệnh hải quân đưa lực lượng xuống tàu",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Bộ Tư lệnh hải quân đưa lực lượng xuống tàu",
+        "year": null
+      },
+      "id": "bo-tu-lenh-hai-quan-dua-luc-luong-xuong-tau",
+      "images": [
+        {
+          "caption": "Bộ Tư lệnh hải quân đưa lực lượng xuống tàu – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1s2w50cawGf8IpQo55BoUbOzUovwS-tCm/view",
+          "filename": "bo-tu-lenh-hai-quan-dua-luc-luong-xuong-tau_01.jpg",
+          "id": "bo-tu-lenh-hai-quan-dua-luc-luong-xuong-tau_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bộ Tư lệnh hải quân đưa lực lượng xuống tàu",
+      "slug": "bo-tu-lenh-hai-quan-dua-luc-luong-xuong-tau",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

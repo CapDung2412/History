@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bang-thong-tin-viet-nam-bi-xu-ly-dioxin-bien-hoa",
+      "name": "Bảng thông tin Việt Nam–Bỉ xử lý dioxin tại Biên Hòa",
+      "slug": "bang-thong-tin-viet-nam-bi-xu-ly-dioxin-bien-hoa",
+      "category": "exhibition_panel",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "exhibition_panel",
+        "bang-thong-tin-viet-nam-bi-xu-ly-dioxin-bien-hoa"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thông tin Việt Nam–Bỉ xử lý dioxin tại Biên Hòa",
+        "description": "Tư liệu trình bày bảng thông tin Việt Nam–Bỉ xử lý dioxin tại Biên Hòa. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung ghi nhận hoạt động xử lý ô nhiễm dioxin và khắc phục các điểm tồn lưu sau chiến tranh. Tư liệu cho thấy quá trình khắc phục hậu quả được triển khai bằng khảo sát, công nghệ xử lý và hợp tác giữa các bên liên quan.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Bảng thông tin Việt Nam–Bỉ xử lý dioxin tại Biên Hòa",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "bang-thong-tin-viet-nam-bi-xu-ly-dioxin-bien-hoa_01",
+          "filename": "bang-thong-tin-viet-nam-bi-xu-ly-dioxin-bien-hoa_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BZmpfMYAlMTvb06AWHA161oVaxUDx-EK/view",
+          "caption": "Bảng thông tin Việt Nam–Bỉ xử lý dioxin tại Biên Hòa – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

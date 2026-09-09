@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng phóng lựu M79 cải tiến. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Đây là súng phóng lựu hoặc bộ phận liên quan, được phân biệt theo kiểu loại ghi trong tên hiện vật. Hiện vật phản ánh hỏa lực bộ binh và khả năng sử dụng đạn nổ trong tác chiến.",
+        "event": "Súng phóng lựu M79 cải tiến",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng phóng lựu M79 cải tiến",
+        "year": null
+      },
+      "id": "sung-phong-luu-m79-cai-tien",
+      "images": [
+        {
+          "caption": "Súng phóng lựu M79 cải tiến – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1m9NWZoUZd5bEsvZxq2vRvKfmlra9PTdW/view",
+          "filename": "sung-phong-luu-m79-cai-tien_01.jpg",
+          "id": "sung-phong-luu-m79-cai-tien_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng phóng lựu M79 cải tiến – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1CzV6EIkfMXCbBqZ4qqH1bTqIbSlcnYld/view",
+          "filename": "sung-phong-luu-m79-cai-tien_02.jpg",
+          "id": "sung-phong-luu-m79-cai-tien_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng phóng lựu M79 cải tiến – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1cjHTQW8z0jPs5yPSafm8L1ugeFTS6THb/view",
+          "filename": "sung-phong-luu-m79-cai-tien_03.jpg",
+          "id": "sung-phong-luu-m79-cai-tien_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng phóng lựu M79 cải tiến",
+      "slug": "sung-phong-luu-m79-cai-tien",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

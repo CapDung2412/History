@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Mìn M14. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm bom, mìn, vỏ đạn hoặc mảnh vật liệu nổ được định danh theo tên trưng bày. Dấu tích này giúp nhận diện chủng loại bom mìn và nguy cơ gây sát thương đối với con người trong và sau chiến tranh.",
+        "event": "Mìn M14",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Mìn M14",
+        "year": null
+      },
+      "id": "min-m14",
+      "images": [
+        {
+          "caption": "Mìn M14 – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1Daesx1x5lFMKRhMmTGoRlsTBO_Mb9eAB/view",
+          "filename": "min-m14_01.jpg",
+          "id": "min-m14_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Mìn M14 – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1OBzm8AMd7Zx6_C-yhHQxsy52iL2LR7kz/view",
+          "filename": "min-m14_02.jpg",
+          "id": "min-m14_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Mìn M14 – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1_WPfIJDb9DDjz5a0_cIvJ02fKR3gL2gI/view",
+          "filename": "min-m14_03.jpg",
+          "id": "min-m14_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mìn M14",
+      "slug": "min-m14",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

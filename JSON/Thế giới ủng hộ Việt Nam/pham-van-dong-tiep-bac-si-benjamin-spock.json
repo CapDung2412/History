@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại Thủ tướng Phạm Văn Đồng tiếp bác sĩ Benjamin Spock, một tiếng nói nổi bật của phong trào phản chiến tại Mỹ. Cuộc gặp thể hiện sự gắn kết giữa Việt Nam với những người Mỹ phản đối chiến tranh. Nhân vật và tổ chức xuất hiện trong sự kiện đã chuyển sự đồng tình với Việt Nam thành hoạt động ngoại giao, pháp lý hoặc hợp tác chính thức. Tư liệu giúp xác định vai trò của châu Mỹ trong việc tạo thêm sự ủng hộ chính trị, ngoại giao và pháp lý cho Việt Nam.",
+        "event": "Phạm Văn Đồng tiếp bác sĩ Benjamin Spock",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Phạm Văn Đồng tiếp bác sĩ Benjamin Spock",
+        "year": null
+      },
+      "id": "pham-van-dong-tiep-bac-si-benjamin-spock",
+      "images": [
+        {
+          "caption": "Phạm Văn Đồng tiếp bác sĩ Benjamin Spock – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Ky7famxoxXdabX6LiuEpE2CDsXk7sZyR/view",
+          "filename": "pham-van-dong-tiep-bac-si-benjamin-spock_01.jpg",
+          "id": "pham-van-dong-tiep-bac-si-benjamin-spock_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Phạm Văn Đồng tiếp bác sĩ Benjamin Spock",
+      "slug": "pham-van-dong-tiep-bac-si-benjamin-spock",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my"
+      ]
+    }
+  ]
+}

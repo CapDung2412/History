@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phu-hieu-tieu-doan-2-maroc",
+      "name": "Phù hiệu Tiểu đoàn 2 Maroc",
+      "slug": "phu-hieu-tieu-doan-2-maroc",
+      "category": "military_insignia",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_insignia",
+        "phu-hieu-tieu-doan-2-maroc"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Phù hiệu Tiểu đoàn 2 Maroc",
+        "description": "Hiện vật được nhận diện là Phù hiệu Tiểu đoàn 2 Maroc. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Phù hiệu thể hiện dấu hiệu nhận diện của đơn vị quân sự được nêu trong tên hiện vật. Bộ hiện vật bổ sung thông tin về tổ chức, nguồn gốc và biểu trưng của các đơn vị xuất hiện trong bối cảnh chiến tranh.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Phù hiệu Tiểu đoàn 2 Maroc",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phu-hieu-tieu-doan-2-maroc_01",
+          "filename": "phu-hieu-tieu-doan-2-maroc_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1gSrTSn7bnT8fseursDRCfZVy4vEftbaZ/view",
+          "caption": "Phù hiệu Tiểu đoàn 2 Maroc – góc chụp 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-2-maroc_02",
+          "filename": "phu-hieu-tieu-doan-2-maroc_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1rO44tN8J0bpT98j8u0XQYS4DPczYlHe5/view",
+          "caption": "Phù hiệu Tiểu đoàn 2 Maroc – góc chụp 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-2-maroc_03",
+          "filename": "phu-hieu-tieu-doan-2-maroc_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Dp_6UtwFLS6DVQHzuLy17v8fZETyzoI4/view",
+          "caption": "Phù hiệu Tiểu đoàn 2 Maroc – góc chụp 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-2-maroc_04",
+          "filename": "phu-hieu-tieu-doan-2-maroc_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1wbpTfnolk9AYGYIUGBULBKtK1EfYW2Ed/view",
+          "caption": "Phù hiệu Tiểu đoàn 2 Maroc – góc chụp 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}
+

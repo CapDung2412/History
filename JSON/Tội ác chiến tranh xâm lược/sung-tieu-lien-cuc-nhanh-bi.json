@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng tiểu liên cực nhanh bị. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng tiểu liên, được định danh theo mẫu hoặc biến thể ghi trong tên hiện vật. Tư liệu bổ sung thông tin về các loại vũ khí cá nhân xuất hiện trong chiến tranh.",
+        "event": "Súng tiểu liên cực nhanh bị",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng tiểu liên cực nhanh bị",
+        "year": null
+      },
+      "id": "sung-tieu-lien-cuc-nhanh-bi",
+      "images": [
+        {
+          "caption": "Súng tiểu liên cực nhanh bị – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1MnT5k6Gkv4eNpMII-7WsZHb3Wp02FfQP/view",
+          "filename": "sung-tieu-lien-cuc-nhanh-bi_01.jpg",
+          "id": "sung-tieu-lien-cuc-nhanh-bi_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên cực nhanh bị – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1NCxj9U2ONFEywcP-GJ688XVGGOUgqkpD/view",
+          "filename": "sung-tieu-lien-cuc-nhanh-bi_02.jpg",
+          "id": "sung-tieu-lien-cuc-nhanh-bi_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên cực nhanh bị – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1PU0pkjLzUliUuT096RA3aEjGkPAKHfey/view",
+          "filename": "sung-tieu-lien-cuc-nhanh-bi_03.jpg",
+          "id": "sung-tieu-lien-cuc-nhanh-bi_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng tiểu liên cực nhanh bị",
+      "slug": "sung-tieu-lien-cuc-nhanh-bi",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

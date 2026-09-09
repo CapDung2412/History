@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "may-bay-a1-skyraider",
+      "name": "Máy bay A-1 Skyraider",
+      "slug": "may-bay-a1-skyraider",
+      "category": "military_vehicle",
+      "tags": [
+        "may-bay-xe-tang-truc-thang",
+        "military_vehicle",
+        "may-bay-a1-skyraider"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Máy bay A-1 Skyraider",
+        "description": "Hiện vật được nhận diện là Máy bay A-1 Skyraider. Hiện vật được đặt trong bối cảnh Chiến tranh Việt Nam (1954–1975). A-1 Skyraider là máy bay quân sự cánh cố định được ghi rõ kiểu loại trong tên hiện vật. Tư liệu bổ sung hình ảnh về phương tiện không quân được sử dụng trong các hoạt động tác chiến thời chiến.",
+        "historical_period": "Chiến tranh Việt Nam (1954–1975)",
+        "year": null,
+        "event": "Máy bay A-1 Skyraider",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "may-bay-a1-skyraider_01",
+          "filename": "may-bay-a1-skyraider_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RPNbr5zHgh1swqwx9WrhV3U_gykXHSrx/view",
+          "caption": "Máy bay A-1 Skyraider – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "may-bay-a1-skyraider_02",
+          "filename": "may-bay-a1-skyraider_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1hXNgKD88xYHqJeJqhGHeY_10DjxG5ptW/view",
+          "caption": "Máy bay A-1 Skyraider – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "may-bay-a1-skyraider_03",
+          "filename": "may-bay-a1-skyraider_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1gFP7Uz8F4ZPP6Phzlt4psAM2DVVK0gLN/view",
+          "caption": "Máy bay A-1 Skyraider – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

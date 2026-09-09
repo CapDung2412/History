@@ -1,0 +1,50 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại bà Bùi Thị Nhị. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là ảnh bà Bùi Thị Nhị. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Ảnh bà Bùi Thị Nhị",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh bà Bùi Thị Nhị",
+        "year": null
+      },
+      "id": "anh-ba-bui-thi-nhi",
+      "images": [
+        {
+          "caption": "Ảnh bà Bùi Thị Nhị – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1sInWdrNnISCtjcdzvwmfK8w_V3U-NamX/view",
+          "filename": "anh-ba-bui-thi-nhi_01.jpg",
+          "id": "anh-ba-bui-thi-nhi_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Ảnh bà Bùi Thị Nhị – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1eElMzuvBhUulM_qR9aCP2yveXievlyoS/view",
+          "filename": "anh-ba-bui-thi-nhi_02.jpg",
+          "id": "anh-ba-bui-thi-nhi_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh bà Bùi Thị Nhị",
+      "slug": "anh-ba-bui-thi-nhi",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

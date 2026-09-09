@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_map",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Cấu tạo bom đinh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm bom, mìn, vỏ đạn hoặc mảnh vật liệu nổ được định danh theo tên trưng bày. Dấu tích này giúp nhận diện chủng loại bom mìn và nguy cơ gây sát thương đối với con người trong và sau chiến tranh.",
+        "event": "Cấu tạo bom đinh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Cấu tạo bom đinh",
+        "year": null
+      },
+      "id": "cau-tao-bom-dinh",
+      "images": [
+        {
+          "caption": "Cấu tạo bom đinh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1ES6MpBqh51AiaI-TET6DNdhSLcDPcVgO/view",
+          "filename": "cau-tao-bom-dinh_01.jpg",
+          "id": "cau-tao-bom-dinh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Cấu tạo bom đinh",
+      "slug": "cau-tao-bom-dinh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_map"
+      ]
+    }
+  ]
+}
+

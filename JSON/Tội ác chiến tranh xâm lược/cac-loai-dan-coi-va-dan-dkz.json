@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại các loại đạn coi và đạn ĐKZ. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm vũ khí chống tăng hoặc súng không giật, dùng để tấn công mục tiêu bọc thép hay công sự. Tư liệu giúp phân biệt nhóm vũ khí hỏa lực mạnh với súng bộ binh thông thường.",
+        "event": "Các loại đạn coi và đạn ĐKZ",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Các loại đạn coi và đạn ĐKZ",
+        "year": null
+      },
+      "id": "cac-loai-dan-coi-va-dan-dkz",
+      "images": [
+        {
+          "caption": "Các loại đạn coi và đạn ĐKZ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/12C04cWodhuqxbkfzxKXrdThGzV-le1E5/view",
+          "filename": "cac-loai-dan-coi-va-dan-dkz_01.jpg",
+          "id": "cac-loai-dan-coi-va-dan-dkz_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Các loại đạn coi và đạn ĐKZ",
+      "slug": "cac-loai-dan-coi-va-dan-dkz",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

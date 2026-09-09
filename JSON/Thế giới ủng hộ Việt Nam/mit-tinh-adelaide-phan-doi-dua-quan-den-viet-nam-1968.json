@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại mít tinh Adelaide phản đối đưa quân đến Việt Nam 1968. Cuộc mít tinh tập hợp đông đảo người tham gia để bày tỏ thái độ phản đối chiến tranh và ủng hộ nhân dân Việt Nam, qua đó thể hiện sức lan tỏa của phong trào quốc tế. Sự tham gia của người dân và các tổ chức xã hội cho thấy phản đối chiến tranh không chỉ là quan điểm của một nhóm chính trị riêng lẻ. Khẩu hiệu và hành động công khai đã đưa vấn đề chiến tranh Việt Nam vào đời sống chính trị, xã hội tại châu Đại Dương.",
+        "event": "Mít tinh Adelaide phản đối đưa quân đến Việt Nam 1968",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Mít tinh Adelaide phản đối đưa quân đến Việt Nam 1968",
+        "year": 1968
+      },
+      "id": "mit-tinh-adelaide-phan-doi-dua-quan-den-viet-nam-1968",
+      "images": [
+        {
+          "caption": "Mít tinh Adelaide phản đối đưa quân đến Việt Nam 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1GHMFxf_SWuttJSSqqNBmpsAyGirgFfWa/view",
+          "filename": "mit-tinh-adelaide-phan-doi-dua-quan-den-viet-nam-1968_01.jpg",
+          "id": "mit-tinh-adelaide-phan-doi-dua-quan-den-viet-nam-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mít tinh Adelaide phản đối đưa quân đến Việt Nam 1968",
+      "slug": "mit-tinh-adelaide-phan-doi-dua-quan-den-viet-nam-1968",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-dai-duong",
+        "1968"
+      ]
+    }
+  ]
+}

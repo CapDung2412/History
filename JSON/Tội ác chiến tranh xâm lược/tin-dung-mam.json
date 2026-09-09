@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Tin dung mam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật gắn với đời sống dân thường, gia đình hoặc ký ức về những người chịu tác động của chiến tranh. Nội dung chuyển trọng tâm từ vũ khí sang những mất mát và dấu tích còn lại trong đời sống con người.",
+        "event": "Tin dung mam",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Tin dung mam",
+        "year": null
+      },
+      "id": "tin-dung-mam",
+      "images": [
+        {
+          "caption": "Tin dung mam – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1mVz-nIlz1FGGnVqPct1cFM_4-dftwij1/view",
+          "filename": "tin-dung-mam_01.jpg",
+          "id": "tin-dung-mam_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Tin dung mam – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1pRV33wNvJskDWKDc30L1vSyXBrnwoO3H/view",
+          "filename": "tin-dung-mam_02.jpg",
+          "id": "tin-dung-mam_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Tin dung mam – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1SPE8inxsEjXfBb6I_dMGBbfKL092aMnA/view",
+          "filename": "tin-dung-mam_03.jpg",
+          "id": "tin-dung-mam_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Tin dung mam – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1rabgnBMMMP6a0mDqAS5o-9xm5fXOwlXz/view",
+          "filename": "tin-dung-mam_04.jpg",
+          "id": "tin-dung-mam_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tin dung mam",
+      "slug": "tin-dung-mam",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

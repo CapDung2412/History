@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày giới thiệu trích dẫn quốc tế lên an Chiến tranh Việt Nam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Bảng trích dẫn quốc tế lên an Chiến tranh Việt Nam",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng trích dẫn quốc tế lên an Chiến tranh Việt Nam",
+        "year": null
+      },
+      "id": "bang-trich-dan-quoc-te-len-an-chien-tranh-viet-nam",
+      "images": [
+        {
+          "caption": "Bảng trích dẫn quốc tế lên an Chiến tranh Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1e336T_eU6M5SWyStTAU35QR_byBsDf-_/view",
+          "filename": "bang-trich-dan-quoc-te-len-an-chien-tranh-viet-nam_01.jpg",
+          "id": "bang-trich-dan-quoc-te-len-an-chien-tranh-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng trích dẫn quốc tế lên an Chiến tranh Việt Nam",
+      "slug": "bang-trich-dan-quoc-te-len-an-chien-tranh-viet-nam",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}

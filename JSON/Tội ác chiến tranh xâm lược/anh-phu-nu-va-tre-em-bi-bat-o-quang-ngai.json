@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại phụ nữ và trẻ em bị bắt ở Quảng Ngãi. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể trung tâm là nạn nhân, thân nhân hoặc dấu tích gia đình chịu hậu quả của bom đạn và bạo lực chiến tranh. Hình ảnh giúp nhận diện hậu quả chiến tranh qua những trường hợp con người và gia đình cụ thể.",
+        "event": "Ảnh phụ nữ và trẻ em bị bắt ở Quảng Ngãi",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh phụ nữ và trẻ em bị bắt ở Quảng Ngãi",
+        "year": null
+      },
+      "id": "anh-phu-nu-va-tre-em-bi-bat-o-quang-ngai",
+      "images": [
+        {
+          "caption": "Ảnh phụ nữ và trẻ em bị bắt ở Quảng Ngãi – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1YPfU2t5Bqb33GQtpf5opob3_KgHup1Ix/view",
+          "filename": "anh-phu-nu-va-tre-em-bi-bat-o-quang-ngai_01.jpg",
+          "id": "anh-phu-nu-va-tre-em-bi-bat-o-quang-ngai_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh phụ nữ và trẻ em bị bắt ở Quảng Ngãi",
+      "slug": "anh-phu-nu-va-tre-em-bi-bat-o-quang-ngai",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

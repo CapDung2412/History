@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày giới thiệu tiểu sử Hugh Thompson. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nhân vật và hiện vật được xác định trực tiếp theo tên ghi trong tư liệu. Nội dung thuộc mạch tư liệu về Sơn Mỹ và những phản ứng của cá nhân trước hành vi bạo lực đối với dân thường.",
+        "event": "Bảng tiểu sử Hugh Thompson",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng tiểu sử Hugh Thompson",
+        "year": null
+      },
+      "id": "bang-tieu-su-hugh-thompson",
+      "images": [
+        {
+          "caption": "Bảng tiểu sử Hugh Thompson – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1_EQffFuSj6vA_FGwUVbs6s1kiZ9WTy3G/view",
+          "filename": "bang-tieu-su-hugh-thompson_01.jpg",
+          "id": "bang-tieu-su-hugh-thompson_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng tiểu sử Hugh Thompson",
+      "slug": "bang-tieu-su-hugh-thompson",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}

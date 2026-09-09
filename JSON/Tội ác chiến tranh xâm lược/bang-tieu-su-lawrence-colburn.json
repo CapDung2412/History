@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày giới thiệu tiểu sử Lawrence Colburn. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nhân vật và hiện vật được xác định trực tiếp theo tên ghi trong tư liệu. Nội dung thuộc mạch tư liệu về Sơn Mỹ và những phản ứng của cá nhân trước hành vi bạo lực đối với dân thường.",
+        "event": "Bảng tiểu sử Lawrence Colburn",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng tiểu sử Lawrence Colburn",
+        "year": null
+      },
+      "id": "bang-tieu-su-lawrence-colburn",
+      "images": [
+        {
+          "caption": "Bảng tiểu sử Lawrence Colburn – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1VP-xT-PaspeiI4VWFoe7iyAvVTlEjy2H/view",
+          "filename": "bang-tieu-su-lawrence-colburn_01.jpg",
+          "id": "bang-tieu-su-lawrence-colburn_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng tiểu sử Lawrence Colburn",
+      "slug": "bang-tieu-su-lawrence-colburn",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}

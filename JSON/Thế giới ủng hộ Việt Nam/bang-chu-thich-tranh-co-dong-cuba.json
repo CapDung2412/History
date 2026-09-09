@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng chú thích xác định nội dung của tranh cổ động Cuba trong tủ trưng bày. Thông tin trên bảng giúp ghép đúng tên, xuất xứ và ý nghĩa của từng tư liệu hoặc hiện vật. Các tên riêng, mốc thời gian và nội dung được trình bày trên bảng là căn cứ để đọc đúng các ảnh và hiện vật đi kèm. Nhờ đó, người xem có thể phân biệt rõ nhân vật, tổ chức, sự kiện và hình thức đóng góp được giới thiệu trong chuyên đề.",
+        "event": "Bảng chú thích tranh cổ động Cuba",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng chú thích tranh cổ động Cuba",
+        "year": null
+      },
+      "id": "bang-chu-thich-tranh-co-dong-cuba",
+      "images": [
+        {
+          "caption": "Bảng chú thích tranh cổ động Cuba – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/18lSwEacyCh5kon4sUY-W5rJyFXgFDcT9/view",
+          "filename": "bang-chu-thich-tranh-co-dong-cuba_01.jpg",
+          "id": "bang-chu-thich-tranh-co-dong-cuba_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng chú thích tranh cổ động Cuba",
+      "slug": "bang-chu-thich-tranh-co-dong-cuba",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_panel",
+        "chau-my"
+      ]
+    }
+  ]
+}

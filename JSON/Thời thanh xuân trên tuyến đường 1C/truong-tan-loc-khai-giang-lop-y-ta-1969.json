@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại trường tan loc khai giảng lớp y tá 1969. Mốc thời gian được ghi nhận là năm 1969, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung phản ánh công tác đào tạo y tá, cứu chữa thương binh hoặc bảo đảm quân y cho lực lượng hoạt động trên tuyến đường 1C. Tư liệu làm rõ vai trò của lực lượng quân y trong việc duy trì sức chiến đấu và chăm sóc người bị thương tại địa bàn Tây Nam Bộ.",
+        "event": "Trường tan loc khai giảng lớp y tá 1969",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Trường tan loc khai giảng lớp y tá 1969",
+        "year": 1969
+      },
+      "id": "truong-tan-loc-khai-giang-lop-y-ta-1969",
+      "images": [
+        {
+          "caption": "Trường tan loc khai giảng lớp y tá 1969 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1NbzeRQbhLEE80vm8aBueqU_d7EYcgGDO/view",
+          "filename": "truong-tan-loc-khai-giang-lop-y-ta-1969_01.jpg",
+          "id": "truong-tan-loc-khai-giang-lop-y-ta-1969_01",
+          "view": "toan-canh",
+          "year": 1969
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Trường tan loc khai giảng lớp y tá 1969",
+      "slug": "truong-tan-loc-khai-giang-lop-y-ta-1969",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1969"
+      ]
+    }
+  ]
+}
+

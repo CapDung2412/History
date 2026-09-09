@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Hiện vật “Cờ Ủy ban đoàn kết Cuba – Việt Nam” mang dấu hiệu, khẩu hiệu hoặc biểu tượng gắn với phong trào quốc tế ủng hộ Việt Nam. Hiện vật được sử dụng để công khai bày tỏ lập trường phản chiến, tinh thần đoàn kết hoặc ghi nhận một đóng góp cụ thể. Người sở hữu có thể đeo, mang, treo hoặc trưng bày hiện vật để thể hiện công khai thái độ và sự lựa chọn của mình. Dấu vết vật chất này giúp nhận diện trực tiếp ngôn ngữ, biểu tượng và cách vận động được sử dụng trong từng phong trào.",
+        "event": "Cờ Ủy ban đoàn kết Cuba – Việt Nam",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Cờ Ủy ban đoàn kết Cuba – Việt Nam",
+        "year": null
+      },
+      "id": "co-uy-ban-doan-ket-cuba-viet-nam",
+      "images": [
+        {
+          "caption": "Cờ Ủy ban đoàn kết Cuba – Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1sYRoqmg0Vvh_rTbeM8nnT3bEe497SfW0/view",
+          "filename": "co-uy-ban-doan-ket-cuba-viet-nam_01.jpg",
+          "id": "co-uy-ban-doan-ket-cuba-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Cờ Ủy ban đoàn kết Cuba – Việt Nam",
+      "slug": "co-uy-ban-doan-ket-cuba-viet-nam",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-my"
+      ]
+    }
+  ]
+}

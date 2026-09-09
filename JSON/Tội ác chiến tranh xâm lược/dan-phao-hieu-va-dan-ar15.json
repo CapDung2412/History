@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đạn pháo hiệu và đạn AR-15. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Đạn pháo hiệu và đạn AR-15",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đạn pháo hiệu và đạn AR-15",
+        "year": null
+      },
+      "id": "dan-phao-hieu-va-dan-ar15",
+      "images": [
+        {
+          "caption": "Đạn pháo hiệu và đạn AR-15 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1r9gU0AkTyiogRcoNRVDfANDmSUytMJAh/view",
+          "filename": "dan-phao-hieu-va-dan-ar15_01.jpg",
+          "id": "dan-phao-hieu-va-dan-ar15_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đạn pháo hiệu và đạn AR-15",
+      "slug": "dan-phao-hieu-va-dan-ar15",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

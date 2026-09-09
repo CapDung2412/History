@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nông dân Bạc Liêu bị lính Mỹ tra tấn. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh nông dân Bạc Liêu bị lính Mỹ tra tấn",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh nông dân Bạc Liêu bị lính Mỹ tra tấn",
+        "year": null
+      },
+      "id": "anh-nong-dan-bac-lieu-bi-linh-my-tra-tan",
+      "images": [
+        {
+          "caption": "Ảnh nông dân Bạc Liêu bị lính Mỹ tra tấn – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1xT9LOH-btECU7uedOuzudJSTMdUn6TQn/view",
+          "filename": "anh-nong-dan-bac-lieu-bi-linh-my-tra-tan_01.jpg",
+          "id": "anh-nong-dan-bac-lieu-bi-linh-my-tra-tan_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh nông dân Bạc Liêu bị lính Mỹ tra tấn",
+      "slug": "anh-nong-dan-bac-lieu-bi-linh-my-tra-tan",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

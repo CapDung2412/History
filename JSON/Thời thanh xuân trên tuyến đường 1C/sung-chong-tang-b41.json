@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng chống tăng B41. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Hiện vật thuộc nhóm vũ khí hoặc vật chứa đạn, phục vụ nhiệm vụ chiến đấu và bảo vệ tuyến vận chuyển. Dấu tích này góp phần nhận diện trang bị quân sự được sử dụng trong hoạt động trên tuyến đường 1C.",
+        "event": "Súng chống tăng B41",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Súng chống tăng B41",
+        "year": null
+      },
+      "id": "sung-chong-tang-b41",
+      "images": [
+        {
+          "caption": "Súng chống tăng B41 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1jZNeNp-QM3xuatiLbb4rPWKgY0oUmF5j/view",
+          "filename": "sung-chong-tang-b41_01.jpg",
+          "id": "sung-chong-tang-b41_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng chống tăng B41",
+      "slug": "sung-chong-tang-b41",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

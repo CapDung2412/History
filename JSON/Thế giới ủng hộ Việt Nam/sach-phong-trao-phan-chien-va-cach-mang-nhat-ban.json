@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Cuốn sách ghi chép về phong trào phản chiến và cách mạng tại Nhật Bản. Nội dung cho thấy việc phản đối chiến tranh Việt Nam gắn với những yêu cầu thay đổi xã hội và chính trị trong nước Nhật. Nội dung của tài liệu hướng tới công chúng tại châu Á, giúp họ tiếp cận thông tin và quan điểm liên quan đến Việt Nam. Hiện vật chứng minh sách báo, văn kiện và thông điệp bằng chữ viết là một kênh quan trọng để hình thành và lan tỏa dư luận quốc tế.",
+        "event": "Sách phong trào phản chiến và cách mạng Nhật Bản",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Sách phong trào phản chiến và cách mạng Nhật Bản",
+        "year": null
+      },
+      "id": "sach-phong-trao-phan-chien-va-cach-mang-nhat-ban",
+      "images": [
+        {
+          "caption": "Sách phong trào phản chiến và cách mạng Nhật Bản – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1s1zhESKnnggVzP7rqTqswwWyHDNHiOq6/view",
+          "filename": "sach-phong-trao-phan-chien-va-cach-mang-nhat-ban_01.jpg",
+          "id": "sach-phong-trao-phan-chien-va-cach-mang-nhat-ban_01",
+          "view": "toan-canh",
+          "year": null
+        },
+        {
+          "caption": "Sách phong trào phản chiến và cách mạng Nhật Bản – góc chụp thứ hai.",
+          "drive_url": "https://drive.google.com/file/d/1CTDLix7w-oR5w5Wx-yZN05acrhg2qBjK/view",
+          "filename": "sach-phong-trao-phan-chien-va-cach-mang-nhat-ban_02.jpg",
+          "id": "sach-phong-trao-phan-chien-va-cach-mang-nhat-ban_02",
+          "view": "goc-chup-2",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Sách phong trào phản chiến và cách mạng Nhật Bản",
+      "slug": "sach-phong-trao-phan-chien-va-cach-mang-nhat-ban",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-a"
+      ]
+    }
+  ]
+}

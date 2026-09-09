@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sĩ quan chĩa súng vào dân thường. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Ảnh sĩ quan chĩa súng vào dân thường",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh sĩ quan chĩa súng vào dân thường",
+        "year": null
+      },
+      "id": "anh-si-quan-chia-sung-vao-dan-thuong",
+      "images": [
+        {
+          "caption": "Ảnh sĩ quan chĩa súng vào dân thường – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1lInugWzIz9RA-PO0hlNy29iKpHukuE2C/view",
+          "filename": "anh-si-quan-chia-sung-vao-dan-thuong_01.jpg",
+          "id": "anh-si-quan-chia-sung-vao-dan-thuong_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh sĩ quan chĩa súng vào dân thường",
+      "slug": "anh-si-quan-chia-sung-vao-dan-thuong",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại mô hình xuồng vận chuyển đường 1C. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy vật chất chi viện được tiếp nhận hoặc vận chuyển bằng xuồng, thuyền hoặc tuyến đường thủy tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Mô hình xuồng vận chuyển đường 1C",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Mô hình xuồng vận chuyển đường 1C",
+        "year": null
+      },
+      "id": "mo-hinh-xuong-van-chuyen-duong-1c",
+      "images": [
+        {
+          "caption": "Mô hình xuồng vận chuyển đường 1C – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1UeMEP4LfCOMSxEIZ5as_BW22gzbpNHhS/view",
+          "filename": "mo-hinh-xuong-van-chuyen-duong-1c_01.jpg",
+          "id": "mo-hinh-xuong-van-chuyen-duong-1c_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mô hình xuồng vận chuyển đường 1C",
+      "slug": "mo-hinh-xuong-van-chuyen-duong-1c",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

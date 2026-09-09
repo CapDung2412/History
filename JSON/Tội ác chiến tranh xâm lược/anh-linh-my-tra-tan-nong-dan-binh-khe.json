@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ tra tấn nông dân Bình Khê. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh lính Mỹ tra tấn nông dân Bình Khê",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ tra tấn nông dân Bình Khê",
+        "year": null
+      },
+      "id": "anh-linh-my-tra-tan-nong-dan-binh-khe",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ tra tấn nông dân Bình Khê – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Ta_C29dMmfijrk0aTAovR3wDkoZ5O5lX/view",
+          "filename": "anh-linh-my-tra-tan-nong-dan-binh-khe_01.jpg",
+          "id": "anh-linh-my-tra-tan-nong-dan-binh-khe_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ tra tấn nông dân Bình Khê",
+      "slug": "anh-linh-my-tra-tan-nong-dan-binh-khe",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

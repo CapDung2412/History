@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại Đại sứ Ted Osius tham gia hủy nổ vật liệu bom mìn năm 2015. Hoạt động thể hiện sự hợp tác Việt – Mỹ trong xử lý vật liệu nổ còn sót lại sau chiến tranh. Trọng tâm của hoạt động là khảo sát, rà phá và hủy nổ vật liệu bom mìn còn sót lại. Kết quả của những chương trình này góp phần giảm nguy cơ cho cộng đồng, phục hồi sinh kế và thúc đẩy quan hệ hợp tác sau chiến tranh.",
+        "event": "Đại sứ Ted Osius hủy nổ vật liệu bom mìn 2015",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Đại sứ Ted Osius hủy nổ vật liệu bom mìn 2015",
+        "year": 2015
+      },
+      "id": "dai-su-ted-osius-huy-no-vat-lieu-bom-min-2015",
+      "images": [
+        {
+          "caption": "Đại sứ Ted Osius hủy nổ vật liệu bom mìn 2015 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1YE2gd86sf9z1AuuBtpNNfOltispFTr5r/view",
+          "filename": "dai-su-ted-osius-huy-no-vat-lieu-bom-min-2015_01.jpg",
+          "id": "dai-su-ted-osius-huy-no-vat-lieu-bom-min-2015_01",
+          "view": "toan-canh",
+          "year": 2015
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đại sứ Ted Osius hủy nổ vật liệu bom mìn 2015",
+      "slug": "dai-su-ted-osius-huy-no-vat-lieu-bom-min-2015",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "2015"
+      ]
+    }
+  ]
+}

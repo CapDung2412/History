@@ -1,0 +1,107 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đại liên M60. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Đại liên M60",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đại liên M60",
+        "year": null
+      },
+      "id": "dai-lien-m60",
+      "images": [
+        {
+          "caption": "Đại liên M60 – góc chụp 1/9.",
+          "drive_url": "https://drive.google.com/file/d/1qJ_QId7lzwOagTvsYykOliUzooq3Uu8k/view",
+          "filename": "dai-lien-m60_01.jpg",
+          "id": "dai-lien-m60_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 2/9.",
+          "drive_url": "https://drive.google.com/file/d/1VICgKqj54in85JtJacDOgl0JsglRvCt3/view",
+          "filename": "dai-lien-m60_02.jpg",
+          "id": "dai-lien-m60_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 3/9.",
+          "drive_url": "https://drive.google.com/file/d/1eNpBifRfL1Ci--I_f4Jwp00SvKZIBlfq/view",
+          "filename": "dai-lien-m60_03.jpg",
+          "id": "dai-lien-m60_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 4/9.",
+          "drive_url": "https://drive.google.com/file/d/1PjSoask57R0YLK4MVDODVXP_Q1P4CPa6/view",
+          "filename": "dai-lien-m60_04.jpg",
+          "id": "dai-lien-m60_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 5/9.",
+          "drive_url": "https://drive.google.com/file/d/1z-W7zbHk8GWaxPUDbWBFYzuB3F6OsbLx/view",
+          "filename": "dai-lien-m60_05.jpg",
+          "id": "dai-lien-m60_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 6/9.",
+          "drive_url": "https://drive.google.com/file/d/1his9OWNaoSDbxbGjMNSKuAZITxdgRjRm/view",
+          "filename": "dai-lien-m60_06.jpg",
+          "id": "dai-lien-m60_06",
+          "view": "goc-nhin-06",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 7/9.",
+          "drive_url": "https://drive.google.com/file/d/14vchfOqm597QaEYtSruvDTupwqfR-BHD/view",
+          "filename": "dai-lien-m60_07.jpg",
+          "id": "dai-lien-m60_07",
+          "view": "goc-nhin-07",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 8/9.",
+          "drive_url": "https://drive.google.com/file/d/10AZjc0W7UQ63fSNj8DhiIiWmh8UDnBi9/view",
+          "filename": "dai-lien-m60_08.jpg",
+          "id": "dai-lien-m60_08",
+          "view": "goc-nhin-08",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M60 – góc chụp 9/9.",
+          "drive_url": "https://drive.google.com/file/d/1B-FzcxUPWt5AkczRaLRP15UX_Qv4VnOC/view",
+          "filename": "dai-lien-m60_09.jpg",
+          "id": "dai-lien-m60_09",
+          "view": "goc-nhin-09",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đại liên M60",
+      "slug": "dai-lien-m60",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

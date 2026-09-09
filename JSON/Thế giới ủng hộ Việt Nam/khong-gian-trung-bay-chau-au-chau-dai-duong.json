@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_space",
+      "historical_info": {
+        "description": "Ảnh toàn cảnh không gian trưng bày châu Âu châu Đại Dương tại bảo tàng. Khu vực này tập hợp ảnh, tài liệu và hiện vật phản ánh các hoạt động phản chiến, đoàn kết và hỗ trợ Việt Nam của châu Âu. Việc bố trí nhiều loại tư liệu trong cùng khu vực giúp người xem nhận ra mối liên hệ giữa phong trào quần chúng, hoạt động ngoại giao và viện trợ quốc tế. Không gian này đồng thời cho thấy sự ủng hộ Việt Nam được thể hiện bằng nhiều hình thức tại châu Âu.",
+        "event": "Không gian trưng bày châu Âu châu Đại Dương",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Không gian trưng bày châu Âu châu Đại Dương",
+        "year": null
+      },
+      "id": "khong-gian-trung-bay-chau-au-chau-dai-duong",
+      "images": [
+        {
+          "caption": "Không gian trưng bày châu Âu châu Đại Dương – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1SFIIZB3K3gqztcra8er3vYIFIExSp7wa/view",
+          "filename": "khong-gian-trung-bay-chau-au-chau-dai-duong_01.jpg",
+          "id": "khong-gian-trung-bay-chau-au-chau-dai-duong_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Không gian trưng bày châu Âu châu Đại Dương",
+      "slug": "khong-gian-trung-bay-chau-au-chau-dai-duong",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_space",
+        "chau-au"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại dân thường bị lính Mỹ thẩm vấn. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh dân thường bị lính Mỹ thẩm vấn",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh dân thường bị lính Mỹ thẩm vấn",
+        "year": null
+      },
+      "id": "anh-dan-thuong-bi-linh-my-tham-van",
+      "images": [
+        {
+          "caption": "Ảnh dân thường bị lính Mỹ thẩm vấn – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1FRQMxsFx228gbzOV23unlr2bGrkOB7kf/view",
+          "filename": "anh-dan-thuong-bi-linh-my-tham-van_01.jpg",
+          "id": "anh-dan-thuong-bi-linh-my-tham-van_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh dân thường bị lính Mỹ thẩm vấn",
+      "slug": "anh-dan-thuong-bi-linh-my-tham-van",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "tu-trung-bay-luu-dan-hoa-chat",
+      "name": "Tủ trưng bày lựu đạn hóa chất",
+      "slug": "tu-trung-bay-luu-dan-hoa-chat",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "tu-trung-bay-luu-dan-hoa-chat"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tủ trưng bày lựu đạn hóa chất",
+        "description": "Không gian hoặc bộ trưng bày tập trung vào tủ trưng bày lựu đạn hóa chất. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Tủ trưng bày lựu đạn hóa chất",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "tu-trung-bay-luu-dan-hoa-chat_01",
+          "filename": "tu-trung-bay-luu-dan-hoa-chat_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/17rG6U7p1qlF_aA1K91JOJaE5Ipk1hrf3/view",
+          "caption": "Tủ trưng bày lựu đạn hóa chất – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

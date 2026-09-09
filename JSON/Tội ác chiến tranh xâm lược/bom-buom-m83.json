@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bom bướm M83. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là bom bướm M83. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Bom bướm M83",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bom bướm M83",
+        "year": null
+      },
+      "id": "bom-buom-m83",
+      "images": [
+        {
+          "caption": "Bom bướm M83 – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1qc_Ls_6FZ-X2tk8wxb_vCLnJdb081cIx/view",
+          "filename": "bom-buom-m83_01.jpg",
+          "id": "bom-buom-m83_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bom bướm M83 – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1GRIiQFrA9foO9vdj92iX1_RAsvXdMjz0/view",
+          "filename": "bom-buom-m83_02.jpg",
+          "id": "bom-buom-m83_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Bom bướm M83 – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1BR8PiSJfHrC5daUpU6PFojMvxj7waoPd/view",
+          "filename": "bom-buom-m83_03.jpg",
+          "id": "bom-buom-m83_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Bom bướm M83 – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1AW7saO7TbDeLL7LCX6UNAN-JFJV0hbZH/view",
+          "filename": "bom-buom-m83_04.jpg",
+          "id": "bom-buom-m83_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bom bướm M83",
+      "slug": "bom-buom-m83",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

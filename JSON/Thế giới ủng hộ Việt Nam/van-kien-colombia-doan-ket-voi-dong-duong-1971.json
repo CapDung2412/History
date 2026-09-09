@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Văn kiện Colombia năm 1971 bày tỏ sự đoàn kết với nhân dân Đông Dương. Tài liệu ghi nhận sự ủng hộ chính trị từ khu vực Mỹ Latinh đối với cuộc đấu tranh của Việt Nam, Lào và Campuchia. Nội dung của tài liệu hướng tới công chúng tại châu Mỹ, giúp họ tiếp cận thông tin và quan điểm liên quan đến Việt Nam. Hiện vật chứng minh sách báo, văn kiện và thông điệp bằng chữ viết là một kênh quan trọng để hình thành và lan tỏa dư luận quốc tế.",
+        "event": "Văn kiện Colombia đoàn kết với Đông Dương 1971",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Văn kiện Colombia đoàn kết với Đông Dương 1971",
+        "year": 1971
+      },
+      "id": "van-kien-colombia-doan-ket-voi-dong-duong-1971",
+      "images": [
+        {
+          "caption": "Văn kiện Colombia đoàn kết với Đông Dương 1971 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1p01em3Opy8kriTaKTp9HFqDw3Chb6tsK/view",
+          "filename": "van-kien-colombia-doan-ket-voi-dong-duong-1971_01.jpg",
+          "id": "van-kien-colombia-doan-ket-voi-dong-duong-1971_01",
+          "view": "toan-canh",
+          "year": 1971
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Văn kiện Colombia đoàn kết với Đông Dương 1971",
+      "slug": "van-kien-colombia-doan-ket-voi-dong-duong-1971",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-my",
+        "1971"
+      ]
+    }
+  ]
+}

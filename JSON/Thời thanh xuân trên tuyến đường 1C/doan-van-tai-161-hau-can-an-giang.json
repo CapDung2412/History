@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại đoàn vận tải 161 hậu cần An Giang. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Chủ thể trung tâm của tư liệu là đoàn vận tải 161 hậu cần An Giang, được đặt trong mạch hoạt động của tuyến đường 1C. Tư liệu bổ sung một lát cắt cụ thể về con người, địa bàn hoặc nhiệm vụ trên tuyến vận tải Tây Nam Bộ.",
+        "event": "Đoàn vận tải 161 hậu cần An Giang",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Đoàn vận tải 161 hậu cần An Giang",
+        "year": null
+      },
+      "id": "doan-van-tai-161-hau-can-an-giang",
+      "images": [
+        {
+          "caption": "Đoàn vận tải 161 hậu cần An Giang – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/18DrpRJR4eR1gqww0em_7ri4j2Ryt_jop/view",
+          "filename": "doan-van-tai-161-hau-can-an-giang_01.jpg",
+          "id": "doan-van-tai-161-hau-can-an-giang_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đoàn vận tải 161 hậu cần An Giang",
+      "slug": "doan-van-tai-161-hau-can-an-giang",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

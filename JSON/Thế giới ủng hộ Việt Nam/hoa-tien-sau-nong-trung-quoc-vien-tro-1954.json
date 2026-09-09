@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại hỏa tiễn sáu nòng Trung Quốc viện trợ 1954. Hoạt động cung cấp lương thực, thuốc men, thiết bị hoặc chuyên môn cho thấy sự ủng hộ quốc tế đối với Việt Nam được thể hiện bằng những hỗ trợ cụ thể. Sự ủng hộ được thể hiện bằng hành động cụ thể như vận động chính trị, quyên góp, viện trợ vật chất, hỗ trợ chuyên môn hoặc giao lưu nhân dân. Tư liệu vì vậy phản ánh chiều sâu của tình đoàn kết dành cho Việt Nam tại châu Á, không chỉ dừng ở lời tuyên bố.",
+        "event": "Hỏa tiễn sáu nòng Trung Quốc viện trợ 1954",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Hỏa tiễn sáu nòng Trung Quốc viện trợ 1954",
+        "year": 1954
+      },
+      "id": "hoa-tien-sau-nong-trung-quoc-vien-tro-1954",
+      "images": [
+        {
+          "caption": "Hỏa tiễn sáu nòng Trung Quốc viện trợ 1954 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Z7yPlLjHGxhJtShex5uNomU3fO5FxNP7/view",
+          "filename": "hoa-tien-sau-nong-trung-quoc-vien-tro-1954_01.jpg",
+          "id": "hoa-tien-sau-nong-trung-quoc-vien-tro-1954_01",
+          "view": "toan-canh",
+          "year": 1954
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hỏa tiễn sáu nòng Trung Quốc viện trợ 1954",
+      "slug": "hoa-tien-sau-nong-trung-quoc-vien-tro-1954",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-a",
+        "1954"
+      ]
+    }
+  ]
+}

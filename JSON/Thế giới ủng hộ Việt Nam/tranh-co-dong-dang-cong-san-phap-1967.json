@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Tranh cổ động mang nội dung “Đảng Cộng sản Pháp”. Hình ảnh và khẩu hiệu được sử dụng để bày tỏ thái độ phản đối chiến tranh và ủng hộ nhân dân Việt Nam, đồng thời truyền thông điệp đoàn kết với Việt Nam tới công chúng. Tác phẩm sử dụng hình ảnh cô đọng và khẩu hiệu ngắn để người xem nhận biết thông điệp ngay từ lần quan sát đầu tiên. Việc lưu giữ tranh cho thấy nghệ thuật cổ động là một phương tiện quan trọng của phong trào đoàn kết với Việt Nam tại châu Âu.",
+        "event": "Tranh cổ động Đảng Cộng sản Pháp 1967",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Tranh cổ động Đảng Cộng sản Pháp 1967",
+        "year": 1967
+      },
+      "id": "tranh-co-dong-dang-cong-san-phap-1967",
+      "images": [
+        {
+          "caption": "Tranh cổ động Đảng Cộng sản Pháp 1967 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1K58t45Y6u4fTKWE2E4TYP-jkWp8-XSGc/view",
+          "filename": "tranh-co-dong-dang-cong-san-phap-1967_01.jpg",
+          "id": "tranh-co-dong-dang-cong-san-phap-1967_01",
+          "view": "toan-canh",
+          "year": 1967
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tranh cổ động Đảng Cộng sản Pháp 1967",
+      "slug": "tranh-co-dong-dang-cong-san-phap-1967",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-au",
+        "1967"
+      ]
+    }
+  ]
+}

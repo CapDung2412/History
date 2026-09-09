@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại thanh niên xung phong đọc báo Giải phóng. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Lực lượng được ghi nhận là thanh niên xung phong, trực tiếp đọc Báo Giải phóng trong thời gian nghỉ. Hình ảnh cho thấy tuổi trẻ vừa đảm nhiệm công việc nặng nhọc, vừa duy trì đời sống và tinh thần trong điều kiện chiến tranh.",
+        "event": "Thanh niên xung phong đọc báo Giải phóng",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Thanh niên xung phong đọc báo Giải phóng",
+        "year": null
+      },
+      "id": "thanh-nien-xung-phong-doc-bao-giai-phong",
+      "images": [
+        {
+          "caption": "Thanh niên xung phong đọc báo Giải phóng – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1dymZAyV3Wc-Y5MK_NRk0b_swCJdPnGpo/view",
+          "filename": "thanh-nien-xung-phong-doc-bao-giai-phong_01.jpg",
+          "id": "thanh-nien-xung-phong-doc-bao-giai-phong_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Thanh niên xung phong đọc báo Giải phóng",
+      "slug": "thanh-nien-xung-phong-doc-bao-giai-phong",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

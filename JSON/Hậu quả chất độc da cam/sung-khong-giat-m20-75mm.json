@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "sung-khong-giat-m20-75mm",
+      "name": "Súng không giật M20 cỡ 75 mm",
+      "slug": "sung-khong-giat-m20-75mm",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "sung-khong-giat-m20-75mm"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Súng không giật M20 cỡ 75 mm",
+        "description": "Hiện vật được nhận diện là Súng không giật M20 cỡ 75 mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm vũ khí hoặc đạn phản lực, được định danh theo đúng kiểu loại ghi trong tên trưng bày. Trong bộ sưu tập, hiện vật bổ sung bối cảnh về trang bị quân sự và không được đồng nhất với chất độc da cam/dioxin.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Súng không giật M20 cỡ 75 mm",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "sung-khong-giat-m20-75mm_01",
+          "filename": "sung-khong-giat-m20-75mm_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1DuQ5g7e069CnJxqY17FqSx3wIGKzqi2I/view",
+          "caption": "Súng không giật M20 cỡ 75 mm – góc chụp 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "sung-khong-giat-m20-75mm_02",
+          "filename": "sung-khong-giat-m20-75mm_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1YnRLFN6i7nJDfHPz2gg5hPUXgvRzGKM4/view",
+          "caption": "Súng không giật M20 cỡ 75 mm – góc chụp 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "sung-khong-giat-m20-75mm_03",
+          "filename": "sung-khong-giat-m20-75mm_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/10ak1KcPJRfKyPkwW-yWKq-lZqh7tVyPU/view",
+          "caption": "Súng không giật M20 cỡ 75 mm – góc chụp 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "sung-khong-giat-m20-75mm_04",
+          "filename": "sung-khong-giat-m20-75mm_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1-Om26L4bhXW3fcWHBWJW1308SkEYNG_Q/view",
+          "caption": "Súng không giật M20 cỡ 75 mm – góc chụp 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "sung-khong-giat-m20-75mm_05",
+          "filename": "sung-khong-giat-m20-75mm_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Qzoj47GzsWtSBm4VkczwbolLExHMDSI8/view",
+          "caption": "Súng không giật M20 cỡ 75 mm – góc chụp 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}
+

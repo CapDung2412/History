@@ -1,0 +1,12 @@
+numpy>=1.26,<3
+open-clip-torch>=3.2,<4
+Pillow>=10,<13
+pinecone>=9,<10
+python-dotenv>=1,<2
+jsonschema>=4.23,<5
+tqdm>=4.66,<5
+pytest>=8,<10
+fastapi>=0.141,<1
+uvicorn[standard]>=0.41,<1
+python-multipart>=0.0.22,<1
+httpx>=0.28,<1

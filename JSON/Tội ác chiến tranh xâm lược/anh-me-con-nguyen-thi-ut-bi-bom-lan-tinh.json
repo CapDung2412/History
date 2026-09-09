@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại mẹ con Nguyễn Thị Út bị bom lân tinh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hình ảnh cho thấy thiệt hại đối với con người, gia đình, công trình hoặc khu dân cư do bom đạn gây ra. Tư liệu làm rõ hậu quả trực tiếp của hoạt động đánh phá đối với dân thường và cơ sở dân sinh.",
+        "event": "Ảnh mẹ con Nguyễn Thị Út bị bom lân tinh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh mẹ con Nguyễn Thị Út bị bom lân tinh",
+        "year": null
+      },
+      "id": "anh-me-con-nguyen-thi-ut-bi-bom-lan-tinh",
+      "images": [
+        {
+          "caption": "Ảnh mẹ con Nguyễn Thị Út bị bom lân tinh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1qRrVphchXiRTRoHUxHd6r5HKYYt4eDzw/view",
+          "filename": "anh-me-con-nguyen-thi-ut-bi-bom-lan-tinh_01.jpg",
+          "id": "anh-me-con-nguyen-thi-ut-bi-bom-lan-tinh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh mẹ con Nguyễn Thị Út bị bom lân tinh",
+      "slug": "anh-me-con-nguyen-thi-ut-bi-bom-lan-tinh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

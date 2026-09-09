@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Hai khẩu đại liên a6 1919. Mốc thời gian được ghi nhận là năm 1919, thuộc bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Hai khẩu đại liên a6 1919",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Hai khẩu đại liên a6 1919",
+        "year": 1919
+      },
+      "id": "hai-khau-dai-lien-a6-1919",
+      "images": [
+        {
+          "caption": "Hai khẩu đại liên a6 1919 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1lapSoKtiTb3EBn_jj50Q4eKZ1uyJT41u/view",
+          "filename": "hai-khau-dai-lien-a6-1919_01.jpg",
+          "id": "hai-khau-dai-lien-a6-1919_01",
+          "view": "toan-canh",
+          "year": 1919
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hai khẩu đại liên a6 1919",
+      "slug": "hai-khau-dai-lien-a6-1919",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact",
+        "1919"
+      ]
+    }
+  ]
+}
+

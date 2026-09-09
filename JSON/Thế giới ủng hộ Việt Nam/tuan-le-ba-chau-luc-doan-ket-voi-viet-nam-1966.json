@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Tuần lễ ba châu lục đoàn kết với Việt Nam 1966”. Tư liệu thể hiện sự đoàn kết quốc tế với Việt Nam bằng cả hoạt động chính trị, tinh thần và hỗ trợ vật chất. Sự ủng hộ được thể hiện bằng hành động cụ thể như vận động chính trị, quyên góp, viện trợ vật chất, hỗ trợ chuyên môn hoặc giao lưu nhân dân. Tư liệu vì vậy phản ánh chiều sâu của tình đoàn kết dành cho Việt Nam tại các tổ chức quốc tế, không chỉ dừng ở lời tuyên bố.",
+        "event": "Tuần lễ ba châu lục đoàn kết với Việt Nam 1966",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Tuần lễ ba châu lục đoàn kết với Việt Nam 1966",
+        "year": 1966
+      },
+      "id": "tuan-le-ba-chau-luc-doan-ket-voi-viet-nam-1966",
+      "images": [
+        {
+          "caption": "Tuần lễ ba châu lục đoàn kết với Việt Nam 1966 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Mz3jNBa8Kosp4cTw4Aw7VLGBSZYiApTT/view",
+          "filename": "tuan-le-ba-chau-luc-doan-ket-voi-viet-nam-1966_01.jpg",
+          "id": "tuan-le-ba-chau-luc-doan-ket-voi-viet-nam-1966_01",
+          "view": "toan-canh",
+          "year": 1966
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tuần lễ ba châu lục đoàn kết với Việt Nam 1966",
+      "slug": "tuan-le-ba-chau-luc-doan-ket-voi-viet-nam-1966",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "1966"
+      ]
+    }
+  ]
+}

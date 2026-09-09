@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại các loại dây đạn súng. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Các loại dây đạn súng",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Các loại dây đạn súng",
+        "year": null
+      },
+      "id": "cac-loai-day-dan-sung",
+      "images": [
+        {
+          "caption": "Các loại dây đạn súng – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1zprmmiS6DfHoGAHEVYd9xcNa7lkWSYeG/view",
+          "filename": "cac-loai-day-dan-sung_01.jpg",
+          "id": "cac-loai-day-dan-sung_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Các loại dây đạn súng",
+      "slug": "cac-loai-day-dan-sung",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

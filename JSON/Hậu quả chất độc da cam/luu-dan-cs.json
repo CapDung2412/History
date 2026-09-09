@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "luu-dan-cs",
+      "name": "Lựu đạn CS",
+      "slug": "luu-dan-cs",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "luu-dan-cs"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lựu đạn CS",
+        "description": "Hiện vật được nhận diện là Lựu đạn CS. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Lựu đạn CS",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "luu-dan-cs_01",
+          "filename": "luu-dan-cs_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1a-JZj9WBFJ-AjuQVvNkZzBnW21gyAIRx/view",
+          "caption": "Lựu đạn CS – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "luu-dan-cs_02",
+          "filename": "luu-dan-cs_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1m6IznJklqmvZgBmURzZAhXfapv-F2tMA/view",
+          "caption": "Lựu đạn CS – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "luu-dan-cs_03",
+          "filename": "luu-dan-cs_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1bPehNu1O3EhP-LeRo6yDH9ED1eTspYZe/view",
+          "caption": "Lựu đạn CS – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

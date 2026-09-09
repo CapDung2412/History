@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bom bi hình cầu blu 2. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm bom, mìn, vỏ đạn hoặc mảnh vật liệu nổ được định danh theo tên trưng bày. Dấu tích này giúp nhận diện chủng loại bom mìn và nguy cơ gây sát thương đối với con người trong và sau chiến tranh.",
+        "event": "Bom bi hình cầu blu 2",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bom bi hình cầu blu 2",
+        "year": null
+      },
+      "id": "bom-bi-hinh-cau-blu-2",
+      "images": [
+        {
+          "caption": "Bom bi hình cầu blu 2 – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/13zNXpHX2oTQqiTAfMH9YlN0RviwAw616/view",
+          "filename": "bom-bi-hinh-cau-blu-2_01.jpg",
+          "id": "bom-bi-hinh-cau-blu-2_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bom bi hình cầu blu 2 – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1kthRbZ5nvS8Ce1npkjNJR0ync10DrWAy/view",
+          "filename": "bom-bi-hinh-cau-blu-2_02.jpg",
+          "id": "bom-bi-hinh-cau-blu-2_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Bom bi hình cầu blu 2 – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/16YdHDu7WGSHnnkiQL7U_yBziIGiUZb_h/view",
+          "filename": "bom-bi-hinh-cau-blu-2_03.jpg",
+          "id": "bom-bi-hinh-cau-blu-2_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bom bi hình cầu blu 2",
+      "slug": "bom-bi-hinh-cau-blu-2",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

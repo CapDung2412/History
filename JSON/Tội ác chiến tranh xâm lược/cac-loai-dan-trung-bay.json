@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại các loại đạn trưng bày. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Các loại đạn trưng bày",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Các loại đạn trưng bày",
+        "year": null
+      },
+      "id": "cac-loai-dan-trung-bay",
+      "images": [
+        {
+          "caption": "Các loại đạn trưng bày – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1QkBZ5P3EOjdMTUZXnXaG-Lb4b34uOpAy/view",
+          "filename": "cac-loai-dan-trung-bay_01.jpg",
+          "id": "cac-loai-dan-trung-bay_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Các loại đạn trưng bày",
+      "slug": "cac-loai-dan-trung-bay",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

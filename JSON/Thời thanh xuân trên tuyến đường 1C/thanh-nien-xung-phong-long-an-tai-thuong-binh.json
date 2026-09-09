@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại thanh niên xung phong Long An tải thương binh. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung phản ánh công tác đào tạo y tá, cứu chữa thương binh hoặc bảo đảm quân y cho lực lượng hoạt động trên tuyến đường 1C. Tư liệu làm rõ vai trò của lực lượng quân y trong việc duy trì sức chiến đấu và chăm sóc người bị thương tại địa bàn Tây Nam Bộ.",
+        "event": "Thanh niên xung phong Long An tải thương binh",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Thanh niên xung phong Long An tải thương binh",
+        "year": null
+      },
+      "id": "thanh-nien-xung-phong-long-an-tai-thuong-binh",
+      "images": [
+        {
+          "caption": "Thanh niên xung phong Long An tải thương binh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1RKEmxuNbACo0X9BlLGq1_-IC0oqwAzcu/view",
+          "filename": "thanh-nien-xung-phong-long-an-tai-thuong-binh_01.jpg",
+          "id": "thanh-nien-xung-phong-long-an-tai-thuong-binh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Thanh niên xung phong Long An tải thương binh",
+      "slug": "thanh-nien-xung-phong-long-an-tai-thuong-binh",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

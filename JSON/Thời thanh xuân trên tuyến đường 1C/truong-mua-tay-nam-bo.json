@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại trường mua Tây Nam Bộ. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Hiện vật hoặc hình ảnh phản ánh điều kiện ăn ở, chiếu sáng, nghỉ ngơi và sinh hoạt dã chiến của lực lượng trên tuyến. Nội dung làm rõ đời sống thường ngày phía sau nhiệm vụ vận tải và chiến đấu trên đường 1C.",
+        "event": "Trường mua Tây Nam Bộ",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Trường mua Tây Nam Bộ",
+        "year": null
+      },
+      "id": "truong-mua-tay-nam-bo",
+      "images": [
+        {
+          "caption": "Trường mua Tây Nam Bộ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1HFoOvjwGgWGoGhLvc87BCCpJNAey-xGn/view",
+          "filename": "truong-mua-tay-nam-bo_01.jpg",
+          "id": "truong-mua-tay-nam-bo_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Trường mua Tây Nam Bộ",
+      "slug": "truong-mua-tay-nam-bo",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

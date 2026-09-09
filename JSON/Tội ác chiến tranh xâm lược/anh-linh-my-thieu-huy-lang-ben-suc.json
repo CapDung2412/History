@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ thiêu hủy làng Bến Súc. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh lính Mỹ thiêu hủy làng Bến Súc",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ thiêu hủy làng Bến Súc",
+        "year": null
+      },
+      "id": "anh-linh-my-thieu-huy-lang-ben-suc",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ thiêu hủy làng Bến Súc – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1cW6QoES6XmU5X23DcoZ2kcXXf9xcMdb0/view",
+          "filename": "anh-linh-my-thieu-huy-lang-ben-suc_01.jpg",
+          "id": "anh-linh-my-thieu-huy-lang-ben-suc_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ thiêu hủy làng Bến Súc",
+      "slug": "anh-linh-my-thieu-huy-lang-ben-suc",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

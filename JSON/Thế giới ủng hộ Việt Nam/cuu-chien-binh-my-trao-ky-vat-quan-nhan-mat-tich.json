@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Cựu chiến binh Mỹ trao kỷ vật quân nhân mất tích”. Sự kiện phản ánh quan hệ đối ngoại, tiếng nói đoàn kết quốc tế và sự phối hợp giữa Việt Nam với bạn bè trên thế giới. Nhân vật và tổ chức xuất hiện trong sự kiện đã chuyển sự đồng tình với Việt Nam thành hoạt động ngoại giao, pháp lý hoặc hợp tác chính thức. Tư liệu giúp xác định vai trò của các tổ chức quốc tế trong việc tạo thêm sự ủng hộ chính trị, ngoại giao và pháp lý cho Việt Nam.",
+        "event": "Cựu chiến binh Mỹ trao kỷ vật quân nhân mất tích",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Cựu chiến binh Mỹ trao kỷ vật quân nhân mất tích",
+        "year": null
+      },
+      "id": "cuu-chien-binh-my-trao-ky-vat-quan-nhan-mat-tich",
+      "images": [
+        {
+          "caption": "Cựu chiến binh Mỹ trao kỷ vật quân nhân mất tích – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1pZB3DJ4ttkFCQWpMrIoYdTZ_BSumNGju/view",
+          "filename": "cuu-chien-binh-my-trao-ky-vat-quan-nhan-mat-tich_01.jpg",
+          "id": "cuu-chien-binh-my-trao-ky-vat-quan-nhan-mat-tich_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Cựu chiến binh Mỹ trao kỷ vật quân nhân mất tích",
+      "slug": "cuu-chien-binh-my-trao-ky-vat-quan-nhan-mat-tich",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te"
+      ]
+    }
+  ]
+}

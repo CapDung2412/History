@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Bức điện của Chủ tịch Hồ Chí Minh gửi những người bạn Mỹ năm 1968 ghi nhận và cổ vũ phong trào phản đối chiến tranh tại Hoa Kỳ. Tài liệu cho thấy Việt Nam trân trọng sự ủng hộ của nhân dân Mỹ. Nội dung của tài liệu hướng tới công chúng tại châu Mỹ, giúp họ tiếp cận thông tin và quan điểm liên quan đến Việt Nam. Hiện vật chứng minh sách báo, văn kiện và thông điệp bằng chữ viết là một kênh quan trọng để hình thành và lan tỏa dư luận quốc tế.",
+        "event": "Điện Hồ Chí Minh gửi bạn bè Mỹ năm 1968",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Điện Hồ Chí Minh gửi bạn bè Mỹ năm 1968",
+        "year": 1968
+      },
+      "id": "dien-ho-chi-minh-gui-ban-be-my-nam-1968",
+      "images": [
+        {
+          "caption": "Điện Hồ Chí Minh gửi bạn bè Mỹ năm 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1W01viz0lCR3UJvNk2E3FA9F_tempxcIc/view",
+          "filename": "dien-ho-chi-minh-gui-ban-be-my-nam-1968_01.jpg",
+          "id": "dien-ho-chi-minh-gui-ban-be-my-nam-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Điện Hồ Chí Minh gửi bạn bè Mỹ năm 1968",
+      "slug": "dien-ho-chi-minh-gui-ban-be-my-nam-1968",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my",
+        "1968"
+      ]
+    }
+  ]
+}

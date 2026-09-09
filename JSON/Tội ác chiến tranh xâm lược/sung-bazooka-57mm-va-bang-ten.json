@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Tư liệu trưng bày giới thiệu súng bazooka 57mm và Bảng tên. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Súng bazooka 57mm và Bảng tên",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng bazooka 57mm và Bảng tên",
+        "year": null
+      },
+      "id": "sung-bazooka-57mm-va-bang-ten",
+      "images": [
+        {
+          "caption": "Súng bazooka 57mm và Bảng tên – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Ov_IAwIVHWA7TRcH5Gick6T1qY-iGsrc/view",
+          "filename": "sung-bazooka-57mm-va-bang-ten_01.jpg",
+          "id": "sung-bazooka-57mm-va-bang-ten_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng bazooka 57mm và Bảng tên",
+      "slug": "sung-bazooka-57mm-va-bang-ten",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}

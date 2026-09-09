@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại y tá Nguyễn Hồng Xuân đường 1C. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung phản ánh công tác đào tạo y tá, cứu chữa thương binh hoặc bảo đảm quân y cho lực lượng hoạt động trên tuyến đường 1C. Tư liệu làm rõ vai trò của lực lượng quân y trong việc duy trì sức chiến đấu và chăm sóc người bị thương tại địa bàn Tây Nam Bộ.",
+        "event": "Y tá Nguyễn Hồng Xuân đường 1C",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Y tá Nguyễn Hồng Xuân đường 1C",
+        "year": null
+      },
+      "id": "y-ta-nguyen-hong-xuan-duong-1c",
+      "images": [
+        {
+          "caption": "Y tá Nguyễn Hồng Xuân đường 1C – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1ma2Sjk6zWfU48SXvdV-yUTkr9c5veZ7D/view",
+          "filename": "y-ta-nguyen-hong-xuan-duong-1c_01.jpg",
+          "id": "y-ta-nguyen-hong-xuan-duong-1c_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Y tá Nguyễn Hồng Xuân đường 1C",
+      "slug": "y-ta-nguyen-hong-xuan-duong-1c",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

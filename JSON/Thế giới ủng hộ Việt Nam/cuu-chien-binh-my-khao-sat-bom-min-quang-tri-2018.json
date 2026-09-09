@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Cựu chiến binh Mỹ khảo sát bom mìn Quảng Trị 2018”. Tư liệu cho thấy hợp tác quốc tế sau chiến tranh tập trung vào xử lý dioxin, rà phá bom mìn và hỗ trợ những người chịu hậu quả chiến tranh. Trọng tâm của hoạt động là khảo sát, rà phá và hủy nổ vật liệu bom mìn còn sót lại. Kết quả của những chương trình này góp phần giảm nguy cơ cho cộng đồng, phục hồi sinh kế và thúc đẩy quan hệ hợp tác sau chiến tranh.",
+        "event": "Cựu chiến binh Mỹ khảo sát bom mìn Quảng Trị 2018",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Cựu chiến binh Mỹ khảo sát bom mìn Quảng Trị 2018",
+        "year": 2018
+      },
+      "id": "cuu-chien-binh-my-khao-sat-bom-min-quang-tri-2018",
+      "images": [
+        {
+          "caption": "Cựu chiến binh Mỹ khảo sát bom mìn Quảng Trị 2018 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1G7u8r6OhmoCzJRi2DfiI1giUpMFXTAOS/view",
+          "filename": "cuu-chien-binh-my-khao-sat-bom-min-quang-tri-2018_01.jpg",
+          "id": "cuu-chien-binh-my-khao-sat-bom-min-quang-tri-2018_01",
+          "view": "toan-canh",
+          "year": 2018
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Cựu chiến binh Mỹ khảo sát bom mìn Quảng Trị 2018",
+      "slug": "cuu-chien-binh-my-khao-sat-bom-min-quang-tri-2018",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "2018"
+      ]
+    }
+  ]
+}

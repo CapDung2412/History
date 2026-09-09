@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày giới thiệu kết luận tòa án Bertrand Russell ve tội ác chiến tranh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Bảng kết luận tòa án Bertrand Russell ve tội ác chiến tranh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng kết luận tòa án Bertrand Russell ve tội ác chiến tranh",
+        "year": null
+      },
+      "id": "bang-ket-luan-toa-an-bertrand-russell-ve-toi-ac-chien-tranh",
+      "images": [
+        {
+          "caption": "Bảng kết luận tòa án Bertrand Russell ve tội ác chiến tranh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1z_jVNK2478k626IEbCeenz7JOo-PVL_y/view",
+          "filename": "bang-ket-luan-toa-an-bertrand-russell-ve-toi-ac-chien-tranh_01.jpg",
+          "id": "bang-ket-luan-toa-an-bertrand-russell-ve-toi-ac-chien-tranh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng kết luận tòa án Bertrand Russell ve tội ác chiến tranh",
+      "slug": "bang-ket-luan-toa-an-bertrand-russell-ve-toi-ac-chien-tranh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}

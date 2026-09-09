@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại tàu tuần tra ẩn nấp kênh Vĩnh Tế. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Tàu tuần tra ẩn nấp kênh Vĩnh Tế",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Tàu tuần tra ẩn nấp kênh Vĩnh Tế",
+        "year": null
+      },
+      "id": "tau-tuan-tra-an-nap-kenh-vinh-te",
+      "images": [
+        {
+          "caption": "Tàu tuần tra ẩn nấp kênh Vĩnh Tế – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1YTQIIh74utEIVTOEZ9Vz7ekR73QBn32b/view",
+          "filename": "tau-tuan-tra-an-nap-kenh-vinh-te_01.jpg",
+          "id": "tau-tuan-tra-an-nap-kenh-vinh-te_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tàu tuần tra ẩn nấp kênh Vĩnh Tế",
+      "slug": "tau-tuan-tra-an-nap-kenh-vinh-te",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

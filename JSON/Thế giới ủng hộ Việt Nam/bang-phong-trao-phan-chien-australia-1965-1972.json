@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày tổng hợp phong trào phản chiến Australia 1965–1972. Nội dung nêu các hoạt động, lực lượng tham gia và hình thức đóng góp cụ thể đối với Việt Nam. Các tên riêng, mốc thời gian và nội dung được trình bày trên bảng là căn cứ để đọc đúng các ảnh và hiện vật đi kèm. Nhờ đó, người xem có thể phân biệt rõ nhân vật, tổ chức, sự kiện và hình thức đóng góp được giới thiệu trong chuyên đề.",
+        "event": "Bảng phong trào phản chiến Australia 1965–1972",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng phong trào phản chiến Australia 1965–1972",
+        "year": 1972
+      },
+      "id": "bang-phong-trao-phan-chien-australia-1965-1972",
+      "images": [
+        {
+          "caption": "Bảng phong trào phản chiến Australia 1965–1972 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1TlkOb-0iRfE4GvlEL-J0pF0TTghPDrXp/view",
+          "filename": "bang-phong-trao-phan-chien-australia-1965-1972_01.jpg",
+          "id": "bang-phong-trao-phan-chien-australia-1965-1972_01",
+          "view": "toan-canh",
+          "year": 1972
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng phong trào phản chiến Australia 1965–1972",
+      "slug": "bang-phong-trao-phan-chien-australia-1965-1972",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_panel",
+        "chau-dai-duong",
+        "1972"
+      ]
+    }
+  ]
+}

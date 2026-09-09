@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Tờ báo “Con tàu hòa bình” của Nhật Bản năm 1968 truyền tải thông tin và thông điệp phản chiến liên quan đến Việt Nam. Tư liệu thể hiện vai trò của báo chí trong kết nối những người ủng hộ hòa bình. Nội dung của tài liệu hướng tới công chúng tại châu Á, giúp họ tiếp cận thông tin và quan điểm liên quan đến Việt Nam. Hiện vật chứng minh sách báo, văn kiện và thông điệp bằng chữ viết là một kênh quan trọng để hình thành và lan tỏa dư luận quốc tế.",
+        "event": "Tờ báo Con tàu hòa bình Nhật Bản 1968",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Tờ báo Con tàu hòa bình Nhật Bản 1968",
+        "year": 1968
+      },
+      "id": "to-bao-con-tau-hoa-binh-nhat-ban-1968",
+      "images": [
+        {
+          "caption": "Tờ báo Con tàu hòa bình Nhật Bản 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1f4MsxgsSNmdgTvGqLYAGEDfSaE1957Nr/view",
+          "filename": "to-bao-con-tau-hoa-binh-nhat-ban-1968_01.jpg",
+          "id": "to-bao-con-tau-hoa-binh-nhat-ban-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tờ báo Con tàu hòa bình Nhật Bản 1968",
+      "slug": "to-bao-con-tau-hoa-binh-nhat-ban-1968",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-a",
+        "1968"
+      ]
+    }
+  ]
+}

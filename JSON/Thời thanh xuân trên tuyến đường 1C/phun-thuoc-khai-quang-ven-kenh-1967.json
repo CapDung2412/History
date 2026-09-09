@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại phun thuốc khai quang ven kênh 1967. Mốc thời gian được ghi nhận là năm 1967, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Phun thuốc khai quang ven kênh 1967",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Phun thuốc khai quang ven kênh 1967",
+        "year": 1967
+      },
+      "id": "phun-thuoc-khai-quang-ven-kenh-1967",
+      "images": [
+        {
+          "caption": "Phun thuốc khai quang ven kênh 1967 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1ZkEEXx9511LNGrtcUgm6VpDnPWb0dO7l/view",
+          "filename": "phun-thuoc-khai-quang-ven-kenh-1967_01.jpg",
+          "id": "phun-thuoc-khai-quang-ven-kenh-1967_01",
+          "view": "toan-canh",
+          "year": 1967
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Phun thuốc khai quang ven kênh 1967",
+      "slug": "phun-thuoc-khai-quang-ven-kenh-1967",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1967"
+      ]
+    }
+  ]
+}
+

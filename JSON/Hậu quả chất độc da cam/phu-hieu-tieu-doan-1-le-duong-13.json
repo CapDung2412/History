@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phu-hieu-tieu-doan-1-le-duong-13",
+      "name": "Phù hiệu Tiểu đoàn 1 Lê dương số 13",
+      "slug": "phu-hieu-tieu-doan-1-le-duong-13",
+      "category": "military_insignia",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_insignia",
+        "phu-hieu-tieu-doan-1-le-duong-13"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Phù hiệu Tiểu đoàn 1 Lê dương số 13",
+        "description": "Hiện vật được nhận diện là Phù hiệu Tiểu đoàn 1 Lê dương số 13. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Phù hiệu thể hiện dấu hiệu nhận diện của đơn vị quân sự được nêu trong tên hiện vật. Bộ hiện vật bổ sung thông tin về tổ chức, nguồn gốc và biểu trưng của các đơn vị xuất hiện trong bối cảnh chiến tranh.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Phù hiệu Tiểu đoàn 1 Lê dương số 13",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phu-hieu-tieu-doan-1-le-duong-13_01",
+          "filename": "phu-hieu-tieu-doan-1-le-duong-13_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1M2mg5cqQg7Way0u9ut5FH_VgWINP8bQT/view",
+          "caption": "Phù hiệu Tiểu đoàn 1 Lê dương số 13 – góc chụp 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-1-le-duong-13_02",
+          "filename": "phu-hieu-tieu-doan-1-le-duong-13_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1vaACuigu-w6j15CLUWniCdIzFavZKSaH/view",
+          "caption": "Phù hiệu Tiểu đoàn 1 Lê dương số 13 – góc chụp 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-1-le-duong-13_03",
+          "filename": "phu-hieu-tieu-doan-1-le-duong-13_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xwxkJjN34PEBe_jLdvhw55DNEhYruZVf/view",
+          "caption": "Phù hiệu Tiểu đoàn 1 Lê dương số 13 – góc chụp 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-1-le-duong-13_04",
+          "filename": "phu-hieu-tieu-doan-1-le-duong-13_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zs8wHEG-yzlMFTaas9OdBryta3qucNwb/view",
+          "caption": "Phù hiệu Tiểu đoàn 1 Lê dương số 13 – góc chụp 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}
+

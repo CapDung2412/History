@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Người Pháp treo cờ Mặt trận Giải phóng 1970”. Tư liệu cung cấp bằng chứng trực quan về sự quan tâm và ủng hộ của cộng đồng quốc tế đối với Việt Nam. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với châu Âu. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Người Pháp treo cờ Mặt trận Giải phóng 1970",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Người Pháp treo cờ Mặt trận Giải phóng 1970",
+        "year": 1970
+      },
+      "id": "nguoi-phap-treo-co-mat-tran-giai-phong-1970",
+      "images": [
+        {
+          "caption": "Người Pháp treo cờ Mặt trận Giải phóng 1970 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1chN0zhdYZ33laLInKmF0zOrEo9OP_Jx1/view",
+          "filename": "nguoi-phap-treo-co-mat-tran-giai-phong-1970_01.jpg",
+          "id": "nguoi-phap-treo-co-mat-tran-giai-phong-1970_01",
+          "view": "toan-canh",
+          "year": 1970
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Người Pháp treo cờ Mặt trận Giải phóng 1970",
+      "slug": "nguoi-phap-treo-co-mat-tran-giai-phong-1970",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-au",
+        "1970"
+      ]
+    }
+  ]
+}

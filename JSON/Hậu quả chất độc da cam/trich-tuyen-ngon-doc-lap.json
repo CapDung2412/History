@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "trich-tuyen-ngon-doc-lap",
+      "name": "Trích Tuyên ngôn Độc lập",
+      "slug": "trich-tuyen-ngon-doc-lap",
+      "category": "documentary_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "documentary_artifact",
+        "trich-tuyen-ngon-doc-lap"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Trích Tuyên ngôn Độc lập",
+        "description": "Tư liệu trình bày một trích đoạn của Tuyên ngôn Độc lập. Văn kiện gắn với sự kiện tuyên bố nền độc lập của Việt Nam năm 1945. Hình ảnh tập trung vào phần văn bản lịch sử – chính trị, không phải hiện vật hóa học hoặc quân sự. Vì vậy, tư liệu cần được nhận diện tách biệt với nhóm chất độc da cam/dioxin.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Trích Tuyên ngôn Độc lập",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "trich-tuyen-ngon-doc-lap_01",
+          "filename": "trich-tuyen-ngon-doc-lap_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1yT4RjaU3dDl60Hm2DUoIIW8FwZDe1BSJ/view",
+          "caption": "Trích Tuyên ngôn Độc lập – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}

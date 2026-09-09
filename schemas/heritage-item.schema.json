@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Di San Lens dataset document",
+  "type": "object",
+  "required": ["dataset_name", "version", "locations"],
+  "properties": {
+    "dataset_name": {"type": "string", "minLength": 1},
+    "version": {"type": "string", "minLength": 1},
+    "locations": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "slug", "category", "tags", "location", "historical_info", "images"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "name": {"type": "string", "minLength": 1},
+          "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "category": {"type": "string", "minLength": 1},
+          "tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "location": {
+            "type": "object",
+            "required": ["address", "city", "province", "country", "latitude", "longitude"],
+            "properties": {
+              "address": {"type": ["string", "null"]}, "city": {"type": ["string", "null"]},
+              "province": {"type": ["string", "null"]}, "country": {"type": ["string", "null"]},
+              "latitude": {"type": ["number", "null"]}, "longitude": {"type": ["number", "null"]}
+            }, "additionalProperties": true
+          },
+          "historical_info": {
+            "type": "object", "required": ["title", "description", "historical_period", "year", "event", "source"],
+            "properties": {
+              "title": {"type": "string", "minLength": 1}, "description": {"type": "string", "minLength": 1},
+              "historical_period": {"type": ["string", "null"]}, "year": {"type": ["integer", "null"]},
+              "event": {"type": ["string", "null"]}, "source": {"type": ["string", "null"]}
+            }, "additionalProperties": true
+          },
+          "images": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object", "required": ["id", "filename", "drive_url", "caption", "year", "view"],
+              "properties": {
+                "id": {"type": "string", "minLength": 1},
+                "filename": {"type": "string", "minLength": 1},
+                "drive_url": {"type": ["string", "null"]}, "caption": {"type": "string", "minLength": 1},
+                "year": {"type": ["integer", "null"]}, "view": {"type": ["string", "null"]}
+              }, "additionalProperties": true
+            }
+          }
+        }, "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

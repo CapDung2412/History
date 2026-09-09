@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "tranh-va-vo-tre-em-nhiem-da-cam",
+      "name": "Tranh và vở của trẻ em nhiễm chất độc da cam",
+      "slug": "tranh-va-vo-tre-em-nhiem-da-cam",
+      "category": "documentary_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "documentary_artifact",
+        "tranh-va-vo-tre-em-nhiem-da-cam"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tranh và vở của trẻ em nhiễm chất độc da cam",
+        "description": "Tư liệu trình bày tranh và vở của trẻ em nhiễm chất độc da cam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung phản ánh thương tổn, lời chứng, nhu cầu phục hồi hoặc hành trình đòi công lý của những người chịu ảnh hưởng chất độc da cam/dioxin. Tư liệu nhấn mạnh hậu quả lâu dài đối với con người và sự cần thiết của hoạt động chăm sóc, hỗ trợ và bảo vệ quyền lợi nạn nhân.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Tranh và vở của trẻ em nhiễm chất độc da cam",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "tranh-va-vo-tre-em-nhiem-da-cam_01",
+          "filename": "tranh-va-vo-tre-em-nhiem-da-cam_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1avvzBLQIBWSIb1PrWLc1F1Hb5BhlnWfi/view",
+          "caption": "Tranh và vở của trẻ em nhiễm chất độc da cam – góc chụp 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "tranh-va-vo-tre-em-nhiem-da-cam_02",
+          "filename": "tranh-va-vo-tre-em-nhiem-da-cam_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/189Gie2uTUw-tJaC_uuuNAvN4pV5fEhnt/view",
+          "caption": "Tranh và vở của trẻ em nhiễm chất độc da cam – góc chụp 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "tranh-va-vo-tre-em-nhiem-da-cam_03",
+          "filename": "tranh-va-vo-tre-em-nhiem-da-cam_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1yl71Nhk09db6enKM4H6LcQlqeS7H260z/view",
+          "caption": "Tranh và vở của trẻ em nhiễm chất độc da cam – góc chụp 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "tranh-va-vo-tre-em-nhiem-da-cam_04",
+          "filename": "tranh-va-vo-tre-em-nhiem-da-cam_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1nSbrnCkZiFodmdu_dcRVW8Hu8IvLr6Wj/view",
+          "caption": "Tranh và vở của trẻ em nhiễm chất độc da cam – góc chụp 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "tranh-va-vo-tre-em-nhiem-da-cam_05",
+          "filename": "tranh-va-vo-tre-em-nhiem-da-cam_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/18Lmf4RJovyJIj0REZYqdkNR5JaWtOWMU/view",
+          "caption": "Tranh và vở của trẻ em nhiễm chất độc da cam – góc chụp 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}
+

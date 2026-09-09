@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ đốt nhà ở Sơn Mỹ. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung gắn với sự kiện Sơn Mỹ, ghi lại dân thường, lực lượng quân sự hoặc dấu tích tại địa điểm xảy ra vụ việc. Tư liệu là một phần bằng chứng hình ảnh về số phận dân thường và diễn biến của tội ác chiến tranh tại Sơn Mỹ.",
+        "event": "Ảnh lính Mỹ đốt nhà ở Sơn Mỹ",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ đốt nhà ở Sơn Mỹ",
+        "year": null
+      },
+      "id": "anh-linh-my-dot-nha-o-son-my",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ đốt nhà ở Sơn Mỹ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Nh2AWv6CotZEqzwftqGR5SNZp8vEBqR8/view",
+          "filename": "anh-linh-my-dot-nha-o-son-my_01.jpg",
+          "id": "anh-linh-my-dot-nha-o-son-my_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ đốt nhà ở Sơn Mỹ",
+      "slug": "anh-linh-my-dot-nha-o-son-my",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại quân đội Mỹ đem xác nạn nhân. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể trung tâm là nạn nhân, thân nhân hoặc dấu tích gia đình chịu hậu quả của bom đạn và bạo lực chiến tranh. Hình ảnh giúp nhận diện hậu quả chiến tranh qua những trường hợp con người và gia đình cụ thể.",
+        "event": "Ảnh quân đội Mỹ đem xác nạn nhân",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh quân đội Mỹ đem xác nạn nhân",
+        "year": null
+      },
+      "id": "anh-quan-doi-my-dem-xac-nan-nhan",
+      "images": [
+        {
+          "caption": "Ảnh quân đội Mỹ đem xác nạn nhân – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/180kgu5c6qXeLA93fbRsapzVmbeeURruY/view",
+          "filename": "anh-quan-doi-my-dem-xac-nan-nhan_01.jpg",
+          "id": "anh-quan-doi-my-dem-xac-nan-nhan_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh quân đội Mỹ đem xác nạn nhân",
+      "slug": "anh-quan-doi-my-dem-xac-nan-nhan",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

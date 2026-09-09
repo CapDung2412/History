@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đại liên browning M2. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Đại liên browning M2",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đại liên browning M2",
+        "year": null
+      },
+      "id": "dai-lien-browning-m2",
+      "images": [
+        {
+          "caption": "Đại liên browning M2 – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1-hVLSo4aKxGKk-Kueb-mGXafl6U9c5nG/view",
+          "filename": "dai-lien-browning-m2_01.jpg",
+          "id": "dai-lien-browning-m2_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đại liên browning M2 – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1rJlxtqT3Jfd_O33xGjBXnhgxpsWUlS4O/view",
+          "filename": "dai-lien-browning-m2_02.jpg",
+          "id": "dai-lien-browning-m2_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đại liên browning M2 – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1HpzxdupY9bioVYYPL0qXa2s04WWkuprd/view",
+          "filename": "dai-lien-browning-m2_03.jpg",
+          "id": "dai-lien-browning-m2_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Đại liên browning M2 – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1OWUEY1Y2CaeR_N1G-t8-w6oNJ-9Od3m2/view",
+          "filename": "dai-lien-browning-m2_04.jpg",
+          "id": "dai-lien-browning-m2_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đại liên browning M2",
+      "slug": "dai-lien-browning-m2",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

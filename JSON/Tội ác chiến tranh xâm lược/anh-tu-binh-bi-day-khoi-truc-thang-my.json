@@ -1,0 +1,50 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại tù binh bị đẩy khỏi trực thăng Mỹ. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là ảnh tù binh bị đẩy khỏi trực thăng Mỹ. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Ảnh tù binh bị đẩy khỏi trực thăng Mỹ",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh tù binh bị đẩy khỏi trực thăng Mỹ",
+        "year": null
+      },
+      "id": "anh-tu-binh-bi-day-khoi-truc-thang-my",
+      "images": [
+        {
+          "caption": "Ảnh tù binh bị đẩy khỏi trực thăng Mỹ – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1FaRLWLPmiblS6sHP-UJFuv9YMhkpBzyY/view",
+          "filename": "anh-tu-binh-bi-day-khoi-truc-thang-my_01.jpg",
+          "id": "anh-tu-binh-bi-day-khoi-truc-thang-my_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Ảnh tù binh bị đẩy khỏi trực thăng Mỹ – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1Ov40pNIciXJGRg3vOMdar2qf8jDUP1dG/view",
+          "filename": "anh-tu-binh-bi-day-khoi-truc-thang-my_02.jpg",
+          "id": "anh-tu-binh-bi-day-khoi-truc-thang-my_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh tù binh bị đẩy khỏi trực thăng Mỹ",
+      "slug": "anh-tu-binh-bi-day-khoi-truc-thang-my",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

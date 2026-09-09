@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại cuộc gặp giữa Chủ tịch Hồ Chí Minh và Chủ tịch Mao Trạch Đông năm 1959. Cuộc gặp phản ánh quan hệ Việt Nam – Trung Quốc và sự ủng hộ quốc tế dành cho Việt Nam trong thời kỳ kháng chiến chống Mỹ. Nhân vật và tổ chức xuất hiện trong sự kiện đã chuyển sự đồng tình với Việt Nam thành hoạt động ngoại giao, pháp lý hoặc hợp tác chính thức. Tư liệu giúp xác định vai trò của châu Á trong việc tạo thêm sự ủng hộ chính trị, ngoại giao và pháp lý cho Việt Nam.",
+        "event": "Hồ Chí Minh gặp Mao Trạch Đông 1959",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Hồ Chí Minh gặp Mao Trạch Đông 1959",
+        "year": 1959
+      },
+      "id": "ho-chi-minh-gap-mao-trach-dong-1959",
+      "images": [
+        {
+          "caption": "Hồ Chí Minh gặp Mao Trạch Đông 1959 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1WOWw-4SpAKU3D5al04EwPeFsd2PJZQYT/view",
+          "filename": "ho-chi-minh-gap-mao-trach-dong-1959_01.jpg",
+          "id": "ho-chi-minh-gap-mao-trach-dong-1959_01",
+          "view": "toan-canh",
+          "year": 1959
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hồ Chí Minh gặp Mao Trạch Đông 1959",
+      "slug": "ho-chi-minh-gap-mao-trach-dong-1959",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-a",
+        "1959"
+      ]
+    }
+  ]
+}

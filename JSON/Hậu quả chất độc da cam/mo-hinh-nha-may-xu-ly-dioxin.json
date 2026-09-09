@@ -1,0 +1,124 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "mo-hinh-nha-may-xu-ly-dioxin",
+      "name": "Mô hình nhà máy xử lý dioxin",
+      "slug": "mo-hinh-nha-may-xu-ly-dioxin",
+      "category": "historical_model",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "historical_model",
+        "mo-hinh-nha-may-xu-ly-dioxin"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Mô hình nhà máy xử lý dioxin",
+        "description": "Không gian hoặc bộ trưng bày tập trung vào mô hình nhà máy xử lý dioxin. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung ghi nhận hoạt động xử lý ô nhiễm dioxin và khắc phục các điểm tồn lưu sau chiến tranh. Tư liệu cho thấy quá trình khắc phục hậu quả được triển khai bằng khảo sát, công nghệ xử lý và hợp tác giữa các bên liên quan.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Mô hình nhà máy xử lý dioxin",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_01",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/13tzR5tMGFYOf1pP6_t4py3NpNPwcEMYG/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 1/11.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_02",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1fKKkxZO9K_BG9Rx0ALgq2UNVqLUdWiAq/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 2/11.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_03",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1kK8JfZ5Y5cJsHgq5ZcujsBaMWAYuJaOv/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 3/11.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_04",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1y8qmzPjBbEiGm7pizegJay-_vz84fUYv/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 4/11.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_05",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1YGiE_e0fbexJy7dRTrkjNlHeQMrxQqo_/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 5/11.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_06",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1IeCvkW4PYMNe7xgLZcN_X2MU8mHrZwO9/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 6/11.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_07",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Q3RW05pBAhgkMIly2zPgjnbXR4PbkkEk/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 7/11.",
+          "year": null,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_08",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1kBulI_jbWRnvDks1AhBXMX4U_dzv3htV/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 8/11.",
+          "year": null,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_09",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_09.jpg",
+          "drive_url": "https://drive.google.com/file/d/1AfmArkR7Zz0_ZbhYNoDNHc-3mM8cM3aV/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 9/11.",
+          "year": null,
+          "view": "goc-nhin-09"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_10",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_10.jpg",
+          "drive_url": "https://drive.google.com/file/d/1cVmZTb4me0H4PH5NIR-FC3W2tfDm8FPE/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 10/11.",
+          "year": null,
+          "view": "goc-nhin-10"
+        },
+        {
+          "id": "mo-hinh-nha-may-xu-ly-dioxin_11",
+          "filename": "mo-hinh-nha-may-xu-ly-dioxin_11.jpg",
+          "drive_url": "https://drive.google.com/file/d/1WqRqC6qeA8XSBmjZtPvm47m1pnsUuGpi/view",
+          "caption": "Mô hình nhà máy xử lý dioxin – góc chụp 11/11.",
+          "year": null,
+          "view": "goc-nhin-11"
+        }
+      ]
+    }
+  ]
+}
+

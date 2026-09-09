@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng giới thiệu cung cấp thông tin về Walter Eugene Wilber. Nội dung giúp xác định nhân vật hoặc tổ chức, hoạt động chính và mối liên hệ của họ với phong trào ủng hộ Việt Nam. Các tên riêng, mốc thời gian và nội dung được trình bày trên bảng là căn cứ để đọc đúng các ảnh và hiện vật đi kèm. Nhờ đó, người xem có thể phân biệt rõ nhân vật, tổ chức, sự kiện và hình thức đóng góp được giới thiệu trong chuyên đề.",
+        "event": "Bảng giới thiệu Walter Eugene Wilber",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng giới thiệu Walter Eugene Wilber",
+        "year": null
+      },
+      "id": "bang-gioi-thieu-walter-eugene-wilber",
+      "images": [
+        {
+          "caption": "Bảng giới thiệu Walter Eugene Wilber – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1e_pLE01fQRy6IdKEfkG_RC_CjJpfDDCi/view",
+          "filename": "bang-gioi-thieu-walter-eugene-wilber_01.jpg",
+          "id": "bang-gioi-thieu-walter-eugene-wilber_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng giới thiệu Walter Eugene Wilber",
+      "slug": "bang-gioi-thieu-walter-eugene-wilber",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_panel",
+        "chau-my"
+      ]
+    }
+  ]
+}

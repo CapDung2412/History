@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bang-cac-loai-chat-diet-co-quan-doi-my-su-dung",
+      "name": "Bảng các loại chất diệt cỏ quân đội Mỹ sử dụng",
+      "slug": "bang-cac-loai-chat-diet-co-quan-doi-my-su-dung",
+      "category": "exhibition_panel",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "exhibition_panel",
+        "bang-cac-loai-chat-diet-co-quan-doi-my-su-dung"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng các loại chất diệt cỏ quân đội Mỹ sử dụng",
+        "description": "Tư liệu trình bày bảng các loại chất diệt cỏ quân đội Mỹ sử dụng. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung liên quan đến việc nhận diện, sử dụng hoặc phân bố các chất diệt cỏ và chất độc hóa học trong chiến tranh. Tư liệu giúp xác định phạm vi chiến dịch, loại hóa chất hoặc dấu tích vật chứa còn được lưu giữ trong trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Bảng các loại chất diệt cỏ quân đội Mỹ sử dụng",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "bang-cac-loai-chat-diet-co-quan-doi-my-su-dung_01",
+          "filename": "bang-cac-loai-chat-diet-co-quan-doi-my-su-dung_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Ev2ZRUENssUNrpSFMp4SJniIlAp-Q4-m/view",
+          "caption": "Bảng các loại chất diệt cỏ quân đội Mỹ sử dụng – góc chụp 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bang-cac-loai-chat-diet-co-quan-doi-my-su-dung_02",
+          "filename": "bang-cac-loai-chat-diet-co-quan-doi-my-su-dung_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1lk5ayhwYbO_r8e-kWI7B9dZW02KKF2vq/view",
+          "caption": "Bảng các loại chất diệt cỏ quân đội Mỹ sử dụng – góc chụp 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}
+

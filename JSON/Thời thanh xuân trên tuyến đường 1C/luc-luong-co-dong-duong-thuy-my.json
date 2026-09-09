@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lực lượng cơ động đường thủy Mỹ. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Lực lượng cơ động đường thủy Mỹ",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Lực lượng cơ động đường thủy Mỹ",
+        "year": null
+      },
+      "id": "luc-luong-co-dong-duong-thuy-my",
+      "images": [
+        {
+          "caption": "Lực lượng cơ động đường thủy Mỹ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1WdZovCgPq0Ll2bCx7ZhfbZSjKneL04fQ/view",
+          "filename": "luc-luong-co-dong-duong-thuy-my_01.jpg",
+          "id": "luc-luong-co-dong-duong-thuy-my_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Lực lượng cơ động đường thủy Mỹ",
+      "slug": "luc-luong-co-dong-duong-thuy-my",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

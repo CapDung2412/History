@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phao-tu-hanh",
+      "name": "Pháo tự hành",
+      "slug": "phao-tu-hanh",
+      "category": "military_vehicle",
+      "tags": [
+        "may-bay-xe-tang-truc-thang",
+        "military_vehicle",
+        "phao-tu-hanh"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Pháo tự hành",
+        "description": "Hiện vật được nhận diện là Pháo tự hành. Hiện vật được đặt trong bối cảnh Chiến tranh Việt Nam (1954–1975). Pháo được đặt trên khung xe tự hành, kết hợp hỏa lực pháo binh với khả năng cơ động của phương tiện. Hiện vật đại diện cho nhóm pháo có thể di chuyển cùng hệ thống mang pháo.",
+        "historical_period": "Chiến tranh Việt Nam (1954–1975)",
+        "year": null,
+        "event": "Pháo tự hành",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phao-tu-hanh_01",
+          "filename": "phao-tu-hanh_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1A6xFTcxA24jklJAbKx17G_7JvUGbbcKo/view",
+          "caption": "Pháo tự hành – góc chụp 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "phao-tu-hanh_02",
+          "filename": "phao-tu-hanh_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/16wp4OWzCkDWzALy_41pbTGbuUg-PNe0Q/view",
+          "caption": "Pháo tự hành – góc chụp 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đại liên a6 1919. Mốc thời gian được ghi nhận là năm 1919, thuộc bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Đại liên a6 1919",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đại liên a6 1919",
+        "year": 1919
+      },
+      "id": "dai-lien-a6-1919",
+      "images": [
+        {
+          "caption": "Đại liên a6 1919 – góc chụp 1/5.",
+          "drive_url": "https://drive.google.com/file/d/1bqaPfKJCuqi-tFDr1pM07f7jfIdks1DS/view",
+          "filename": "dai-lien-a6-1919_01.jpg",
+          "id": "dai-lien-a6-1919_01",
+          "view": "goc-nhin-01",
+          "year": 1919
+        },
+        {
+          "caption": "Đại liên a6 1919 – góc chụp 2/5.",
+          "drive_url": "https://drive.google.com/file/d/1IHmdicbpLRUuj91NbTINFBooXGB7uMTB/view",
+          "filename": "dai-lien-a6-1919_02.jpg",
+          "id": "dai-lien-a6-1919_02",
+          "view": "goc-nhin-02",
+          "year": 1919
+        },
+        {
+          "caption": "Đại liên a6 1919 – góc chụp 3/5.",
+          "drive_url": "https://drive.google.com/file/d/13wqcSuitwTf50rQEm6q7Ax6ljd5V8vH6/view",
+          "filename": "dai-lien-a6-1919_03.jpg",
+          "id": "dai-lien-a6-1919_03",
+          "view": "goc-nhin-03",
+          "year": 1919
+        },
+        {
+          "caption": "Đại liên a6 1919 – góc chụp 4/5.",
+          "drive_url": "https://drive.google.com/file/d/1QdLc_ruhz8AHu7_brqq6D9p3ZRuw8nG6/view",
+          "filename": "dai-lien-a6-1919_04.jpg",
+          "id": "dai-lien-a6-1919_04",
+          "view": "goc-nhin-04",
+          "year": 1919
+        },
+        {
+          "caption": "Đại liên a6 1919 – góc chụp 5/5.",
+          "drive_url": "https://drive.google.com/file/d/1GhHFXqlo9ijMUxKSa94JugeV3-rvami9/view",
+          "filename": "dai-lien-a6-1919_05.jpg",
+          "id": "dai-lien-a6-1919_05",
+          "view": "goc-nhin-05",
+          "year": 1919
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đại liên a6 1919",
+      "slug": "dai-lien-a6-1919",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact",
+        "1919"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại càn quét biên giới Giang Thành 1966. Mốc thời gian được ghi nhận là năm 1966, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Càn quét biên giới Giang Thành 1966",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Càn quét biên giới Giang Thành 1966",
+        "year": 1966
+      },
+      "id": "can-quet-bien-gioi-giang-thanh-1966",
+      "images": [
+        {
+          "caption": "Càn quét biên giới Giang Thành 1966 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1i-gKkKo0ACLLuIOeVfPvbMkCGir3m_wN/view",
+          "filename": "can-quet-bien-gioi-giang-thanh-1966_01.jpg",
+          "id": "can-quet-bien-gioi-giang-thanh-1966_01",
+          "view": "toan-canh",
+          "year": 1966
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Càn quét biên giới Giang Thành 1966",
+      "slug": "can-quet-bien-gioi-giang-thanh-1966",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1966"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại cấp cứu nạn nhân bom mìn. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hình ảnh cho thấy thiệt hại đối với con người, gia đình, công trình hoặc khu dân cư do bom đạn gây ra. Tư liệu làm rõ hậu quả trực tiếp của hoạt động đánh phá đối với dân thường và cơ sở dân sinh.",
+        "event": "Ảnh cấp cứu nạn nhân bom mìn",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh cấp cứu nạn nhân bom mìn",
+        "year": null
+      },
+      "id": "anh-cap-cuu-nan-nhan-bom-min",
+      "images": [
+        {
+          "caption": "Ảnh cấp cứu nạn nhân bom mìn – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1QzYEGoRp783MZXkR50y4Gn-Cpn9y2eWs/view",
+          "filename": "anh-cap-cuu-nan-nhan-bom-min_01.jpg",
+          "id": "anh-cap-cuu-nan-nhan-bom-min_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh cấp cứu nạn nhân bom mìn",
+      "slug": "anh-cap-cuu-nan-nhan-bom-min",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

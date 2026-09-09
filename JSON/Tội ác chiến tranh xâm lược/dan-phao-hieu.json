@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đạn pháo hiệu. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Đạn pháo hiệu",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đạn pháo hiệu",
+        "year": null
+      },
+      "id": "dan-phao-hieu",
+      "images": [
+        {
+          "caption": "Đạn pháo hiệu – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1Rj4o1X8BwA8nksInyATAXL1J_Rni3pf9/view",
+          "filename": "dan-phao-hieu_01.jpg",
+          "id": "dan-phao-hieu_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đạn pháo hiệu – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1KmE0MXwS87G1RhiBHCOTHMaZrU3D58yW/view",
+          "filename": "dan-phao-hieu_02.jpg",
+          "id": "dan-phao-hieu_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đạn pháo hiệu – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/11ZF2nLe-xQ2axezimgvcZVXQxo4L0K7y/view",
+          "filename": "dan-phao-hieu_03.jpg",
+          "id": "dan-phao-hieu_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đạn pháo hiệu",
+      "slug": "dan-phao-hieu",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "museum_exhibition",
+      "historical_info": {
+        "description": "Không gian trưng bày giới thiệu nạn nhân bom đạn. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Không gian trưng bày nạn nhân bom đạn",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Không gian trưng bày nạn nhân bom đạn",
+        "year": null
+      },
+      "id": "khong-gian-trung-bay-nan-nhan-bom-dan",
+      "images": [
+        {
+          "caption": "Không gian trưng bày nạn nhân bom đạn – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1hMVujWtryDuVAsl9NSQQ4rBg0eMBnJdh/view",
+          "filename": "khong-gian-trung-bay-nan-nhan-bom-dan_01.jpg",
+          "id": "khong-gian-trung-bay-nan-nhan-bom-dan_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Không gian trưng bày nạn nhân bom đạn",
+      "slug": "khong-gian-trung-bay-nan-nhan-bom-dan",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "museum_exhibition"
+      ]
+    }
+  ]
+}

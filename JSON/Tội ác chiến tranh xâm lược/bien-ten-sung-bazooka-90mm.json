@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Biển tên súng bazooka 90mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm vũ khí chống tăng hoặc súng không giật, dùng để tấn công mục tiêu bọc thép hay công sự. Tư liệu giúp phân biệt nhóm vũ khí hỏa lực mạnh với súng bộ binh thông thường.",
+        "event": "Biển tên súng bazooka 90mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Biển tên súng bazooka 90mm",
+        "year": null
+      },
+      "id": "bien-ten-sung-bazooka-90mm",
+      "images": [
+        {
+          "caption": "Biển tên súng bazooka 90mm – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1NxBqKKa7zBY-YLqEzKNnwL2OWy5QyJn5/view",
+          "filename": "bien-ten-sung-bazooka-90mm_01.jpg",
+          "id": "bien-ten-sung-bazooka-90mm_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Biển tên súng bazooka 90mm",
+      "slug": "bien-ten-sung-bazooka-90mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}
+

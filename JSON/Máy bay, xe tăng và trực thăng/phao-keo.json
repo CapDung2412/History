@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phao-keo",
+      "name": "Pháo kéo",
+      "slug": "phao-keo",
+      "category": "military_vehicle",
+      "tags": [
+        "may-bay-xe-tang-truc-thang",
+        "military_vehicle",
+        "phao-keo"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Pháo kéo",
+        "description": "Hiện vật được nhận diện là Pháo kéo. Hiện vật được đặt trong bối cảnh Chiến tranh Việt Nam (1954–1975). Pháo kéo được thiết kế để di chuyển nhờ phương tiện kéo và triển khai tại vị trí bắn. Hiện vật giúp phân biệt pháo kéo với pháo đặt trên khung xe tự hành.",
+        "historical_period": "Chiến tranh Việt Nam (1954–1975)",
+        "year": null,
+        "event": "Pháo kéo",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phao-keo_01",
+          "filename": "phao-keo_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1nE1ryo77ToirYqHzbotnVnziZsh1b6Tg/view",
+          "caption": "Pháo kéo – góc chụp 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "phao-keo_02",
+          "filename": "phao-keo_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1FadjM2GBWMvjp0wK0EmSSSuuGYG_45EM/view",
+          "caption": "Pháo kéo – góc chụp 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại máy bay OV-10 Bronco bắn rocket Zuni 1969. Mốc thời gian được ghi nhận là năm 1969, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Máy bay OV-10 Bronco bắn rocket Zuni 1969",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Máy bay OV-10 Bronco bắn rocket Zuni 1969",
+        "year": 1969
+      },
+      "id": "may-bay-ov10-bronco-ban-rocket-zuni-1969",
+      "images": [
+        {
+          "caption": "Máy bay OV-10 Bronco bắn rocket Zuni 1969 – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1Id3QiDmZICjE0DH61M2uzh8DrSyRheeL/view",
+          "filename": "may-bay-ov10-bronco-ban-rocket-zuni-1969_01.jpg",
+          "id": "may-bay-ov10-bronco-ban-rocket-zuni-1969_01",
+          "view": "goc-nhin-01",
+          "year": 1969
+        },
+        {
+          "caption": "Máy bay OV-10 Bronco bắn rocket Zuni 1969 – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1G00OFwMf34usOT3HQeq62igdkftAmbDP/view",
+          "filename": "may-bay-ov10-bronco-ban-rocket-zuni-1969_02.jpg",
+          "id": "may-bay-ov10-bronco-ban-rocket-zuni-1969_02",
+          "view": "goc-nhin-02",
+          "year": 1969
+        },
+        {
+          "caption": "Máy bay OV-10 Bronco bắn rocket Zuni 1969 – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1SyvbQgYT2ZGK7iJGsQOR6wwCzVseV_FM/view",
+          "filename": "may-bay-ov10-bronco-ban-rocket-zuni-1969_03.jpg",
+          "id": "may-bay-ov10-bronco-ban-rocket-zuni-1969_03",
+          "view": "goc-nhin-03",
+          "year": 1969
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Máy bay OV-10 Bronco bắn rocket Zuni 1969",
+      "slug": "may-bay-ov10-bronco-ban-rocket-zuni-1969",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1969"
+      ]
+    }
+  ]
+}
+

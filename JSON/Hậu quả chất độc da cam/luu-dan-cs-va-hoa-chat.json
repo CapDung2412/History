@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "luu-dan-cs-va-hoa-chat",
+      "name": "Lựu đạn CS và hóa chất",
+      "slug": "luu-dan-cs-va-hoa-chat",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "luu-dan-cs-va-hoa-chat"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lựu đạn CS và hóa chất",
+        "description": "Hiện vật được nhận diện là Lựu đạn CS và hóa chất. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Lựu đạn CS và hóa chất",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "luu-dan-cs-va-hoa-chat_01",
+          "filename": "luu-dan-cs-va-hoa-chat_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Tw_2bGCL3g4SK68sydNMNFu96NG8vnhZ/view",
+          "caption": "Lựu đạn CS và hóa chất – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

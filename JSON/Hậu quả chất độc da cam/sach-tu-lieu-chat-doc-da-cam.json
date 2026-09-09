@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "sach-tu-lieu-chat-doc-da-cam",
+      "name": "Sách tư liệu về chất độc da cam",
+      "slug": "sach-tu-lieu-chat-doc-da-cam",
+      "category": "documentary_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "documentary_artifact",
+        "sach-tu-lieu-chat-doc-da-cam"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Sách tư liệu về chất độc da cam",
+        "description": "Tư liệu trình bày sách tư liệu về chất độc da cam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Chủ thể được xác định trực tiếp là sách tư liệu về chất độc da cam. Tư liệu bổ sung thông tin cụ thể cho việc nhận diện hiện vật hoặc sự kiện trong không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Sách tư liệu về chất độc da cam",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "sach-tu-lieu-chat-doc-da-cam_01",
+          "filename": "sach-tu-lieu-chat-doc-da-cam_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1rgZtMWLtYJTWEpoy235SueZvZF3GXRHv/view",
+          "caption": "Sách tư liệu về chất độc da cam – góc chụp 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "sach-tu-lieu-chat-doc-da-cam_02",
+          "filename": "sach-tu-lieu-chat-doc-da-cam_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1st-EwTrAMvN9Jmp12ctQ7T0ktz7mx5R8/view",
+          "caption": "Sách tư liệu về chất độc da cam – góc chụp 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "sach-tu-lieu-chat-doc-da-cam_03",
+          "filename": "sach-tu-lieu-chat-doc-da-cam_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1p3x3vtmHWAvcqjab-Km-CTHfytzx5YC7/view",
+          "caption": "Sách tư liệu về chất độc da cam – góc chụp 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "sach-tu-lieu-chat-doc-da-cam_04",
+          "filename": "sach-tu-lieu-chat-doc-da-cam_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/18McaR1LF1ljU2IjlP01w-9x0sYZI269W/view",
+          "caption": "Sách tư liệu về chất độc da cam – góc chụp 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "sach-tu-lieu-chat-doc-da-cam_05",
+          "filename": "sach-tu-lieu-chat-doc-da-cam_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1pm7vP8NBOCHq6FK8Z5XUISRweRqaQFyr/view",
+          "caption": "Sách tư liệu về chất độc da cam – góc chụp 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}
+

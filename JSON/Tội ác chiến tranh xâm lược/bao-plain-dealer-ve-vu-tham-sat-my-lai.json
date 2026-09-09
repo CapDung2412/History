@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Tư liệu tập trung vào báo The Plain Dealer ve vụ thảm sát Mỹ Lai. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là báo The Plain Dealer ve vụ thảm sát Mỹ Lai. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Báo The Plain Dealer ve vụ thảm sát Mỹ Lai",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Báo The Plain Dealer ve vụ thảm sát Mỹ Lai",
+        "year": null
+      },
+      "id": "bao-plain-dealer-ve-vu-tham-sat-my-lai",
+      "images": [
+        {
+          "caption": "Báo The Plain Dealer ve vụ thảm sát Mỹ Lai – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1qQ_BcA7Nb3Fm_Goykn3CY9Q6Yl7Gzfvv/view",
+          "filename": "bao-plain-dealer-ve-vu-tham-sat-my-lai_01.jpg",
+          "id": "bao-plain-dealer-ve-vu-tham-sat-my-lai_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Báo The Plain Dealer ve vụ thảm sát Mỹ Lai – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1CeZYwkUNURd0vA3b5cUyvTfliDY3OBMb/view",
+          "filename": "bao-plain-dealer-ve-vu-tham-sat-my-lai_02.jpg",
+          "id": "bao-plain-dealer-ve-vu-tham-sat-my-lai_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Báo The Plain Dealer ve vụ thảm sát Mỹ Lai",
+      "slug": "bao-plain-dealer-ve-vu-tham-sat-my-lai",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "documentary_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Cuốn sách năm 1968 ghi lại quan điểm của bác sĩ Benjamin Spock về Việt Nam. Tư liệu phản ánh sự tham gia của giới trí thức và chuyên gia Mỹ trong phong trào phản đối chiến tranh. Nội dung của tài liệu hướng tới công chúng tại châu Mỹ, giúp họ tiếp cận thông tin và quan điểm liên quan đến Việt Nam. Hiện vật chứng minh sách báo, văn kiện và thông điệp bằng chữ viết là một kênh quan trọng để hình thành và lan tỏa dư luận quốc tế.",
+        "event": "Sách bác sĩ Spock nói về Việt Nam 1968",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Sách bác sĩ Spock nói về Việt Nam 1968",
+        "year": 1968
+      },
+      "id": "sach-bac-si-spock-noi-ve-viet-nam-1968",
+      "images": [
+        {
+          "caption": "Sách bác sĩ Spock nói về Việt Nam 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/17s8Q3tQ2KQbw0P6jup7ke0jZuKNL-9Gn/view",
+          "filename": "sach-bac-si-spock-noi-ve-viet-nam-1968_01.jpg",
+          "id": "sach-bac-si-spock-noi-ve-viet-nam-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Sách bác sĩ Spock nói về Việt Nam 1968",
+      "slug": "sach-bac-si-spock-noi-ve-viet-nam-1968",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-my",
+        "1968"
+      ]
+    }
+  ]
+}

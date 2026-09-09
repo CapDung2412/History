@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phu-hieu-tieu-doan-3-algeria-3",
+      "name": "Phù hiệu Tiểu đoàn 3 Algeria số 3",
+      "slug": "phu-hieu-tieu-doan-3-algeria-3",
+      "category": "military_insignia",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_insignia",
+        "phu-hieu-tieu-doan-3-algeria-3"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Phù hiệu Tiểu đoàn 3 Algeria số 3",
+        "description": "Hiện vật được nhận diện là Phù hiệu Tiểu đoàn 3 Algeria số 3. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Phù hiệu thể hiện dấu hiệu nhận diện của đơn vị quân sự được nêu trong tên hiện vật. Bộ hiện vật bổ sung thông tin về tổ chức, nguồn gốc và biểu trưng của các đơn vị xuất hiện trong bối cảnh chiến tranh.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Phù hiệu Tiểu đoàn 3 Algeria số 3",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phu-hieu-tieu-doan-3-algeria-3_01",
+          "filename": "phu-hieu-tieu-doan-3-algeria-3_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/15W7kz5dXE0mzAJOL2Tya3qei3w0n7_bO/view",
+          "caption": "Phù hiệu Tiểu đoàn 3 Algeria số 3 – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-3-algeria-3_02",
+          "filename": "phu-hieu-tieu-doan-3-algeria-3_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/12YIq24brQ54uP_a6XQfCa8k3al6fVV6r/view",
+          "caption": "Phù hiệu Tiểu đoàn 3 Algeria số 3 – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-3-algeria-3_03",
+          "filename": "phu-hieu-tieu-doan-3-algeria-3_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dgXkdo6Bqitn9SCmsoIUmzMwSggUUkvw/view",
+          "caption": "Phù hiệu Tiểu đoàn 3 Algeria số 3 – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

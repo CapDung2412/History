@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_space",
+      "historical_info": {
+        "description": "Cụm sắp đặt nghệ thuật sử dụng hình ảnh và hiện vật để truyền tải khát vọng hòa bình. Các thành phần được kết hợp để nối ký ức chiến tranh với thông điệp phản đối bạo lực và đề cao đoàn kết quốc tế. Việc bố trí nhiều loại tư liệu trong cùng khu vực giúp người xem nhận ra mối liên hệ giữa phong trào quần chúng, hoạt động ngoại giao và viện trợ quốc tế. Không gian này đồng thời cho thấy sự ủng hộ Việt Nam được thể hiện bằng nhiều hình thức tại nhiều khu vực trên thế giới.",
+        "event": "Sắp đặt nghệ thuật hòa bình",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Sắp đặt nghệ thuật hòa bình",
+        "year": null
+      },
+      "id": "sap-dat-nghe-thuat-hoa-binh",
+      "images": [
+        {
+          "caption": "Sắp đặt nghệ thuật hòa bình – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/11ccAdTIzZNeSRhv5JI901oOA20BmbduQ/view",
+          "filename": "sap-dat-nghe-thuat-hoa-binh_01.jpg",
+          "id": "sap-dat-nghe-thuat-hoa-binh_01",
+          "view": "toan-canh",
+          "year": null
+        },
+        {
+          "caption": "Sắp đặt nghệ thuật hòa bình – góc chụp thứ hai.",
+          "drive_url": "https://drive.google.com/file/d/1trn2oDkY55YDPfn3rg9tm4ne007Y22sq/view",
+          "filename": "sap-dat-nghe-thuat-hoa-binh_02.jpg",
+          "id": "sap-dat-nghe-thuat-hoa-binh_02",
+          "view": "goc-chup-2",
+          "year": null
+        },
+        {
+          "caption": "Sắp đặt nghệ thuật hòa bình – góc chụp thứ ba.",
+          "drive_url": "https://drive.google.com/file/d/1H1tmaA8yERZss2RZ0rNrMziJKARa64sQ/view",
+          "filename": "sap-dat-nghe-thuat-hoa-binh_03.jpg",
+          "id": "sap-dat-nghe-thuat-hoa-binh_03",
+          "view": "goc-chup-3",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Sắp đặt nghệ thuật hòa bình",
+      "slug": "sap-dat-nghe-thuat-hoa-binh",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_space",
+        "tong-quan"
+      ]
+    }
+  ]
+}

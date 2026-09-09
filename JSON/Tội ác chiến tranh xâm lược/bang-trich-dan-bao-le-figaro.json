@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày giới thiệu trích dẫn báo Le Figaro. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Bảng trích dẫn báo Le Figaro",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng trích dẫn báo Le Figaro",
+        "year": null
+      },
+      "id": "bang-trich-dan-bao-le-figaro",
+      "images": [
+        {
+          "caption": "Bảng trích dẫn báo Le Figaro – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1u5q-oA1DXG2RUmvR8jlyD_PjRYW4QSIs/view",
+          "filename": "bang-trich-dan-bao-le-figaro_01.jpg",
+          "id": "bang-trich-dan-bao-le-figaro_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng trích dẫn báo Le Figaro",
+      "slug": "bang-trich-dan-bao-le-figaro",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}

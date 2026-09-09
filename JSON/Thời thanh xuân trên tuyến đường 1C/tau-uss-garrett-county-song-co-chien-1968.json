@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại tàu USS Garrett County sông Cổ Chiên 1968. Mốc thời gian được ghi nhận là năm 1968, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Tàu USS Garrett County sông Cổ Chiên 1968",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Tàu USS Garrett County sông Cổ Chiên 1968",
+        "year": 1968
+      },
+      "id": "tau-uss-garrett-county-song-co-chien-1968",
+      "images": [
+        {
+          "caption": "Tàu USS Garrett County sông Cổ Chiên 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1C36fRl19DBXkZrKfZGSbktNTFDxugrjc/view",
+          "filename": "tau-uss-garrett-county-song-co-chien-1968_01.jpg",
+          "id": "tau-uss-garrett-county-song-co-chien-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tàu USS Garrett County sông Cổ Chiên 1968",
+      "slug": "tau-uss-garrett-county-song-co-chien-1968",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1968"
+      ]
+    }
+  ]
+}
+

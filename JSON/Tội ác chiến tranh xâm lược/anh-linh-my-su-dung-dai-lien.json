@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ sử dụng đại liên. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Tư liệu ghi nhận binh lính cùng loại vũ khí, trang bị hoặc phương tiện quân sự được nêu trực tiếp trong tên ảnh. Nội dung bổ sung bối cảnh về lực lượng và phương tiện xuất hiện trong các hoạt động quân sự thời chiến.",
+        "event": "Ảnh lính Mỹ sử dụng đại liên",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ sử dụng đại liên",
+        "year": null
+      },
+      "id": "anh-linh-my-su-dung-dai-lien",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ sử dụng đại liên – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Q8jGWCiygixYrtRT1XMIK7NxzMfEC9YC/view",
+          "filename": "anh-linh-my-su-dung-dai-lien_01.jpg",
+          "id": "anh-linh-my-su-dung-dai-lien_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ sử dụng đại liên",
+      "slug": "anh-linh-my-su-dung-dai-lien",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

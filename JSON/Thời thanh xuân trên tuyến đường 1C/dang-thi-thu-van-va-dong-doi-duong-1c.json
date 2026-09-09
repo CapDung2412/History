@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đặng Thị Thu Vân và đồng đội đường 1C. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Hiện vật thuộc nhóm vũ khí hoặc vật chứa đạn, phục vụ nhiệm vụ chiến đấu và bảo vệ tuyến vận chuyển. Dấu tích này góp phần nhận diện trang bị quân sự được sử dụng trong hoạt động trên tuyến đường 1C.",
+        "event": "Đặng Thị Thu Vân và đồng đội đường 1C",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Đặng Thị Thu Vân và đồng đội đường 1C",
+        "year": null
+      },
+      "id": "dang-thi-thu-van-va-dong-doi-duong-1c",
+      "images": [
+        {
+          "caption": "Đặng Thị Thu Vân và đồng đội đường 1C – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1lF9YTP7WMmW33m6-ch640jENTFm1VaAD/view",
+          "filename": "dang-thi-thu-van-va-dong-doi-duong-1c_01.jpg",
+          "id": "dang-thi-thu-van-va-dong-doi-duong-1c_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đặng Thị Thu Vân và đồng đội đường 1C",
+      "slug": "dang-thi-thu-van-va-dong-doi-duong-1c",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

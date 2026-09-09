@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ với đầu lâu người Việt Nam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh lính Mỹ với đầu lâu người Việt Nam",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ với đầu lâu người Việt Nam",
+        "year": null
+      },
+      "id": "anh-linh-my-voi-dau-lau-nguoi-viet-nam",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ với đầu lâu người Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/12Se240p-iitmPgAUODZ64pBQa3UcFDWg/view",
+          "filename": "anh-linh-my-voi-dau-lau-nguoi-viet-nam_01.jpg",
+          "id": "anh-linh-my-voi-dau-lau-nguoi-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ với đầu lâu người Việt Nam",
+      "slug": "anh-linh-my-voi-dau-lau-nguoi-viet-nam",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

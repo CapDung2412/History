@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Hộp đựng thức ăn quân dụng. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Chủ thể trung tâm của tư liệu là hộp đựng thức ăn quân dụng, được đặt trong mạch hoạt động của tuyến đường 1C. Tư liệu bổ sung một lát cắt cụ thể về con người, địa bàn hoặc nhiệm vụ trên tuyến vận tải Tây Nam Bộ.",
+        "event": "Hộp đựng thức ăn quân dụng",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Hộp đựng thức ăn quân dụng",
+        "year": null
+      },
+      "id": "hop-dung-thuc-an-quan-dung",
+      "images": [
+        {
+          "caption": "Hộp đựng thức ăn quân dụng – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1zM-3WuJD8RW7L6HmRbYGXgBnokX_0--f/view",
+          "filename": "hop-dung-thuc-an-quan-dung_01.jpg",
+          "id": "hop-dung-thuc-an-quan-dung_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hộp đựng thức ăn quân dụng",
+      "slug": "hop-dung-thuc-an-quan-dung",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

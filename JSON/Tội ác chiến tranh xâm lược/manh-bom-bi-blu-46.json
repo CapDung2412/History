@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Mảnh bom bi blu 46. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm bom, mìn, vỏ đạn hoặc mảnh vật liệu nổ được định danh theo tên trưng bày. Dấu tích này giúp nhận diện chủng loại bom mìn và nguy cơ gây sát thương đối với con người trong và sau chiến tranh.",
+        "event": "Mảnh bom bi blu 46",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Mảnh bom bi blu 46",
+        "year": null
+      },
+      "id": "manh-bom-bi-blu-46",
+      "images": [
+        {
+          "caption": "Mảnh bom bi blu 46 – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1Dbby3rseuFmnzMLIaW_Y6vVcjNDv48qE/view",
+          "filename": "manh-bom-bi-blu-46_01.jpg",
+          "id": "manh-bom-bi-blu-46_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Mảnh bom bi blu 46 – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1-3m3jfcd5Suf1pD3SZ1X49gCsD6Wca3Q/view",
+          "filename": "manh-bom-bi-blu-46_02.jpg",
+          "id": "manh-bom-bi-blu-46_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Mảnh bom bi blu 46 – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1RKg46I3NtSOR7DrXETa5SBpli5hpF1hF/view",
+          "filename": "manh-bom-bi-blu-46_03.jpg",
+          "id": "manh-bom-bi-blu-46_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Mảnh bom bi blu 46 – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1Qjq53bAmCuVSqiis6_CPQlFtXVIfjpb0/view",
+          "filename": "manh-bom-bi-blu-46_04.jpg",
+          "id": "manh-bom-bi-blu-46_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mảnh bom bi blu 46",
+      "slug": "manh-bom-bi-blu-46",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

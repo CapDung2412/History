@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Tư liệu ghi nhận bảng tên súng trường CKC. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Bảng, lược đồ hoặc không gian trưng bày hệ thống hóa các tuyến vận chuyển, lực lượng, phương tiện và hiện vật gắn với đường 1C. Nội dung giúp liên kết địa bàn, nhiệm vụ hậu cần, hoạt động chiến đấu và đời sống của lực lượng trên tuyến.",
+        "event": "Bảng tên súng trường CKC",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Bảng tên súng trường CKC",
+        "year": null
+      },
+      "id": "bang-ten-sung-truong-ckc",
+      "images": [
+        {
+          "caption": "Bảng tên súng trường CKC – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1FNrKpxeKIIullRRlZF_HeGYsGSKQq39M/view",
+          "filename": "bang-ten-sung-truong-ckc_01.jpg",
+          "id": "bang-ten-sung-truong-ckc_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng tên súng trường CKC",
+      "slug": "bang-ten-sung-truong-ckc",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}
+

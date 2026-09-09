@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ sử dụng shotgun. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Tư liệu ghi nhận binh lính cùng loại vũ khí, trang bị hoặc phương tiện quân sự được nêu trực tiếp trong tên ảnh. Nội dung bổ sung bối cảnh về lực lượng và phương tiện xuất hiện trong các hoạt động quân sự thời chiến.",
+        "event": "Ảnh lính Mỹ sử dụng shotgun",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ sử dụng shotgun",
+        "year": null
+      },
+      "id": "anh-linh-my-su-dung-shotgun",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ sử dụng shotgun – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1E6QRnmUJvhWH1CFvlhfG25JNzIPwTMXV/view",
+          "filename": "anh-linh-my-su-dung-shotgun_01.jpg",
+          "id": "anh-linh-my-su-dung-shotgun_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ sử dụng shotgun",
+      "slug": "anh-linh-my-su-dung-shotgun",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

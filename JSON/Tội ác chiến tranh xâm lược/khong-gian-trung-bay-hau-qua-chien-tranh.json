@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "museum_exhibition",
+      "historical_info": {
+        "description": "Không gian trưng bày giới thiệu hậu quả chiến tranh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Không gian trưng bày hậu quả chiến tranh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Không gian trưng bày hậu quả chiến tranh",
+        "year": null
+      },
+      "id": "khong-gian-trung-bay-hau-qua-chien-tranh",
+      "images": [
+        {
+          "caption": "Không gian trưng bày hậu quả chiến tranh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1yzRjdEswqRnpKj3UZPwyhyFcMwXBwIxn/view",
+          "filename": "khong-gian-trung-bay-hau-qua-chien-tranh_01.jpg",
+          "id": "khong-gian-trung-bay-hau-qua-chien-tranh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Không gian trưng bày hậu quả chiến tranh",
+      "slug": "khong-gian-trung-bay-hau-qua-chien-tranh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "museum_exhibition"
+      ]
+    }
+  ]
+}

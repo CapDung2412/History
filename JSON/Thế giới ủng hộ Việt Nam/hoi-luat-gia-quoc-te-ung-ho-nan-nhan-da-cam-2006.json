@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Hội Luật gia quốc tế ủng hộ nạn nhân da cam 2006”. Tư liệu cho thấy hợp tác quốc tế sau chiến tranh tập trung vào xử lý dioxin, rà phá bom mìn và hỗ trợ những người chịu hậu quả chiến tranh. Trọng tâm của hoạt động là xử lý ô nhiễm dioxin và hỗ trợ nạn nhân chất độc da cam. Kết quả của những chương trình này góp phần giảm nguy cơ cho cộng đồng, phục hồi sinh kế và thúc đẩy quan hệ hợp tác sau chiến tranh.",
+        "event": "Hội Luật gia quốc tế ủng hộ nạn nhân da cam 2006",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Hội Luật gia quốc tế ủng hộ nạn nhân da cam 2006",
+        "year": 2006
+      },
+      "id": "hoi-luat-gia-quoc-te-ung-ho-nan-nhan-da-cam-2006",
+      "images": [
+        {
+          "caption": "Hội Luật gia quốc tế ủng hộ nạn nhân da cam 2006 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1nB0_TfEkEeyqjYfWTNtGzIQepCBFlSvY/view",
+          "filename": "hoi-luat-gia-quoc-te-ung-ho-nan-nhan-da-cam-2006_01.jpg",
+          "id": "hoi-luat-gia-quoc-te-ung-ho-nan-nhan-da-cam-2006_01",
+          "view": "toan-canh",
+          "year": 2006
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hội Luật gia quốc tế ủng hộ nạn nhân da cam 2006",
+      "slug": "hoi-luat-gia-quoc-te-ung-ho-nan-nhan-da-cam-2006",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "2006"
+      ]
+    }
+  ]
+}

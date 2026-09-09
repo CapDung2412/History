@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Thuyền gỗ đoàn 962 chuyển vũ khí Rạch Gốc. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy vũ khí, đạn dược được tiếp nhận hoặc vận chuyển bằng xuồng, thuyền hoặc tuyến đường thủy tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Thuyền gỗ đoàn 962 chuyển vũ khí Rạch Gốc",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Thuyền gỗ đoàn 962 chuyển vũ khí Rạch Gốc",
+        "year": null
+      },
+      "id": "thuyen-go-doan-962-chuyen-vu-khi-rach-goc",
+      "images": [
+        {
+          "caption": "Thuyền gỗ đoàn 962 chuyển vũ khí Rạch Gốc – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1Tqc7OHAbe2SzbqtQJpbTrSDkFwOLo_ov/view",
+          "filename": "thuyen-go-doan-962-chuyen-vu-khi-rach-goc_01.jpg",
+          "id": "thuyen-go-doan-962-chuyen-vu-khi-rach-goc_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Thuyền gỗ đoàn 962 chuyển vũ khí Rạch Gốc – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1CAagKk-SUrAfvE9VyYQartcHaQaMkSZ2/view",
+          "filename": "thuyen-go-doan-962-chuyen-vu-khi-rach-goc_02.jpg",
+          "id": "thuyen-go-doan-962-chuyen-vu-khi-rach-goc_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Thuyền gỗ đoàn 962 chuyển vũ khí Rạch Gốc",
+      "slug": "thuyen-go-doan-962-chuyen-vu-khi-rach-goc",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

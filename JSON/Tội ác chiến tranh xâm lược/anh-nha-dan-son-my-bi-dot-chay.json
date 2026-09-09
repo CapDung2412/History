@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nhân dân Sơn Mỹ bị đốt cháy. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung gắn với sự kiện Sơn Mỹ, ghi lại dân thường, lực lượng quân sự hoặc dấu tích tại địa điểm xảy ra vụ việc. Tư liệu là một phần bằng chứng hình ảnh về số phận dân thường và diễn biến của tội ác chiến tranh tại Sơn Mỹ.",
+        "event": "Ảnh nhân dân Sơn Mỹ bị đốt cháy",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh nhân dân Sơn Mỹ bị đốt cháy",
+        "year": null
+      },
+      "id": "anh-nha-dan-son-my-bi-dot-chay",
+      "images": [
+        {
+          "caption": "Ảnh nhân dân Sơn Mỹ bị đốt cháy – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1WxsG7zIG63a1qFBPj67sDSosIuBhoVsO/view",
+          "filename": "anh-nha-dan-son-my-bi-dot-chay_01.jpg",
+          "id": "anh-nha-dan-son-my-bi-dot-chay_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh nhân dân Sơn Mỹ bị đốt cháy",
+      "slug": "anh-nha-dan-son-my-bi-dot-chay",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

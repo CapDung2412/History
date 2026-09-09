@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại càn quét tuyến đường 1C Giang Thành 1969. Mốc thời gian được ghi nhận là năm 1969, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Càn quét tuyến đường 1C Giang Thành 1969",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Càn quét tuyến đường 1C Giang Thành 1969",
+        "year": 1969
+      },
+      "id": "can-quet-tuyen-duong-1c-giang-thanh-1969",
+      "images": [
+        {
+          "caption": "Càn quét tuyến đường 1C Giang Thành 1969 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1JrH3x9zieEZo4hPAgaErS9alt_wUmZ8Z/view",
+          "filename": "can-quet-tuyen-duong-1c-giang-thanh-1969_01.jpg",
+          "id": "can-quet-tuyen-duong-1c-giang-thanh-1969_01",
+          "view": "toan-canh",
+          "year": 1969
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Càn quét tuyến đường 1C Giang Thành 1969",
+      "slug": "can-quet-tuyen-duong-1c-giang-thanh-1969",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1969"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Thùng đạn CAL .30. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Hiện vật thuộc nhóm vũ khí hoặc vật chứa đạn, phục vụ nhiệm vụ chiến đấu và bảo vệ tuyến vận chuyển. Dấu tích này góp phần nhận diện trang bị quân sự được sử dụng trong hoạt động trên tuyến đường 1C.",
+        "event": "Thùng đạn CAL .30",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Thùng đạn CAL .30",
+        "year": null
+      },
+      "id": "thung-dan-cal30",
+      "images": [
+        {
+          "caption": "Thùng đạn CAL .30 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1C41PUxD9RPA9ljximSEBne1-fMFc2tCg/view",
+          "filename": "thung-dan-cal30_01.jpg",
+          "id": "thung-dan-cal30_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Thùng đạn CAL .30",
+      "slug": "thung-dan-cal30",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

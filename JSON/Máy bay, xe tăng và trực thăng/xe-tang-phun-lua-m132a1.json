@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "xe-tang-phun-lua-m132a1",
+      "name": "Xe tăng phun lửa M132A1",
+      "slug": "xe-tang-phun-lua-m132a1",
+      "category": "military_vehicle",
+      "tags": [
+        "may-bay-xe-tang-truc-thang",
+        "military_vehicle",
+        "xe-tang-phun-lua-m132a1"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Xe tăng phun lửa M132A1",
+        "description": "Hiện vật được nhận diện là Xe tăng phun lửa M132A1. Hiện vật được đặt trong bối cảnh Chiến tranh Việt Nam (1954–1975). M132A1 được định danh là xe tăng phun lửa, kết hợp khung xe bọc thép với thiết bị tạo luồng lửa. Hiện vật cho thấy một dạng phương tiện bọc thép chuyên dụng có khả năng gây cháy trong tác chiến.",
+        "historical_period": "Chiến tranh Việt Nam (1954–1975)",
+        "year": null,
+        "event": "Xe tăng phun lửa M132A1",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "xe-tang-phun-lua-m132a1_01",
+          "filename": "xe-tang-phun-lua-m132a1_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/15CE317FZddo1F2OI2Re9s10MFCuXsa1h/view",
+          "caption": "Xe tăng phun lửa M132A1 – góc chụp 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "xe-tang-phun-lua-m132a1_02",
+          "filename": "xe-tang-phun-lua-m132a1_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dprh17CzuaB1v6-gJjaqk-3pFvfjKS32/view",
+          "caption": "Xe tăng phun lửa M132A1 – góc chụp 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "xe-tang-phun-lua-m132a1_03",
+          "filename": "xe-tang-phun-lua-m132a1_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RR8_6vYPdL1yvb8Yu3MBvTJoXylqjWsr/view",
+          "caption": "Xe tăng phun lửa M132A1 – góc chụp 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "xe-tang-phun-lua-m132a1_04",
+          "filename": "xe-tang-phun-lua-m132a1_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zzqLJc-EsXVQHipuvZLOVAc8E6Vi6Xmf/view",
+          "caption": "Xe tăng phun lửa M132A1 – góc chụp 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}
+

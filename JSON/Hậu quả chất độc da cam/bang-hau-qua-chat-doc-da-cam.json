@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bang-hau-qua-chat-doc-da-cam",
+      "name": "Bảng hậu quả chất độc da cam",
+      "slug": "bang-hau-qua-chat-doc-da-cam",
+      "category": "exhibition_panel",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "exhibition_panel",
+        "bang-hau-qua-chat-doc-da-cam"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng hậu quả chất độc da cam",
+        "description": "Tư liệu trình bày bảng hậu quả chất độc da cam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung phản ánh thương tổn, lời chứng, nhu cầu phục hồi hoặc hành trình đòi công lý của những người chịu ảnh hưởng chất độc da cam/dioxin. Tư liệu nhấn mạnh hậu quả lâu dài đối với con người và sự cần thiết của hoạt động chăm sóc, hỗ trợ và bảo vệ quyền lợi nạn nhân.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Bảng hậu quả chất độc da cam",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "bang-hau-qua-chat-doc-da-cam_01",
+          "filename": "bang-hau-qua-chat-doc-da-cam_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xzNof_PEJ-I5tPdM2Gq3aII5OlERGCCC/view",
+          "caption": "Bảng hậu quả chất độc da cam – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

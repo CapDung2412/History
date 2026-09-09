@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "luu-dan-cs-m7a3",
+      "name": "Lựu đạn CS M7A3",
+      "slug": "luu-dan-cs-m7a3",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "luu-dan-cs-m7a3"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lựu đạn CS M7A3",
+        "description": "Hiện vật được nhận diện là Lựu đạn CS M7A3. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Lựu đạn CS M7A3",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "luu-dan-cs-m7a3_01",
+          "filename": "luu-dan-cs-m7a3_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ak3mJKm4C02_ZCyB_W-tqVdbC6YPLYyN/view",
+          "caption": "Lựu đạn CS M7A3 – góc chụp 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "luu-dan-cs-m7a3_02",
+          "filename": "luu-dan-cs-m7a3_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1rdkAXSYA9OoqmaEQ1oUiGPeUWdjT6jD2/view",
+          "caption": "Lựu đạn CS M7A3 – góc chụp 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "luu-dan-cs-m7a3_03",
+          "filename": "luu-dan-cs-m7a3_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1gJrtFoaAVfxBgOwTXzHi8XEBMW6Qkus2/view",
+          "caption": "Lựu đạn CS M7A3 – góc chụp 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}
+

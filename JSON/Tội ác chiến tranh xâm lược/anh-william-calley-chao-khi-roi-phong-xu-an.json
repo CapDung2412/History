@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại William Calley chào khi rời phòng xử án. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là ảnh William Calley chào khi rời phòng xử án. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Ảnh William Calley chào khi rời phòng xử án",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh William Calley chào khi rời phòng xử án",
+        "year": null
+      },
+      "id": "anh-william-calley-chao-khi-roi-phong-xu-an",
+      "images": [
+        {
+          "caption": "Ảnh William Calley chào khi rời phòng xử án – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1vqUNvHRi6lGwO3A1_HzVszps4kJZkR4X/view",
+          "filename": "anh-william-calley-chao-khi-roi-phong-xu-an_01.jpg",
+          "id": "anh-william-calley-chao-khi-roi-phong-xu-an_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh William Calley chào khi rời phòng xử án",
+      "slug": "anh-william-calley-chao-khi-roi-phong-xu-an",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

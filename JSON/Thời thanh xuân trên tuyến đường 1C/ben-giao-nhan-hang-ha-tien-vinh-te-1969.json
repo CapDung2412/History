@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại bến giao nhận hàng Hà Tiên Vĩnh Tế 1969. Mốc thời gian được ghi nhận là năm 1969, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy hàng tiếp tế được tiếp nhận hoặc vận chuyển bằng các phương tiện phù hợp với địa hình tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Bến giao nhận hàng Hà Tiên Vĩnh Tế 1969",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Bến giao nhận hàng Hà Tiên Vĩnh Tế 1969",
+        "year": 1969
+      },
+      "id": "ben-giao-nhan-hang-ha-tien-vinh-te-1969",
+      "images": [
+        {
+          "caption": "Bến giao nhận hàng Hà Tiên Vĩnh Tế 1969 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/17FIPmKPYxFmapQn-x8N74lIItt-66lFJ/view",
+          "filename": "ben-giao-nhan-hang-ha-tien-vinh-te-1969_01.jpg",
+          "id": "ben-giao-nhan-hang-ha-tien-vinh-te-1969_01",
+          "view": "toan-canh",
+          "year": 1969
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bến giao nhận hàng Hà Tiên Vĩnh Tế 1969",
+      "slug": "ben-giao-nhan-hang-ha-tien-vinh-te-1969",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1969"
+      ]
+    }
+  ]
+}
+

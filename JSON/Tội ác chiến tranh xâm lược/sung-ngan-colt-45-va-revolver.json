@@ -1,0 +1,83 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng ngắn colt 45 và revolver. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng ngắn hoặc súng cá nhân, được định danh theo tên và kiểu loại trưng bày. Nội dung bổ sung bối cảnh về trang bị cá nhân của lực lượng quân sự.",
+        "event": "Súng ngắn colt 45 và revolver",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng ngắn colt 45 và revolver",
+        "year": null
+      },
+      "id": "sung-ngan-colt-45-va-revolver",
+      "images": [
+        {
+          "caption": "Súng ngắn colt 45 và revolver – góc chụp 1/6.",
+          "drive_url": "https://drive.google.com/file/d/1Q5ieWVfFI1-KkoHGBkGSJtU3Jxjq_1Mb/view",
+          "filename": "sung-ngan-colt-45-va-revolver_01.jpg",
+          "id": "sung-ngan-colt-45-va-revolver_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng ngắn colt 45 và revolver – góc chụp 2/6.",
+          "drive_url": "https://drive.google.com/file/d/1YcUY3j9odFuehq83Iww4dF1y6CWzHRco/view",
+          "filename": "sung-ngan-colt-45-va-revolver_02.jpg",
+          "id": "sung-ngan-colt-45-va-revolver_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng ngắn colt 45 và revolver – góc chụp 3/6.",
+          "drive_url": "https://drive.google.com/file/d/1isXZTzCaY1re5TjMfCD3CyfcNOnu_Y4h/view",
+          "filename": "sung-ngan-colt-45-va-revolver_03.jpg",
+          "id": "sung-ngan-colt-45-va-revolver_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng ngắn colt 45 và revolver – góc chụp 4/6.",
+          "drive_url": "https://drive.google.com/file/d/17dNu7g0JxBlNgN2sLvEx5CZKXskCs6GK/view",
+          "filename": "sung-ngan-colt-45-va-revolver_04.jpg",
+          "id": "sung-ngan-colt-45-va-revolver_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Súng ngắn colt 45 và revolver – góc chụp 5/6.",
+          "drive_url": "https://drive.google.com/file/d/1PHUK4abdferDYnd9lY9b3sh4GPETqbB1/view",
+          "filename": "sung-ngan-colt-45-va-revolver_05.jpg",
+          "id": "sung-ngan-colt-45-va-revolver_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Súng ngắn colt 45 và revolver – góc chụp 6/6.",
+          "drive_url": "https://drive.google.com/file/d/1IPDlV6CTTRalQgFA7pCtMSzuMurPUPEQ/view",
+          "filename": "sung-ngan-colt-45-va-revolver_06.jpg",
+          "id": "sung-ngan-colt-45-va-revolver_06",
+          "view": "goc-nhin-06",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng ngắn colt 45 và revolver",
+      "slug": "sung-ngan-colt-45-va-revolver",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

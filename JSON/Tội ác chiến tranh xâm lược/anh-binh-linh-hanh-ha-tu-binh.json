@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại binh lính hành hạ tù binh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh binh lính hành hạ tù binh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh binh lính hành hạ tù binh",
+        "year": null
+      },
+      "id": "anh-binh-linh-hanh-ha-tu-binh",
+      "images": [
+        {
+          "caption": "Ảnh binh lính hành hạ tù binh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1H8WaCjNhXY5T1qnENoV6yAUrSnKCr9Q2/view",
+          "filename": "anh-binh-linh-hanh-ha-tu-binh_01.jpg",
+          "id": "anh-binh-linh-hanh-ha-tu-binh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh binh lính hành hạ tù binh",
+      "slug": "anh-binh-linh-hanh-ha-tu-binh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Người dân Tây Nam Bộ vận chuyển vũ khí. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy vũ khí, đạn dược được tiếp nhận hoặc vận chuyển bằng các phương tiện phù hợp với địa hình tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Người dân Tây Nam Bộ vận chuyển vũ khí",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Người dân Tây Nam Bộ vận chuyển vũ khí",
+        "year": null
+      },
+      "id": "nguoi-dan-tay-nam-bo-van-chuyen-vu-khi",
+      "images": [
+        {
+          "caption": "Người dân Tây Nam Bộ vận chuyển vũ khí – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Lmpxs4K0RqDQ_8SUdZIHs0lmVybuB7_7/view",
+          "filename": "nguoi-dan-tay-nam-bo-van-chuyen-vu-khi_01.jpg",
+          "id": "nguoi-dan-tay-nam-bo-van-chuyen-vu-khi_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Người dân Tây Nam Bộ vận chuyển vũ khí",
+      "slug": "nguoi-dan-tay-nam-bo-van-chuyen-vu-khi",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

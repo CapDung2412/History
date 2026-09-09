@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nhà che giấu thanh niên xung phong Tức Dụp 1970. Mốc thời gian được ghi nhận là năm 1970, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Lực lượng được ghi nhận là thanh niên xung phong, trực tiếp tập kết và thực hiện nhiệm vụ trên tuyến. Hình ảnh cho thấy tuổi trẻ vừa đảm nhiệm công việc nặng nhọc, vừa duy trì đời sống và tinh thần trong điều kiện chiến tranh.",
+        "event": "Nhà che giấu thanh niên xung phong Tức Dụp 1970",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Nhà che giấu thanh niên xung phong Tức Dụp 1970",
+        "year": 1970
+      },
+      "id": "nha-che-giau-thanh-nien-xung-phong-tuc-dup-1970",
+      "images": [
+        {
+          "caption": "Nhà che giấu thanh niên xung phong Tức Dụp 1970 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1GMSx16cf3qNGPih_Qd5z_wXR3xd6M_j0/view",
+          "filename": "nha-che-giau-thanh-nien-xung-phong-tuc-dup-1970_01.jpg",
+          "id": "nha-che-giau-thanh-nien-xung-phong-tuc-dup-1970_01",
+          "view": "toan-canh",
+          "year": 1970
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Nhà che giấu thanh niên xung phong Tức Dụp 1970",
+      "slug": "nha-che-giau-thanh-nien-xung-phong-tuc-dup-1970",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1970"
+      ]
+    }
+  ]
+}
+

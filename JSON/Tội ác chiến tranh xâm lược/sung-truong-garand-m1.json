@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng trường garand M1. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng trường hoặc carbine, được nhận diện theo mẫu súng ghi trong hồ sơ trưng bày. Tư liệu giúp đối chiếu hình dáng và tên gọi của các loại súng bộ binh thời chiến.",
+        "event": "Súng trường garand M1",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng trường garand M1",
+        "year": null
+      },
+      "id": "sung-truong-garand-m1",
+      "images": [
+        {
+          "caption": "Súng trường garand M1 – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1KEOtMtyUynbxL9HpJlyurCs-0gnoP1-Y/view",
+          "filename": "sung-truong-garand-m1_01.jpg",
+          "id": "sung-truong-garand-m1_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng trường garand M1 – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1xUlvWH-LmH8ZviTMJ0AMhl0vrnxR1oKM/view",
+          "filename": "sung-truong-garand-m1_02.jpg",
+          "id": "sung-truong-garand-m1_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng trường garand M1 – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1OeubZ4D5F88b4RCUA8xdXIIV_c-7oXud/view",
+          "filename": "sung-truong-garand-m1_03.jpg",
+          "id": "sung-truong-garand-m1_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng trường garand M1 – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1ucCZjUBEQDclNiiae8KgFm4B239GQKH9/view",
+          "filename": "sung-truong-garand-m1_04.jpg",
+          "id": "sung-truong-garand-m1_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng trường garand M1",
+      "slug": "sung-truong-garand-m1",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

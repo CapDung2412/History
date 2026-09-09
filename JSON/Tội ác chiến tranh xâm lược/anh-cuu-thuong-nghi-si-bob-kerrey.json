@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại cựu Thượng nghị sĩ Bob Kerrey. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là ảnh cựu Thượng nghị sĩ Bob Kerrey. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Ảnh cựu Thượng nghị sĩ Bob Kerrey",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh cựu Thượng nghị sĩ Bob Kerrey",
+        "year": null
+      },
+      "id": "anh-cuu-thuong-nghi-si-bob-kerrey",
+      "images": [
+        {
+          "caption": "Ảnh cựu Thượng nghị sĩ Bob Kerrey – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1CNGJwrmpBPGERH3Irkydf03Brm8yPPQa/view",
+          "filename": "anh-cuu-thuong-nghi-si-bob-kerrey_01.jpg",
+          "id": "anh-cuu-thuong-nghi-si-bob-kerrey_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh cựu Thượng nghị sĩ Bob Kerrey",
+      "slug": "anh-cuu-thuong-nghi-si-bob-kerrey",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

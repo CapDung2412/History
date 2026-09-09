@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại rừng đước Năm Căn tiếp nhận vũ khí tàu không số. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy vũ khí, đạn dược được tiếp nhận hoặc vận chuyển bằng xuồng, thuyền hoặc tuyến đường thủy tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Rừng đước Năm Căn tiếp nhận vũ khí tàu không số",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Rừng đước Năm Căn tiếp nhận vũ khí tàu không số",
+        "year": null
+      },
+      "id": "rung-duoc-nam-can-tiep-nhan-vu-khi-tau-khong-so",
+      "images": [
+        {
+          "caption": "Rừng đước Năm Căn tiếp nhận vũ khí tàu không số – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1yrhnboonptCQEA8K_lAjDJe9GYpioEZx/view",
+          "filename": "rung-duoc-nam-can-tiep-nhan-vu-khi-tau-khong-so_01.jpg",
+          "id": "rung-duoc-nam-can-tiep-nhan-vu-khi-tau-khong-so_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Rừng đước Năm Căn tiếp nhận vũ khí tàu không số",
+      "slug": "rung-duoc-nam-can-tiep-nhan-vu-khi-tau-khong-so",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

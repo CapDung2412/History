@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày tổng hợp viện trợ quốc tế cho Việt Nam 1955–1975. Nội dung nêu các hoạt động, lực lượng tham gia và hình thức đóng góp cụ thể đối với Việt Nam. Các tên riêng, mốc thời gian và nội dung được trình bày trên bảng là căn cứ để đọc đúng các ảnh và hiện vật đi kèm. Nhờ đó, người xem có thể phân biệt rõ nhân vật, tổ chức, sự kiện và hình thức đóng góp được giới thiệu trong chuyên đề.",
+        "event": "Bảng viện trợ quốc tế cho Việt Nam 1955–1975",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng viện trợ quốc tế cho Việt Nam 1955–1975",
+        "year": 1975
+      },
+      "id": "bang-vien-tro-quoc-te-cho-viet-nam-1955-1975",
+      "images": [
+        {
+          "caption": "Bảng viện trợ quốc tế cho Việt Nam 1955–1975 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1vAGf4Fz7yj_AsC-54ypuoexNMV41aV5d/view",
+          "filename": "bang-vien-tro-quoc-te-cho-viet-nam-1955-1975_01.jpg",
+          "id": "bang-vien-tro-quoc-te-cho-viet-nam-1955-1975_01",
+          "view": "toan-canh",
+          "year": 1975
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng viện trợ quốc tế cho Việt Nam 1955–1975",
+      "slug": "bang-vien-tro-quoc-te-cho-viet-nam-1955-1975",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_panel",
+        "to-chuc-quoc-te",
+        "1975"
+      ]
+    }
+  ]
+}

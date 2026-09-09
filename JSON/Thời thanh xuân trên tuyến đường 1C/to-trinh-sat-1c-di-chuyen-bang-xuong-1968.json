@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Tư liệu ghi nhận tổ trinh sát 1C di chuyển bằng xuồng 1968. Mốc thời gian được ghi nhận là năm 1968, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Bảng, lược đồ hoặc không gian trưng bày hệ thống hóa các tuyến vận chuyển, lực lượng, phương tiện và hiện vật gắn với đường 1C. Nội dung giúp liên kết địa bàn, nhiệm vụ hậu cần, hoạt động chiến đấu và đời sống của lực lượng trên tuyến.",
+        "event": "Tổ trinh sát 1C di chuyển bằng xuồng 1968",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Tổ trinh sát 1C di chuyển bằng xuồng 1968",
+        "year": 1968
+      },
+      "id": "to-trinh-sat-1c-di-chuyen-bang-xuong-1968",
+      "images": [
+        {
+          "caption": "Tổ trinh sát 1C di chuyển bằng xuồng 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1wG3Gciui0HTMqpe15jMbwqY9fiVKNjUt/view",
+          "filename": "to-trinh-sat-1c-di-chuyen-bang-xuong-1968_01.jpg",
+          "id": "to-trinh-sat-1c-di-chuyen-bang-xuong-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tổ trinh sát 1C di chuyển bằng xuồng 1968",
+      "slug": "to-trinh-sat-1c-di-chuyen-bang-xuong-1968",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1968"
+      ]
+    }
+  ]
+}
+

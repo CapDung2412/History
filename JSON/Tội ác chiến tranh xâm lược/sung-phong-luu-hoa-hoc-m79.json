@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng phóng lựu hóa học M79. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Đây là súng phóng lựu hoặc bộ phận liên quan, được phân biệt theo kiểu loại ghi trong tên hiện vật. Hiện vật phản ánh hỏa lực bộ binh và khả năng sử dụng đạn nổ trong tác chiến.",
+        "event": "Súng phóng lựu hóa học M79",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng phóng lựu hóa học M79",
+        "year": null
+      },
+      "id": "sung-phong-luu-hoa-hoc-m79",
+      "images": [
+        {
+          "caption": "Súng phóng lựu hóa học M79 – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1WpQ5kIiKQvnS7XP1SB-fSOmEwWvrv2s7/view",
+          "filename": "sung-phong-luu-hoa-hoc-m79_01.jpg",
+          "id": "sung-phong-luu-hoa-hoc-m79_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng phóng lựu hóa học M79 – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1cnDECVJwcpNHfzlDSwbwdgrkk0uLH4VQ/view",
+          "filename": "sung-phong-luu-hoa-hoc-m79_02.jpg",
+          "id": "sung-phong-luu-hoa-hoc-m79_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng phóng lựu hóa học M79 – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1-a4ETPHnvzyZpMGL0b2YEAtsmLSLhdAW/view",
+          "filename": "sung-phong-luu-hoa-hoc-m79_03.jpg",
+          "id": "sung-phong-luu-hoa-hoc-m79_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng phóng lựu hóa học M79",
+      "slug": "sung-phong-luu-hoa-hoc-m79",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

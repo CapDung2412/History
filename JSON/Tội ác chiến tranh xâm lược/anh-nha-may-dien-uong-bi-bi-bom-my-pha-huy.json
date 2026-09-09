@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nhà máy điện Uông Bí bị bom Mỹ phá hủy. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hình ảnh cho thấy thiệt hại đối với con người, gia đình, công trình hoặc khu dân cư do bom đạn gây ra. Tư liệu làm rõ hậu quả trực tiếp của hoạt động đánh phá đối với dân thường và cơ sở dân sinh.",
+        "event": "Ảnh nhà máy điện Uông Bí bị bom Mỹ phá hủy",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh nhà máy điện Uông Bí bị bom Mỹ phá hủy",
+        "year": null
+      },
+      "id": "anh-nha-may-dien-uong-bi-bi-bom-my-pha-huy",
+      "images": [
+        {
+          "caption": "Ảnh nhà máy điện Uông Bí bị bom Mỹ phá hủy – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1evaqgrbNpo1RqWop-OmYKQLv5D6klclq/view",
+          "filename": "anh-nha-may-dien-uong-bi-bi-bom-my-pha-huy_01.jpg",
+          "id": "anh-nha-may-dien-uong-bi-bi-bom-my-pha-huy_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh nhà máy điện Uông Bí bị bom Mỹ phá hủy",
+      "slug": "anh-nha-may-dien-uong-bi-bi-bom-my-pha-huy",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

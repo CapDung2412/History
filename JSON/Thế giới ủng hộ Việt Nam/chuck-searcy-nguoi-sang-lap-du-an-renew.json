@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Tư liệu giới thiệu Chuck Searcy, cựu binh Mỹ và người đồng sáng lập Dự án RENEW tại Quảng Trị. Dự án tập trung khắc phục hậu quả bom mìn và hỗ trợ cộng đồng bị ảnh hưởng sau chiến tranh. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với các tổ chức quốc tế. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Chuck Searcy người sáng lập dự án RENEW",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Chuck Searcy người sáng lập dự án RENEW",
+        "year": null
+      },
+      "id": "chuck-searcy-nguoi-sang-lap-du-an-renew",
+      "images": [
+        {
+          "caption": "Chuck Searcy người sáng lập dự án RENEW – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/13I6tqtut5CnI1h8THSYoBtz9dEE9dPFZ/view",
+          "filename": "chuck-searcy-nguoi-sang-lap-du-an-renew_01.jpg",
+          "id": "chuck-searcy-nguoi-sang-lap-du-an-renew_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Chuck Searcy người sáng lập dự án RENEW",
+      "slug": "chuck-searcy-nguoi-sang-lap-du-an-renew",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te"
+      ]
+    }
+  ]
+}

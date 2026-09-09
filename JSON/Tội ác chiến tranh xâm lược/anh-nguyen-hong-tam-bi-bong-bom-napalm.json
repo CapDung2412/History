@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại Nguyễn Hồng Tâm bị bỏng bom napalm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hình ảnh cho thấy thiệt hại đối với con người, gia đình, công trình hoặc khu dân cư do bom đạn gây ra. Tư liệu làm rõ hậu quả trực tiếp của hoạt động đánh phá đối với dân thường và cơ sở dân sinh.",
+        "event": "Ảnh Nguyễn Hồng Tâm bị bỏng bom napalm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh Nguyễn Hồng Tâm bị bỏng bom napalm",
+        "year": null
+      },
+      "id": "anh-nguyen-hong-tam-bi-bong-bom-napalm",
+      "images": [
+        {
+          "caption": "Ảnh Nguyễn Hồng Tâm bị bỏng bom napalm – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/13hnlpapJ8TVkyRsVGanRksyo2IgDTmBP/view",
+          "filename": "anh-nguyen-hong-tam-bi-bong-bom-napalm_01.jpg",
+          "id": "anh-nguyen-hong-tam-bi-bong-bom-napalm_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh Nguyễn Hồng Tâm bị bỏng bom napalm",
+      "slug": "anh-nguyen-hong-tam-bi-bong-bom-napalm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Chi tiết súng bazooka 57mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm vũ khí chống tăng hoặc súng không giật, dùng để tấn công mục tiêu bọc thép hay công sự. Tư liệu giúp phân biệt nhóm vũ khí hỏa lực mạnh với súng bộ binh thông thường.",
+        "event": "Chi tiết súng bazooka 57mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Chi tiết súng bazooka 57mm",
+        "year": null
+      },
+      "id": "chi-tiet-sung-bazooka-57mm",
+      "images": [
+        {
+          "caption": "Chi tiết súng bazooka 57mm – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1vYgWKvgX2-ZOEOqXURyWSKiPyhUGERWW/view",
+          "filename": "chi-tiet-sung-bazooka-57mm_01.jpg",
+          "id": "chi-tiet-sung-bazooka-57mm_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Chi tiết súng bazooka 57mm",
+      "slug": "chi-tiet-sung-bazooka-57mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

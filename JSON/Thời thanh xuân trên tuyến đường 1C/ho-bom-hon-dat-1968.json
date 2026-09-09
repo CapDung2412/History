@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại hố bom Hòn Đất 1968. Mốc thời gian được ghi nhận là năm 1968, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Chủ thể trung tâm của tư liệu là hố bom Hòn Đất 1968, được đặt trong mạch hoạt động của tuyến đường 1C. Tư liệu bổ sung một lát cắt cụ thể về con người, địa bàn hoặc nhiệm vụ trên tuyến vận tải Tây Nam Bộ.",
+        "event": "Hố bom Hòn Đất 1968",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Hố bom Hòn Đất 1968",
+        "year": 1968
+      },
+      "id": "ho-bom-hon-dat-1968",
+      "images": [
+        {
+          "caption": "Hố bom Hòn Đất 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Wr9dcYn445nkD4foqEcSOD1c-nv4bYpW/view",
+          "filename": "ho-bom-hon-dat-1968_01.jpg",
+          "id": "ho-bom-hon-dat-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hố bom Hòn Đất 1968",
+      "slug": "ho-bom-hon-dat-1968",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1968"
+      ]
+    }
+  ]
+}
+

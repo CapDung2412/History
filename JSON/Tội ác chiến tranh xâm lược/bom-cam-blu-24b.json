@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bom cam blu 24b. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là bom cam blu 24b. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Bom cam blu 24b",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bom cam blu 24b",
+        "year": null
+      },
+      "id": "bom-cam-blu-24b",
+      "images": [
+        {
+          "caption": "Bom cam blu 24b – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1C52rM-AGw-zlLAqhP0JusJZQWVOPMeps/view",
+          "filename": "bom-cam-blu-24b_01.jpg",
+          "id": "bom-cam-blu-24b_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bom cam blu 24b – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1g8U87LxXGoYidfuR29GQPTFM5oUjwVqu/view",
+          "filename": "bom-cam-blu-24b_02.jpg",
+          "id": "bom-cam-blu-24b_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Bom cam blu 24b – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1mRbEfGWQhvTsGkNAbQ6kmyQmQ62NUbC2/view",
+          "filename": "bom-cam-blu-24b_03.jpg",
+          "id": "bom-cam-blu-24b_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bom cam blu 24b",
+      "slug": "bom-cam-blu-24b",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

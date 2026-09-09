@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại ảnh trên không đường Giang Thành Vĩnh Tế. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Chủ thể trung tâm của tư liệu là ảnh trên không đường Giang Thành Vĩnh Tế, được đặt trong mạch hoạt động của tuyến đường 1C. Tư liệu bổ sung một lát cắt cụ thể về con người, địa bàn hoặc nhiệm vụ trên tuyến vận tải Tây Nam Bộ.",
+        "event": "Ảnh trên không đường Giang Thành Vĩnh Tế",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Ảnh trên không đường Giang Thành Vĩnh Tế",
+        "year": null
+      },
+      "id": "anh-tren-khong-duong-giang-thanh-vinh-te",
+      "images": [
+        {
+          "caption": "Ảnh trên không đường Giang Thành Vĩnh Tế – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/15LtOnzHiJ1gknp4NVn1dpgcyAVTDXmDt/view",
+          "filename": "anh-tren-khong-duong-giang-thanh-vinh-te_01.jpg",
+          "id": "anh-tren-khong-duong-giang-thanh-vinh-te_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Ảnh trên không đường Giang Thành Vĩnh Tế – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1rzbBzZSWNYftfBv6POfEEC3ZO_ipTcgp/view",
+          "filename": "anh-tren-khong-duong-giang-thanh-vinh-te_02.jpg",
+          "id": "anh-tren-khong-duong-giang-thanh-vinh-te_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh trên không đường Giang Thành Vĩnh Tế",
+      "slug": "anh-tren-khong-duong-giang-thanh-vinh-te",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

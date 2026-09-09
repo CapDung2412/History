@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_space",
+      "historical_info": {
+        "description": "Ảnh toàn cảnh không gian trưng bày châu Mỹ tại bảo tàng. Khu vực này tập hợp ảnh, tài liệu và hiện vật phản ánh các hoạt động phản chiến, đoàn kết và hỗ trợ Việt Nam của châu Mỹ. Việc bố trí nhiều loại tư liệu trong cùng khu vực giúp người xem nhận ra mối liên hệ giữa phong trào quần chúng, hoạt động ngoại giao và viện trợ quốc tế. Không gian này đồng thời cho thấy sự ủng hộ Việt Nam được thể hiện bằng nhiều hình thức tại châu Mỹ.",
+        "event": "Không gian trưng bày châu Mỹ",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Không gian trưng bày châu Mỹ",
+        "year": null
+      },
+      "id": "khong-gian-trung-bay-chau-my",
+      "images": [
+        {
+          "caption": "Không gian trưng bày châu Mỹ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1GqM620rC4UuXPW9CJIIj97x4BT2SfXaC/view",
+          "filename": "khong-gian-trung-bay-chau-my_01.jpg",
+          "id": "khong-gian-trung-bay-chau-my_01",
+          "view": "toan-canh",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày châu Mỹ – góc chụp thứ hai.",
+          "drive_url": "https://drive.google.com/file/d/1uMlCFImUgGMjZcsmdmUhrdytxNUNaDcM/view",
+          "filename": "khong-gian-trung-bay-chau-my_02.jpg",
+          "id": "khong-gian-trung-bay-chau-my_02",
+          "view": "goc-chup-2",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày châu Mỹ – góc chụp thứ ba.",
+          "drive_url": "https://drive.google.com/file/d/187M67S4ics_iAXovUv4uhGfMJHJzWqYm/view",
+          "filename": "khong-gian-trung-bay-chau-my_03.jpg",
+          "id": "khong-gian-trung-bay-chau-my_03",
+          "view": "goc-chup-3",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày châu Mỹ – góc chụp thứ tư.",
+          "drive_url": "https://drive.google.com/file/d/1eW8uWhsu6t1gYpE26RktT47vD74gEg0g/view",
+          "filename": "khong-gian-trung-bay-chau-my_04.jpg",
+          "id": "khong-gian-trung-bay-chau-my_04",
+          "view": "goc-chup-4",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Không gian trưng bày châu Mỹ",
+      "slug": "khong-gian-trung-bay-chau-my",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_space",
+        "chau-my"
+      ]
+    }
+  ]
+}

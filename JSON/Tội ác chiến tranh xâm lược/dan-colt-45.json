@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đạn Colt .45. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng ngắn hoặc súng cá nhân, được định danh theo tên và kiểu loại trưng bày. Nội dung bổ sung bối cảnh về trang bị cá nhân của lực lượng quân sự.",
+        "event": "Đạn Colt .45",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đạn Colt .45",
+        "year": null
+      },
+      "id": "dan-colt-45",
+      "images": [
+        {
+          "caption": "Đạn Colt .45 – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1AKatJz2Q4mHtD7dGzcZpuNh9DyDsZxHA/view",
+          "filename": "dan-colt-45_01.jpg",
+          "id": "dan-colt-45_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đạn Colt .45 – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/1bfk2klsVDzjKZIdRcO3dU9yyEPOwwJl4/view",
+          "filename": "dan-colt-45_02.jpg",
+          "id": "dan-colt-45_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đạn Colt .45 – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1gY-8MMia4hpIopVuLFweOUlpT9nYtbBO/view",
+          "filename": "dan-colt-45_03.jpg",
+          "id": "dan-colt-45_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đạn Colt .45",
+      "slug": "dan-colt-45",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

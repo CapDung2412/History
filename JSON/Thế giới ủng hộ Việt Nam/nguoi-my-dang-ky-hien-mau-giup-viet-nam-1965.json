@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại người dân Mỹ đăng ký hiến máu giúp Việt Nam năm 1965. Hoạt động cho thấy phong trào phản chiến tại Mỹ không chỉ dừng ở biểu tình mà còn có hỗ trợ nhân đạo cụ thể. Sự ủng hộ được thể hiện bằng hành động cụ thể như vận động chính trị, quyên góp, viện trợ vật chất, hỗ trợ chuyên môn hoặc giao lưu nhân dân. Tư liệu vì vậy phản ánh chiều sâu của tình đoàn kết dành cho Việt Nam tại châu Mỹ, không chỉ dừng ở lời tuyên bố.",
+        "event": "Người Mỹ đăng ký hiến máu giúp Việt Nam 1965",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Người Mỹ đăng ký hiến máu giúp Việt Nam 1965",
+        "year": 1965
+      },
+      "id": "nguoi-my-dang-ky-hien-mau-giup-viet-nam-1965",
+      "images": [
+        {
+          "caption": "Người Mỹ đăng ký hiến máu giúp Việt Nam 1965 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1bDVYkFj-uzSiJVusiFSyhcuvHjegn0Rj/view",
+          "filename": "nguoi-my-dang-ky-hien-mau-giup-viet-nam-1965_01.jpg",
+          "id": "nguoi-my-dang-ky-hien-mau-giup-viet-nam-1965_01",
+          "view": "toan-canh",
+          "year": 1965
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Người Mỹ đăng ký hiến máu giúp Việt Nam 1965",
+      "slug": "nguoi-my-dang-ky-hien-mau-giup-viet-nam-1965",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my",
+        "1965"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng bazooka 90mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm vũ khí chống tăng hoặc súng không giật, dùng để tấn công mục tiêu bọc thép hay công sự. Tư liệu giúp phân biệt nhóm vũ khí hỏa lực mạnh với súng bộ binh thông thường.",
+        "event": "Súng bazooka 90mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng bazooka 90mm",
+        "year": null
+      },
+      "id": "sung-bazooka-90mm",
+      "images": [
+        {
+          "caption": "Súng bazooka 90mm – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1boCetteaz-T-x12hQAqpH0-627r5AmR9/view",
+          "filename": "sung-bazooka-90mm_01.jpg",
+          "id": "sung-bazooka-90mm_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 90mm – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1Kfx6W1PZSV_DJsLlZ63wzogdKxSsPNMC/view",
+          "filename": "sung-bazooka-90mm_02.jpg",
+          "id": "sung-bazooka-90mm_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 90mm – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1vpkm3h-OyfS3fr-yzmX1anlTwkQNy2oZ/view",
+          "filename": "sung-bazooka-90mm_03.jpg",
+          "id": "sung-bazooka-90mm_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 90mm – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1KiOrWzPmI11OAoTiAktQpspURtK3Dm2q/view",
+          "filename": "sung-bazooka-90mm_04.jpg",
+          "id": "sung-bazooka-90mm_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng bazooka 90mm",
+      "slug": "sung-bazooka-90mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,75 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bom bi xòe blu 4b. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm bom, mìn, vỏ đạn hoặc mảnh vật liệu nổ được định danh theo tên trưng bày. Dấu tích này giúp nhận diện chủng loại bom mìn và nguy cơ gây sát thương đối với con người trong và sau chiến tranh.",
+        "event": "Bom bi xòe blu 4b",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bom bi xòe blu 4b",
+        "year": null
+      },
+      "id": "bom-bi-xoe-blu-4b",
+      "images": [
+        {
+          "caption": "Bom bi xòe blu 4b – góc chụp 1/5.",
+          "drive_url": "https://drive.google.com/file/d/1NbsRMUlsPwvdXVeZlq-yB8HJ9h7dnsO9/view",
+          "filename": "bom-bi-xoe-blu-4b_01.jpg",
+          "id": "bom-bi-xoe-blu-4b_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bom bi xòe blu 4b – góc chụp 2/5.",
+          "drive_url": "https://drive.google.com/file/d/1Sw9RaTMyyyvi5APZlZjMGKDxpbQpzkpK/view",
+          "filename": "bom-bi-xoe-blu-4b_02.jpg",
+          "id": "bom-bi-xoe-blu-4b_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Bom bi xòe blu 4b – góc chụp 3/5.",
+          "drive_url": "https://drive.google.com/file/d/1QVLQ0l4UTTBkrDMhCy0nUif_erYjZCSK/view",
+          "filename": "bom-bi-xoe-blu-4b_03.jpg",
+          "id": "bom-bi-xoe-blu-4b_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Bom bi xòe blu 4b – góc chụp 4/5.",
+          "drive_url": "https://drive.google.com/file/d/16yMtYTklz2GFVN47VGlIRlHhYXlgdtf1/view",
+          "filename": "bom-bi-xoe-blu-4b_04.jpg",
+          "id": "bom-bi-xoe-blu-4b_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Bom bi xòe blu 4b – góc chụp 5/5.",
+          "drive_url": "https://drive.google.com/file/d/1lt7YPTk70hijqXdRdkRgyJAcuyrdZsds/view",
+          "filename": "bom-bi-xoe-blu-4b_05.jpg",
+          "id": "bom-bi-xoe-blu-4b_05",
+          "view": "goc-nhin-05",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bom bi xòe blu 4b",
+      "slug": "bom-bi-xoe-blu-4b",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

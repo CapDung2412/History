@@ -1,0 +1,108 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "rocket-khoi-doc-cs70",
+      "name": "Rocket khói độc CS-70",
+      "slug": "rocket-khoi-doc-cs70",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "rocket-khoi-doc-cs70"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Rocket khói độc CS-70",
+        "description": "Hiện vật được nhận diện là Rocket khói độc CS-70. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Rocket khói độc CS-70",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "rocket-khoi-doc-cs70_01",
+          "filename": "rocket-khoi-doc-cs70_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1nZRrnbTE6M1yYgybO7_TZU34M2wOGtZ1/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 1/9.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_02",
+          "filename": "rocket-khoi-doc-cs70_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1YfWbGW-ipVARKQt7mexHnJKXwi3sG7YS/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 2/9.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_03",
+          "filename": "rocket-khoi-doc-cs70_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/187xrlh1EoN09-dM6um1Banegid74xBDr/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 3/9.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_04",
+          "filename": "rocket-khoi-doc-cs70_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1p4_UYZ8-Jk3LGOsn8XYa0J4LVCxHitUk/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 4/9.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_05",
+          "filename": "rocket-khoi-doc-cs70_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1vzAsg7mVJPQzj6pC48ltr6VQqVu8GyG9/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 5/9.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_06",
+          "filename": "rocket-khoi-doc-cs70_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/13GFSrp0v9HqwbEnwZ5p_D4Xb_YFZzOpW/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 6/9.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_07",
+          "filename": "rocket-khoi-doc-cs70_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zI-iTBk9mJNx8pb-WcRanN2QBQoWZiwR/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 7/9.",
+          "year": null,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_08",
+          "filename": "rocket-khoi-doc-cs70_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1vM-6DwQc8w57s8zKgSFdJ18ylJ7kZlnf/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 8/9.",
+          "year": null,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "rocket-khoi-doc-cs70_09",
+          "filename": "rocket-khoi-doc-cs70_09.jpg",
+          "drive_url": "https://drive.google.com/file/d/174_UzvlZuFJpjEyeQdf_FTALv2Gnvps4/view",
+          "caption": "Rocket khói độc CS-70 – góc chụp 9/9.",
+          "year": null,
+          "view": "goc-nhin-09"
+        }
+      ]
+    }
+  ]
+}
+

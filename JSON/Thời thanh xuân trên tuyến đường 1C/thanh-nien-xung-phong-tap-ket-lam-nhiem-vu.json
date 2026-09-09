@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại thanh niên xung phong tập kết làm nhiệm vụ. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Lực lượng được ghi nhận là thanh niên xung phong, trực tiếp tập kết và thực hiện nhiệm vụ trên tuyến. Hình ảnh cho thấy tuổi trẻ vừa đảm nhiệm công việc nặng nhọc, vừa duy trì đời sống và tinh thần trong điều kiện chiến tranh.",
+        "event": "Thanh niên xung phong tập kết làm nhiệm vụ",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Thanh niên xung phong tập kết làm nhiệm vụ",
+        "year": null
+      },
+      "id": "thanh-nien-xung-phong-tap-ket-lam-nhiem-vu",
+      "images": [
+        {
+          "caption": "Thanh niên xung phong tập kết làm nhiệm vụ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/15CaTUFndalO-HGfgQjs_ldPqk-7iuhNs/view",
+          "filename": "thanh-nien-xung-phong-tap-ket-lam-nhiem-vu_01.jpg",
+          "id": "thanh-nien-xung-phong-tap-ket-lam-nhiem-vu_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Thanh niên xung phong tập kết làm nhiệm vụ",
+      "slug": "thanh-nien-xung-phong-tap-ket-lam-nhiem-vu",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph"
+      ]
+    }
+  ]
+}
+

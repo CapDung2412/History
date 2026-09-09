@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Dây đạn súng máy. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Dây đạn súng máy",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Dây đạn súng máy",
+        "year": null
+      },
+      "id": "day-dan-sung-may",
+      "images": [
+        {
+          "caption": "Dây đạn súng máy – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1m9lNIBVMMhOPVi2IZO4MtEYjsg1G7PK8/view",
+          "filename": "day-dan-sung-may_01.jpg",
+          "id": "day-dan-sung-may_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Dây đạn súng máy – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1IwOeiiQvw9aXv6-OS7wxyFjsCO1xRq_z/view",
+          "filename": "day-dan-sung-may_02.jpg",
+          "id": "day-dan-sung-may_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Dây đạn súng máy – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1NLVtqrrB83qa0iZJk37Bj3QhbtPI6vve/view",
+          "filename": "day-dan-sung-may_03.jpg",
+          "id": "day-dan-sung-may_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Dây đạn súng máy – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1mhmT8uko38FMrX01drYY_SzDWr0Yo6MQ/view",
+          "filename": "day-dan-sung-may_04.jpg",
+          "id": "day-dan-sung-may_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Dây đạn súng máy",
+      "slug": "day-dan-sung-may",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "loi-tu-su-heather-morris-bowser-tieng-anh",
+      "name": "Lời tự sự của Heather Morris Bowser bằng tiếng Anh",
+      "slug": "loi-tu-su-heather-morris-bowser-tieng-anh",
+      "category": "documentary_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "documentary_artifact",
+        "loi-tu-su-heather-morris-bowser-tieng-anh"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lời tự sự của Heather Morris Bowser bằng tiếng Anh",
+        "description": "Tư liệu trình bày lời tự sự của Heather Morris Bowser bằng tiếng Anh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung phản ánh thương tổn, lời chứng, nhu cầu phục hồi hoặc hành trình đòi công lý của những người chịu ảnh hưởng chất độc da cam/dioxin. Tư liệu nhấn mạnh hậu quả lâu dài đối với con người và sự cần thiết của hoạt động chăm sóc, hỗ trợ và bảo vệ quyền lợi nạn nhân.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Lời tự sự của Heather Morris Bowser bằng tiếng Anh",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "loi-tu-su-heather-morris-bowser-tieng-anh_01",
+          "filename": "loi-tu-su-heather-morris-bowser-tieng-anh_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1A6U-UtbKoxC1YhbPVilE6veNAuUbwzny/view",
+          "caption": "Lời tự sự của Heather Morris Bowser bằng tiếng Anh – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

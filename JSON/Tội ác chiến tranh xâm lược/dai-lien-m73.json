@@ -1,0 +1,83 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đại liên M73. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Đại liên M73",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đại liên M73",
+        "year": null
+      },
+      "id": "dai-lien-m73",
+      "images": [
+        {
+          "caption": "Đại liên M73 – góc chụp 1/6.",
+          "drive_url": "https://drive.google.com/file/d/1KaY5TE-4ryJyZjJUg31yn2XmveCz3AAi/view",
+          "filename": "dai-lien-m73_01.jpg",
+          "id": "dai-lien-m73_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M73 – góc chụp 2/6.",
+          "drive_url": "https://drive.google.com/file/d/1XcXScEeue5SUPpDEBt2HtvmQx5O_zxdo/view",
+          "filename": "dai-lien-m73_02.jpg",
+          "id": "dai-lien-m73_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M73 – góc chụp 3/6.",
+          "drive_url": "https://drive.google.com/file/d/1t17m0iAfkhCl3-yMXe51YfDZnbPKcY56/view",
+          "filename": "dai-lien-m73_03.jpg",
+          "id": "dai-lien-m73_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M73 – góc chụp 4/6.",
+          "drive_url": "https://drive.google.com/file/d/1bE_CUU9psdUDoenk1-tCZ4QW73REbE2F/view",
+          "filename": "dai-lien-m73_04.jpg",
+          "id": "dai-lien-m73_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M73 – góc chụp 5/6.",
+          "drive_url": "https://drive.google.com/file/d/1kN-5DWxcWkVkvU2TmTb5sUfI42qJOloR/view",
+          "filename": "dai-lien-m73_05.jpg",
+          "id": "dai-lien-m73_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Đại liên M73 – góc chụp 6/6.",
+          "drive_url": "https://drive.google.com/file/d/1uGLyEOc9pq-9f-zQmCLW3Ej3HJn0W-Jg/view",
+          "filename": "dai-lien-m73_06.jpg",
+          "id": "dai-lien-m73_06",
+          "view": "goc-nhin-06",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đại liên M73",
+      "slug": "dai-lien-m73",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

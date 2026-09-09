@@ -1,0 +1,50 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng trưng bày giới thiệu thuyết minh hiện vật vụ thảm sát Sơn Mỹ. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Bảng thuyết minh hiện vật vụ thảm sát Sơn Mỹ",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng thuyết minh hiện vật vụ thảm sát Sơn Mỹ",
+        "year": null
+      },
+      "id": "bang-thuyet-minh-hien-vat-vu-tham-sat-son-my",
+      "images": [
+        {
+          "caption": "Bảng thuyết minh hiện vật vụ thảm sát Sơn Mỹ – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1IFoy1GmrLUkpa4SbL6_prwvXajtwxsLY/view",
+          "filename": "bang-thuyet-minh-hien-vat-vu-tham-sat-son-my_01.jpg",
+          "id": "bang-thuyet-minh-hien-vat-vu-tham-sat-son-my_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bảng thuyết minh hiện vật vụ thảm sát Sơn Mỹ – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1rzCPWpT_PAElgHkVpO4UlpxGMDmapYI7/view",
+          "filename": "bang-thuyet-minh-hien-vat-vu-tham-sat-son-my_02.jpg",
+          "id": "bang-thuyet-minh-hien-vat-vu-tham-sat-son-my_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng thuyết minh hiện vật vụ thảm sát Sơn Mỹ",
+      "slug": "bang-thuyet-minh-hien-vat-vu-tham-sat-son-my",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "exhibition_panel"
+      ]
+    }
+  ]
+}

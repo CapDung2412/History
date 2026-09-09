@@ -1,0 +1,50 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ sử dụng M79. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Tư liệu ghi nhận binh lính cùng loại vũ khí, trang bị hoặc phương tiện quân sự được nêu trực tiếp trong tên ảnh. Nội dung bổ sung bối cảnh về lực lượng và phương tiện xuất hiện trong các hoạt động quân sự thời chiến.",
+        "event": "Ảnh lính Mỹ sử dụng M79",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ sử dụng M79",
+        "year": null
+      },
+      "id": "anh-linh-my-su-dung-m79",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ sử dụng M79 – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/19JpzrWjBY49YJpe5VnEPdn9NNBfwQSMk/view",
+          "filename": "anh-linh-my-su-dung-m79_01.jpg",
+          "id": "anh-linh-my-su-dung-m79_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Ảnh lính Mỹ sử dụng M79 – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1dOmqOXOmF7cWzxv_9NZdT7XlBOumzsvu/view",
+          "filename": "anh-linh-my-su-dung-m79_02.jpg",
+          "id": "anh-linh-my-su-dung-m79_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ sử dụng M79",
+      "slug": "anh-linh-my-su-dung-m79",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

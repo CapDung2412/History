@@ -1,0 +1,2 @@
+# Optional real-browser acceptance checks; production backend does not need this.
+playwright>=1.55,<2

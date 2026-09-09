@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "phu-hieu-tieu-doan-4-le-duong-3",
+      "name": "Phù hiệu Tiểu đoàn 4 Lê dương số 3",
+      "slug": "phu-hieu-tieu-doan-4-le-duong-3",
+      "category": "military_insignia",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_insignia",
+        "phu-hieu-tieu-doan-4-le-duong-3"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Phù hiệu Tiểu đoàn 4 Lê dương số 3",
+        "description": "Hiện vật được nhận diện là Phù hiệu Tiểu đoàn 4 Lê dương số 3. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Phù hiệu thể hiện dấu hiệu nhận diện của đơn vị quân sự được nêu trong tên hiện vật. Bộ hiện vật bổ sung thông tin về tổ chức, nguồn gốc và biểu trưng của các đơn vị xuất hiện trong bối cảnh chiến tranh.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Phù hiệu Tiểu đoàn 4 Lê dương số 3",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "phu-hieu-tieu-doan-4-le-duong-3_01",
+          "filename": "phu-hieu-tieu-doan-4-le-duong-3_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1MXkG7kz1Uu1IDDTQy1gBfGbhosFd07oF/view",
+          "caption": "Phù hiệu Tiểu đoàn 4 Lê dương số 3 – góc chụp 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-4-le-duong-3_02",
+          "filename": "phu-hieu-tieu-doan-4-le-duong-3_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1MTGyvtbuOEossFxuIyc6QYVjnu_peCCN/view",
+          "caption": "Phù hiệu Tiểu đoàn 4 Lê dương số 3 – góc chụp 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-4-le-duong-3_03",
+          "filename": "phu-hieu-tieu-doan-4-le-duong-3_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Q1tIyBfxTXvnWqh8XVp65i6vVrpKq66Z/view",
+          "caption": "Phù hiệu Tiểu đoàn 4 Lê dương số 3 – góc chụp 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "phu-hieu-tieu-doan-4-le-duong-3_04",
+          "filename": "phu-hieu-tieu-doan-4-le-duong-3_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1_Na6F6XXDF9bSnfAk7JpmmpxT0b0OX5y/view",
+          "caption": "Phù hiệu Tiểu đoàn 4 Lê dương số 3 – góc chụp 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}
+

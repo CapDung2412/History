@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bang-trung-bay-vu-khi-my",
+      "name": "Bảng trưng bày vũ khí Mỹ",
+      "slug": "bang-trung-bay-vu-khi-my",
+      "category": "exhibition_panel",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "exhibition_panel",
+        "bang-trung-bay-vu-khi-my"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng trưng bày vũ khí Mỹ",
+        "description": "Tư liệu trình bày bảng trưng bày vũ khí Mỹ. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Chủ thể được xác định trực tiếp là bảng trưng bày vũ khí Mỹ. Tư liệu bổ sung thông tin cụ thể cho việc nhận diện hiện vật hoặc sự kiện trong không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Bảng trưng bày vũ khí Mỹ",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "bang-trung-bay-vu-khi-my_01",
+          "filename": "bang-trung-bay-vu-khi-my_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1YrPPQ5Tp6o253F-ShRNXzyg9OpX1WKaE/view",
+          "caption": "Bảng trưng bày vũ khí Mỹ – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

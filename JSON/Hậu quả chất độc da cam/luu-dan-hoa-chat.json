@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "luu-dan-hoa-chat",
+      "name": "Lựu đạn hóa chất",
+      "slug": "luu-dan-hoa-chat",
+      "category": "military_artifact",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "military_artifact",
+        "luu-dan-hoa-chat"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lựu đạn hóa chất",
+        "description": "Hiện vật được nhận diện là Lựu đạn hóa chất. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Hiện vật thuộc nhóm phương tiện hóa học, tạo khói hoặc trang bị phòng độc được sử dụng trong môi trường quân sự. Đặc điểm tên gọi và cấu tạo của hiện vật giúp phân biệt nó với vũ khí thông thường trong cùng không gian trưng bày.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Lựu đạn hóa chất",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "luu-dan-hoa-chat_01",
+          "filename": "luu-dan-hoa-chat_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1VTNG3FnRAuqXw66r86iLWQZzD5NlLGOH/view",
+          "caption": "Lựu đạn hóa chất – góc chụp 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "luu-dan-hoa-chat_02",
+          "filename": "luu-dan-hoa-chat_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jrmdfzHSgiBb_-LS4GTK_p6gd47MVkNJ/view",
+          "caption": "Lựu đạn hóa chất – góc chụp 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "luu-dan-hoa-chat_03",
+          "filename": "luu-dan-hoa-chat_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1b2f8v0U_YzhdUX_0d_LvMZuY_e-eBOzJ/view",
+          "caption": "Lựu đạn hóa chất – góc chụp 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "luu-dan-hoa-chat_04",
+          "filename": "luu-dan-hoa-chat_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xkWeMb7jgE5PtRFJs_w145Ltr4K_k3XM/view",
+          "caption": "Lựu đạn hóa chất – góc chụp 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "luu-dan-hoa-chat_05",
+          "filename": "luu-dan-hoa-chat_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1z8zvxIuu8BHb-gHZAsuQW3eKQZEiYs8p/view",
+          "caption": "Lựu đạn hóa chất – góc chụp 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}
+

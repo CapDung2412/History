@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đại liên besa. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Đại liên besa",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đại liên besa",
+        "year": null
+      },
+      "id": "dai-lien-besa",
+      "images": [
+        {
+          "caption": "Đại liên besa – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1weZ0IAufJnSPv1r2pOqZ9uzVr5kKsHwB/view",
+          "filename": "dai-lien-besa_01.jpg",
+          "id": "dai-lien-besa_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đại liên besa – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/17NttD3Hk-Qju3qH8nT-ssKTKWHu9XBSR/view",
+          "filename": "dai-lien-besa_02.jpg",
+          "id": "dai-lien-besa_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đại liên besa – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1UJr9PgpQA2AEsEouBHsJIQmZ7QJgyLGk/view",
+          "filename": "dai-lien-besa_03.jpg",
+          "id": "dai-lien-besa_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đại liên besa",
+      "slug": "dai-lien-besa",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại bé gái xin lính Mỹ đừng giết cha. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung ghi nhận hành vi bạo lực, bắt giữ, áp giải, hủy hoại tài sản hoặc xâm hại thân thể con người trong chiến tranh. Tư liệu cho thấy mức độ tổn thương và sự vi phạm nghiêm trọng đối với dân thường hoặc người bị bắt.",
+        "event": "Ảnh bé gái xin lính Mỹ đừng giết cha",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh bé gái xin lính Mỹ đừng giết cha",
+        "year": null
+      },
+      "id": "anh-be-gai-xin-linh-my-dung-giet-cha",
+      "images": [
+        {
+          "caption": "Ảnh bé gái xin lính Mỹ đừng giết cha – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1AhpKW2Fcb1Bco8t8PRGZCTEEC0KCzYNO/view",
+          "filename": "anh-be-gai-xin-linh-my-dung-giet-cha_01.jpg",
+          "id": "anh-be-gai-xin-linh-my-dung-giet-cha_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh bé gái xin lính Mỹ đừng giết cha",
+      "slug": "anh-be-gai-xin-linh-my-dung-giet-cha",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

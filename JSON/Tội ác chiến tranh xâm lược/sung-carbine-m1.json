@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng carbine M1. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng trường hoặc carbine, được nhận diện theo mẫu súng ghi trong hồ sơ trưng bày. Tư liệu giúp đối chiếu hình dáng và tên gọi của các loại súng bộ binh thời chiến.",
+        "event": "Súng carbine M1",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng carbine M1",
+        "year": null
+      },
+      "id": "sung-carbine-m1",
+      "images": [
+        {
+          "caption": "Súng carbine M1 – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1rJqIpZokvqCx40jBKawyWkWz50pFMeGm/view",
+          "filename": "sung-carbine-m1_01.jpg",
+          "id": "sung-carbine-m1_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng carbine M1 – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/16h_-GC7EE2kPS-n7uTPYlEcRUm4N8du4/view",
+          "filename": "sung-carbine-m1_02.jpg",
+          "id": "sung-carbine-m1_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng carbine M1 – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1cwqfI16NQF_ow8QMRxX7Acpov6K4p_lQ/view",
+          "filename": "sung-carbine-m1_03.jpg",
+          "id": "sung-carbine-m1_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng carbine M1",
+      "slug": "sung-carbine-m1",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

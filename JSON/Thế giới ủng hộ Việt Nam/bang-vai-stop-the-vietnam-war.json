@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Băng vải mang khẩu hiệu “Stop the Vietnam War”, yêu cầu chấm dứt chiến tranh Việt Nam. Hiện vật được dùng để đưa thông điệp phản chiến ra không gian công cộng trong các hoạt động vận động và biểu tình. Người sở hữu có thể đeo, mang, treo hoặc trưng bày hiện vật để thể hiện công khai thái độ và sự lựa chọn của mình. Dấu vết vật chất này giúp nhận diện trực tiếp ngôn ngữ, biểu tượng và cách vận động được sử dụng trong từng phong trào.",
+        "event": "Băng vải Stop the Vietnam War",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Băng vải Stop the Vietnam War",
+        "year": null
+      },
+      "id": "bang-vai-stop-the-vietnam-war",
+      "images": [
+        {
+          "caption": "Băng vải Stop the Vietnam War – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/14TSYIyPD2acIq35Q5lPQ4233Gpoz-9H5/view",
+          "filename": "bang-vai-stop-the-vietnam-war_01.jpg",
+          "id": "bang-vai-stop-the-vietnam-war_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Băng vải Stop the Vietnam War",
+      "slug": "bang-vai-stop-the-vietnam-war",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Ấn phẩm Nhật Bản năm 1972 truyền đi lời kêu gọi “Hãy ngồi trước xe tăng”, cổ vũ hành động bất bạo động nhằm ngăn cản chiến tranh. Tư liệu cho thấy phong trào phản chiến ở Nhật Bản sử dụng sách báo và khẩu hiệu để vận động quần chúng. Nội dung của tài liệu hướng tới công chúng tại châu Á, giúp họ tiếp cận thông tin và quan điểm liên quan đến Việt Nam. Hiện vật chứng minh sách báo, văn kiện và thông điệp bằng chữ viết là một kênh quan trọng để hình thành và lan tỏa dư luận quốc tế.",
+        "event": "Ấn phẩm hãy ngồi trước xe tăng Nhật Bản 1972",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Ấn phẩm hãy ngồi trước xe tăng Nhật Bản 1972",
+        "year": 1972
+      },
+      "id": "an-pham-hay-ngoi-truoc-xe-tang-nhat-ban-1972",
+      "images": [
+        {
+          "caption": "Ấn phẩm hãy ngồi trước xe tăng Nhật Bản 1972 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1yCLStIwlPaU06sP6RWrxTizVvoiJ7jEG/view",
+          "filename": "an-pham-hay-ngoi-truoc-xe-tang-nhat-ban-1972_01.jpg",
+          "id": "an-pham-hay-ngoi-truoc-xe-tang-nhat-ban-1972_01",
+          "view": "toan-canh",
+          "year": 1972
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ấn phẩm hãy ngồi trước xe tăng Nhật Bản 1972",
+      "slug": "an-pham-hay-ngoi-truoc-xe-tang-nhat-ban-1972",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-a",
+        "1972"
+      ]
+    }
+  ]
+}

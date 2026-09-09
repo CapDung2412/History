@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Tư liệu về Lawrence Colburn, thành viên tổ bay Mỹ đã tham gia bảo vệ và cứu người dân Sơn Mỹ năm 1968. Câu chuyện của ông cho thấy tiếng nói lương tri phản đối hành động sát hại thường dân. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với châu Mỹ. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Lawrence Colburn cứu người dân Sơn Mỹ 1968",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Lawrence Colburn cứu người dân Sơn Mỹ 1968",
+        "year": 1968
+      },
+      "id": "lawrence-colburn-cuu-nguoi-dan-son-my-1968",
+      "images": [
+        {
+          "caption": "Lawrence Colburn cứu người dân Sơn Mỹ 1968 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1t2xsAO58tJHA3iVB9uaxxecZTPUM4Ts8/view",
+          "filename": "lawrence-colburn-cuu-nguoi-dan-son-my-1968_01.jpg",
+          "id": "lawrence-colburn-cuu-nguoi-dan-son-my-1968_01",
+          "view": "toan-canh",
+          "year": 1968
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Lawrence Colburn cứu người dân Sơn Mỹ 1968",
+      "slug": "lawrence-colburn-cuu-nguoi-dan-son-my-1968",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my",
+        "1968"
+      ]
+    }
+  ]
+}

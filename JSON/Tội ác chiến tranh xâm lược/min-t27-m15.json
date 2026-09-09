@@ -1,0 +1,75 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Mìn t27 M15. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm bom, mìn, vỏ đạn hoặc mảnh vật liệu nổ được định danh theo tên trưng bày. Dấu tích này giúp nhận diện chủng loại bom mìn và nguy cơ gây sát thương đối với con người trong và sau chiến tranh.",
+        "event": "Mìn t27 M15",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Mìn t27 M15",
+        "year": null
+      },
+      "id": "min-t27-m15",
+      "images": [
+        {
+          "caption": "Mìn t27 M15 – góc chụp 1/5.",
+          "drive_url": "https://drive.google.com/file/d/1Jl5J2KLDEXjxfHPlkOqIN3MacnZlBsps/view",
+          "filename": "min-t27-m15_01.jpg",
+          "id": "min-t27-m15_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Mìn t27 M15 – góc chụp 2/5.",
+          "drive_url": "https://drive.google.com/file/d/1_yDnRU6xMscMWXb6H7ptmOMQ87sj0Q3-/view",
+          "filename": "min-t27-m15_02.jpg",
+          "id": "min-t27-m15_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Mìn t27 M15 – góc chụp 3/5.",
+          "drive_url": "https://drive.google.com/file/d/1uUE72w6RUEM9G7e1sA1BSlw-733rFOzj/view",
+          "filename": "min-t27-m15_03.jpg",
+          "id": "min-t27-m15_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Mìn t27 M15 – góc chụp 4/5.",
+          "drive_url": "https://drive.google.com/file/d/1rd14vTNFb5Hn2wgEYZGxGwottYFBdr44/view",
+          "filename": "min-t27-m15_04.jpg",
+          "id": "min-t27-m15_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Mìn t27 M15 – góc chụp 5/5.",
+          "drive_url": "https://drive.google.com/file/d/1DK4ztZ46f13pofH0u85XGK3qkLEQqtPb/view",
+          "filename": "min-t27-m15_05.jpg",
+          "id": "min-t27-m15_05",
+          "view": "goc-nhin-05",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mìn t27 M15",
+      "slug": "min-t27-m15",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

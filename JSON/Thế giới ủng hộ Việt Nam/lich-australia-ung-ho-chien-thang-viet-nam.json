@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "documentary_artifact",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Lịch Australia ủng hộ chiến thắng Việt Nam”. Tư liệu thể hiện sự đoàn kết quốc tế với Việt Nam bằng cả hoạt động chính trị, tinh thần và hỗ trợ vật chất. Người sở hữu có thể đeo, mang, treo hoặc trưng bày hiện vật để thể hiện công khai thái độ và sự lựa chọn của mình. Dấu vết vật chất này giúp nhận diện trực tiếp ngôn ngữ, biểu tượng và cách vận động được sử dụng trong từng phong trào.",
+        "event": "Lịch Australia ủng hộ chiến thắng Việt Nam",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Lịch Australia ủng hộ chiến thắng Việt Nam",
+        "year": null
+      },
+      "id": "lich-australia-ung-ho-chien-thang-viet-nam",
+      "images": [
+        {
+          "caption": "Lịch Australia ủng hộ chiến thắng Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1hHPA8f-rIY6xl8IZQo_w-2NW1gcCTySK/view",
+          "filename": "lich-australia-ung-ho-chien-thang-viet-nam_01.jpg",
+          "id": "lich-australia-ung-ho-chien-thang-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Lịch Australia ủng hộ chiến thắng Việt Nam",
+      "slug": "lich-australia-ung-ho-chien-thang-viet-nam",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "documentary_artifact",
+        "chau-dai-duong"
+      ]
+    }
+  ]
+}

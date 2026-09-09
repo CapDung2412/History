@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Thùng đạn và thùng quân dụng. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Hiện vật thuộc nhóm vũ khí hoặc vật chứa đạn, phục vụ nhiệm vụ chiến đấu và bảo vệ tuyến vận chuyển. Dấu tích này góp phần nhận diện trang bị quân sự được sử dụng trong hoạt động trên tuyến đường 1C.",
+        "event": "Thùng đạn và thùng quân dụng",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Thùng đạn và thùng quân dụng",
+        "year": null
+      },
+      "id": "thung-dan-va-thung-quan-dung",
+      "images": [
+        {
+          "caption": "Thùng đạn và thùng quân dụng – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1Bw90ZlKCr1whQOFqKxEyt4zo406S3NZo/view",
+          "filename": "thung-dan-va-thung-quan-dung_01.jpg",
+          "id": "thung-dan-va-thung-quan-dung_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Thùng đạn và thùng quân dụng – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/1jKWcKG1VUrqGyu86kPVzkYPE_F-cjI51/view",
+          "filename": "thung-dan-va-thung-quan-dung_02.jpg",
+          "id": "thung-dan-va-thung-quan-dung_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Thùng đạn và thùng quân dụng",
+      "slug": "thung-dan-va-thung-quan-dung",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

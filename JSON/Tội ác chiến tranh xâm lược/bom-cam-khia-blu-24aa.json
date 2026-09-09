@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bom cam khía blu 24aa. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là bom cam khía blu 24aa. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Bom cam khía blu 24aa",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bom cam khía blu 24aa",
+        "year": null
+      },
+      "id": "bom-cam-khia-blu-24aa",
+      "images": [
+        {
+          "caption": "Bom cam khía blu 24aa – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1D7k6RuT0pm-AEaafk1a8-x4kmhjWP4Pt/view",
+          "filename": "bom-cam-khia-blu-24aa_01.jpg",
+          "id": "bom-cam-khia-blu-24aa_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Bom cam khía blu 24aa – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1Yr9B1N1fWz3qV_gJnMnWqUOAiGhLsdsO/view",
+          "filename": "bom-cam-khia-blu-24aa_02.jpg",
+          "id": "bom-cam-khia-blu-24aa_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Bom cam khía blu 24aa – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1M_MMAVZb7w1lupcJb_h3Mg6XAHowPk2n/view",
+          "filename": "bom-cam-khia-blu-24aa_03.jpg",
+          "id": "bom-cam-khia-blu-24aa_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Bom cam khía blu 24aa – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1Ozro7sX0NcGKN1iw-qonKilAkrqD-ecd/view",
+          "filename": "bom-cam-khia-blu-24aa_04.jpg",
+          "id": "bom-cam-khia-blu-24aa_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bom cam khía blu 24aa",
+      "slug": "bom-cam-khia-blu-24aa",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

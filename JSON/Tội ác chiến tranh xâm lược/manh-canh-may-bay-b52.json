@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Mảnh cánh máy bay B-52. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là mảnh cánh máy bay B-52. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Mảnh cánh máy bay B-52",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Mảnh cánh máy bay B-52",
+        "year": null
+      },
+      "id": "manh-canh-may-bay-b52",
+      "images": [
+        {
+          "caption": "Mảnh cánh máy bay B-52 – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1B7akEfk60FqXGJ8q0y2wDYR7EyNzVBYs/view",
+          "filename": "manh-canh-may-bay-b52_01.jpg",
+          "id": "manh-canh-may-bay-b52_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Mảnh cánh máy bay B-52 – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1mOC6BNfvtsL2DfJroJfTmJvcLfSMIdlC/view",
+          "filename": "manh-canh-may-bay-b52_02.jpg",
+          "id": "manh-canh-may-bay-b52_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Mảnh cánh máy bay B-52 – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1UEKJFX6CMISEUBHM6DKbU0Fi56wX6NLh/view",
+          "filename": "manh-canh-may-bay-b52_03.jpg",
+          "id": "manh-canh-may-bay-b52_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Mảnh cánh máy bay B-52 – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1yL9xr05eeudRNIAqy64UpAEOr30sMf7Y/view",
+          "filename": "manh-canh-may-bay-b52_04.jpg",
+          "id": "manh-canh-may-bay-b52_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mảnh cánh máy bay B-52",
+      "slug": "manh-canh-may-bay-b52",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

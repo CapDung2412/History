@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại đoàn 950 vận chuyển vũ khí 1972. Mốc thời gian được ghi nhận là năm 1972, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung cho thấy vũ khí, đạn dược được tiếp nhận hoặc vận chuyển bằng các phương tiện phù hợp với địa hình tại địa bàn Tây Nam Bộ. Tư liệu làm rõ cách mạng lưới vận tải và hậu cần duy trì dòng chi viện trên tuyến đường 1C.",
+        "event": "Đoàn 950 vận chuyển vũ khí 1972",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Đoàn 950 vận chuyển vũ khí 1972",
+        "year": 1972
+      },
+      "id": "doan-950-van-chuyen-vu-khi-1972",
+      "images": [
+        {
+          "caption": "Đoàn 950 vận chuyển vũ khí 1972 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1aKIb7RVhTzBNUBIeMyScS_04pKGTteUh/view",
+          "filename": "doan-950-van-chuyen-vu-khi-1972_01.jpg",
+          "id": "doan-950-van-chuyen-vu-khi-1972_01",
+          "view": "toan-canh",
+          "year": 1972
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đoàn 950 vận chuyển vũ khí 1972",
+      "slug": "doan-950-van-chuyen-vu-khi-1972",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1972"
+      ]
+    }
+  ]
+}
+

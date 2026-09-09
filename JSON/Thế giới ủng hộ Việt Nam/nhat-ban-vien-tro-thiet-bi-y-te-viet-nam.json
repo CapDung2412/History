@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nhật Bản viện trợ thiết bị y tế Việt Nam. Hoạt động cung cấp lương thực, thuốc men, thiết bị hoặc chuyên môn cho thấy sự ủng hộ quốc tế đối với Việt Nam được thể hiện bằng những hỗ trợ cụ thể. Sự ủng hộ được thể hiện bằng hành động cụ thể như vận động chính trị, quyên góp, viện trợ vật chất, hỗ trợ chuyên môn hoặc giao lưu nhân dân. Tư liệu vì vậy phản ánh chiều sâu của tình đoàn kết dành cho Việt Nam tại châu Á, không chỉ dừng ở lời tuyên bố.",
+        "event": "Nhật Bản viện trợ thiết bị y tế Việt Nam",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Nhật Bản viện trợ thiết bị y tế Việt Nam",
+        "year": null
+      },
+      "id": "nhat-ban-vien-tro-thiet-bi-y-te-viet-nam",
+      "images": [
+        {
+          "caption": "Nhật Bản viện trợ thiết bị y tế Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1XvVb6OeZ9amHtyJR4N_mYXcNqKugW4hp/view",
+          "filename": "nhat-ban-vien-tro-thiet-bi-y-te-viet-nam_01.jpg",
+          "id": "nhat-ban-vien-tro-thiet-bi-y-te-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Nhật Bản viện trợ thiết bị y tế Việt Nam",
+      "slug": "nhat-ban-vien-tro-thiet-bi-y-te-viet-nam",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-a"
+      ]
+    }
+  ]
+}

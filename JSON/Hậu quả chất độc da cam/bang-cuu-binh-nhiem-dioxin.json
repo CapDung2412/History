@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bang-cuu-binh-nhiem-dioxin",
+      "name": "Bảng cựu binh nhiễm dioxin",
+      "slug": "bang-cuu-binh-nhiem-dioxin",
+      "category": "exhibition_panel",
+      "tags": [
+        "hau-qua-chat-doc-da-cam",
+        "exhibition_panel",
+        "bang-cuu-binh-nhiem-dioxin"
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng cựu binh nhiễm dioxin",
+        "description": "Tư liệu trình bày bảng cựu binh nhiễm dioxin. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chất độc hóa học. Nội dung phản ánh thương tổn, lời chứng, nhu cầu phục hồi hoặc hành trình đòi công lý của những người chịu ảnh hưởng chất độc da cam/dioxin. Tư liệu nhấn mạnh hậu quả lâu dài đối với con người và sự cần thiết của hoạt động chăm sóc, hỗ trợ và bảo vệ quyền lợi nạn nhân.",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chất độc hóa học",
+        "year": null,
+        "event": "Bảng cựu binh nhiễm dioxin",
+        "source": null
+      },
+      "images": [
+        {
+          "id": "bang-cuu-binh-nhiem-dioxin_01",
+          "filename": "bang-cuu-binh-nhiem-dioxin_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1bB6q9nU8RGriGcdY-OFuOCkAgkJyPRIY/view",
+          "caption": "Bảng cựu binh nhiễm dioxin – ảnh tổng thể.",
+          "year": null,
+          "view": "toan-canh"
+        }
+      ]
+    }
+  ]
+}
+

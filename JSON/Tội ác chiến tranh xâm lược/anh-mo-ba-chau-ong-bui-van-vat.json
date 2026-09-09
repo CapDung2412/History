@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại mộ ba cháu ông Bùi Văn Vát. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể trung tâm là nạn nhân, thân nhân hoặc dấu tích gia đình chịu hậu quả của bom đạn và bạo lực chiến tranh. Hình ảnh giúp nhận diện hậu quả chiến tranh qua những trường hợp con người và gia đình cụ thể.",
+        "event": "Ảnh mộ ba cháu ông Bùi Văn Vát",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh mộ ba cháu ông Bùi Văn Vát",
+        "year": null
+      },
+      "id": "anh-mo-ba-chau-ong-bui-van-vat",
+      "images": [
+        {
+          "caption": "Ảnh mộ ba cháu ông Bùi Văn Vát – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1aaRkDktXkETy9zV2Jv160suuE5mHtnP5/view",
+          "filename": "anh-mo-ba-chau-ong-bui-van-vat_01.jpg",
+          "id": "anh-mo-ba-chau-ong-bui-van-vat_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh mộ ba cháu ông Bùi Văn Vát",
+      "slug": "anh-mo-ba-chau-ong-bui-van-vat",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

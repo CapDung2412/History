@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại mộ ông Bùi Văn Vát và bà Lưu Thị Cảnh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể trung tâm là nạn nhân, thân nhân hoặc dấu tích gia đình chịu hậu quả của bom đạn và bạo lực chiến tranh. Hình ảnh giúp nhận diện hậu quả chiến tranh qua những trường hợp con người và gia đình cụ thể.",
+        "event": "Ảnh mộ ông Bùi Văn Vát và bà Lưu Thị Cảnh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh mộ ông Bùi Văn Vát và bà Lưu Thị Cảnh",
+        "year": null
+      },
+      "id": "anh-mo-ong-bui-van-vat-va-ba-luu-thi-canh",
+      "images": [
+        {
+          "caption": "Ảnh mộ ông Bùi Văn Vát và bà Lưu Thị Cảnh – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1pkTq4rMMdOVQ9-VzkDDZWc4Oib349Pim/view",
+          "filename": "anh-mo-ong-bui-van-vat-va-ba-luu-thi-canh_01.jpg",
+          "id": "anh-mo-ong-bui-van-vat-va-ba-luu-thi-canh_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh mộ ông Bùi Văn Vát và bà Lưu Thị Cảnh",
+      "slug": "anh-mo-ong-bui-van-vat-va-ba-luu-thi-canh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

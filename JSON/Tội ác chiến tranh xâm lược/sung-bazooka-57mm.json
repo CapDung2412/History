@@ -1,0 +1,91 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng bazooka 57mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm vũ khí chống tăng hoặc súng không giật, dùng để tấn công mục tiêu bọc thép hay công sự. Tư liệu giúp phân biệt nhóm vũ khí hỏa lực mạnh với súng bộ binh thông thường.",
+        "event": "Súng bazooka 57mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng bazooka 57mm",
+        "year": null
+      },
+      "id": "sung-bazooka-57mm",
+      "images": [
+        {
+          "caption": "Súng bazooka 57mm – góc chụp 1/7.",
+          "drive_url": "https://drive.google.com/file/d/1rBAxovXbfhI4D8Q0o_1-DQ5XrqdJV5XH/view",
+          "filename": "sung-bazooka-57mm_01.jpg",
+          "id": "sung-bazooka-57mm_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 57mm – góc chụp 2/7.",
+          "drive_url": "https://drive.google.com/file/d/1I2Mdmz4HUDSlNP-VZRW8sQqnu6nkrTIQ/view",
+          "filename": "sung-bazooka-57mm_02.jpg",
+          "id": "sung-bazooka-57mm_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 57mm – góc chụp 3/7.",
+          "drive_url": "https://drive.google.com/file/d/1GMBh48tv8IaI_V_fC1oENERhHnZiZreD/view",
+          "filename": "sung-bazooka-57mm_03.jpg",
+          "id": "sung-bazooka-57mm_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 57mm – góc chụp 4/7.",
+          "drive_url": "https://drive.google.com/file/d/1N0MT5c4k9tmw9HbCwduI2tWCNrPSBW3z/view",
+          "filename": "sung-bazooka-57mm_04.jpg",
+          "id": "sung-bazooka-57mm_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 57mm – góc chụp 5/7.",
+          "drive_url": "https://drive.google.com/file/d/1qMdYFsdcSksXZrt1WDCDJAkpo9R1-OUL/view",
+          "filename": "sung-bazooka-57mm_05.jpg",
+          "id": "sung-bazooka-57mm_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 57mm – góc chụp 6/7.",
+          "drive_url": "https://drive.google.com/file/d/11dyM2A7_bjx_6fFYIoCbPSncMg7tKybV/view",
+          "filename": "sung-bazooka-57mm_06.jpg",
+          "id": "sung-bazooka-57mm_06",
+          "view": "goc-nhin-06",
+          "year": null
+        },
+        {
+          "caption": "Súng bazooka 57mm – góc chụp 7/7.",
+          "drive_url": "https://drive.google.com/file/d/1hbkvHC5615cUKgNp_l1fbXvDybRmivnL/view",
+          "filename": "sung-bazooka-57mm_07.jpg",
+          "id": "sung-bazooka-57mm_07",
+          "view": "goc-nhin-07",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng bazooka 57mm",
+      "slug": "sung-bazooka-57mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_map",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bản đồ các khu vực bị bom Mỹ ở Việt Nam. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là bản đồ các khu vực bị bom Mỹ ở Việt Nam. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Bản đồ các khu vực bị bom Mỹ ở Việt Nam",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Bản đồ các khu vực bị bom Mỹ ở Việt Nam",
+        "year": null
+      },
+      "id": "ban-do-cac-khu-vuc-bi-bom-my-o-viet-nam",
+      "images": [
+        {
+          "caption": "Bản đồ các khu vực bị bom Mỹ ở Việt Nam – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1Sxd3mxhQzY0VX0G6qY01-8zffU-TJ836/view",
+          "filename": "ban-do-cac-khu-vuc-bi-bom-my-o-viet-nam_01.jpg",
+          "id": "ban-do-cac-khu-vuc-bi-bom-my-o-viet-nam_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bản đồ các khu vực bị bom Mỹ ở Việt Nam",
+      "slug": "ban-do-cac-khu-vuc-bi-bom-my-o-viet-nam",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_map"
+      ]
+    }
+  ]
+}
+

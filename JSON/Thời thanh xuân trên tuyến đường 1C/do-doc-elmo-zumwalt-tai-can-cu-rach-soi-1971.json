@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại đô đốc Elmo Zumwalt tại căn cứ Rạch Sỏi 1971. Mốc thời gian được ghi nhận là năm 1971, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Đô đốc Elmo Zumwalt tại căn cứ Rạch Sỏi 1971",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Đô đốc Elmo Zumwalt tại căn cứ Rạch Sỏi 1971",
+        "year": 1971
+      },
+      "id": "do-doc-elmo-zumwalt-tai-can-cu-rach-soi-1971",
+      "images": [
+        {
+          "caption": "Đô đốc Elmo Zumwalt tại căn cứ Rạch Sỏi 1971 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1YiwAcBveHPUV068EzodWv_zCzhpA9DBC/view",
+          "filename": "do-doc-elmo-zumwalt-tai-can-cu-rach-soi-1971_01.jpg",
+          "id": "do-doc-elmo-zumwalt-tai-can-cu-rach-soi-1971_01",
+          "view": "toan-canh",
+          "year": 1971
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đô đốc Elmo Zumwalt tại căn cứ Rạch Sỏi 1971",
+      "slug": "do-doc-elmo-zumwalt-tai-can-cu-rach-soi-1971",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1971"
+      ]
+    }
+  ]
+}
+

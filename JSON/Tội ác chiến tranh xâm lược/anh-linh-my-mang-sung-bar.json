@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại lính Mỹ mang súng bar. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Tư liệu ghi nhận binh lính cùng loại vũ khí, trang bị hoặc phương tiện quân sự được nêu trực tiếp trong tên ảnh. Nội dung bổ sung bối cảnh về lực lượng và phương tiện xuất hiện trong các hoạt động quân sự thời chiến.",
+        "event": "Ảnh lính Mỹ mang súng bar",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh lính Mỹ mang súng bar",
+        "year": null
+      },
+      "id": "anh-linh-my-mang-sung-bar",
+      "images": [
+        {
+          "caption": "Ảnh lính Mỹ mang súng bar – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1ppmzXXY8fqxq372FjhLLASgprCZtKrki/view",
+          "filename": "anh-linh-my-mang-sung-bar_01.jpg",
+          "id": "anh-linh-my-mang-sung-bar_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh lính Mỹ mang súng bar",
+      "slug": "anh-linh-my-mang-sung-bar",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

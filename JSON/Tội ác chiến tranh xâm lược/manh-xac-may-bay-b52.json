@@ -1,0 +1,123 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Mảnh xác máy bay B-52. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là mảnh xác máy bay B-52. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Mảnh xác máy bay B-52",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Mảnh xác máy bay B-52",
+        "year": null
+      },
+      "id": "manh-xac-may-bay-b52",
+      "images": [
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 1/11.",
+          "drive_url": "https://drive.google.com/file/d/1C_Vhi7Lm_DISb63U2pYSkDAFXyMJBJNO/view",
+          "filename": "manh-xac-may-bay-b52_01.jpg",
+          "id": "manh-xac-may-bay-b52_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 2/11.",
+          "drive_url": "https://drive.google.com/file/d/1TsZRkT8e6bfn9EpaxB5RrUIKo2UYqqvG/view",
+          "filename": "manh-xac-may-bay-b52_02.jpg",
+          "id": "manh-xac-may-bay-b52_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 3/11.",
+          "drive_url": "https://drive.google.com/file/d/1dWijOevKMZlF6u85Cx82H39jzn03jmz7/view",
+          "filename": "manh-xac-may-bay-b52_03.jpg",
+          "id": "manh-xac-may-bay-b52_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 4/11.",
+          "drive_url": "https://drive.google.com/file/d/1vGg2UpEVAWac78qlqnwwvbKUYBBqd_vJ/view",
+          "filename": "manh-xac-may-bay-b52_04.jpg",
+          "id": "manh-xac-may-bay-b52_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 5/11.",
+          "drive_url": "https://drive.google.com/file/d/1TcsCYMAsxDzsMTvglhVYzTCw4KBW3Eu3/view",
+          "filename": "manh-xac-may-bay-b52_05.jpg",
+          "id": "manh-xac-may-bay-b52_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 6/11.",
+          "drive_url": "https://drive.google.com/file/d/1IVlOXassUbaLDkhXT03YqNMSCO8g05Aa/view",
+          "filename": "manh-xac-may-bay-b52_06.jpg",
+          "id": "manh-xac-may-bay-b52_06",
+          "view": "goc-nhin-06",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 7/11.",
+          "drive_url": "https://drive.google.com/file/d/1gx3BxrsWPwXMemPfjBxQxZeOC59fwK9V/view",
+          "filename": "manh-xac-may-bay-b52_07.jpg",
+          "id": "manh-xac-may-bay-b52_07",
+          "view": "goc-nhin-07",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 8/11.",
+          "drive_url": "https://drive.google.com/file/d/1kgjgLTtuN2NLgIH_SDh9ZCjDeS-nSedI/view",
+          "filename": "manh-xac-may-bay-b52_08.jpg",
+          "id": "manh-xac-may-bay-b52_08",
+          "view": "goc-nhin-08",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 9/11.",
+          "drive_url": "https://drive.google.com/file/d/1Ahv-oFu7ZwkS5Hh1jXKaPTfjRKE15xE-/view",
+          "filename": "manh-xac-may-bay-b52_09.jpg",
+          "id": "manh-xac-may-bay-b52_09",
+          "view": "goc-nhin-09",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 10/11.",
+          "drive_url": "https://drive.google.com/file/d/1xn4mGd3q10XLlZiv75Jk_x_969kTzk2Y/view",
+          "filename": "manh-xac-may-bay-b52_10.jpg",
+          "id": "manh-xac-may-bay-b52_10",
+          "view": "goc-nhin-10",
+          "year": null
+        },
+        {
+          "caption": "Mảnh xác máy bay B-52 – góc chụp 11/11.",
+          "drive_url": "https://drive.google.com/file/d/1lyndmBq0nUVkFzkk_xbdcXQt0iflcRmk/view",
+          "filename": "manh-xac-may-bay-b52_11.jpg",
+          "id": "manh-xac-may-bay-b52_11",
+          "view": "goc-nhin-11",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Mảnh xác máy bay B-52",
+      "slug": "manh-xac-may-bay-b52",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

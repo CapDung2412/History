@@ -1,0 +1,115 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng tiểu liên M18 commando. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng tiểu liên, được định danh theo mẫu hoặc biến thể ghi trong tên hiện vật. Tư liệu bổ sung thông tin về các loại vũ khí cá nhân xuất hiện trong chiến tranh.",
+        "event": "Súng tiểu liên M18 commando",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng tiểu liên M18 commando",
+        "year": null
+      },
+      "id": "sung-tieu-lien-m18-commando",
+      "images": [
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 1/10.",
+          "drive_url": "https://drive.google.com/file/d/1Je4aqfQsmZ-j4iIlqMKwD51Qr1yxIil9/view",
+          "filename": "sung-tieu-lien-m18-commando_01.jpg",
+          "id": "sung-tieu-lien-m18-commando_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 2/10.",
+          "drive_url": "https://drive.google.com/file/d/1zBI_kLMWVxedjLXyonF78-U_SlmlilQj/view",
+          "filename": "sung-tieu-lien-m18-commando_02.jpg",
+          "id": "sung-tieu-lien-m18-commando_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 3/10.",
+          "drive_url": "https://drive.google.com/file/d/1nI3tQrbgOcvrAUmXMSP8nKMPcb-6RF5j/view",
+          "filename": "sung-tieu-lien-m18-commando_03.jpg",
+          "id": "sung-tieu-lien-m18-commando_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 4/10.",
+          "drive_url": "https://drive.google.com/file/d/1dyqsYWyCt6zVfa_LesaEMj8uyWfjsZ7I/view",
+          "filename": "sung-tieu-lien-m18-commando_04.jpg",
+          "id": "sung-tieu-lien-m18-commando_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 5/10.",
+          "drive_url": "https://drive.google.com/file/d/1jYig954EkCwLbYFJIDj7hUOvWwj7G0IF/view",
+          "filename": "sung-tieu-lien-m18-commando_05.jpg",
+          "id": "sung-tieu-lien-m18-commando_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 6/10.",
+          "drive_url": "https://drive.google.com/file/d/1Rkk-IIRla5T0UZAfRCVT-jK5s4NHN4Z4/view",
+          "filename": "sung-tieu-lien-m18-commando_06.jpg",
+          "id": "sung-tieu-lien-m18-commando_06",
+          "view": "goc-nhin-06",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 7/10.",
+          "drive_url": "https://drive.google.com/file/d/1F3JahnlL5PmykFXKNQGyTUjwkRJ01Tjo/view",
+          "filename": "sung-tieu-lien-m18-commando_07.jpg",
+          "id": "sung-tieu-lien-m18-commando_07",
+          "view": "goc-nhin-07",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 8/10.",
+          "drive_url": "https://drive.google.com/file/d/1Z8_IiO73U1YMqkPHk9B5sDl1hePw9JDf/view",
+          "filename": "sung-tieu-lien-m18-commando_08.jpg",
+          "id": "sung-tieu-lien-m18-commando_08",
+          "view": "goc-nhin-08",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 9/10.",
+          "drive_url": "https://drive.google.com/file/d/13B00G_eZY_da05xb3CAHg-9-zCZgUVU5/view",
+          "filename": "sung-tieu-lien-m18-commando_09.jpg",
+          "id": "sung-tieu-lien-m18-commando_09",
+          "view": "goc-nhin-09",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M18 commando – góc chụp 10/10.",
+          "drive_url": "https://drive.google.com/file/d/10nIWIOBpLujnV9qu-uh49ZpylR2Klvyn/view",
+          "filename": "sung-tieu-lien-m18-commando_10.jpg",
+          "id": "sung-tieu-lien-m18-commando_10",
+          "view": "goc-nhin-10",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng tiểu liên M18 commando",
+      "slug": "sung-tieu-lien-m18-commando",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

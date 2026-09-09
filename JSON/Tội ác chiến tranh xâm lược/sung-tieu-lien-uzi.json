@@ -1,0 +1,51 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng tiểu liên uzi. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng tiểu liên, được định danh theo mẫu hoặc biến thể ghi trong tên hiện vật. Tư liệu bổ sung thông tin về các loại vũ khí cá nhân xuất hiện trong chiến tranh.",
+        "event": "Súng tiểu liên uzi",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng tiểu liên uzi",
+        "year": null
+      },
+      "id": "sung-tieu-lien-uzi",
+      "images": [
+        {
+          "caption": "Súng tiểu liên uzi – góc chụp 1/2.",
+          "drive_url": "https://drive.google.com/file/d/1inUTZ4vn27aVpCwVfUWXKhwhsBAMlA7q/view",
+          "filename": "sung-tieu-lien-uzi_01.jpg",
+          "id": "sung-tieu-lien-uzi_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên uzi – góc chụp 2/2.",
+          "drive_url": "https://drive.google.com/file/d/131VfboX0IS397W71xHEsGUHqMra0_D3R/view",
+          "filename": "sung-tieu-lien-uzi_02.jpg",
+          "id": "sung-tieu-lien-uzi_02",
+          "view": "goc-nhin-02",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng tiểu liên uzi",
+      "slug": "sung-tieu-lien-uzi",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

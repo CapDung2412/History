@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại cụ già và trẻ em Sơn Mỹ bị sát hại. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Nội dung gắn với sự kiện Sơn Mỹ, ghi lại dân thường, lực lượng quân sự hoặc dấu tích tại địa điểm xảy ra vụ việc. Tư liệu là một phần bằng chứng hình ảnh về số phận dân thường và diễn biến của tội ác chiến tranh tại Sơn Mỹ.",
+        "event": "Ảnh cụ già và trẻ em Sơn Mỹ bị sát hại",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh cụ già và trẻ em Sơn Mỹ bị sát hại",
+        "year": null
+      },
+      "id": "anh-cu-gia-va-tre-em-son-my-bi-sat-hai",
+      "images": [
+        {
+          "caption": "Ảnh cụ già và trẻ em Sơn Mỹ bị sát hại – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1vkB4Gz5qqSjEDMYPoATdC6KHar3sgEXe/view",
+          "filename": "anh-cu-gia-va-tre-em-son-my-bi-sat-hai_01.jpg",
+          "id": "anh-cu-gia-va-tre-em-son-my-bi-sat-hai_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh cụ già và trẻ em Sơn Mỹ bị sát hại",
+      "slug": "anh-cu-gia-va-tre-em-son-my-bi-sat-hai",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

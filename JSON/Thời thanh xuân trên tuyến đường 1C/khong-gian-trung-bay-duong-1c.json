@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "museum_exhibition",
+      "historical_info": {
+        "description": "Tư liệu ghi nhận không gian trưng bày đường 1C. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Bảng, lược đồ hoặc không gian trưng bày hệ thống hóa các tuyến vận chuyển, lực lượng, phương tiện và hiện vật gắn với đường 1C. Nội dung giúp liên kết địa bàn, nhiệm vụ hậu cần, hoạt động chiến đấu và đời sống của lực lượng trên tuyến.",
+        "event": "Không gian trưng bày đường 1C",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Không gian trưng bày đường 1C",
+        "year": null
+      },
+      "id": "khong-gian-trung-bay-duong-1c",
+      "images": [
+        {
+          "caption": "Không gian trưng bày đường 1C – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1NDQUklGdVwYb3yn0JjEZv90JmLifkxW-/view",
+          "filename": "khong-gian-trung-bay-duong-1c_01.jpg",
+          "id": "khong-gian-trung-bay-duong-1c_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày đường 1C – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/16BfxRPVOEWnVEZtIoIFhvs1mXTydCQeE/view",
+          "filename": "khong-gian-trung-bay-duong-1c_02.jpg",
+          "id": "khong-gian-trung-bay-duong-1c_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày đường 1C – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1Ev5qrdde1ijTb0ZQuE6tRkZjuSSYYC-m/view",
+          "filename": "khong-gian-trung-bay-duong-1c_03.jpg",
+          "id": "khong-gian-trung-bay-duong-1c_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Không gian trưng bày đường 1C",
+      "slug": "khong-gian-trung-bay-duong-1c",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "museum_exhibition"
+      ]
+    }
+  ]
+}
+

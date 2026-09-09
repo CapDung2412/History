@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại sự kiện “Tổ chức SODI nghiệm thu rà phá bom mìn Cam Lộ”. Tư liệu cung cấp bằng chứng trực quan về sự quan tâm và ủng hộ của cộng đồng quốc tế đối với Việt Nam. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với các tổ chức quốc tế. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Tổ chức SODI nghiệm thu rà phá bom mìn Cam Lộ",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Tổ chức SODI nghiệm thu rà phá bom mìn Cam Lộ",
+        "year": null
+      },
+      "id": "to-chuc-sodi-nghiem-thu-ra-pha-bom-min-cam-lo",
+      "images": [
+        {
+          "caption": "Tổ chức SODI nghiệm thu rà phá bom mìn Cam Lộ – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1jWxAs4XZTwGq8wE6IEmH8-Lfo-WmvFHl/view",
+          "filename": "to-chuc-sodi-nghiem-thu-ra-pha-bom-min-cam-lo_01.jpg",
+          "id": "to-chuc-sodi-nghiem-thu-ra-pha-bom-min-cam-lo_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tổ chức SODI nghiệm thu rà phá bom mìn Cam Lộ",
+      "slug": "to-chuc-sodi-nghiem-thu-ra-pha-bom-min-cam-lo",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te"
+      ]
+    }
+  ]
+}

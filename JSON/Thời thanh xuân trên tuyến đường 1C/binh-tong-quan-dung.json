@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Bình tông quân dụng. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Hiện vật hoặc hình ảnh phản ánh điều kiện ăn ở, chiếu sáng, nghỉ ngơi và sinh hoạt dã chiến của lực lượng trên tuyến. Nội dung làm rõ đời sống thường ngày phía sau nhiệm vụ vận tải và chiến đấu trên đường 1C.",
+        "event": "Bình tông quân dụng",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Bình tông quân dụng",
+        "year": null
+      },
+      "id": "binh-tong-quan-dung",
+      "images": [
+        {
+          "caption": "Bình tông quân dụng – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1HBEJ-1kFntmT0eM0uHTHmX-dR4DeuvO7/view",
+          "filename": "binh-tong-quan-dung_01.jpg",
+          "id": "binh-tong-quan-dung_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bình tông quân dụng",
+      "slug": "binh-tong-quan-dung",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "museum_exhibition",
+      "historical_info": {
+        "description": "Tư liệu ghi nhận không gian trưng bày hoạt động càn quét. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Nội dung ghi nhận phương tiện, lực lượng hoặc hoạt động tuần tra, càn quét và đánh phá tại khu vực Tây Nam Bộ. Tư liệu cho thấy sức ép quân sự mà tuyến vận tải 1C và lực lượng hoạt động tại đây phải đối mặt.",
+        "event": "Không gian trưng bày hoạt động càn quét",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Không gian trưng bày hoạt động càn quét",
+        "year": null
+      },
+      "id": "khong-gian-trung-bay-hoat-dong-can-quet",
+      "images": [
+        {
+          "caption": "Không gian trưng bày hoạt động càn quét – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1cBrdPPo8ZTNaO5qZbfJIx0xNqY-9M4_s/view",
+          "filename": "khong-gian-trung-bay-hoat-dong-can-quet_01.jpg",
+          "id": "khong-gian-trung-bay-hoat-dong-can-quet_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Không gian trưng bày hoạt động càn quét",
+      "slug": "khong-gian-trung-bay-hoat-dong-can-quet",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "museum_exhibition"
+      ]
+    }
+  ]
+}
+

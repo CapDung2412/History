@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "exhibition_panel",
+      "historical_info": {
+        "description": "Bảng chú thích xác định nội dung của ấn phẩm phản chiến Nhật Bản trong tủ trưng bày. Thông tin trên bảng giúp ghép đúng tên, xuất xứ và ý nghĩa của từng tư liệu hoặc hiện vật. Các tên riêng, mốc thời gian và nội dung được trình bày trên bảng là căn cứ để đọc đúng các ảnh và hiện vật đi kèm. Nhờ đó, người xem có thể phân biệt rõ nhân vật, tổ chức, sự kiện và hình thức đóng góp được giới thiệu trong chuyên đề.",
+        "event": "Bảng chú thích ấn phẩm phản chiến Nhật Bản",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Bảng chú thích ấn phẩm phản chiến Nhật Bản",
+        "year": null
+      },
+      "id": "bang-chu-thich-an-pham-phan-chien-nhat-ban",
+      "images": [
+        {
+          "caption": "Bảng chú thích ấn phẩm phản chiến Nhật Bản – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1idC80YZ4NlbNQ_G29uAQQIhndDcse_Jg/view",
+          "filename": "bang-chu-thich-an-pham-phan-chien-nhat-ban_01.jpg",
+          "id": "bang-chu-thich-an-pham-phan-chien-nhat-ban_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Bảng chú thích ấn phẩm phản chiến Nhật Bản",
+      "slug": "bang-chu-thich-an-pham-phan-chien-nhat-ban",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "exhibition_panel",
+        "chau-a"
+      ]
+    }
+  ]
+}

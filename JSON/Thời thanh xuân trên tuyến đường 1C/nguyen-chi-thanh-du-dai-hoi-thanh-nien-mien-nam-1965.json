@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nguyễn Chí Thanh dự Đại hội thanh niên miền Nam 1965. Mốc thời gian được ghi nhận là năm 1965, thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Chủ thể trung tâm của tư liệu là nguyễn Chí Thanh dự Đại hội thanh niên miền Nam 1965, được đặt trong mạch hoạt động của tuyến đường 1C. Tư liệu bổ sung một lát cắt cụ thể về con người, địa bàn hoặc nhiệm vụ trên tuyến vận tải Tây Nam Bộ.",
+        "event": "Nguyễn Chí Thanh dự Đại hội thanh niên miền Nam 1965",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Nguyễn Chí Thanh dự Đại hội thanh niên miền Nam 1965",
+        "year": 1965
+      },
+      "id": "nguyen-chi-thanh-du-dai-hoi-thanh-nien-mien-nam-1965",
+      "images": [
+        {
+          "caption": "Nguyễn Chí Thanh dự Đại hội thanh niên miền Nam 1965 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1dZQWc4vjfZbvgEmeoNWvaj6h922VqS62/view",
+          "filename": "nguyen-chi-thanh-du-dai-hoi-thanh-nien-mien-nam-1965_01.jpg",
+          "id": "nguyen-chi-thanh-du-dai-hoi-thanh-nien-mien-nam-1965_01",
+          "view": "toan-canh",
+          "year": 1965
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Nguyễn Chí Thanh dự Đại hội thanh niên miền Nam 1965",
+      "slug": "nguyen-chi-thanh-du-dai-hoi-thanh-nien-mien-nam-1965",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "historical_photograph",
+        "1965"
+      ]
+    }
+  ]
+}
+

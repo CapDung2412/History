@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Tủ trưng bày giới thiệu bom đinh và bom bi. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Tủ trưng bày bom đinh và bom bi",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Tủ trưng bày bom đinh và bom bi",
+        "year": null
+      },
+      "id": "tu-trung-bay-bom-dinh-va-bom-bi",
+      "images": [
+        {
+          "caption": "Tủ trưng bày bom đinh và bom bi – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1JrG6Sou1t9Yj1_q-A1oaDp-fBKao1kaL/view",
+          "filename": "tu-trung-bay-bom-dinh-va-bom-bi_01.jpg",
+          "id": "tu-trung-bay-bom-dinh-va-bom-bi_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tủ trưng bày bom đinh và bom bi",
+      "slug": "tu-trung-bay-bom-dinh-va-bom-bi",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}

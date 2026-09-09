@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại Hội Cựu chiến binh Mỹ trao tài liệu liên quan đến quân nhân mất tích năm 1995. Hoạt động góp phần thúc đẩy hợp tác nhân đạo và giải quyết di sản chiến tranh giữa Việt Nam và Hoa Kỳ. Các nhân vật, địa điểm và mốc thời gian trong tư liệu giúp đặt sự kiện vào bối cảnh quan hệ giữa Việt Nam với các tổ chức quốc tế. Hình ảnh bổ sung bằng chứng trực quan về phạm vi rộng và nhiều hình thức của phong trào quốc tế ủng hộ Việt Nam.",
+        "event": "Hội cựu chiến binh Mỹ trao tài liệu quân nhân mất tích 1995",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Hội cựu chiến binh Mỹ trao tài liệu quân nhân mất tích 1995",
+        "year": 1995
+      },
+      "id": "hoi-cuu-chien-binh-my-trao-tai-lieu-quan-nhan-mat-tich-1995",
+      "images": [
+        {
+          "caption": "Hội cựu chiến binh Mỹ trao tài liệu quân nhân mất tích 1995 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1IQ2b82PIn7Ai4gCh9Iuuhapp1A6cbH39/view",
+          "filename": "hoi-cuu-chien-binh-my-trao-tai-lieu-quan-nhan-mat-tich-1995_01.jpg",
+          "id": "hoi-cuu-chien-binh-my-trao-tai-lieu-quan-nhan-mat-tich-1995_01",
+          "view": "toan-canh",
+          "year": 1995
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Hội cựu chiến binh Mỹ trao tài liệu quân nhân mất tích 1995",
+      "slug": "hoi-cuu-chien-binh-my-trao-tai-lieu-quan-nhan-mat-tich-1995",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "1995"
+      ]
+    }
+  ]
+}

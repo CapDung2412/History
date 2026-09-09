@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Tủ trưng bày giới thiệu bazooka và đại liên. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Tủ trưng bày bazooka và đại liên",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Tủ trưng bày bazooka và đại liên",
+        "year": null
+      },
+      "id": "tu-trung-bay-bazooka-va-dai-lien",
+      "images": [
+        {
+          "caption": "Tủ trưng bày bazooka và đại liên – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1zoZwwrL9DLLZnmR-9GWM53vcVE_-rSzq/view",
+          "filename": "tu-trung-bay-bazooka-va-dai-lien_01.jpg",
+          "id": "tu-trung-bay-bazooka-va-dai-lien_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tủ trưng bày bazooka và đại liên",
+      "slug": "tu-trung-bay-bazooka-va-dai-lien",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}

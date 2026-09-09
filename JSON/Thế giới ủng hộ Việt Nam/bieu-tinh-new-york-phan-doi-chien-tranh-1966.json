@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại biểu tình New York phản đối chiến tranh 1966. Những người tham gia phản đối chiến tranh và bày tỏ lập trường phản chiến; sự kiện cho thấy phong trào quần chúng ủng hộ Việt Nam đã lan rộng tại châu Mỹ. Sự tham gia của người dân và các tổ chức xã hội cho thấy phản đối chiến tranh không chỉ là quan điểm của một nhóm chính trị riêng lẻ. Khẩu hiệu và hành động công khai đã đưa vấn đề chiến tranh Việt Nam vào đời sống chính trị, xã hội tại châu Mỹ.",
+        "event": "Biểu tình New York phản đối chiến tranh 1966",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Biểu tình New York phản đối chiến tranh 1966",
+        "year": 1966
+      },
+      "id": "bieu-tinh-new-york-phan-doi-chien-tranh-1966",
+      "images": [
+        {
+          "caption": "Biểu tình New York phản đối chiến tranh 1966 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1zcFVL4biCQq_C51zflRUq4JFi2a115YI/view",
+          "filename": "bieu-tinh-new-york-phan-doi-chien-tranh-1966_01.jpg",
+          "id": "bieu-tinh-new-york-phan-doi-chien-tranh-1966_01",
+          "view": "toan-canh",
+          "year": 1966
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Biểu tình New York phản đối chiến tranh 1966",
+      "slug": "bieu-tinh-new-york-phan-doi-chien-tranh-1966",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "chau-my",
+        "1966"
+      ]
+    }
+  ]
+}

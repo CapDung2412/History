@@ -1,0 +1,114 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "museum_exhibition",
+      "historical_info": {
+        "description": "Không gian trưng bày giới thiệu tội ác chiến tranh. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
+        "event": "Không gian trưng bày tội ác chiến tranh",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Không gian trưng bày tội ác chiến tranh",
+        "year": null
+      },
+      "id": "khong-gian-trung-bay-toi-ac-chien-tranh",
+      "images": [
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 1/10.",
+          "drive_url": "https://drive.google.com/file/d/1d9_RPkQrZ6ievN11FL98MFL0llNoc89Y/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_01.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 2/10.",
+          "drive_url": "https://drive.google.com/file/d/1Jgdt8LN5UthXVLbqfVwJkZtdXEwppOcm/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_02.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 3/10.",
+          "drive_url": "https://drive.google.com/file/d/1CL5lUtgP8MVIa4JMhKENtjQYf7M7GqLn/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_03.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 4/10.",
+          "drive_url": "https://drive.google.com/file/d/1daK73GaxeRdHK5liPLvMpmM5cqpXM3mo/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_04.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 5/10.",
+          "drive_url": "https://drive.google.com/file/d/1WE1ikZi9nYriWuzEZmlJN5IEr2OJc3bQ/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_05.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 6/10.",
+          "drive_url": "https://drive.google.com/file/d/1JUgI5std07444RLsivgOUSvYtxpw9N73/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_06.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_06",
+          "view": "goc-nhin-06",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 7/10.",
+          "drive_url": "https://drive.google.com/file/d/10GEeoqxKWr0USxMIJs1WcBWADm1yF2We/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_07.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_07",
+          "view": "goc-nhin-07",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 8/10.",
+          "drive_url": "https://drive.google.com/file/d/1KgrACAOJb9hkJOq3M72dShMjXOJhWUnE/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_08.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_08",
+          "view": "goc-nhin-08",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 9/10.",
+          "drive_url": "https://drive.google.com/file/d/158eYlhW3F6Bk_e-PiFNieQece3IuJQw5/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_09.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_09",
+          "view": "goc-nhin-09",
+          "year": null
+        },
+        {
+          "caption": "Không gian trưng bày tội ác chiến tranh – góc chụp 10/10.",
+          "drive_url": "https://drive.google.com/file/d/15aI2KsP0IXQYD2SPxD4FCpSlj6MmZ7Ca/view",
+          "filename": "khong-gian-trung-bay-toi-ac-chien-tranh_10.jpg",
+          "id": "khong-gian-trung-bay-toi-ac-chien-tranh_10",
+          "view": "goc-nhin-10",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Không gian trưng bày tội ác chiến tranh",
+      "slug": "khong-gian-trung-bay-toi-ac-chien-tranh",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "museum_exhibition"
+      ]
+    }
+  ]
+}

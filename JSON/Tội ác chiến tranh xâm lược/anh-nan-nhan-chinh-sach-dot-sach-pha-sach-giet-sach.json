@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại nạn nhân chính sách đốt sạch, phá sạch, giết sạch. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể trung tâm là nạn nhân, thân nhân hoặc dấu tích gia đình chịu hậu quả của bom đạn và bạo lực chiến tranh. Hình ảnh giúp nhận diện hậu quả chiến tranh qua những trường hợp con người và gia đình cụ thể.",
+        "event": "Ảnh nạn nhân chính sách đốt sạch, phá sạch, giết sạch",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh nạn nhân chính sách đốt sạch, phá sạch, giết sạch",
+        "year": null
+      },
+      "id": "anh-nan-nhan-chinh-sach-dot-sach-pha-sach-giet-sach",
+      "images": [
+        {
+          "caption": "Ảnh nạn nhân chính sách đốt sạch, phá sạch, giết sạch – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1MMxEQu-wDQ7YDKrJGXLa-Z5PT5rtqTbX/view",
+          "filename": "anh-nan-nhan-chinh-sach-dot-sach-pha-sach-giet-sach_01.jpg",
+          "id": "anh-nan-nhan-chinh-sach-dot-sach-pha-sach-giet-sach_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh nạn nhân chính sách đốt sạch, phá sạch, giết sạch",
+      "slug": "anh-nan-nhan-chinh-sach-dot-sach-pha-sach-giet-sach",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph"
+      ]
+    }
+  ]
+}

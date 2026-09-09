@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại Bob Kerrey tại miền Nam Việt Nam năm 1965. Mốc thời gian được ghi nhận là năm 1965, thuộc bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Chủ thể được xác định trực tiếp là ảnh Bob Kerrey tại miền Nam Việt Nam năm 1965. Tư liệu bổ sung một bằng chứng cụ thể về con người, hiện vật hoặc hậu quả trong không gian trưng bày tội ác chiến tranh.",
+        "event": "Ảnh Bob Kerrey tại miền Nam Việt Nam năm 1965",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Ảnh Bob Kerrey tại miền Nam Việt Nam năm 1965",
+        "year": 1965
+      },
+      "id": "anh-bob-kerrey-tai-mien-nam-viet-nam-nam-1965",
+      "images": [
+        {
+          "caption": "Ảnh Bob Kerrey tại miền Nam Việt Nam năm 1965 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1OvJYhlAvpXpdfcm-fkMoBn04cOf9tyhJ/view",
+          "filename": "anh-bob-kerrey-tai-mien-nam-viet-nam-nam-1965_01.jpg",
+          "id": "anh-bob-kerrey-tai-mien-nam-viet-nam-nam-1965_01",
+          "view": "toan-canh",
+          "year": 1965
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Ảnh Bob Kerrey tại miền Nam Việt Nam năm 1965",
+      "slug": "anh-bob-kerrey-tai-mien-nam-viet-nam-nam-1965",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "historical_photograph",
+        "1965"
+      ]
+    }
+  ]
+}

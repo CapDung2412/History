@@ -1,0 +1,43 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Tư liệu ghi nhận tủ trưng bày thùng đạn và súng B41. Tư liệu thuộc giai đoạn Kháng chiến chống Mỹ (1954–1975). Bảng, lược đồ hoặc không gian trưng bày hệ thống hóa các tuyến vận chuyển, lực lượng, phương tiện và hiện vật gắn với đường 1C. Nội dung giúp liên kết địa bàn, nhiệm vụ hậu cần, hoạt động chiến đấu và đời sống của lực lượng trên tuyến.",
+        "event": "Tủ trưng bày thùng đạn và súng B41",
+        "historical_period": "Kháng chiến chống Mỹ (1954–1975)",
+        "source": null,
+        "title": "Tủ trưng bày thùng đạn và súng B41",
+        "year": null
+      },
+      "id": "tu-trung-bay-thung-dan-va-sung-b41",
+      "images": [
+        {
+          "caption": "Tủ trưng bày thùng đạn và súng B41 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1_irllcMqfhmoweOnC1Bt4bN_oQrT1E7y/view",
+          "filename": "tu-trung-bay-thung-dan-va-sung-b41_01.jpg",
+          "id": "tu-trung-bay-thung-dan-va-sung-b41_01",
+          "view": "toan-canh",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Tủ trưng bày thùng đạn và súng B41",
+      "slug": "tu-trung-bay-thung-dan-va-sung-b41",
+      "tags": [
+        "thoi-thanh-xuan-tren-tuyen-duong-1c",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

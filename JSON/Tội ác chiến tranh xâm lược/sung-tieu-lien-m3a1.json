@@ -1,0 +1,91 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng tiểu liên M3a1. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng tiểu liên, được định danh theo mẫu hoặc biến thể ghi trong tên hiện vật. Tư liệu bổ sung thông tin về các loại vũ khí cá nhân xuất hiện trong chiến tranh.",
+        "event": "Súng tiểu liên M3a1",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng tiểu liên M3a1",
+        "year": null
+      },
+      "id": "sung-tieu-lien-m3a1",
+      "images": [
+        {
+          "caption": "Súng tiểu liên M3a1 – góc chụp 1/7.",
+          "drive_url": "https://drive.google.com/file/d/1b8F6XiNafjHqL9pimXobCAsAZfeqZdAD/view",
+          "filename": "sung-tieu-lien-m3a1_01.jpg",
+          "id": "sung-tieu-lien-m3a1_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M3a1 – góc chụp 2/7.",
+          "drive_url": "https://drive.google.com/file/d/18HYT1eMzg40W51aqx8FhNMN2lq0UxCf0/view",
+          "filename": "sung-tieu-lien-m3a1_02.jpg",
+          "id": "sung-tieu-lien-m3a1_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M3a1 – góc chụp 3/7.",
+          "drive_url": "https://drive.google.com/file/d/1HJ3NusoBRLzqfIYKgMrzjbqGsAkZfO4O/view",
+          "filename": "sung-tieu-lien-m3a1_03.jpg",
+          "id": "sung-tieu-lien-m3a1_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M3a1 – góc chụp 4/7.",
+          "drive_url": "https://drive.google.com/file/d/1YxOlL16UTvzDXNgFrD9h6FhG566e1p0p/view",
+          "filename": "sung-tieu-lien-m3a1_04.jpg",
+          "id": "sung-tieu-lien-m3a1_04",
+          "view": "goc-nhin-04",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M3a1 – góc chụp 5/7.",
+          "drive_url": "https://drive.google.com/file/d/1SBUhmAJP2SK41Bx49s1ugrFpRMYMb8Xf/view",
+          "filename": "sung-tieu-lien-m3a1_05.jpg",
+          "id": "sung-tieu-lien-m3a1_05",
+          "view": "goc-nhin-05",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M3a1 – góc chụp 6/7.",
+          "drive_url": "https://drive.google.com/file/d/198C_bbbCLLUF98ZxLFXoypDPI8ZHUgeU/view",
+          "filename": "sung-tieu-lien-m3a1_06.jpg",
+          "id": "sung-tieu-lien-m3a1_06",
+          "view": "goc-nhin-06",
+          "year": null
+        },
+        {
+          "caption": "Súng tiểu liên M3a1 – góc chụp 7/7.",
+          "drive_url": "https://drive.google.com/file/d/1SIaYnfTwpmmzeQZBoUsesS_qvs-gTObh/view",
+          "filename": "sung-tieu-lien-m3a1_07.jpg",
+          "id": "sung-tieu-lien-m3a1_07",
+          "view": "goc-nhin-07",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng tiểu liên M3a1",
+      "slug": "sung-tieu-lien-m3a1",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Súng trường tự động bar. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng máy hoặc đại liên, được nhận diện theo mẫu súng ghi trong tên trưng bày. Loại vũ khí này thể hiện mức độ hỏa lực được sử dụng trong các hoạt động quân sự thời chiến.",
+        "event": "Súng trường tự động bar",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Súng trường tự động bar",
+        "year": null
+      },
+      "id": "sung-truong-tu-dong-bar",
+      "images": [
+        {
+          "caption": "Súng trường tự động bar – góc chụp 1/4.",
+          "drive_url": "https://drive.google.com/file/d/1tdC6u0pqH5Q5pkpd4lZB4UeSzdw__qQw/view",
+          "filename": "sung-truong-tu-dong-bar_01.jpg",
+          "id": "sung-truong-tu-dong-bar_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Súng trường tự động bar – góc chụp 2/4.",
+          "drive_url": "https://drive.google.com/file/d/1TCcZkQT4rxQUnUVBDsksku2QKSIMC6b3/view",
+          "filename": "sung-truong-tu-dong-bar_02.jpg",
+          "id": "sung-truong-tu-dong-bar_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Súng trường tự động bar – góc chụp 3/4.",
+          "drive_url": "https://drive.google.com/file/d/1uzSrw1DorxHk36T6y89lQmBlzbbVBz3W/view",
+          "filename": "sung-truong-tu-dong-bar_03.jpg",
+          "id": "sung-truong-tu-dong-bar_03",
+          "view": "goc-nhin-03",
+          "year": null
+        },
+        {
+          "caption": "Súng trường tự động bar – góc chụp 4/4.",
+          "drive_url": "https://drive.google.com/file/d/1k-WErvZXnjV3Dmhk_a1UngetvApT5sP8/view",
+          "filename": "sung-truong-tu-dong-bar_04.jpg",
+          "id": "sung-truong-tu-dong-bar_04",
+          "view": "goc-nhin-04",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Súng trường tự động bar",
+      "slug": "sung-truong-tu-dong-bar",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

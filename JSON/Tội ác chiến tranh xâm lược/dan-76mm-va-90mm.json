@@ -1,0 +1,59 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "military_artifact",
+      "historical_info": {
+        "description": "Hiện vật được nhận diện là Đạn 76 mm và 90mm. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm đạn, dây đạn hoặc lựu đạn, với cỡ hoặc kiểu loại được ghi trực tiếp trong tên. Tư liệu cho phép nhận diện vật liệu quân dụng đi kèm các loại súng và hỏa lực trưng bày.",
+        "event": "Đạn 76 mm và 90mm",
+        "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
+        "source": null,
+        "title": "Đạn 76 mm và 90mm",
+        "year": null
+      },
+      "id": "dan-76mm-va-90mm",
+      "images": [
+        {
+          "caption": "Đạn 76 mm và 90mm – góc chụp 1/3.",
+          "drive_url": "https://drive.google.com/file/d/1xJwgDxM341Gi2CAMw8drEDoEtFHE8ncy/view",
+          "filename": "dan-76mm-va-90mm_01.jpg",
+          "id": "dan-76mm-va-90mm_01",
+          "view": "goc-nhin-01",
+          "year": null
+        },
+        {
+          "caption": "Đạn 76 mm và 90mm – góc chụp 2/3.",
+          "drive_url": "https://drive.google.com/file/d/13Q3Jo_DFsbVPAKvvl8EpPmgzRr4BtoLF/view",
+          "filename": "dan-76mm-va-90mm_02.jpg",
+          "id": "dan-76mm-va-90mm_02",
+          "view": "goc-nhin-02",
+          "year": null
+        },
+        {
+          "caption": "Đạn 76 mm và 90mm – góc chụp 3/3.",
+          "drive_url": "https://drive.google.com/file/d/1Xk40D2NtR0siFqO7na1s7xjFoyBWqo70/view",
+          "filename": "dan-76mm-va-90mm_03.jpg",
+          "id": "dan-76mm-va-90mm_03",
+          "view": "goc-nhin-03",
+          "year": null
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Đạn 76 mm và 90mm",
+      "slug": "dan-76mm-va-90mm",
+      "tags": [
+        "toi-ac-chien-tranh-xam-luoc",
+        "military_artifact"
+      ]
+    }
+  ]
+}
+

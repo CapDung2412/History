@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "category": "historical_photograph",
+      "historical_info": {
+        "description": "Ảnh ghi lại học sinh Gio Linh sau khi tổ chức MAG rà phá bom mìn năm 2016. Hình ảnh cho thấy tác động thiết thực của hoạt động làm sạch vật liệu nổ đối với sự an toàn của cộng đồng và trường học. Trọng tâm của hoạt động là khảo sát, rà phá và hủy nổ vật liệu bom mìn còn sót lại. Kết quả của những chương trình này góp phần giảm nguy cơ cho cộng đồng, phục hồi sinh kế và thúc đẩy quan hệ hợp tác sau chiến tranh.",
+        "event": "Học sinh Gio Linh sau khi MAG rà phá bom mìn 2016",
+        "historical_period": "Phong trào quốc tế ủng hộ Việt Nam trong kháng chiến chống Mỹ (1954–1975) và hoạt động khắc phục hậu quả chiến tranh",
+        "source": null,
+        "title": "Học sinh Gio Linh sau khi MAG rà phá bom mìn 2016",
+        "year": 2016
+      },
+      "id": "hoc-sinh-gio-linh-sau-khi-mag-ra-pha-bom-min-2016",
+      "images": [
+        {
+          "caption": "Học sinh Gio Linh sau khi MAG rà phá bom mìn 2016 – ảnh tổng thể.",
+          "drive_url": "https://drive.google.com/file/d/1niSnCrTQApsi11gQWyUQge6RjDtvWibQ/view",
+          "filename": "hoc-sinh-gio-linh-sau-khi-mag-ra-pha-bom-min-2016_01.jpg",
+          "id": "hoc-sinh-gio-linh-sau-khi-mag-ra-pha-bom-min-2016_01",
+          "view": "toan-canh",
+          "year": 2016
+        }
+      ],
+      "location": {
+        "address": "28 Võ Văn Tần",
+        "city": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null,
+        "province": "Thành phố Hồ Chí Minh"
+      },
+      "name": "Học sinh Gio Linh sau khi MAG rà phá bom mìn 2016",
+      "slug": "hoc-sinh-gio-linh-sau-khi-mag-ra-pha-bom-min-2016",
+      "tags": [
+        "the-gioi-ung-ho-viet-nam",
+        "historical_photograph",
+        "to-chuc-quoc-te",
+        "2016"
+      ]
+    }
+  ]
+}
