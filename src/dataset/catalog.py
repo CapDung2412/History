@@ -6,6 +6,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterator
 
+from src.text import normalize_unicode_tree
+
 IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff"}
 
 
@@ -43,7 +45,7 @@ def load_document(path: Path) -> dict[str, Any]:
         value = json.load(handle)
     if not isinstance(value, dict):
         raise ValueError(f"JSON root must be an object: {path}")
-    return value
+    return normalize_unicode_tree(value)
 
 
 def iter_records(image_root: Path, json_root: Path) -> Iterator[HeritageImage]:

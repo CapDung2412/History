@@ -6,8 +6,17 @@ import { ChallengeCard } from "@/components/challenge-card";
 import { AccessibilityToolbar } from "@/components/accessibility-toolbar";
 import { artifact, challenge, story } from "./fixtures";
 
+const requestLearningContentMock = vi.hoisted(() => vi.fn());
+vi.mock("@/lib/api", async (importOriginal) => {
+  const actual = await importOriginal<typeof import("@/lib/api")>();
+  return { ...actual, requestLearningContent: requestLearningContentMock };
+});
+
+requestLearningContentMock.mockImplementation(() => new Promise(() => undefined));
+
 describe("reading and learning controls", () => {
   it("supports keyboard tabs and keeps unverified sources marked as pending", async () => {
+    requestLearningContentMock.mockClear();
     const user = userEvent.setup();
     render(<StoryExplorer artifact={artifact} story={story} />);
     const quick = screen.getByRole("tab", { name: /Nhìn nhanh/ });
@@ -15,6 +24,7 @@ describe("reading and learning controls", () => {
     await user.keyboard("{ArrowRight}");
     expect(screen.getByRole("tab", { name: /Câu chuyện/ })).toHaveFocus();
     expect(screen.getByRole("tabpanel")).toHaveTextContent(artifact.description);
+    expect(requestLearningContentMock).toHaveBeenCalledTimes(1);
     await user.keyboard("{End}");
     expect(screen.getByRole("tab", { name: /Khám phá sâu/ })).toHaveAttribute("aria-selected", "true");
     expect(screen.getByText("Nguồn đã được ghi lại nhưng chưa được kiểm chứng đầy đủ.")).toBeInTheDocument();

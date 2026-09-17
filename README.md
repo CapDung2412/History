@@ -1,6 +1,6 @@
 # DiSản Lens — Chụp một chứng tích, mở một câu chuyện
 
-Website học tập dành cho học sinh và khách tham quan: chụp/tải ảnh thật, kiểm tra chất lượng, nhận diện hiện vật, đọc câu chuyện ba tầng, nghe thuyết minh và trả lời câu hỏi ngắn từ hồ sơ dữ liệu.
+Website học tập dành cho học sinh và khách tham quan: chụp/tải ảnh thật, kiểm tra chất lượng, nhận diện hiện vật, đọc câu chuyện ba tầng, nghe thuyết minh và trả lời câu hỏi ngắn từ dữ liệu hiện vật.
 
 ## Kiến trúc website
 
@@ -13,6 +13,9 @@ frontend/ (Next.js + TypeScript + Tailwind)
     → lấy dư vector → gom location.id → confidence gate
     → HeritageRepository → Supabase hoặc JSON gốc
     → hiện vật / câu chuyện / câu hỏi / phản hồi
+    → ảnh danh sách: thumbnail WebP có ETag → lightbox mới tải ảnh gốc
+    → nội dung học tập: evidence gate → fallback JSON hoặc OpenAI Responses → SQLite cache
+    → thuyết minh: văn bản an toàn → OpenAI Speech → WAV cache → Web Speech fallback
 ```
 
 CLIP mã hóa ảnh; JSON không được đưa trực tiếp vào CLIP. Pinecone giữ embedding và metadata tìm kiếm; nội dung đầy đủ được đọc lại từ repository theo ID. Website không tạo index, đổi namespace hoặc index lại ảnh. Index hiện dùng là `di-san-lens`, namespace `heritage-images-v1`, model `ViT-B-32:laion2b_s34b_b79k`, 512 chiều, cosine.
@@ -31,7 +34,7 @@ if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 .\.venv\Scripts\python.exe -m src.api
 ```
 
-Trong `.env`, điền khóa Pinecone hiện có. Để trống `SUPABASE_URL` và `SUPABASE_SERVICE_ROLE_KEY` để dùng JSON. API: `http://127.0.0.1:8000`; OpenAPI: `http://127.0.0.1:8000/docs`.
+Trong `.env`, điền khóa Pinecone hiện có. OpenAI là tùy chọn: dùng tên chuẩn `OPENAI_API_KEY`, hoặc giữ `CHATGPT_API_KEY` đang có vì backend hỗ trợ alias này. Không thêm khóa vào `frontend/.env.local` và không dùng tiền tố `NEXT_PUBLIC_`. Để trống `SUPABASE_URL` và `SUPABASE_SERVICE_ROLE_KEY` để dùng JSON. API: `http://127.0.0.1:8000`; OpenAPI: `http://127.0.0.1:8000/docs`.
 
 Mở terminal thứ hai:
 
@@ -59,11 +62,11 @@ Không cần tải lại dependencies nếu `.venv` và `frontend/node_modules` 
 
 - Mở camera sau hoặc chọn JPG/PNG/WEBP, xem trước rồi bấm phân tích. Camera trực tiếp cần HTTPS hoặc localhost; khi bị từ chối quyền/không có secure context, giao diện cung cấp camera thiết bị qua `capture="environment"`.
 - Ảnh chất lượng thấp được hướng dẫn chụp lại trước khi chạy CLIP. Hệ thống chưa có detector đo khoảng cách hoặc độ phủ hiện vật; khung căn chỉ là hướng dẫn.
-- Kết quả rõ ràng mở hồ sơ; kết quả cần xác nhận hiển thị tối đa ba hiện vật khác nhau và lựa chọn không phù hợp. Điểm thấp không được hiển thị như đáp án.
-- Ba tầng gồm thông tin nhanh, mô tả gốc và nội dung đầy đủ/kèm góc ảnh. Dataset hiện chỉ có một description, nên hệ thống không tự sáng tác các trường vai trò/bối cảnh còn thiếu.
-- Toàn bộ 583 hồ sơ hiện thiếu `historical_info.source`. Giao diện thông báo nguồn đang được bổ sung. Có một chuỗi nguồn cũng không tự chứng minh nội dung đã được kiểm chứng.
+- Kết quả rõ ràng mở trang thông tin; kết quả cần xác nhận hiển thị tối đa ba hiện vật khác nhau và lựa chọn không phù hợp. Điểm thấp không được hiển thị như đáp án.
+- Ba tầng gồm thông tin nhanh, câu chuyện khoảng một phút và khám phá sâu. Nội dung một phút không lặp nguyên văn phần nhanh; phần sâu có mục riêng, claim, nguồn và quan hệ mindmap. Dataset hiện chỉ có một description cho mỗi hiện vật, nên hệ thống không kéo dài câu chữ hoặc tự sáng tác vai trò, bối cảnh và hệ quả còn thiếu.
+- Toàn bộ 583 bản ghi hiện thiếu `historical_info.source`. Khi khóa OpenAI được cấu hình, endpoint nội dung học tập dùng `web_search` để tìm nguồn tham khảo rồi kiểm tra lại evidence trước khi cache; nếu dịch vụ AI không khả dụng, hệ thống trả nội dung xác định từ JSON. Một chuỗi nguồn không tự chứng minh nội dung đã được kiểm chứng; chỉ nguồn có `source_status=verified` mới được xem là đã qua quy trình biên tập.
 - Câu hỏi phân loại được tạo xác định từ `category`, phương án nhiễu lấy từ category thật của dataset. Không dùng LLM để tạo dữ kiện.
-- Web Speech API ưu tiên giọng Việt, có nghe 30 giây/đầy đủ, tạm dừng, tiếp tục, dừng và văn bản đọc. Khả năng/giọng đọc phụ thuộc thiết bị; giao diện báo rõ khi trình duyệt không hỗ trợ Web Speech.
+- Thuyết minh ưu tiên OpenAI Speech phía server, dùng chỉ dẫn đọc hoàn toàn bằng tiếng Việt, trả URL WAV thay vì nhúng audio vào JSON và cache theo nội dung/model/giọng/ngôn ngữ/chỉ dẫn/phiên bản cấu hình. Giao diện có nghe 30 giây/đầy đủ, phát, tạm dừng, tiếp tục, dừng, tua và tốc độ 0,75×–1,5×. Nếu server lỗi, Web Speech chỉ chọn giọng có mã ngôn ngữ tiếng Việt và đặt chính xác `vi-VN`; nếu thiết bị không có giọng Việt, hệ thống báo rõ và giữ phụ đề, tuyệt đối không tự chuyển sang giọng tiếng Anh.
 - Cỡ chữ và tương phản được lưu trên trình duyệt. Luồng hỗ trợ bàn phím, focus, dialog Escape và reduced motion.
 
 ## Confidence gate và chất lượng ảnh
@@ -97,9 +100,22 @@ Báo cáo phân biệt added/updated/skipped/errors. Dry-run local giả định
 
 ## Bảo mật và vận hành
 
-Ảnh truy vấn được xử lý trong bộ nhớ, áp dụng EXIF orientation rồi bỏ metadata, không lưu mặc định. Thống kê SQLite tại `data/analytics.sqlite3` chỉ chứa UUID ngẫu nhiên, ID gợi ý, score, metrics, thời gian và phản hồi; không có tên/email/hồ sơ học sinh hoặc ảnh gốc. Dữ liệu này vẫn cần thời hạn lưu và quy trình xóa phù hợp khi triển khai chính thức.
+Ảnh truy vấn được xử lý trong bộ nhớ, áp dụng EXIF orientation rồi bỏ metadata, không lưu mặc định. Thống kê SQLite tại `data/analytics.sqlite3` chỉ chứa UUID ngẫu nhiên, ID gợi ý, score, metrics, thời gian và phản hồi; không có tên, email, dữ liệu định danh học sinh hoặc ảnh gốc. Dữ liệu này vẫn cần thời hạn lưu và quy trình xóa phù hợp khi triển khai chính thức.
 
 Phản hồi phải gắn với request context phía server; một ID ngoài Top-3 bị từ chối. Request context có TTL, mặc định một giờ. Khởi động lại API có thể làm phiên phản hồi cũ hết hạn. API trả thông báo lỗi công khai, không trả stack trace/SDK secret. Chỉ cho phép CORS origins được cấu hình.
+
+Khóa OpenAI chỉ được nạp ở backend và trường cấu hình khóa bị ẩn khỏi `repr`. Trình duyệt chỉ gửi ID hiện vật và lựa chọn `short`/`full`, không được gửi prompt, model, transcript hoặc đường dẫn cache. Endpoint AI/TTS có giới hạn body, rate limit và concurrency riêng. Mô tả/caption/nguồn được đóng gói là dữ liệu không tin cậy; structured output bị kiểm tra lại bằng Pydantic, evidence reference, quan hệ mindmap, năm và URL trước khi cache. Khi dữ liệu hiện vật thiếu nguồn đã xác minh, backend yêu cầu Responses API dùng công cụ `web_search`; URL do model trả về chỉ được chấp nhận nếu URL đó thực sự có trong kết quả công cụ và giao diện luôn đánh dấu nguồn web cần biên tập đối chiếu. Khóa cache nội dung gồm fingerprint của prompt, chế độ web-search và JSON Schema; khóa cache âm thanh gồm cả chỉ dẫn phát âm, nên thay đổi quy tắc không tái sử dụng kết quả cũ. Cache AI/audio/thumbnail nằm dưới `data/`, không ghi đè JSON và không được Git theo dõi.
+
+Adapter server bám theo [Responses API với JSON Schema](https://developers.openai.com/api/reference/cli/resources/responses/methods/create) và [Speech API](https://developers.openai.com/api/reference/cli/resources/audio/subresources/speech/methods/create); request nội dung đặt `store=false`. Việc giữ khóa trong biến môi trường phía server tuân theo [khuyến nghị an toàn API key của OpenAI](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
+
+API mới:
+
+- `POST /api/v1/artifacts/{item_id}/learning-content`: nội dung có schema, trạng thái nguồn/generation/cache và evidence references.
+- `POST /api/v1/artifacts/{item_id}/narrations` với JSON `{ "variant": "short" | "full" }`: transcript an toàn và URL WAV hoặc yêu cầu fallback.
+- `GET /api/v1/narrations/{sha256}/audio`: file WAV cache, hỗ trợ ETag và byte range.
+- `GET /media/{relative_path}?width=320|640|960|1280`: thumbnail WebP cache; bỏ `width` mới tải bản gốc.
+
+Các biến OpenAI/TTS/cache được mô tả bằng placeholder trong `.env.example`: `OPENAI_API_KEY`/`CHATGPT_API_KEY`, `OPENAI_BASE_URL`, `OPENAI_CONTENT_MODEL`, `OPENAI_TTS_MODEL`, `OPENAI_TTS_VOICE`, `OPENAI_TIMEOUT_SECONDS`, `OPENAI_MAX_RETRIES`, `OPENAI_MAX_OUTPUT_TOKENS`, `AI_PROMPT_VERSION`, `AI_SCHEMA_VERSION`, `AI_CACHE_SQLITE_PATH`, `AI_CONTENT_RATE_LIMIT_PER_MINUTE`, `MAX_CONCURRENT_AI_GENERATIONS`, `TTS_CACHE_DIR`, `TTS_LANGUAGE`, `TTS_FORMAT`, `TTS_CONFIG_VERSION`, `TTS_RATE_LIMIT_PER_MINUTE`, `MAX_CONCURRENT_TTS_GENERATIONS` và `THUMBNAIL_CACHE_DIR`.
 
 Khi truy cập từ điện thoại trong LAN, đặt API_HOST=0.0.0.0, thay URL API bằng IP máy chủ trong frontend/.env.local và thêm origin frontend tương ứng vào CORS_ORIGINS. Chạy Next bằng `npm run dev -- --hostname 0.0.0.0`. Khởi động lại frontend sau đổi biến public. Trước khi public internet, dùng HTTPS, reverse proxy có giới hạn body/rate/timeout, giới hạn concurrency và cấu hình proxy trust đúng; không bật nhiều worker tùy tiện vì mỗi worker tải một model và có request context riêng.
 
@@ -108,6 +124,8 @@ Khi truy cập từ điện thoại trong LAN, đặt API_HOST=0.0.0.0, thay URL
 ```powershell
 $env:PYTHONUTF8='1'
 .\.venv\Scripts\python.exe -m pytest -q
+.\.venv\Scripts\python.exe -m scripts.check_secrets
+.\.venv\Scripts\python.exe -m scripts.benchmark_media
 cd frontend
 npm test
 npm run lint
@@ -129,7 +147,11 @@ Kiểm tra Chrome thật (cài thêm `requirements-smoke.txt`, frontend/backend 
 .\.venv\Scripts\python.exe -m scripts.smoke_browser --image "images/path/to/image.jpg"
 ```
 
-Script kiểm tra 320px/390px/tablet/desktop, ảnh preview, request multipart thật và câu chuyện; screenshot/báo cáo nằm trong `reports/`. Camera vật lý, chất lượng nhận diện từ ảnh điện thoại mới và chất lượng giọng Việt cần nghiệm thu trên thiết bị mục tiêu.
+Script kiểm tra 320/390/768/1024/1440px, horizontal overflow, ảnh preview, request multipart thật, lightbox/Escape/focus/cache ảnh gốc và câu chuyện; screenshot/báo cáo nằm trong `reports/`. Camera vật lý, chất lượng nhận diện từ ảnh điện thoại mới, screen reader và chất lượng giọng Việt vẫn cần nghiệm thu trên thiết bị mục tiêu.
+
+`scripts.benchmark_media` không gọi AI, CLIP hay Pinecone. Nó so tổng byte ảnh gốc với WebP 640px trên nhóm hiện vật có nhiều ảnh nhất và đo cả lần tạo lạnh/lần đọc cache. Có thể xem JSON tại `reports/media-performance.json`.
+
+Để thử TTS thật mà không lộ khóa: khởi động lại backend sau khi cấu hình khóa, mở website rồi nhấn **Nghe 30 giây** một lần; phản hồi thứ hai của cùng hiện vật phải có `cache_status=hit`. Không dùng `curl -v`, không in biến môi trường và không chụp màn hình terminal chứa header. Thử này có dùng quota OpenAI. Với dữ liệu hiện vật thiếu nguồn đã xác minh, yêu cầu nội dung sẽ dùng `web_search` rồi hiển thị các trang tham khảo thành liên kết; nếu tìm kiếm hoặc kiểm tra nguồn thất bại, website vẫn trả nội dung xác định từ JSON thay vì để trống.
 
 ## Thư mục website mới
 
@@ -141,8 +163,12 @@ src/api/                  FastAPI, quality/confidence, runtime, request context
 src/repositories/         JSON/Supabase adapters và thống kê SQLite
 supabase/migrations/      Schema, constraints, indexes và RLS
 scripts/import_supabase.py Import idempotent/dry-run
+scripts/benchmark_media.py Đo payload thumbnail và tốc độ cache, không gọi dịch vụ ngoài
+scripts/check_secrets.py    Quét source/build/staged/history, chỉ in vị trí và giá trị đã che
 scripts/smoke_api.py       Nghiệm thu API thật tùy chọn
 scripts/smoke_browser.py   Nghiệm thu Chrome thật tùy chọn
+src/ai/                   Structured output, evidence gate, OpenAI adapters và cache
+src/api/media.py          Ảnh gốc an toàn và thumbnail WebP theo kích thước
 ```
 
 Công cụ dataset/CLI bên dưới vẫn được giữ lại.
@@ -152,6 +178,7 @@ Công cụ dataset/CLI bên dưới vẫn được giữ lại.
 - `images/`: 957 ảnh JPG.
 - `JSON/`: 583 JSON, mỗi file chứa `locations[]`; mỗi location chứa `images[]`.
 - Quan hệ ảnh–metadata dựa trên `locations[].images[].filename`, không dựa vào tên JSON.
+- JSON được đọc bắt buộc bằng UTF-8 và mọi chuỗi được chuẩn hóa Unicode NFC tại ranh giới backend/frontend. Validator báo lỗi nếu phát hiện dấu hiệu mojibake và cảnh báo nếu văn bản chưa ở NFC.
 - Validator cảnh báo khi `historical_info.source` trống nhưng không coi đó là lỗi kỹ thuật.
 
 ## Cài đặt
@@ -242,5 +269,3 @@ tests/
 ```
 
 Metadata Pinecone gồm ID hiện vật/ảnh, tiêu đề, mô tả, danh mục, giai đoạn, địa điểm, tags, caption, đường dẫn tương đối, loại embedding, model và checksum. ID vector ổn định theo dạng `<location-id>:<image-id>`.
-#   H i s t o r y  
- 

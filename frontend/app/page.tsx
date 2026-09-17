@@ -96,7 +96,7 @@ export default function HomePage() {
             <p className="eyebrow eyebrow-light">Một cách tiếp cận có trách nhiệm</p>
             <p>
               Công nghệ chỉ giúp tìm điểm tương đồng. Nội dung lịch sử vẫn đến
-              từ hồ sơ hiện vật; khi nguồn còn thiếu, chúng tôi nói rõ điều đó.
+              từ dữ liệu hiện vật; khi nguồn còn thiếu, chúng tôi nói rõ điều đó.
             </p>
           </div>
         </section>

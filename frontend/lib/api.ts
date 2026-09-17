@@ -10,6 +10,7 @@ import type {
 
 const DEFAULT_API_URL = "http://127.0.0.1:8000";
 const REQUEST_TIMEOUT_MS = 60_000;
+const GENERATION_TIMEOUT_MS = 120_000;
 // The first CPU request may also load the CLIP weights into memory.
 const RECOGNITION_TIMEOUT_MS = 180_000;
 
@@ -37,12 +38,27 @@ export function toAssetUrl(path?: string | null): string | undefined {
   return `${getApiBaseUrl()}${path.startsWith("/") ? "" : "/"}${path}`;
 }
 
+export function toThumbnailUrl(
+  path?: string | null,
+  width: 320 | 640 | 960 | 1280 = 640,
+): string | undefined {
+  const asset = toAssetUrl(path);
+  if (!asset) return undefined;
+  const url = new URL(asset);
+  url.searchParams.set("width", String(width));
+  return url.toString();
+}
+
 async function fetchJson<T>(
   path: string,
   init: RequestInit = {},
   timeoutMs = REQUEST_TIMEOUT_MS,
 ): Promise<T> {
   const controller = new AbortController();
+  const externalSignal = init.signal;
+  const forwardAbort = () => controller.abort();
+  if (externalSignal?.aborted) controller.abort();
+  else externalSignal?.addEventListener("abort", forwardAbort, { once: true });
   const timeout = globalThis.setTimeout(() => controller.abort(), timeoutMs);
 
   try {
@@ -59,7 +75,7 @@ async function fetchJson<T>(
       let detail = "";
       let code: string | undefined;
       try {
-        const body = (await response.json()) as {
+        const body = normalizeUnicodePayload(await response.json()) as {
           detail?: string | { message?: string; code?: string };
           message?: string;
           code?: string;
@@ -82,7 +98,7 @@ async function fetchJson<T>(
       );
     }
 
-    return (await response.json()) as T;
+    return normalizeUnicodePayload(await response.json()) as T;
   } catch (error) {
     if (error instanceof ApiError) throw error;
     if (error instanceof DOMException && error.name === "AbortError") {
@@ -99,6 +115,7 @@ async function fetchJson<T>(
     );
   } finally {
     globalThis.clearTimeout(timeout);
+    externalSignal?.removeEventListener("abort", forwardAbort);
   }
 }
 
@@ -162,7 +179,176 @@ export function sendRecognitionFeedback(
   );
 }
 
+export interface NarrationResponse {
+  artifact_id: string;
+  variant: "short" | "full";
+  status: "ready" | "fallback_required";
+  cache_status: "hit" | "miss" | "bypass";
+  transcript: string;
+  asset_id: string | null;
+  audio_url: string | null;
+  mime_type: "audio/wav" | null;
+  notice: string;
+}
+
+export interface LearningDeepSection {
+  key: string;
+  title: string;
+  summary: string;
+  body: string;
+  claim_ids: string[];
+}
+
+export interface LearningEvidenceClaim {
+  id: string;
+  text: string;
+  evidence_refs: string[];
+}
+
+export interface LearningEvidenceReference {
+  ref: string;
+  label: string;
+  value: string;
+  source_status: "not_applicable" | "missing" | "available_unverified" | "verified";
+  url: string | null;
+}
+
+export interface LearningStoryBlock {
+  text: string;
+  claim_ids: string[];
+}
+
+export interface LearningTimelineEntry {
+  label: string;
+  year: number | null;
+  period: string | null;
+}
+
+export interface LearningKeyword {
+  term: string;
+  explanation: string;
+}
+
+export interface LearningMindmap {
+  central_label: string;
+  branches: Array<{
+    id: string;
+    label: string;
+    relation:
+      | "identified_by"
+      | "dated_to"
+      | "located_at"
+      | "associated_with"
+      | "used_by"
+      | "part_of"
+      | "led_to"
+      | "evidenced_by"
+      | "described_by";
+    evidence_refs: string[];
+    nodes: Array<{
+      id: string;
+      label: string;
+      note: string | null;
+      evidence_refs: string[];
+    }>;
+  }>;
+}
+
+export interface LearningContentResponse {
+  artifact_id: string;
+  data_status: "missing" | "needs_verification" | "sufficient";
+  source_status: "missing" | "available_unverified" | "verified";
+  generation_status:
+    | "generated"
+    | "fallback_missing_source"
+    | "fallback_needs_verification"
+    | "fallback_insufficient_data"
+    | "fallback_disabled"
+    | "fallback_unavailable"
+    | "fallback_invalid_output";
+  cache_status: "hit" | "miss" | "bypass";
+  model: string | null;
+  notice: string;
+  references: LearningEvidenceReference[];
+  content: {
+    factual_claims: LearningEvidenceClaim[];
+    storytelling: {
+      quick: LearningStoryBlock;
+      one_minute: LearningStoryBlock;
+    };
+    deep_sections: LearningDeepSection[];
+    timeline: LearningTimelineEntry[];
+    keywords: LearningKeyword[];
+    mindmap: LearningMindmap;
+  };
+}
+
+export async function requestLearningContent(
+  artifactId: string,
+  signal?: AbortSignal,
+): Promise<LearningContentResponse> {
+  const raw = await fetchJson<unknown>(
+    `/api/v1/artifacts/${encodeURIComponent(artifactId)}/learning-content`,
+    { method: "POST", signal },
+    GENERATION_TIMEOUT_MS,
+  );
+  return normalizeLearningContent(raw, artifactId);
+}
+
+export async function requestNarration(
+  artifactId: string,
+  variant: "short" | "full",
+  signal?: AbortSignal,
+): Promise<NarrationResponse> {
+  const raw = await fetchJson<unknown>(
+    `/api/v1/artifacts/${encodeURIComponent(artifactId)}/narrations`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ variant }),
+      signal,
+    },
+    GENERATION_TIMEOUT_MS,
+  );
+  const value = asRecord(raw);
+  const status = stringValue(value.status);
+  const responseVariant = stringValue(value.variant);
+  const cacheStatus = stringValue(value.cache_status);
+  if (
+    !["ready", "fallback_required"].includes(status) ||
+    !["short", "full"].includes(responseVariant) ||
+    !["hit", "miss", "bypass"].includes(cacheStatus)
+  ) {
+    throw new ApiError("Phản hồi thuyết minh chưa đúng định dạng.", undefined, "invalid_response");
+  }
+  return {
+    artifact_id: stringValue(value.artifact_id, artifactId),
+    variant: responseVariant as NarrationResponse["variant"],
+    status: status as NarrationResponse["status"],
+    cache_status: cacheStatus as NarrationResponse["cache_status"],
+    transcript: stringValue(value.transcript),
+    asset_id: nullableString(value.asset_id),
+    audio_url: nullableString(value.audio_url),
+    mime_type: value.mime_type === "audio/wav" ? "audio/wav" : null,
+    notice: stringValue(value.notice),
+  };
+}
+
 type UnknownRecord = Record<string, unknown>;
+
+export function normalizeUnicodePayload(value: unknown): unknown {
+  if (typeof value === "string") return value.normalize("NFC");
+  if (Array.isArray(value)) return value.map(normalizeUnicodePayload);
+  if (typeof value === "object" && value !== null) {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, entry]) => [
+        key.normalize("NFC"),
+        normalizeUnicodePayload(entry),
+      ]),
+    );
+  }
+  return value;
+}
 
 function asRecord(value: unknown): UnknownRecord {
   if (typeof value !== "object" || value === null || Array.isArray(value)) {
@@ -176,11 +362,13 @@ function asRecord(value: unknown): UnknownRecord {
 }
 
 function stringValue(value: unknown, fallback = ""): string {
-  return typeof value === "string" ? value : fallback;
+  return (typeof value === "string" ? value : fallback).normalize("NFC");
 }
 
 function nullableString(value: unknown): string | null {
-  return typeof value === "string" && value.trim() ? value : null;
+  if (typeof value !== "string") return null;
+  const normalized = value.normalize("NFC").trim();
+  return normalized || null;
 }
 
 function numberValue(value: unknown, fallback = 0): number {
@@ -193,6 +381,177 @@ function nullableNumber(value: unknown): number | null {
 
 function arrayValue(value: unknown): unknown[] {
   return Array.isArray(value) ? value : [];
+}
+
+function stringArray(value: unknown): string[] {
+  return arrayValue(value)
+    .filter((entry): entry is string => typeof entry === "string")
+    .map((entry) => entry.normalize("NFC").trim())
+    .filter(Boolean);
+}
+
+function normalizeLearningContent(
+  value: unknown,
+  artifactId: string,
+): LearningContentResponse {
+  const raw = asRecord(value);
+  const content = asRecord(raw.content);
+  const mindmap = asRecord(content.mindmap);
+  const storytelling = asRecord(content.storytelling || {});
+  const quickStory = asRecord(storytelling.quick || {});
+  const oneMinuteStory = asRecord(storytelling.one_minute || {});
+  const dataStatus = stringValue(raw.data_status);
+  const sourceStatus = stringValue(raw.source_status);
+  const generationStatus = stringValue(raw.generation_status);
+  const cacheStatus = stringValue(raw.cache_status);
+  const allowedData = ["missing", "needs_verification", "sufficient"];
+  const allowedSources = ["missing", "available_unverified", "verified"];
+  const allowedGenerations = [
+    "generated",
+    "fallback_missing_source",
+    "fallback_needs_verification",
+    "fallback_insufficient_data",
+    "fallback_disabled",
+    "fallback_unavailable",
+    "fallback_invalid_output",
+  ];
+  const allowedCache = ["hit", "miss", "bypass"];
+  if (
+    !allowedData.includes(dataStatus) ||
+    !allowedSources.includes(sourceStatus) ||
+    !allowedGenerations.includes(generationStatus) ||
+    !allowedCache.includes(cacheStatus)
+  ) {
+    throw new ApiError(
+      "Phản hồi nội dung học tập chưa đúng định dạng.",
+      undefined,
+      "invalid_response",
+    );
+  }
+
+  const deepSections = arrayValue(content.deep_sections).map((entry) => {
+    const section = asRecord(entry);
+    return {
+      key: stringValue(section.key),
+      title: stringValue(section.title),
+      summary: stringValue(section.summary),
+      body: stringValue(section.body),
+      claim_ids: stringArray(section.claim_ids),
+    };
+  }).filter((section) => section.title && section.body);
+  const factualClaims = arrayValue(content.factual_claims).map((entry) => {
+    const claim = asRecord(entry);
+    return {
+      id: stringValue(claim.id),
+      text: stringValue(claim.text),
+      evidence_refs: stringArray(claim.evidence_refs),
+    };
+  }).filter((claim) => claim.id && claim.text && claim.evidence_refs.length > 0);
+  const timeline = arrayValue(content.timeline).map((entry) => {
+    const item = asRecord(entry);
+    return {
+      label: stringValue(item.label),
+      year: nullableNumber(item.year),
+      period: nullableString(item.period),
+    };
+  }).filter((entry) => entry.label && (entry.year !== null || entry.period));
+  const keywords = arrayValue(content.keywords).map((entry) => {
+    const keyword = asRecord(entry);
+    return {
+      term: stringValue(keyword.term),
+      explanation: stringValue(keyword.explanation),
+    };
+  }).filter((keyword) => keyword.term);
+  const allowedRelations = [
+    "identified_by",
+    "dated_to",
+    "located_at",
+    "associated_with",
+    "used_by",
+    "part_of",
+    "led_to",
+    "evidenced_by",
+    "described_by",
+  ] as const;
+  const branches = arrayValue(mindmap.branches).map((entry) => {
+    const branch = asRecord(entry);
+    const relationValue = stringValue(branch.relation, "described_by");
+    const relation = allowedRelations.includes(
+      relationValue as (typeof allowedRelations)[number],
+    )
+      ? (relationValue as (typeof allowedRelations)[number])
+      : "described_by";
+    const nodes = arrayValue(branch.nodes).map((nodeValue) => {
+      const node = asRecord(nodeValue);
+      return {
+        id: stringValue(node.id),
+        label: stringValue(node.label),
+        note: nullableString(node.note),
+        evidence_refs: stringArray(node.evidence_refs),
+      };
+    }).filter((node) => node.id && node.label);
+    return {
+      id: stringValue(branch.id),
+      label: stringValue(branch.label),
+      relation,
+      evidence_refs: stringArray(branch.evidence_refs),
+      nodes,
+    };
+  }).filter((branch) => branch.id && branch.label && branch.nodes.length > 0);
+  const references = arrayValue(raw.references).map((entry) => {
+    const reference = asRecord(entry);
+    const sourceStatusValue = stringValue(reference.source_status, "not_applicable");
+    const allowedReferenceStatuses = [
+      "not_applicable",
+      "missing",
+      "available_unverified",
+      "verified",
+    ] as const;
+    const sourceStatus = allowedReferenceStatuses.includes(
+      sourceStatusValue as (typeof allowedReferenceStatuses)[number],
+    )
+      ? (sourceStatusValue as (typeof allowedReferenceStatuses)[number])
+      : "not_applicable";
+    return {
+      ref: stringValue(reference.ref),
+      label: stringValue(reference.label),
+      value: stringValue(reference.value),
+      source_status: sourceStatus,
+      url: nullableString(reference.url),
+    };
+  }).filter((reference) => reference.ref && reference.label && reference.value);
+
+  return {
+    artifact_id: stringValue(raw.artifact_id, artifactId),
+    data_status: dataStatus as LearningContentResponse["data_status"],
+    source_status: sourceStatus as LearningContentResponse["source_status"],
+    generation_status:
+      generationStatus as LearningContentResponse["generation_status"],
+    cache_status: cacheStatus as LearningContentResponse["cache_status"],
+    model: nullableString(raw.model),
+    notice: stringValue(raw.notice),
+    references,
+    content: {
+      factual_claims: factualClaims,
+      storytelling: {
+        quick: {
+          text: stringValue(quickStory.text),
+          claim_ids: stringArray(quickStory.claim_ids),
+        },
+        one_minute: {
+          text: stringValue(oneMinuteStory.text),
+          claim_ids: stringArray(oneMinuteStory.claim_ids),
+        },
+      },
+      deep_sections: deepSections,
+      timeline,
+      keywords,
+      mindmap: {
+        central_label: stringValue(mindmap.central_label),
+        branches,
+      },
+    },
+  };
 }
 
 function normalizeCandidate(value: unknown) {
@@ -311,9 +670,7 @@ function normalizeArtifact(value: unknown): Artifact {
     name: stringValue(raw.name || history.title, "Hiện vật chưa đặt tên"),
     title: nullableString(raw.title || history.title) || undefined,
     category: stringValue(raw.category, "artifact"),
-    tags: arrayValue(raw.tags).filter(
-      (tag): tag is string => typeof tag === "string",
-    ),
+    tags: stringArray(raw.tags),
     historical_period: nullableString(
       raw.historical_period || history.historical_period,
     ),
@@ -370,19 +727,13 @@ function normalizeStory(value: unknown): ArtifactStory {
       role: nullableString(overview.role),
       context: nullableString(overview.context),
       significance: nullableString(overview.significance),
-      paragraphs: arrayValue(overview.paragraphs).filter(
-        (paragraph): paragraph is string => typeof paragraph === "string",
-      ),
+      paragraphs: stringArray(overview.paragraphs),
     },
     deep: {
       description: stringValue(deep.description),
       event: nullableString(deep.event || overview.event),
-      people: arrayValue(deep.people).filter(
-        (person): person is string => typeof person === "string",
-      ),
-      related_events: arrayValue(deep.related_events).filter(
-        (event): event is string => typeof event === "string",
-      ),
+      people: stringArray(deep.people),
+      related_events: stringArray(deep.related_events),
       images: arrayValue(deep.images).map(normalizeImage),
       source: nullableString(deep.source) || sources.join(" · ") || null,
       source_verified: deep.source_verified === true,

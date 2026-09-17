@@ -1,8 +1,36 @@
 import { describe, expect, it, vi } from "vitest";
-import { getArtifact, getArtifactStory, recognizeImage, ApiError } from "@/lib/api";
+import {
+  ApiError,
+  getArtifact,
+  getArtifactStory,
+  recognizeImage,
+  requestLearningContent,
+  requestNarration,
+} from "@/lib/api";
 import { artifact, recognition, story } from "./fixtures";
 
 describe("backend API contract", () => {
+  it("normalizes decomposed Vietnamese from JSON responses to NFC", async () => {
+    const golden = "Tư liệu trưng bày giới thiệu tượng bà mẹ bằng mảnh bom.";
+    const decomposed = golden.normalize("NFD");
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(
+        Response.json({
+          ...artifact,
+          name: decomposed,
+          description: decomposed,
+        }),
+      ),
+    );
+
+    const normalized = await getArtifact(artifact.item_id);
+
+    expect(normalized.name).toBe(golden);
+    expect(normalized.description).toBe(golden);
+    expect(normalized.name).toBe(normalized.name.normalize("NFC"));
+  });
+
   it("reads authoritative item_id and preserves explicit unverified sources", async () => {
     vi.stubGlobal("fetch", vi.fn()
       .mockResolvedValueOnce(Response.json(artifact))
@@ -38,5 +66,65 @@ describe("backend API contract", () => {
       },
     })));
     expect((await recognizeImage(new File(["jpeg"], "a.jpg"))).quality.status).toBe("warning");
+  });
+
+  it("requests server-selected grounded learning content and narration", async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce(Response.json({
+        artifact_id: artifact.item_id,
+        data_status: "missing",
+        source_status: "missing",
+        generation_status: "fallback_missing_source",
+        cache_status: "bypass",
+        model: null,
+        notice: "Chưa có nguồn kiểm chứng.",
+        references: [],
+        content: {
+          factual_claims: [],
+          storytelling: {
+            quick: { text: artifact.name, claim_ids: [] },
+            one_minute: { text: artifact.description, claim_ids: [] },
+          },
+          deep_sections: [],
+          timeline: [],
+          keywords: [{ term: "hiện vật", explanation: "Từ dữ liệu." }],
+          mindmap: {
+            central_label: artifact.name,
+            branches: [{
+              id: "identity",
+              label: "Nhận diện",
+              relation: "identified_by",
+              evidence_refs: ["artifact.name"],
+              nodes: [{
+                id: "name",
+                label: artifact.name,
+                note: null,
+                evidence_refs: ["artifact.name"],
+              }],
+            }],
+          },
+        },
+      }))
+      .mockResolvedValueOnce(Response.json({
+        artifact_id: artifact.item_id,
+        variant: "short",
+        status: "fallback_required",
+        cache_status: "bypass",
+        transcript: artifact.name,
+        asset_id: null,
+        audio_url: null,
+        mime_type: null,
+        notice: "Dùng giọng đọc thiết bị.",
+      }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const learning = await requestLearningContent(artifact.item_id);
+    const narration = await requestNarration(artifact.item_id, "short");
+
+    expect(learning.content.mindmap.central_label).toBe(artifact.name);
+    expect(learning.generation_status).toBe("fallback_missing_source");
+    expect(narration.transcript).toBe(artifact.name);
+    expect(fetchMock.mock.calls[0][1]).toMatchObject({ method: "POST" });
+    expect(fetchMock.mock.calls[1][1]).toMatchObject({ method: "POST" });
   });
 });

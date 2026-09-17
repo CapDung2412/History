@@ -116,6 +116,27 @@ def test_feedback_rate_limited_before_lookup(tmp_path) -> None:
     assert client.post(path, json={"is_correct": True}).status_code == 429
 
 
+def test_learning_and_tts_have_independent_rate_limits(tmp_path) -> None:
+    settings = replace(
+        APISettings(),
+        ai_content_rate_limit_per_minute=1,
+        tts_rate_limit_per_minute=1,
+    )
+    client, _, _ = _client(tmp_path, [], settings)
+    learning_path = "/api/v1/artifacts/artifact-a/learning-content"
+    narration_path = "/api/v1/artifacts/artifact-a/narrations"
+
+    assert client.post(learning_path).status_code == 200
+    limited_learning = client.post(learning_path)
+    assert limited_learning.status_code == 429
+    assert limited_learning.json()["detail"]["code"] == "rate_limit_exceeded"
+
+    assert client.post(narration_path, json={"variant": "short"}).status_code == 200
+    limited_narration = client.post(narration_path, json={"variant": "short"})
+    assert limited_narration.status_code == 429
+    assert limited_narration.json()["detail"]["code"] == "rate_limit_exceeded"
+
+
 def test_simultaneous_feedback_recorded_once(tmp_path) -> None:
     client, repository, _ = _client(tmp_path, [_match("artifact-a", 0.9), _match("artifact-b", 0.6)])
     result = client.post("/api/v1/recognitions", files={"file": ("a.png", _query_png())}).json()

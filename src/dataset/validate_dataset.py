@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
@@ -12,6 +13,7 @@ from PIL import Image, ImageOps, UnidentifiedImageError
 
 from src.config import PROJECT_ROOT, Settings
 from src.dataset.catalog import IMAGE_SUFFIXES, image_index, load_document
+from src.text import contains_mojibake
 
 
 def issue(level: str, code: str, message: str, path: Path | None = None) -> dict[str, str]:
@@ -54,6 +56,15 @@ def validate(image_root: Path, json_root: Path, schema_path: Path) -> dict[str, 
     valid_json = 0
     for path in json_files:
         try:
+            raw_text = path.read_text(encoding="utf-8")
+            if raw_text != unicodedata.normalize("NFC", raw_text):
+                problems.append(
+                    issue("warning", "non_nfc_text", "JSON text is not normalized to Unicode NFC", path)
+                )
+            if contains_mojibake(raw_text):
+                problems.append(
+                    issue("error", "mojibake_text", "JSON contains likely broken UTF-8 text", path)
+                )
             document = load_document(path)
             valid_json += 1
         except (UnicodeDecodeError, json.JSONDecodeError, ValueError) as exc:
@@ -99,6 +110,10 @@ def validate(image_root: Path, json_root: Path, schema_path: Path) -> dict[str, 
 
 
 def main() -> int:
+    # Windows PowerShell may expose a legacy code page even when the project and
+    # dataset are UTF-8. Keep Vietnamese paths/messages printable in that case.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     settings = Settings.load()
     parser = argparse.ArgumentParser(description="Validate the Di San Lens dataset")
     parser.add_argument("--images", type=Path, default=settings.image_root)

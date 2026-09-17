@@ -5,17 +5,18 @@
     {
       "category": "military_artifact",
       "historical_info": {
-        "description": "Tư liệu trưng bày giới thiệu tuong bà mẹ bằng mảnh bom. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Không gian này tập hợp ảnh, vũ khí, bom mìn hoặc hiện vật liên quan đến nạn nhân và hậu quả của chiến tranh. Cách trưng bày liên kết phương tiện gây hại với những thiệt hại cụ thể đối với con người và đời sống dân sự.",
-        "event": "Tuong bà mẹ bằng mảnh bom",
+        "description": "Tác phẩm điêu khắc “Bà mẹ” của nhà điêu khắc Nguyễn Hoàng Huy được tạo hình từ những mảnh bom còn sót lại sau chiến tranh và đặt trong không gian trưng bày “Tội ác chiến tranh xâm lược” tại Bảo tàng Chứng tích Chiến tranh. Hình tượng Mẹ Việt Nam gợi nhắc sự hy sinh, sức chịu đựng và tình mẫu tử; sự chuyển hóa vật liệu từng phục vụ hủy diệt thành một hình tượng con người tạo nên đối sánh mạnh giữa chiến tranh và khát vọng gìn giữ sự sống. Nguồn hiện có chưa xác định hợp kim cụ thể, kích thước, trọng lượng, niên đại sáng tác hoặc kỹ thuật liên kết các mảnh bom.",
+        "event": "Tượng bà mẹ bằng mảnh bom",
         "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
-        "source": null,
-        "title": "Tuong bà mẹ bằng mảnh bom",
+        "source": "https://tuoitre.vn/dulichtphcm/khi-bao-tang-doan-ket-mot-the-gioi-dang-chia-re-107113613.htm",
+        "source_status": "available",
+        "title": "Tượng bà mẹ bằng mảnh bom",
         "year": null
       },
       "id": "tuong-ba-me-bang-manh-bom",
       "images": [
         {
-          "caption": "Tuong bà mẹ bằng mảnh bom – góc chụp 1/3.",
+          "caption": "Tượng bà mẹ bằng mảnh bom – góc chụp 1/3.",
           "drive_url": "https://drive.google.com/file/d/1NlEAzW7ahsgAt5NBJ1Ifxasa2zzj2bxd/view",
           "filename": "tuong-ba-me-bang-manh-bom_01.jpg",
           "id": "tuong-ba-me-bang-manh-bom_01",
@@ -23,7 +24,7 @@
           "year": null
         },
         {
-          "caption": "Tuong bà mẹ bằng mảnh bom – góc chụp 2/3.",
+          "caption": "Tượng bà mẹ bằng mảnh bom – góc chụp 2/3.",
           "drive_url": "https://drive.google.com/file/d/1umw2mhhFVgzXADu-uCsE9zzB1GaKmOes/view",
           "filename": "tuong-ba-me-bang-manh-bom_02.jpg",
           "id": "tuong-ba-me-bang-manh-bom_02",
@@ -31,7 +32,7 @@
           "year": null
         },
         {
-          "caption": "Tuong bà mẹ bằng mảnh bom – góc chụp 3/3.",
+          "caption": "Tượng bà mẹ bằng mảnh bom – góc chụp 3/3.",
           "drive_url": "https://drive.google.com/file/d/1zjWsUTbZW3lnZTDzQUlAVvwhHgi4gAyO/view",
           "filename": "tuong-ba-me-bang-manh-bom_03.jpg",
           "id": "tuong-ba-me-bang-manh-bom_03",
@@ -47,7 +48,7 @@
         "longitude": null,
         "province": "Thành phố Hồ Chí Minh"
       },
-      "name": "Tuong bà mẹ bằng mảnh bom",
+      "name": "Tượng bà mẹ bằng mảnh bom",
       "slug": "tuong-ba-me-bang-manh-bom",
       "tags": [
         "toi-ac-chien-tranh-xam-luoc",

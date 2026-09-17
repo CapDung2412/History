@@ -10,13 +10,21 @@ from typing import Annotated, Any
 from urllib.parse import quote
 from uuid import UUID, uuid4
 
-from fastapi import FastAPI, Path as APIPath, Request
+from fastapi import FastAPI, Path as APIPath, Query, Request, Response
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
-from fastapi.staticfiles import StaticFiles
 from starlette.concurrency import run_in_threadpool
 
+from src.ai import (
+    ArtifactNotFoundError,
+    LearningContentEnvelope,
+    LearningService,
+    NarrationRequest,
+    NarrationResponse,
+    NarrationService,
+    build_ai_services,
+)
 from src.config import Settings
 from src.repositories.base import (
     HeritageRepository,
@@ -28,6 +36,7 @@ from src.repositories.models import FeedbackRecord, RecognitionRecord
 
 from .confidence import RankedMatch, decide_confidence, deduplicate_matches
 from .guards import RequestGuardMiddleware
+from .media import MediaAsset, MediaAssetError, MediaService
 from .quality import ImageValidationError, QualityResult, assess_quality, read_image
 from .recognizer import ClipPineconeEngine, RecognitionEngine, RecognitionUnavailableError
 from .request_context import RecognitionContext, RequestContextStore
@@ -163,7 +172,9 @@ def _story_payload(record: Any) -> dict[str, Any]:
         "overview": {
             # Dataset currently contains one canonical description. Keep it
             # verbatim rather than inventing separate historical claims.
-            "paragraphs": [description] if description else [],
+            "description": description or None,
+            "event": overview.get("event"),
+            "paragraphs": [],
         },
         "deep": {
             "description": str(deep.get("description") or description),
@@ -257,6 +268,8 @@ def create_app(
     repository: HeritageRepository | None = None,
     recognition_engine: RecognitionEngine | None = None,
     context_store: RequestContextStore | None = None,
+    learning_service: LearningService | None = None,
+    narration_service: NarrationService | None = None,
 ) -> FastAPI:
     api_config = api_settings or APISettings.load()
     api_config.validate()
@@ -266,6 +279,18 @@ def create_app(
     contexts = context_store or RequestContextStore(
         api_config.request_context_ttl_seconds, api_config.request_context_max_entries
     )
+    thumbnail_cache = Path(api_config.thumbnail_cache_dir)
+    if not thumbnail_cache.is_absolute():
+        thumbnail_cache = core_config.project_root / thumbnail_cache
+    media_service = MediaService(core_config.image_root, thumbnail_cache)
+    if learning_service is None or narration_service is None:
+        default_learning, default_narration = build_ai_services(
+            repository_provider.get,
+            settings=api_config,
+            project_root=core_config.project_root,
+        )
+        learning_service = learning_service or default_learning
+        narration_service = narration_service or default_narration
 
     application = FastAPI(
         title="DiSan Lens API",
@@ -280,11 +305,14 @@ def create_app(
         allow_methods=["GET", "POST", "OPTIONS"],
         allow_headers=["Accept", "Content-Type"],
     )
-    application.mount(
-        "/media",
-        StaticFiles(directory=str(core_config.image_root), check_dir=False, follow_symlink=False),
-        name="media",
-    )
+
+    @application.middleware("http")
+    async def declare_json_utf8(request: Request, call_next):
+        response = await call_next(request)
+        content_type = response.headers.get("content-type", "")
+        if content_type.lower().split(";", 1)[0] == "application/json" and "charset=" not in content_type.lower():
+            response.headers["content-type"] = f"{content_type}; charset=utf-8"
+        return response
 
     @application.exception_handler(APIProblem)
     async def api_problem_handler(_request: Request, exc: APIProblem) -> JSONResponse:
@@ -315,6 +343,34 @@ def create_app(
             status_code=500,
             content={"detail": {"code": "internal_error", "message": "Hệ thống đang tạm gián đoạn."}},
         )
+
+    def media_response(asset: MediaAsset, request: Request) -> Response:
+        headers = {
+            "Cache-Control": asset.cache_control,
+            "ETag": asset.etag,
+            "X-Content-Type-Options": "nosniff",
+        }
+        if request.headers.get("if-none-match") == asset.etag:
+            return Response(status_code=304, headers=headers)
+        return FileResponse(asset.path, media_type=asset.media_type, headers=headers)
+
+    @application.get("/media/{relative_path:path}", include_in_schema=False)
+    async def get_media(
+        relative_path: str,
+        request: Request,
+        width: Annotated[int | None, Query(ge=320, le=1280)] = None,
+    ) -> Response:
+        try:
+            asset = await run_in_threadpool(media_service.get, relative_path, width)
+        except ValueError as exc:
+            raise APIProblem(
+                400,
+                "invalid_thumbnail_width",
+                "Kích thước ảnh xem trước không được hỗ trợ.",
+            ) from exc
+        except MediaAssetError as exc:
+            raise APIProblem(404, "image_not_found", "Không tìm thấy ảnh hiện vật.") from exc
+        return media_response(asset, request)
 
     @application.get("/api/v1/health", response_model=HealthResponse, tags=["system"])
     async def health() -> HealthResponse:
@@ -512,6 +568,67 @@ def create_app(
             raise APIProblem(404, "artifact_not_found", "Không tìm thấy hiện vật.")
         return StoryResponse.model_validate(_story_payload(story))
 
+    @application.post(
+        "/api/v1/artifacts/{item_id}/learning-content",
+        response_model=LearningContentEnvelope,
+        responses={404: {"model": ErrorResponse}, 429: {"model": ErrorResponse}, 503: {"model": ErrorResponse}},
+        tags=["learning"],
+    )
+    async def get_learning_content(
+        item_id: Annotated[str, APIPath(pattern=PUBLIC_ID_PATTERN)]
+    ) -> LearningContentEnvelope:
+        try:
+            return await run_in_threadpool(learning_service.get, item_id)
+        except ArtifactNotFoundError as exc:
+            raise APIProblem(404, "artifact_not_found", "Không tìm thấy hiện vật.") from exc
+        except RepositoryError as exc:
+            raise APIProblem(503, "content_unavailable", "Kho nội dung đang tạm gián đoạn.") from exc
+
+    @application.post(
+        "/api/v1/artifacts/{item_id}/narrations",
+        response_model=NarrationResponse,
+        responses={404: {"model": ErrorResponse}, 429: {"model": ErrorResponse}, 503: {"model": ErrorResponse}},
+        tags=["learning"],
+    )
+    async def create_narration(
+        item_id: Annotated[str, APIPath(pattern=PUBLIC_ID_PATTERN)],
+        request_body: NarrationRequest,
+    ) -> NarrationResponse:
+        try:
+            return await run_in_threadpool(
+                narration_service.create,
+                item_id,
+                request_body.variant,
+            )
+        except ArtifactNotFoundError as exc:
+            raise APIProblem(404, "artifact_not_found", "Không tìm thấy hiện vật.") from exc
+        except RepositoryError as exc:
+            raise APIProblem(503, "content_unavailable", "Kho nội dung đang tạm gián đoạn.") from exc
+
+    @application.get(
+        "/api/v1/narrations/{asset_id}/audio",
+        response_class=FileResponse,
+        responses={404: {"model": ErrorResponse}},
+        tags=["learning"],
+    )
+    async def get_narration_audio(
+        asset_id: Annotated[str, APIPath(pattern=r"^[0-9a-f]{64}$")],
+        request: Request,
+    ) -> Response:
+        audio_path = await run_in_threadpool(narration_service.get_audio_path, asset_id)
+        if audio_path is None:
+            raise APIProblem(404, "audio_not_found", "Không tìm thấy bản thuyết minh.")
+        etag = f'"{asset_id}"'
+        headers = {
+            "Cache-Control": "public, max-age=31536000, immutable",
+            "ETag": etag,
+            "X-Content-Type-Options": "nosniff",
+            "Content-Disposition": "inline",
+        }
+        if request.headers.get("if-none-match") == etag:
+            return Response(status_code=304, headers=headers)
+        return FileResponse(audio_path, media_type="audio/wav", headers=headers)
+
     @application.get(
         "/api/v1/artifacts/{item_id}/challenge",
         response_model=ChallengeResponse | None,
@@ -544,7 +661,9 @@ def create_app(
     async def get_artifact_image(
         item_id: Annotated[str, APIPath(pattern=PUBLIC_ID_PATTERN)],
         image_id: Annotated[str, APIPath(pattern=r"^[A-Za-z0-9][A-Za-z0-9_-]*$")],
-    ) -> FileResponse:
+        request: Request,
+        width: Annotated[int | None, Query(ge=320, le=1280)] = None,
+    ) -> Response:
         try:
             repo = await run_in_threadpool(repository_provider.get)
             images = await run_in_threadpool(repo.get_images, item_id)
@@ -553,11 +672,13 @@ def create_app(
         image_record = next((value for value in images if value.id == image_id), None)
         if image_record is None:
             raise APIProblem(404, "image_not_found", "Không tìm thấy ảnh hiện vật.")
-        root = core_config.image_root.resolve()
-        target = (root / image_record.relative_path).resolve()
-        if not target.is_relative_to(root) or not target.is_file():
-            raise APIProblem(404, "image_not_found", "Không tìm thấy ảnh hiện vật.")
-        return FileResponse(target, headers={"Cache-Control": "public, max-age=3600"})
+        try:
+            asset = await run_in_threadpool(media_service.get, image_record.relative_path, width)
+        except ValueError as exc:
+            raise APIProblem(400, "invalid_thumbnail_width", "Kích thước ảnh xem trước không được hỗ trợ.") from exc
+        except MediaAssetError as exc:
+            raise APIProblem(404, "image_not_found", "Không tìm thấy ảnh hiện vật.") from exc
+        return media_response(asset, request)
 
     @application.post(
         "/api/v1/recognitions/{request_id}/feedback",

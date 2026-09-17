@@ -3,7 +3,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 
 from playwright.sync_api import expect, sync_playwright
 
@@ -38,7 +40,7 @@ def main() -> int:
         page.goto(args.url, wait_until="networkidle")
         expect(page.locator("html")).to_have_attribute("lang", "vi")
         expect(page.get_by_role("heading", name="Chụp một chứng tích, mở một câu chuyện")).to_be_visible()
-        for width, height in ((320, 800), (390, 844), (768, 1024), (1440, 1000)):
+        for width, height in ((320, 800), (390, 844), (768, 1024), (1024, 900), (1440, 1000)):
             checks.append(check_layout(page, width, height))
             page.screenshot(path=report_dir / f"home-{width}.png", full_page=True)
         page.get_by_role("button", name="Tăng cỡ chữ").click()
@@ -67,9 +69,53 @@ def main() -> int:
             if status == "needs_confirmation":
                 page.get_by_role("button", name="Chọn hiện vật này").first.click()
             expect(page.get_by_role("tab", name="Nhìn nhanh")).to_be_visible(timeout=30_000)
+            image_requests: list[str] = []
+            page.on(
+                "request",
+                lambda request: image_requests.append(request.url)
+                if "/media/" in request.url
+                else None,
+            )
+            image_trigger = page.get_by_role(
+                "button", name=re.compile(r"^Xem ảnh lớn:")
+            ).first
+            thumbnail_url = image_trigger.locator("img").get_attribute("src") or ""
+            assert "width=960" in thumbnail_url, thumbnail_url
+            image_trigger.focus()
+            image_trigger.click()
+            lightbox = page.get_by_role("dialog", name="Xem ảnh hiện vật")
+            expect(lightbox).to_be_visible()
+            expect(page.locator("dialog.image-lightbox")).to_have_count(1)
+            full_image = lightbox.locator("img")
+            expect(full_image).to_be_visible()
+            assert full_image.evaluate("element => getComputedStyle(element).objectFit") == "contain"
+            original_url = full_image.get_attribute("src") or ""
+            assert "width=" not in original_url, original_url
+            page.keyboard.press("Escape")
+            expect(lightbox).not_to_be_visible()
+            assert image_trigger.evaluate("element => element === document.activeElement")
+            image_trigger.click()
+            expect(lightbox).to_be_visible()
+            lightbox.get_by_role("button", name="Đóng ảnh phóng lớn").click()
+            expect(lightbox).not_to_be_visible()
+            original_path = urlparse(original_url).path
+            original_requests = [
+                url
+                for url in image_requests
+                if urlparse(url).path == original_path
+                and "width" not in parse_qs(urlparse(url).query)
+            ]
+            assert len(original_requests) <= 1, original_requests
+            checks.append(
+                {
+                    "lightbox": "passed",
+                    "single_original_request": len(original_requests),
+                    "thumbnail_width": 960,
+                }
+            )
             page.get_by_role("tab", name="Khám phá sâu").click()
             expect(page.get_by_role("tabpanel")).to_be_visible()
-            for width, height in ((320, 800), (390, 844), (768, 1024), (1440, 1000)):
+            for width, height in ((320, 800), (390, 844), (768, 1024), (1024, 900), (1440, 1000)):
                 checks.append(check_layout(page, width, height))
                 page.screenshot(path=report_dir / f"story-{width}.png", full_page=True)
             checks.append({"real_recognition": status, "candidate_ids": [c["item_id"] for c in result["candidates"]]})

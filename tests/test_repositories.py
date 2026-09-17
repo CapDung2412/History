@@ -107,6 +107,25 @@ def test_json_repository_preserves_content_and_marks_missing_source(tmp_path: Pa
     assert "chưa được xác minh" in sourced_story.deep["source_notice"]
 
 
+def test_json_repository_requires_explicit_consistent_source_verification(
+    tmp_path: Path,
+) -> None:
+    json_root, image_root = make_dataset(tmp_path)
+    path = json_root / "item-2.json"
+    document = json.loads(path.read_text(encoding="utf-8"))
+    document["locations"][0]["historical_info"]["source_status"] = "verified"
+    path.write_text(json.dumps(document, ensure_ascii=False), encoding="utf-8")
+
+    artifact = JsonHeritageRepository(json_root, image_root).get_artifact("item-2")
+    assert artifact is not None
+    assert artifact.historical_info.source_status == "verified"
+
+    document["locations"][0]["historical_info"]["source"] = None
+    path.write_text(json.dumps(document, ensure_ascii=False), encoding="utf-8")
+    with pytest.raises(RepositoryIntegrityError, match="cannot mark an empty source"):
+        JsonHeritageRepository(json_root, image_root)
+
+
 def test_json_challenge_is_deterministic_and_uses_real_categories(tmp_path: Path) -> None:
     json_root, image_root = make_dataset(tmp_path)
     repository = JsonHeritageRepository(json_root, image_root)

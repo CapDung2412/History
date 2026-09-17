@@ -8,6 +8,7 @@ import numpy as np
 from fastapi.testclient import TestClient
 from PIL import Image
 
+from src.ai.schemas import NarrationResponse
 from src.api.app import create_app
 from src.api.recognizer import RecognitionUnavailableError
 from src.api.settings import APISettings
@@ -154,7 +155,15 @@ def _query_png() -> bytes:
     return buffer.getvalue()
 
 
-def _client(tmp_path: Path, matches, api_settings=None, *, error=False):
+def _client(
+    tmp_path: Path,
+    matches,
+    api_settings=None,
+    *,
+    error=False,
+    learning_service=None,
+    narration_service=None,
+):
     artifacts = [
         _artifact(tmp_path, "a", "category-a"),
         _artifact(tmp_path, "b", "category-b"),
@@ -167,6 +176,8 @@ def _client(tmp_path: Path, matches, api_settings=None, *, error=False):
         core_settings=_core_settings(tmp_path),
         repository=repository,
         recognition_engine=engine,
+        learning_service=learning_service,
+        narration_service=narration_service,
     )
     return TestClient(app, raise_server_exceptions=False), repository, engine
 
@@ -288,14 +299,35 @@ def test_content_story_challenge_media_and_feedback(tmp_path: Path) -> None:
     )
     artifact = client.get("/api/v1/artifacts/artifact-a")
     assert artifact.status_code == 200
+    assert artifact.headers["content-type"] == "application/json; charset=utf-8"
     assert artifact.json()["source_verified"] is False
     assert artifact.json()["source"] is None
     assert artifact.json()["images"][0]["url"].startswith("/media/")
 
     story = client.get("/api/v1/artifacts/artifact-a/story").json()
     assert story["item_id"] == "artifact-a"
+    assert story["overview"]["description"] == "Mô tả dữ liệu gốc của hiện vật A."
+    assert story["overview"]["event"] == "Sự kiện A"
     assert story["deep"]["source_verified"] is False
     assert story["deep"]["source"] is None
+
+    learning = client.post("/api/v1/artifacts/artifact-a/learning-content")
+    assert learning.status_code == 200
+    assert learning.json()["generation_status"] == "fallback_missing_source"
+    assert learning.json()["cache_status"] == "bypass"
+    assert learning.json()["content"]["mindmap"]["central_label"] == "Hiện vật A"
+    assert "chưa có đủ nguồn kiểm chứng" in learning.json()["notice"]
+
+    narration = client.post(
+        "/api/v1/artifacts/artifact-a/narrations", json={"variant": "short"}
+    )
+    assert narration.status_code == 200
+    assert narration.json()["status"] == "fallback_required"
+    assert narration.json()["audio_url"] is None
+    assert narration.json()["transcript"]
+    assert client.post(
+        "/api/v1/artifacts/artifact-a/narrations", json={"variant": "invalid"}
+    ).status_code == 422
 
     challenge = client.get("/api/v1/artifacts/artifact-a/challenge").json()
     assert challenge["item_id"] == "artifact-a"
@@ -303,7 +335,17 @@ def test_content_story_challenge_media_and_feedback(tmp_path: Path) -> None:
     assert all("is_correct" not in option for option in challenge["options"])
 
     assert client.get("/api/v1/artifacts/artifact-a/images/artifact-a_01").status_code == 200
+    thumbnail = client.get("/media/artifact-a.jpg?width=640")
+    assert thumbnail.status_code == 200
+    assert thumbnail.headers["content-type"].startswith("image/webp")
+    assert "etag" in thumbnail.headers
+    assert client.get(
+        "/media/artifact-a.jpg?width=640",
+        headers={"If-None-Match": thumbnail.headers["etag"]},
+    ).status_code == 304
+    assert client.get("/media/artifact-a.jpg?width=777").status_code == 400
     assert client.get("/api/v1/artifacts/missing").status_code == 404
+    assert client.post("/api/v1/artifacts/missing/learning-content").status_code == 404
 
     recognition = client.post(
         "/api/v1/recognitions", files={"file": ("query.png", _query_png(), "image/png")}
@@ -331,3 +373,52 @@ def test_feedback_rejects_client_supplied_item_outside_server_context(tmp_path: 
         json={"is_correct": False, "selected_item_id": "artifact-z"},
     )
     assert response.status_code == 422
+
+
+def test_cached_narration_audio_supports_etag_and_range(tmp_path: Path) -> None:
+    asset_id = "a" * 64
+    audio_path = tmp_path / f"{asset_id}.wav"
+    audio_path.write_bytes(b"RIFF" + b"\x00" * 60)
+
+    class FakeNarrationService:
+        def create(self, artifact_id: str, variant: str) -> NarrationResponse:
+            return NarrationResponse(
+                artifact_id=artifact_id,
+                variant=variant,
+                status="ready",
+                cache_status="hit",
+                transcript="Bản thuyết minh kiểm thử.",
+                asset_id=asset_id,
+                audio_url=f"/api/v1/narrations/{asset_id}/audio",
+                mime_type="audio/wav",
+                notice="Giọng đọc AI kiểm thử.",
+            )
+
+        def get_audio_path(self, requested_id: str):
+            return audio_path if requested_id == asset_id else None
+
+    client, _, _ = _client(
+        tmp_path,
+        [],
+        narration_service=FakeNarrationService(),
+    )
+    created = client.post(
+        "/api/v1/artifacts/artifact-a/narrations", json={"variant": "full"}
+    )
+    assert created.status_code == 200
+    assert created.json()["asset_id"] == asset_id
+
+    audio = client.get(f"/api/v1/narrations/{asset_id}/audio")
+    assert audio.status_code == 200
+    assert audio.headers["content-type"].startswith("audio/wav")
+    assert audio.headers["cache-control"] == "public, max-age=31536000, immutable"
+    assert client.get(
+        f"/api/v1/narrations/{asset_id}/audio",
+        headers={"If-None-Match": audio.headers["etag"]},
+    ).status_code == 304
+    partial = client.get(
+        f"/api/v1/narrations/{asset_id}/audio",
+        headers={"Range": "bytes=0-3"},
+    )
+    assert partial.status_code == 206
+    assert partial.content == b"RIFF"

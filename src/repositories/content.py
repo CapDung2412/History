@@ -54,7 +54,9 @@ def build_story(artifact: ArtifactRecord) -> StoryRecord:
             "sources": sources,
             "source_status": history.source_status,
             "source_notice": (
-                "Nguồn được cung cấp trong hồ sơ; chưa được xác minh độc lập"
+                "Nguồn đã được đánh dấu xác minh trong quy trình biên tập"
+                if history.source_status == "verified"
+                else "Nguồn đi kèm dữ liệu hiện vật; chưa được xác minh độc lập"
                 if history.source_status == "available"
                 else "Nguồn tư liệu đang được bổ sung"
             ),
@@ -95,8 +97,8 @@ def build_category_challenge(
         id=challenge_id,
         item_id=artifact.id,
         type="single_choice",
-        question=f"Theo hồ sơ dữ liệu, “{artifact.name}” được xếp vào nhóm tư liệu nào?",
+        question=f"“{artifact.name}” thuộc nhóm tư liệu nào?",
         options=options,
-        explanation=f"Hồ sơ dữ liệu xếp hiện vật này vào nhóm “{correct_label}”.",
+        explanation=f"Dữ liệu trưng bày phân loại hiện vật này là “{correct_label}”.",
         source_field="category",
     )

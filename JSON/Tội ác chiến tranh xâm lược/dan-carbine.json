@@ -5,7 +5,7 @@
     {
       "category": "military_artifact",
       "historical_info": {
-        "description": "Hiện vật được nhận diện là Đạn carbine. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng trường hoặc carbine, được nhận diện theo mẫu súng ghi trong hồ sơ trưng bày. Tư liệu giúp đối chiếu hình dáng và tên gọi của các loại súng bộ binh thời chiến.",
+        "description": "Hiện vật được nhận diện là Đạn carbine. Tư liệu được đặt trong bối cảnh Chiến tranh Việt Nam và hậu quả chiến tranh. Hiện vật thuộc nhóm súng trường hoặc carbine, được nhận diện theo tên mẫu súng trên nhãn trưng bày. Tư liệu giúp đối chiếu hình dáng và tên gọi của các loại súng bộ binh thời chiến.",
         "event": "Đạn carbine",
         "historical_period": "Chiến tranh Việt Nam và hậu quả chiến tranh",
         "source": null,
@@ -56,4 +56,3 @@
     }
   ]
 }
-

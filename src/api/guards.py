@@ -57,6 +57,14 @@ class RequestGuardMiddleware:
         self._feedback_limiter = FixedWindowRateLimiter(
             settings.feedback_rate_limit_per_minute, settings.rate_limit_max_clients
         )
+        self._ai_limiter = FixedWindowRateLimiter(
+            settings.ai_content_rate_limit_per_minute, settings.rate_limit_max_clients
+        )
+        self._tts_limiter = FixedWindowRateLimiter(
+            settings.tts_rate_limit_per_minute, settings.rate_limit_max_clients
+        )
+        self._ai_slots = threading.BoundedSemaphore(settings.max_concurrent_ai_generations)
+        self._tts_slots = threading.BoundedSemaphore(settings.max_concurrent_tts_generations)
 
     async def __call__(self, scope: Scope, receive: Receive, send: Send) -> None:
         if scope["type"] != "http" or scope["method"] != "POST":
@@ -65,7 +73,9 @@ class RequestGuardMiddleware:
         path = scope["path"].rstrip("/")
         inference = path in {"/api/v1/recognitions", "/api/v1/warmup"}
         feedback = path.startswith("/api/v1/recognitions/") and path.endswith("/feedback")
-        if not inference and not feedback:
+        learning = path.startswith("/api/v1/artifacts/") and path.endswith("/learning-content")
+        narration = path.startswith("/api/v1/artifacts/") and path.endswith("/narrations")
+        if not inference and not feedback and not learning and not narration:
             await self.app(scope, receive, send)
             return
 
@@ -97,13 +107,35 @@ class RequestGuardMiddleware:
 
         client = scope.get("client")
         client_key = client[0] if client else "unknown"
-        limiter = self._recognition_limiter if inference else self._feedback_limiter
+        if inference:
+            limiter = self._recognition_limiter
+        elif feedback:
+            limiter = self._feedback_limiter
+        elif learning:
+            limiter = self._ai_limiter
+        else:
+            limiter = self._tts_limiter
         if not limiter.allow(client_key):
             await reject(429, "rate_limit_exceeded", "Có nhiều yêu cầu liên tiếp. Em hãy thử lại sau.")
             return
-        acquired = inference and self._inference_slots.acquire(blocking=False)
-        if inference and not acquired:
-            await reject(429, "recognition_busy", "Hệ thống đang nhận diện ảnh khác. Em hãy thử lại sau.")
+        semaphore = (
+            self._inference_slots
+            if inference
+            else self._ai_slots
+            if learning
+            else self._tts_slots
+            if narration
+            else None
+        )
+        acquired = semaphore is not None and semaphore.acquire(blocking=False)
+        if semaphore is not None and not acquired:
+            code = "recognition_busy" if inference else "generation_busy"
+            message = (
+                "Hệ thống đang nhận diện ảnh khác. Em hãy thử lại sau."
+                if inference
+                else "Hệ thống đang chuẩn bị nội dung khác. Em hãy thử lại sau."
+            )
+            await reject(429, code, message)
             return
 
         received = 0
@@ -124,5 +156,5 @@ class RequestGuardMiddleware:
         try:
             await self.app(scope, limited_receive, send)
         finally:
-            if acquired:
-                self._inference_slots.release()
+            if acquired and semaphore is not None:
+                semaphore.release()

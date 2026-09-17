@@ -31,7 +31,8 @@
             "properties": {
               "title": {"type": "string", "minLength": 1}, "description": {"type": "string", "minLength": 1},
               "historical_period": {"type": ["string", "null"]}, "year": {"type": ["integer", "null"]},
-              "event": {"type": ["string", "null"]}, "source": {"type": ["string", "null"]}
+              "event": {"type": ["string", "null"]}, "source": {"type": ["string", "null"]},
+              "source_status": {"type": "string", "enum": ["missing", "available", "verified"]}
             }, "additionalProperties": true
           },
           "images": {

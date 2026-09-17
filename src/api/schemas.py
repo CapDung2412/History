@@ -116,6 +116,8 @@ class StoryQuick(APIModel):
 
 
 class StoryOverview(APIModel):
+    description: str | None = None
+    event: str | None = None
     what_it_is: str | None = None
     role: str | None = None
     context: str | None = None

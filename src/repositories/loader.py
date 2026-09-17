@@ -66,6 +66,22 @@ def load_artifacts(json_root: Path, image_root: Path) -> dict[str, ArtifactRecor
 
             raw_history = raw_item.get("historical_info") or {}
             raw_source = _optional_text(raw_history.get("source"))
+            declared_source_status = _optional_text(raw_history.get("source_status"))
+            if declared_source_status not in {None, "missing", "available", "verified"}:
+                raise RepositoryIntegrityError(
+                    f"Unsupported source_status for artifact {item_id}"
+                )
+            if declared_source_status in {"available", "verified"} and not raw_source:
+                raise RepositoryIntegrityError(
+                    f"Artifact {item_id} cannot mark an empty source as {declared_source_status}"
+                )
+            if declared_source_status == "missing" and raw_source:
+                raise RepositoryIntegrityError(
+                    f"Artifact {item_id} has a source but declares source_status=missing"
+                )
+            source_status = declared_source_status or (
+                "available" if raw_source else "missing"
+            )
             history = HistoricalInfoRecord(
                 title=str(raw_history.get("title", "")).strip(),
                 description=str(raw_history.get("description", "")).strip(),
@@ -73,7 +89,7 @@ def load_artifacts(json_root: Path, image_root: Path) -> dict[str, ArtifactRecor
                 year=_optional_int(raw_history.get("year")),
                 event=_optional_text(raw_history.get("event")),
                 source=raw_source,
-                source_status="available" if raw_source else "missing",
+                source_status=source_status,
             )
 
             images: list[ImageRecord] = []

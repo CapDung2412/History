@@ -24,7 +24,7 @@ export const challenge: Challenge = {
   id: "test-challenge", item_id: artifact.item_id, type: "category",
   question: "Hiện vật kiểm thử thuộc loại nào?",
   options: [{ id: "artifact", label: "Hiện vật" }, { id: "photo", label: "Ảnh tư liệu" }],
-  correct_option_id: "artifact", explanation: "Trường category của hồ sơ kiểm thử ghi artifact.",
+  correct_option_id: "artifact", explanation: "Trường category của dữ liệu kiểm thử ghi artifact.",
 };
 export function recognition(status: RecognitionResponse["recognition_status"] = "accepted"): RecognitionResponse {
   return {
