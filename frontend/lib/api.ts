@@ -229,6 +229,17 @@ export interface LearningKeyword {
   explanation: string;
 }
 
+export interface LearningRelatedVideo {
+  title: string;
+  url: string;
+  channel_name: string;
+  trust_level: "official" | "reputable_institution";
+  trust_reason: string;
+  relevance: string;
+  scope: "exact_artifact" | "related_event" | "site_or_museum" | "broader_context";
+  evidence_refs: string[];
+}
+
 export interface LearningMindmap {
   central_label: string;
   branches: Array<{
@@ -279,6 +290,7 @@ export interface LearningContentResponse {
     deep_sections: LearningDeepSection[];
     timeline: LearningTimelineEntry[];
     keywords: LearningKeyword[];
+    related_videos: LearningRelatedVideo[];
     mindmap: LearningMindmap;
   };
 }
@@ -358,6 +370,7 @@ function asRecord(value: unknown): UnknownRecord {
       "invalid_response",
     );
   }
+
   return value as UnknownRecord;
 }
 
@@ -388,6 +401,63 @@ function stringArray(value: unknown): string[] {
     .filter((entry): entry is string => typeof entry === "string")
     .map((entry) => entry.normalize("NFC").trim())
     .filter(Boolean);
+}
+
+function normalizeYouTubeVideoUrl(
+  value: unknown,
+): { url: string; videoId: string } | null {
+  const rawUrl = nullableString(value);
+  if (!rawUrl) return null;
+
+  try {
+    const parsed = new URL(rawUrl);
+    if (
+      parsed.protocol !== "https:" ||
+      parsed.username ||
+      parsed.password ||
+      parsed.port
+    ) {
+      return null;
+    }
+
+    const hostname = parsed.hostname.toLowerCase();
+    let videoId = "";
+    let canonicalUrl = "";
+
+    const youtubeHosts = new Set([
+      "youtube.com",
+      "www.youtube.com",
+      "m.youtube.com",
+      "music.youtube.com",
+    ]);
+    if (youtubeHosts.has(hostname) && parsed.pathname.replace(/\/$/, "") === "/watch") {
+      videoId = parsed.searchParams.get("v") || "";
+      canonicalUrl = `https://www.youtube.com/watch?v=${videoId}`;
+    } else if (hostname === "youtu.be" || hostname === "www.youtu.be") {
+      const pathParts = parsed.pathname.split("/").filter(Boolean);
+      if (pathParts.length !== 1) return null;
+      videoId = pathParts[0];
+      canonicalUrl = `https://youtu.be/${videoId}`;
+    } else if (youtubeHosts.has(hostname)) {
+      const pathParts = parsed.pathname.split("/").filter(Boolean);
+      if (
+        pathParts.length !== 2 ||
+        (pathParts[0] !== "shorts" && pathParts[0] !== "live")
+      ) {
+        return null;
+      }
+      videoId = pathParts[1];
+      canonicalUrl = `https://www.youtube.com/${pathParts[0]}/${videoId}`;
+    } else {
+      return null;
+    }
+
+    return /^[A-Za-z0-9_-]{11}$/.test(videoId)
+      ? { url: canonicalUrl, videoId }
+      : null;
+  } catch {
+    return null;
+  }
 }
 
 function normalizeLearningContent(
@@ -429,6 +499,29 @@ function normalizeLearningContent(
     );
   }
 
+  const references = arrayValue(raw.references).map((entry) => {
+    const reference = asRecord(entry);
+    const sourceStatusValue = stringValue(reference.source_status, "not_applicable");
+    const allowedReferenceStatuses = [
+      "not_applicable",
+      "missing",
+      "available_unverified",
+      "verified",
+    ] as const;
+    const sourceStatus = allowedReferenceStatuses.includes(
+      sourceStatusValue as (typeof allowedReferenceStatuses)[number],
+    )
+      ? (sourceStatusValue as (typeof allowedReferenceStatuses)[number])
+      : "not_applicable";
+    return {
+      ref: stringValue(reference.ref),
+      label: stringValue(reference.label),
+      value: stringValue(reference.value),
+      source_status: sourceStatus,
+      url: nullableString(reference.url),
+    };
+  }).filter((reference) => reference.ref && reference.label && reference.value);
+
   const deepSections = arrayValue(content.deep_sections).map((entry) => {
     const section = asRecord(entry);
     return {
@@ -462,6 +555,59 @@ function normalizeLearningContent(
       explanation: stringValue(keyword.explanation),
     };
   }).filter((keyword) => keyword.term);
+  const seenVideoIds = new Set<string>();
+  const referencedVideoIds = new Map(
+    references.flatMap((reference) => {
+      const normalized = normalizeYouTubeVideoUrl(reference.url);
+      return normalized ? [[reference.ref, normalized.videoId] as const] : [];
+    }),
+  );
+  const relatedVideos = arrayValue(content.related_videos).flatMap((entry) => {
+    if (typeof entry !== "object" || entry === null || Array.isArray(entry)) {
+      return [];
+    }
+    const video = entry as UnknownRecord;
+    const title = stringValue(video.title).trim();
+    const youtubeVideo = normalizeYouTubeVideoUrl(video.url);
+    const channelName = stringValue(video.channel_name).trim();
+    const trustLevel = stringValue(video.trust_level);
+    const trustReason = stringValue(video.trust_reason).trim();
+    const relevance = stringValue(video.relevance).trim();
+    const evidenceRefs = stringArray(video.evidence_refs);
+    const scope = stringValue(video.scope);
+    const allowedTrustLevels = ["official", "reputable_institution"] as const;
+    const allowedScopes = [
+      "exact_artifact",
+      "related_event",
+      "site_or_museum",
+      "broader_context",
+    ] as const;
+    if (
+      !title ||
+      !youtubeVideo ||
+      !channelName ||
+      !allowedTrustLevels.includes(trustLevel as (typeof allowedTrustLevels)[number]) ||
+      !trustReason ||
+      !relevance ||
+      evidenceRefs.length === 0 ||
+      !evidenceRefs.some((ref) => referencedVideoIds.get(ref) === youtubeVideo.videoId) ||
+      seenVideoIds.has(youtubeVideo.videoId) ||
+      !allowedScopes.includes(scope as (typeof allowedScopes)[number])
+    ) {
+      return [];
+    }
+    seenVideoIds.add(youtubeVideo.videoId);
+    return [{
+      title,
+      url: youtubeVideo.url,
+      channel_name: channelName,
+      trust_level: trustLevel as LearningRelatedVideo["trust_level"],
+      trust_reason: trustReason,
+      relevance,
+      scope: scope as LearningRelatedVideo["scope"],
+      evidence_refs: evidenceRefs,
+    }];
+  });
   const allowedRelations = [
     "identified_by",
     "dated_to",
@@ -498,29 +644,6 @@ function normalizeLearningContent(
       nodes,
     };
   }).filter((branch) => branch.id && branch.label && branch.nodes.length > 0);
-  const references = arrayValue(raw.references).map((entry) => {
-    const reference = asRecord(entry);
-    const sourceStatusValue = stringValue(reference.source_status, "not_applicable");
-    const allowedReferenceStatuses = [
-      "not_applicable",
-      "missing",
-      "available_unverified",
-      "verified",
-    ] as const;
-    const sourceStatus = allowedReferenceStatuses.includes(
-      sourceStatusValue as (typeof allowedReferenceStatuses)[number],
-    )
-      ? (sourceStatusValue as (typeof allowedReferenceStatuses)[number])
-      : "not_applicable";
-    return {
-      ref: stringValue(reference.ref),
-      label: stringValue(reference.label),
-      value: stringValue(reference.value),
-      source_status: sourceStatus,
-      url: nullableString(reference.url),
-    };
-  }).filter((reference) => reference.ref && reference.label && reference.value);
-
   return {
     artifact_id: stringValue(raw.artifact_id, artifactId),
     data_status: dataStatus as LearningContentResponse["data_status"],
@@ -546,6 +669,7 @@ function normalizeLearningContent(
       deep_sections: deepSections,
       timeline,
       keywords,
+      related_videos: relatedVideos,
       mindmap: {
         central_label: stringValue(mindmap.central_label),
         branches,

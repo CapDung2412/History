@@ -10,7 +10,8 @@ from pathlib import Path
 import pytest
 from pydantic import ValidationError
 
-from src.ai.cache import AudioFileCache, SQLiteLearningContentCache
+from src.ai.cache import AudioFileCache, LearningCacheRecord, SQLiteLearningContentCache
+from src.ai.curated_videos import curated_videos_for
 from src.ai.evidence import (
     EvidenceValidationError,
     build_evidence_catalog,
@@ -19,8 +20,14 @@ from src.ai.evidence import (
     repair_generated_grounding,
     validate_generated_content,
 )
-from src.ai.providers import ProviderInvalidResponseError
-from src.ai.schemas import DeepSection, GeneratedLearningContent, WebEvidence
+from src.ai.providers import ProviderInvalidResponseError, ProviderUnavailableError
+from src.ai.schemas import (
+    DeepSection,
+    GeneratedLearningContent,
+    RelatedVideo,
+    RelatedVideoDiscovery,
+    WebEvidence,
+)
 from src.ai.service import LearningService, NarrationService
 from src.repositories.models import (
     ArtifactRecord,
@@ -73,27 +80,57 @@ class Repository:
         return self.artifact if item_id == self.artifact.id else None
 
 
+class StaticLearningCache:
+    def __init__(self, record: LearningCacheRecord) -> None:
+        self.record = record
+        self.puts: list[LearningCacheRecord] = []
+
+    def get(self, _cache_key: str) -> LearningCacheRecord:
+        return self.record
+
+    def put(self, record: LearningCacheRecord) -> None:
+        self.puts.append(record)
+
+
+def _target_artifact() -> ArtifactRecord:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    return replace(
+        artifact,
+        id="tuong-ba-me-bang-manh-bom",
+        slug="tuong-ba-me-bang-manh-bom",
+        name="Tượng bà mẹ bằng mảnh bom",
+        historical_info=replace(
+            artifact.historical_info,
+            title="Tượng bà mẹ bằng mảnh bom",
+            description=(
+                "Tượng bà mẹ được tạo từ mảnh bom và trưng bày tại Bảo tàng "
+                "Chứng tích Chiến tranh."
+            ),
+        ),
+    )
+
+
 class ContentProvider:
     model_name = "test-content-model"
 
     def __init__(self, artifact: ArtifactRecord, *, invalid: bool = False) -> None:
         catalog = build_evidence_catalog(artifact)
         self.content = build_fallback_content(artifact, catalog)
-        if catalog.source_status != "verified":
-            self.content = self.content.model_copy(
-                update={
-                    "web_evidence": [
-                        WebEvidence(
-                            ref="web.1",
-                            title="Nguồn web kiểm thử",
-                            url="https://example.org/heritage-source",
-                            evidence_text=artifact.historical_info.description or artifact.name,
-                        )
-                    ]
-                }
-            )
-            self.content.factual_claims[0].evidence_refs.append("web.1")
+        self.content = self.content.model_copy(
+            update={
+                "web_evidence": [
+                    WebEvidence(
+                        ref="web.1",
+                        title="Nguồn web kiểm thử",
+                        url="https://example.org/heritage-source",
+                        evidence_text=artifact.historical_info.description or artifact.name,
+                    )
+                ]
+            }
+        )
+        self.content.factual_claims[0].evidence_refs.append("web.1")
         self.source_status = catalog.source_status
+        self.artifact_id = artifact.id
         self.invalid = invalid
         self.calls = 0
         self.search_modes: list[bool] = []
@@ -106,12 +143,56 @@ class ContentProvider:
         use_web_search: bool = False,
     ):
         self.calls += 1
-        assert artifact_id == "artifact-test"
+        assert artifact_id == self.artifact_id
         assert normalized_input["source_status"] == self.source_status
         self.search_modes.append(use_web_search)
         if self.invalid:
             raise ProviderInvalidResponseError()
         return self.content
+
+
+class TrustedVideoContentProvider(ContentProvider):
+    def __init__(self, artifact: ArtifactRecord, *, unavailable: bool = False) -> None:
+        super().__init__(artifact)
+        self.video_calls = 0
+        self.video_unavailable = unavailable
+
+    def discover_related_videos(
+        self,
+        *,
+        artifact_id: str,
+        normalized_input: dict,
+    ) -> RelatedVideoDiscovery:
+        self.video_calls += 1
+        assert artifact_id == self.artifact_id
+        assert normalized_input["artifact_id"] == artifact_id
+        if self.video_unavailable:
+            raise ProviderUnavailableError()
+        youtube_url = "https://www.youtube.com/watch?v=AbCdEfGhI12"
+        return RelatedVideoDiscovery(
+            related_videos=[
+                RelatedVideo(
+                    title="Bản đồ thử nghiệm qua tư liệu bảo tàng",
+                    url=youtube_url,
+                    channel_name="Bảo tàng Lịch sử Quốc gia",
+                    trust_level="official",
+                    trust_reason=(
+                        "Bảo tàng Lịch sử Quốc gia là cơ quan bảo tàng công bố video."
+                    ),
+                    scope="exact_artifact",
+                    relevance="Video giới thiệu trực tiếp Bản đồ thử nghiệm.",
+                    evidence_refs=["web.1"],
+                )
+            ],
+            web_evidence=[
+                WebEvidence(
+                    ref="web.1",
+                    title="Bản đồ thử nghiệm qua tư liệu bảo tàng",
+                    url=youtube_url,
+                    evidence_text="Video giới thiệu trực tiếp Bản đồ thử nghiệm.",
+                )
+            ],
+        )
 
 
 class SpeechProvider:
@@ -169,7 +250,9 @@ def test_missing_and_unverified_sources_use_web_search_and_return_sources(tmp_pa
         assert any(reference.ref == "web.1" for reference in response.references)
 
 
-def test_verified_content_is_validated_and_cached(tmp_path: Path) -> None:
+def test_verified_content_uses_web_search_for_related_resources_and_is_cached(
+    tmp_path: Path,
+) -> None:
     artifact = _artifact(source="Hồ sơ lưu trữ đã xác minh", source_status="verified")
     provider = ContentProvider(artifact)
     service = _learning_service(tmp_path, artifact, provider)
@@ -181,7 +264,180 @@ def test_verified_content_is_validated_and_cached(tmp_path: Path) -> None:
     assert first.cache_status == "miss"
     assert second.cache_status == "hit"
     assert provider.calls == 1
-    assert provider.search_modes == [False]
+    assert provider.search_modes == [True]
+
+
+def test_missing_video_gets_one_trusted_search_then_is_cached(tmp_path: Path) -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    provider = TrustedVideoContentProvider(artifact)
+    service = _learning_service(tmp_path, artifact, provider, prompt_version="prompt-v8")
+
+    first = service.get("artifact-test")
+    second = service.get("artifact-test")
+
+    assert first.cache_status == "miss"
+    assert second.cache_status == "hit"
+    assert provider.calls == 1
+    assert provider.video_calls == 1
+    assert len(first.content.related_videos) == 1
+    video = first.content.related_videos[0]
+    assert video.channel_name == "Bảo tàng Lịch sử Quốc gia"
+    assert video.trust_level == "official"
+    assert video.evidence_refs == ["web.2"]
+    assert any(reference.ref == "web.2" for reference in first.references)
+    assert second.content.related_videos == first.content.related_videos
+
+
+def test_trusted_video_search_failure_keeps_content_and_caches_result(
+    tmp_path: Path,
+) -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    provider = TrustedVideoContentProvider(artifact, unavailable=True)
+    service = _learning_service(tmp_path, artifact, provider, prompt_version="prompt-v8")
+
+    first = service.get("artifact-test")
+    second = service.get("artifact-test")
+
+    assert first.generation_status == "generated"
+    assert first.content.related_videos == []
+    assert second.cache_status == "hit"
+    assert provider.calls == 1
+    assert provider.video_calls == 1
+
+
+def test_curated_video_selector_is_narrow_and_scope_aware() -> None:
+    assert curated_videos_for("unrelated-artifact") == ()
+
+    target = curated_videos_for("tuong-ba-me-bang-manh-bom")
+    assert len(target) == 3
+    assert [video.scope for video in target] == [
+        "site_or_museum",
+        "site_or_museum",
+        "broader_context",
+    ]
+    assert all("không" in video.relevance.casefold() for video in target)
+
+    museum = curated_videos_for(
+        "another-museum-artifact",
+        location_address="28 Võ Văn Tần, Quận 3, Thành phố Hồ Chí Minh",
+    )
+    assert len(museum) == 2
+    assert all(video.channel_name == "HTV Tin Tức" for video in museum)
+
+    explosive_context = curated_videos_for(
+        "another-explosive-artifact",
+        description="Hiện vật phản ánh hậu quả bom mìn sau chiến tranh.",
+    )
+    assert len(explosive_context) == 1
+    assert explosive_context[0].channel_name == "VTV24"
+    assert explosive_context[0].scope == "broader_context"
+
+
+def test_target_uses_curated_videos_without_second_provider_call(
+    tmp_path: Path,
+) -> None:
+    artifact = _target_artifact()
+    provider = TrustedVideoContentProvider(artifact)
+    service = _learning_service(tmp_path, artifact, provider, prompt_version="prompt-v8")
+
+    first = service.get(artifact.id)
+    second = service.get(artifact.id)
+
+    assert first.cache_status == "miss"
+    assert second.cache_status == "hit"
+    assert provider.calls == 1
+    assert provider.video_calls == 0
+    assert len(first.content.related_videos) == 3
+    assert all(
+        video.evidence_refs[0].startswith("curated.video.")
+        for video in first.content.related_videos
+    )
+    curated_references = [
+        reference
+        for reference in first.references
+        if reference.provenance == "editorial_curated"
+    ]
+    assert len(curated_references) == 3
+    assert all(reference.source_status == "verified" for reference in curated_references)
+
+
+def test_v8_cache_hit_without_videos_gets_curated_overlay_without_provider_call() -> None:
+    artifact = _target_artifact()
+    catalog = build_evidence_catalog(artifact)
+    content = build_fallback_content(artifact, catalog).model_copy(deep=True)
+    content.web_evidence = [
+        WebEvidence(
+            ref="web.1",
+            title="Nguồn web kiểm thử",
+            url="https://example.org/heritage-source",
+            evidence_text=artifact.historical_info.description or artifact.name,
+        )
+    ]
+    content.factual_claims[0].evidence_refs.append("web.1")
+    provider = ContentProvider(artifact)
+    cache = StaticLearningCache(
+        LearningCacheRecord(
+            cache_key="0" * 64,
+            artifact_id=artifact.id,
+            input_hash=catalog.input_hash,
+            prompt_version="prompt-v8",
+            schema_version="schema-v1",
+            model=provider.model_name,
+            locale="vi-VN",
+            content=content,
+        )
+    )
+    service = LearningService(
+        lambda: Repository(artifact),
+        provider=provider,
+        cache=cache,
+        prompt_version="prompt-v8",
+        schema_version="schema-v1",
+    )
+
+    response = service.get(artifact.id)
+
+    assert response.cache_status == "hit"
+    assert provider.calls == 0
+    assert len(response.content.related_videos) == 3
+    assert len(
+        [ref for ref in response.references if ref.provenance == "editorial_curated"]
+    ) == 3
+
+
+def test_dynamic_video_remains_preferred_over_curated_target(tmp_path: Path) -> None:
+    artifact = _target_artifact()
+    provider = ContentProvider(artifact)
+    dynamic_url = "https://www.youtube.com/watch?v=AbCdEfGhI12"
+    provider.content.web_evidence = [
+        WebEvidence(
+            ref="web.1",
+            title="Video động đã được nguồn tìm kiếm xác nhận",
+            url=dynamic_url,
+            evidence_text=artifact.historical_info.description or artifact.name,
+        )
+    ]
+    provider.content.related_videos = [
+        RelatedVideo(
+            title="Video động đã được nguồn tìm kiếm xác nhận",
+            url=dynamic_url,
+            channel_name="Bảo tàng Kiểm thử",
+            trust_level="official",
+            trust_reason="Bảo tàng Kiểm thử là đơn vị trực tiếp công bố video này.",
+            scope="exact_artifact",
+            relevance="Video động trình bày trực tiếp hiện vật được nhận diện.",
+            evidence_refs=["web.1"],
+        )
+    ]
+    service = _learning_service(tmp_path, artifact, provider, prompt_version="prompt-v8")
+
+    response = service.get(artifact.id)
+
+    assert [video.url for video in response.content.related_videos] == [dynamic_url]
+    assert not any(
+        reference.provenance == "editorial_curated"
+        for reference in response.references
+    )
 
 
 def test_content_or_prompt_change_invalidates_learning_cache(tmp_path: Path) -> None:
@@ -230,6 +486,40 @@ def test_fallback_notice_uses_reader_friendly_data_wording(tmp_path: Path) -> No
 
     assert response.generation_status == "fallback_missing_source"
     assert "hồ sơ" not in response.notice.casefold()
+
+
+@pytest.mark.parametrize(
+    ("description", "expected_overview"),
+    [
+        (
+            "Hiện vật ghi lại hoạt động phản chiến. Nhờ đó, người xem có thể hiểu bối cảnh. "
+            "Hoạt động này diễn ra trong không gian công cộng.",
+            "Hiện vật ghi lại hoạt động phản chiến. Hoạt động này diễn ra trong không gian công cộng.",
+        ),
+        (
+            "Hiện vật này giúp người xem hiểu lịch sử.",
+            "Bản đồ thử nghiệm",
+        ),
+    ],
+)
+def test_fallback_omits_audience_directed_source_sentences(
+    description: str,
+    expected_overview: str,
+) -> None:
+    artifact = _artifact(source=None, source_status="missing")
+    artifact = replace(
+        artifact,
+        historical_info=replace(
+            artifact.historical_info,
+            description=description,
+        ),
+    )
+    catalog = build_evidence_catalog(artifact)
+
+    content = build_fallback_content(artifact, catalog)
+
+    assert content.deep_sections[0].body == expected_overview
+    assert "người xem" not in content.model_dump_json().casefold()
 
 
 def test_evidence_gate_rejects_invented_fact_even_with_a_real_reference() -> None:
@@ -396,6 +686,133 @@ def test_evidence_gate_still_rejects_an_unknown_url() -> None:
         validate_generated_content(content, catalog)
 
 
+def test_related_youtube_video_must_match_attributed_web_source() -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    catalog = build_evidence_catalog(artifact)
+    youtube_url = "https://www.youtube.com/watch?v=AbCdEfGhI12"
+    content = build_fallback_content(artifact, catalog).model_copy(deep=True)
+    content.web_evidence = [
+        WebEvidence(
+            ref="web.1",
+            title="Video tư liệu kiểm thử - YouTube",
+            url=youtube_url,
+            evidence_text="Video trình bày Bản đồ thử nghiệm.",
+        )
+    ]
+    content.related_videos = [
+        RelatedVideo(
+            title="Video tư liệu kiểm thử",
+            url=youtube_url,
+            channel_name="Bảo tàng Kiểm thử",
+            trust_level="official",
+            trust_reason="Kênh chính thức của Bảo tàng Kiểm thử công bố tư liệu này.",
+            scope="exact_artifact",
+            relevance="Video trình bày trực tiếp hiện vật Bản đồ thử nghiệm.",
+            evidence_refs=["web.1"],
+        )
+    ]
+
+    validate_generated_content(content, catalog)
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://www.youtube.com/results?search_query=ban+do",
+        "https://www.youtube.com/playlist?list=PL1234567890",
+        "https://www.youtube.com/watch?v=too-short",
+        "https://youtube.com.evil.test/watch?v=AbCdEfGhI12",
+        "http://www.youtube.com/watch?v=AbCdEfGhI12",
+        "https://user@www.youtube.com/watch?v=AbCdEfGhI12",
+        "https://www.youtube.com:8443/watch?v=AbCdEfGhI12",
+    ],
+)
+def test_related_video_rejects_non_video_or_lookalike_youtube_url(url: str) -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    catalog = build_evidence_catalog(artifact)
+    content = build_fallback_content(artifact, catalog).model_copy(deep=True)
+    content.web_evidence = [
+        WebEvidence(
+            ref="web.1",
+            title="Liên kết không hợp lệ",
+            url=url,
+            evidence_text="Bản đồ thử nghiệm",
+        )
+    ]
+    content.related_videos = [
+        RelatedVideo(
+            title="Liên kết không hợp lệ",
+            url=url,
+            channel_name="Đài Truyền hình Kiểm thử",
+            trust_level="reputable_institution",
+            trust_reason="Đài Truyền hình Kiểm thử là đơn vị báo chí có biên tập.",
+            scope="broader_context",
+            relevance="Nội dung liên quan đến Bản đồ thử nghiệm.",
+            evidence_refs=["web.1"],
+        )
+    ]
+
+    with pytest.raises(EvidenceValidationError, match="specific YouTube video"):
+        validate_generated_content(content, catalog)
+
+
+def test_grounding_repair_uses_attributed_youtube_url_and_title() -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    catalog = build_evidence_catalog(artifact)
+    youtube_url = "https://youtu.be/AbCdEfGhI12"
+    content = build_fallback_content(artifact, catalog).model_copy(deep=True)
+    content.web_evidence = [
+        WebEvidence(
+            ref="web.1",
+            title="Tiêu đề YouTube đã xác minh",
+            url=youtube_url,
+            evidence_text="Video trình bày Bản đồ thử nghiệm.",
+        )
+    ]
+    content.related_videos = [
+        RelatedVideo(
+            title="Tiêu đề do mô hình tự đặt",
+            url="https://malicious.example/video",
+            channel_name="Bảo tàng Kiểm thử",
+            trust_level="official",
+            trust_reason="Kênh chính thức của Bảo tàng Kiểm thử công bố tư liệu này.",
+            scope="related_event",
+            relevance="Video trình bày sự kiện liên quan đến Bản đồ thử nghiệm.",
+            evidence_refs=["web.1"],
+        )
+    ]
+
+    repaired = repair_generated_grounding(content, catalog)
+
+    assert repaired.related_videos[0].title == "Tiêu đề YouTube đã xác minh"
+    assert repaired.related_videos[0].url == youtube_url
+    validate_generated_content(repaired, catalog)
+
+
+def test_invalid_optional_video_is_dropped_without_losing_generated_content(
+    tmp_path: Path,
+) -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    provider = ContentProvider(artifact)
+    provider.content.related_videos = [
+        RelatedVideo(
+            title="Video không có nguồn YouTube tương ứng",
+            url="https://www.youtube.com/watch?v=AbCdEfGhI12",
+            channel_name="Đài Truyền hình Kiểm thử",
+            trust_level="reputable_institution",
+            trust_reason="Đài Truyền hình Kiểm thử là đơn vị báo chí có biên tập.",
+            scope="broader_context",
+            relevance="Nội dung được mô hình đề xuất nhưng chưa có nguồn video tương ứng.",
+            evidence_refs=["web.1"],
+        )
+    ]
+
+    response = _learning_service(tmp_path, artifact, provider).get("artifact-test")
+
+    assert response.generation_status == "generated"
+    assert response.content.related_videos == []
+
+
 def test_editorial_structure_is_ordered_and_narration_matches_visible_story(
     tmp_path: Path,
 ) -> None:
@@ -447,6 +864,62 @@ def test_learning_prose_and_notices_use_reader_friendly_data_wording(
     ]
 
     assert all("hồ sơ" not in value.casefold() for value in visible_prose)
+
+
+@pytest.mark.parametrize(
+    "phrase",
+    (
+        "Hiện vật này giúp học sinh hiểu lịch sử.",
+        "Với người học, tác phẩm mang lại một bài học sâu sắc.",
+        "Người xem có thể nhận ra ý nghĩa của sự kiện.",
+        "Từ góc độ giáo dục, đây là một tư liệu quan trọng.",
+        "Khi học về hiện vật, chúng ta hiểu thêm quá khứ.",
+        "Tác phẩm mang giá trị giáo dục sâu sắc.",
+        "Đây là một nguồn học tập trực quan.",
+        "Nội dung phù hợp cho việc dạy học lịch sử.",
+        "Hiện vật có thể dùng để giảng dạy trong nhà trường.",
+        "Khi người học theo dõi dòng thời gian, các mốc trở nên rõ ràng.",
+        "Hình tượng hướng người xem đến một bài học về hòa bình.",
+        "Tác phẩm là cầu nối giữa ký ức chiến tranh và người xem hôm nay.",
+        "Cách trưng bày buộc người học đối diện với hậu quả chiến tranh.",
+        "Bảo tàng tạo nên một không gian giáo dục lịch sử.",
+        "Tư liệu này thường được dùng trong bài học.",
+        "Đây là nguồn minh họa cho bài học này.",
+    ),
+)
+def test_generated_prose_rejects_audience_directed_framing(phrase: str) -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    catalog = build_evidence_catalog(artifact)
+    content = build_fallback_content(artifact, catalog).model_copy(deep=True)
+    content.storytelling.one_minute.text += f" {phrase}"
+
+    with pytest.raises(EvidenceValidationError, match="audience-directed"):
+        validate_generated_content(content, catalog)
+
+
+def test_deep_sections_reject_meta_introductions() -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    catalog = build_evidence_catalog(artifact)
+    content = build_fallback_content(artifact, catalog).model_copy(deep=True)
+    content.deep_sections[0].summary = "Phần này trình bày ý nghĩa của hiện vật."
+
+    with pytest.raises(EvidenceValidationError, match="meta introduction"):
+        validate_generated_content(content, catalog)
+
+
+def test_documented_students_remain_valid_historical_actors() -> None:
+    artifact = _artifact(source="Nguồn lưu trữ đã xác minh", source_status="verified")
+    artifact = replace(
+        artifact,
+        historical_info=replace(
+            artifact.historical_info,
+            description="Học sinh tham gia phong trào phản đối chiến tranh vào năm 1975.",
+        ),
+    )
+    catalog = build_evidence_catalog(artifact)
+    content = build_fallback_content(artifact, catalog)
+
+    validate_generated_content(content, catalog)
 
 
 def test_material_section_rejects_physical_details_absent_from_its_evidence() -> None:

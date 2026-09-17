@@ -16,11 +16,13 @@ from .cache import (
     LearningCacheRecord,
     SQLiteLearningContentCache,
 )
+from .curated_videos import CuratedVideoEntry, curated_videos_for
 from .evidence import (
     EvidenceCatalog,
     EvidenceValidationError,
     build_evidence_catalog,
     build_fallback_content,
+    extend_catalog_with_curated_videos,
     extend_catalog_with_web_evidence,
     ground_web_evidence,
     normalize_generated_editorial_structure,
@@ -29,6 +31,7 @@ from .evidence import (
 )
 from .providers import (
     CONTENT_INSTRUCTIONS,
+    TRUSTED_VIDEO_SEARCH_INSTRUCTIONS,
     WEB_SEARCH_INSTRUCTIONS,
     ContentProvider,
     OpenAIResponsesProvider,
@@ -37,7 +40,12 @@ from .providers import (
     ProviderInvalidResponseError,
     SpeechProvider,
 )
-from .schemas import GeneratedLearningContent, LearningContentEnvelope, NarrationResponse
+from .schemas import (
+    GeneratedLearningContent,
+    LearningContentEnvelope,
+    NarrationResponse,
+    RelatedVideoDiscovery,
+)
 from .singleflight import SingleFlight
 
 
@@ -80,9 +88,9 @@ class _DisabledAudioCache:
 class LearningService:
     """Generate optional learning material without replacing canonical JSON.
 
-    Verified records stay grounded in canonical JSON. Records without a
-    verified source may use provider web search; returned URLs are checked
-    against actual tool results and remain visibly marked as unverified.
+    Canonical facts stay grounded in JSON. Provider web search supplies
+    attributable context and optional related videos; every returned URL is
+    checked against actual tool results and remains visibly marked as web data.
     """
 
     def __init__(
@@ -142,7 +150,10 @@ class LearningService:
             )
 
         model = self._provider.model_name
-        use_web_search = catalog.source_status != "verified"
+        # Related-video recommendations require current, attributable pages.
+        # Keep this in the same single generation call so no extra AI request
+        # or YouTube API key is needed.
+        use_web_search = True
         cache_key = _learning_cache_key(
             catalog,
             prompt_version=self._prompt_version,
@@ -153,9 +164,8 @@ class LearningService:
         )
         cached = self._valid_cached_content(cache_key, catalog)
         if cached is not None:
-            reference_catalog = extend_catalog_with_web_evidence(
-                catalog, cached.web_evidence
-            )
+            cached = _add_curated_related_videos(cached, catalog)
+            reference_catalog = _reference_catalog(catalog, cached)
             return LearningContentEnvelope(
                 artifact_id=artifact.id,
                 data_status=catalog.data_status,
@@ -218,9 +228,8 @@ class LearningService:
                 ),
             )
 
-        reference_catalog = extend_catalog_with_web_evidence(
-            catalog, generated.web_evidence
-        )
+        generated = _add_curated_related_videos(generated, catalog)
+        reference_catalog = _reference_catalog(catalog, generated)
         return LearningContentEnvelope(
             artifact_id=artifact.id,
             data_status=catalog.data_status,
@@ -257,14 +266,14 @@ class LearningService:
             or record.locale != self._locale
             or self._provider is None
             or record.model != self._provider.model_name
-            or (
-                catalog.source_status != "verified"
-                and not record.content.web_evidence
-            )
+            or not record.content.web_evidence
         ):
             return None
         try:
-            validate_generated_content(record.content, catalog)
+            validate_generated_content(
+                record.content,
+                _catalog_for_content(catalog, record.content),
+            )
         except EvidenceValidationError:
             return None
         return record.content
@@ -280,7 +289,7 @@ class LearningService:
         # A concurrent leader may have filled the cache before this action ran.
         cached = self._valid_cached_content(cache_key, catalog)
         if cached is not None:
-            return cached, "hit"
+            return _add_curated_related_videos(cached, catalog), "hit"
         assert self._provider is not None
         generated = self._provider.generate(
             artifact_id=artifact.id,
@@ -288,11 +297,18 @@ class LearningService:
             use_web_search=use_web_search,
         )
         generated = normalize_generated_editorial_structure(generated)
-        generated = ground_web_evidence(generated)
         if use_web_search and not generated.web_evidence:
             raise EvidenceValidationError("Web search produced no attributable source")
         generated = repair_generated_grounding(generated, catalog)
-        validate_generated_content(generated, catalog)
+        if not generated.related_videos:
+            generated = _add_curated_related_videos(generated, catalog)
+        if not generated.related_videos:
+            generated = self._add_trusted_related_videos(artifact, catalog, generated)
+        generated = ground_web_evidence(generated)
+        validate_generated_content(
+            generated,
+            _catalog_for_content(catalog, generated),
+        )
         self._cache.put(
             LearningCacheRecord(
                 cache_key=cache_key,
@@ -307,6 +323,31 @@ class LearningService:
         )
         return generated, "miss"
 
+    def _add_trusted_related_videos(
+        self,
+        artifact: ArtifactRecord,
+        catalog: EvidenceCatalog,
+        content: GeneratedLearningContent,
+    ) -> GeneratedLearningContent:
+        """Try one focused search; failure never discards valid historical content."""
+
+        if self._provider is None:
+            return content
+        discover = getattr(self._provider, "discover_related_videos", None)
+        if not callable(discover):
+            return content
+        try:
+            discovery = discover(
+                artifact_id=artifact.id,
+                normalized_input=catalog.normalized_input,
+            )
+            merged = _merge_related_video_discovery(content, discovery)
+            merged = repair_generated_grounding(merged, catalog)
+            validate_generated_content(merged, catalog)
+            return merged
+        except (ProviderError, EvidenceValidationError, ValueError, TypeError):
+            return content
+
     def _fallback_envelope(
         self,
         catalog: EvidenceCatalog,
@@ -317,6 +358,8 @@ class LearningService:
         cache_status: str = "bypass",
         model: str | None = None,
     ) -> LearningContentEnvelope:
+        content = _add_curated_related_videos(content, catalog)
+        reference_catalog = _reference_catalog(catalog, content)
         return LearningContentEnvelope.model_validate(
             {
                 "artifact_id": catalog.artifact_id,
@@ -328,7 +371,7 @@ class LearningService:
                 "schema_version": self._schema_version,
                 "model": model,
                 "content": content,
-                "references": catalog.public_references(),
+                "references": reference_catalog.public_references(),
                 "notice": notice,
             }
         )
@@ -553,6 +596,112 @@ def _project_path(project_root: Path, configured: str) -> Path:
     return target
 
 
+def _selected_curated_videos(
+    catalog: EvidenceCatalog,
+) -> tuple[CuratedVideoEntry, ...]:
+    def value(ref: str) -> str | None:
+        evidence = catalog.values.get(ref)
+        return evidence.value if evidence is not None else None
+
+    return curated_videos_for(
+        catalog.artifact_id,
+        location_address=value("location.address"),
+        description=value("history.description"),
+    )
+
+
+def _add_curated_related_videos(
+    content: GeneratedLearningContent,
+    catalog: EvidenceCatalog,
+) -> GeneratedLearningContent:
+    """Overlay reviewed links only when dynamic generation returned none."""
+
+    if content.related_videos:
+        return content
+    curated = _selected_curated_videos(catalog)
+    if not curated:
+        return content
+    return content.model_copy(
+        update={"related_videos": [entry.as_related_video() for entry in curated[:3]]}
+    )
+
+
+def _catalog_for_content(
+    catalog: EvidenceCatalog,
+    content: GeneratedLearningContent,
+) -> EvidenceCatalog:
+    curated_refs = {
+        ref
+        for video in content.related_videos
+        for ref in video.evidence_refs
+        if ref.startswith("curated.video.")
+    }
+    if not curated_refs:
+        return catalog
+    selected = [
+        entry
+        for entry in _selected_curated_videos(catalog)
+        if entry.ref in curated_refs
+    ]
+    return extend_catalog_with_curated_videos(catalog, selected)
+
+
+def _reference_catalog(
+    catalog: EvidenceCatalog,
+    content: GeneratedLearningContent,
+) -> EvidenceCatalog:
+    return extend_catalog_with_web_evidence(
+        _catalog_for_content(catalog, content),
+        content.web_evidence,
+    )
+
+
+def _merge_related_video_discovery(
+    content: GeneratedLearningContent,
+    discovery: RelatedVideoDiscovery,
+) -> GeneratedLearningContent:
+    """Renumber focused-search refs before merging them into full content."""
+
+    if content.related_videos or not discovery.related_videos:
+        return content
+    evidence_by_ref = {evidence.ref: evidence for evidence in discovery.web_evidence}
+    used_refs = {evidence.ref for evidence in content.web_evidence}
+    available_refs = [
+        f"web.{index}"
+        for index in range(1, 100)
+        if f"web.{index}" not in used_refs
+    ]
+    capacity = max(0, 12 - len(content.web_evidence))
+    appended_evidence = []
+    appended_videos = []
+    remapped: dict[str, str] = {}
+    for video in discovery.related_videos[: min(4, capacity)]:
+        if len(video.evidence_refs) != 1:
+            continue
+        old_ref = video.evidence_refs[0]
+        evidence = evidence_by_ref.get(old_ref)
+        if evidence is None:
+            continue
+        new_ref = remapped.get(old_ref)
+        if new_ref is None:
+            if not available_refs:
+                break
+            new_ref = available_refs.pop(0)
+            remapped[old_ref] = new_ref
+            appended_evidence.append(evidence.model_copy(update={"ref": new_ref}))
+        appended_videos.append(
+            video.model_copy(update={"evidence_refs": [new_ref]})
+        )
+    if not appended_videos:
+        return content
+    return content.model_copy(
+        update={
+            "related_videos": appended_videos,
+            "web_evidence": [*content.web_evidence, *appended_evidence],
+        }
+    )
+
+
 def _learning_cache_key(
     catalog: EvidenceCatalog,
     *,
@@ -571,6 +720,7 @@ def _learning_cache_key(
                 (
                     CONTENT_INSTRUCTIONS
                     + (WEB_SEARCH_INSTRUCTIONS if use_web_search else "")
+                    + TRUSTED_VIDEO_SEARCH_INSTRUCTIONS
                 ).encode("utf-8")
             ).hexdigest(),
             "schema_version": schema_version,
@@ -626,6 +776,11 @@ _EVIDENCE_ERROR_CODES = {
     "Generated content references unknown evidence": "unknown_evidence_ref",
     "Narrative references an unknown factual claim": "unknown_claim_ref",
     "Material section contains an unsupported physical detail": "material_detail_not_grounded",
+    "Generated text uses audience-directed educational framing": "audience_directed_framing",
+    "Deep section uses a meta introduction": "section_meta_introduction",
+    "Related video URL is not a specific YouTube video": "youtube_video_url_invalid",
+    "Duplicate related YouTube video": "youtube_video_duplicate",
+    "Related video URL is not backed by cited web evidence": "youtube_video_unattributed",
     "Web search produced no attributable source": "no_cited_web_source",
 }
 

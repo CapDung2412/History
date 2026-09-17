@@ -6,10 +6,12 @@ import re
 import unicodedata
 from dataclasses import dataclass, replace
 from typing import Any, Iterable, Literal
+from urllib.parse import parse_qs, urlsplit
 
 from src.repositories.content import category_label
 from src.repositories.models import ArtifactRecord
 
+from .curated_videos import CuratedVideoEntry
 from .schemas import (
     DeepSection,
     EvidenceClaim,
@@ -20,6 +22,7 @@ from .schemas import (
     MindMapBranch,
     MindMapNode,
     NarrationText,
+    RelatedVideo,
     SelfCheck,
     SelfCheckOption,
     StoryBlock,
@@ -38,6 +41,53 @@ MEASUREMENT_TOKEN = re.compile(
 )
 URL_TRAILING_DELIMITERS = frozenset(".,;:!?)]}'\"”’")
 DISCOURAGED_UI_TERM = re.compile(r"\bhồ\s+sơ\b", re.IGNORECASE)
+AUDIENCE_NOUN_PATTERN = (
+    r"(?:học\s+sinh|người\s+học|người\s+xem|người\s+đọc|"
+    r"khách\s+tham\s+quan|em|bạn|chúng\s+ta)"
+)
+AUDIENCE_DIRECTED_FRAMING = re.compile(
+    r"\b(?:người\s+học|người\s+xem|người\s+đọc|khách\s+tham\s+quan)\b"
+    r"|\b(?:giúp|hỗ\s+trợ)\s+(?:cho\s+)?(?:các\s+)?"
+    + AUDIENCE_NOUN_PATTERN
+    + r"\b"
+    r"|\b(?:đối\s+với|với|dành\s+cho)\s+(?:các\s+)?"
+    + AUDIENCE_NOUN_PATTERN
+    + r"\b"
+    r"|\b"
+    + AUDIENCE_NOUN_PATTERN
+    + r"\s+(?:có\s+thể|sẽ|cần|nên|hiểu|nhận\s+ra|ghi\s+nhớ|"
+    r"biết|thấy|cảm\s+nhận|liên\s+hệ)\b"
+    r"|\b(?:từ\s+góc\s+độ|về\s+mặt)\s+giáo\s+dục\b"
+    r"|\bkhi\s+(?:học|tìm\s+hiểu|khám\s+phá)\s+(?:về\s+)?(?:hiện\s+vật|sự\s+kiện)\b"
+    r"|\b(?:bài\s+học|thông\s+điệp)\s+(?:dành\s+)?cho\s+"
+    + AUDIENCE_NOUN_PATTERN
+    + r"\b"
+    r"|\b(?:ý\s+nghĩa|giá\s+trị|diễn\s+giải|mục\s+đích)\s+"
+    r"(?:giáo\s+dục|học\s+tập|sư\s+phạm)\b"
+    r"|\b(?:không\s+gian|vai\s+trò|chức\s+năng)\s+giáo\s+dục\b"
+    r"|\b(?:nguồn|tư\s+liệu|công\s+cụ)\s+(?:học\s+tập|giảng\s+dạy|dạy\s+học)\b"
+    r"|\bphù\s+hợp\s+(?:để|cho)\s+(?:việc\s+)?(?:dạy\s+học|giảng\s+dạy|học\s+tập)\b"
+    r"|\b(?:có\s+thể\s+)?(?:được\s+)?(?:dùng|sử\s+dụng)\s+"
+    r"(?:như\s+(?:một\s+)?(?:nguồn|tư\s+liệu|công\s+cụ)\s+)?(?:để|cho)\s+"
+    r"(?:dạy|học|dạy\s+học|giảng\s+dạy|minh\s+họa\s+bài\s+học)\b"
+    r"|\bkhi\s+(?:các\s+)?(?:người\s+học|người\s+xem|người\s+đọc|khách\s+tham\s+quan)\s+"
+    r"(?:theo\s+dõi|đọc|quan\s+sát|khám\s+phá|tiếp\s+cận)\b"
+    r"|\b(?:hướng|đưa|dẫn)\s+(?:các\s+)?"
+    + AUDIENCE_NOUN_PATTERN
+    + r"\s+(?:đến|tới)\b"
+    r"|\bcầu\s+nối\b.{0,100}\b(?:với|và)\s+(?:các\s+)?"
+    + AUDIENCE_NOUN_PATTERN
+    + r"\b"
+    r"|\b(?:trong|cho|của)\s+(?:một\s+)?bài\s+học\b"
+    r"|\b(?:dạy\s+học|giảng\s+dạy)\b",
+    re.IGNORECASE,
+)
+SECTION_META_OPENING = re.compile(
+    r"^\s*(?:phần|mục|nội\s+dung)\s+này\b",
+    re.IGNORECASE,
+)
+SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+")
+YOUTUBE_VIDEO_ID = re.compile(r"^[A-Za-z0-9_-]{11}$")
 MATERIAL_DETAIL_TOKENS = frozenset(
     {
         "bạc",
@@ -130,15 +180,16 @@ DEEP_SECTION_ORDER = {
     "recognition": 2,
     "material": 3,
     "context": 4,
-    "timeline": 5,
-    "story": 6,
-    "role": 7,
-    "impact": 8,
-    "significance": 9,
-    "provenance": 10,
-    "education": 11,
-    "related": 12,
-    "sources": 13,
+    "activities": 5,
+    "timeline": 6,
+    "story": 7,
+    "role": 8,
+    "impact": 9,
+    "highlights": 10,
+    "significance": 11,
+    "provenance": 12,
+    "related": 13,
+    "sources": 14,
 }
 
 
@@ -151,6 +202,7 @@ class EvidenceValue:
         "not_applicable", "missing", "available_unverified", "verified"
     ] = "not_applicable"
     url: str | None = None
+    provenance: Literal["canonical", "web_search", "editorial_curated"] = "canonical"
 
 
 @dataclass(frozen=True, slots=True)
@@ -182,6 +234,7 @@ class EvidenceCatalog:
                 label=value.label,
                 value=_clip_text(value.value, 1_200),
                 source_status=value.source_status,
+                provenance=value.provenance,
                 url=value.url,
             )
             for value in self.values.values()
@@ -394,6 +447,7 @@ def validate_generated_content(
     for section in content.deep_sections:
         _validate_claim_ids(section.claim_ids, claim_ids)
     _validate_material_sections(content, catalog)
+    _validate_historical_framing(content)
     dated_years = [entry.year for entry in content.timeline if entry.year is not None]
     if dated_years != sorted(dated_years):
         raise EvidenceValidationError("Timeline entries are not chronological")
@@ -431,6 +485,7 @@ def validate_generated_content(
                 "câu chuyện",
             }:
                 raise EvidenceValidationError("Mindmap node label is too generic")
+    _validate_related_videos(content, catalog)
     if content.self_check is not None:
         _validate_refs(content.self_check.evidence_refs, catalog)
         correct = next(
@@ -547,6 +602,17 @@ def normalize_generated_editorial_structure(
         for branch in content.mindmap.branches
     ]
     mindmap = content.mindmap.model_copy(update={"branches": branches})
+    related_videos = [
+        video.model_copy(
+            update={
+                "title": _preferred_ui_wording(video.title),
+                "channel_name": _preferred_ui_wording(video.channel_name),
+                "trust_reason": _preferred_ui_wording(video.trust_reason),
+                "relevance": _preferred_ui_wording(video.relevance),
+            }
+        )
+        for video in content.related_videos
+    ]
     self_check = content.self_check
     if self_check is not None:
         self_check = self_check.model_copy(
@@ -568,6 +634,7 @@ def normalize_generated_editorial_structure(
             "timeline": timeline,
             "keywords": keywords,
             "mindmap": mindmap,
+            "related_videos": related_videos,
             "self_check": self_check,
             "narration": narration,
         }
@@ -581,6 +648,27 @@ def _preferred_ui_wording(value: str) -> str:
         return "Dữ liệu" if match.group(0)[:1].isupper() else "dữ liệu"
 
     return DISCOURAGED_UI_TERM.sub(replacement, value)
+
+
+def _fallback_historical_excerpt(value: str | None) -> str | None:
+    """Keep factual source sentences while omitting audience-directed copy.
+
+    Canonical JSON remains untouched. This only protects deterministic fallback
+    narration when an older description contains wording such as “người xem”.
+    """
+
+    cleaned = _clean_text(value, 3_000)
+    if not cleaned:
+        return None
+    sentences = SENTENCE_BOUNDARY.split(cleaned)
+    retained = [
+        sentence.strip()
+        for sentence in sentences
+        if sentence.strip()
+        and not AUDIENCE_DIRECTED_FRAMING.search(sentence)
+        and not SECTION_META_OPENING.search(sentence)
+    ]
+    return " ".join(retained) or None
 
 
 def extend_catalog_with_web_evidence(
@@ -606,6 +694,7 @@ def extend_catalog_with_web_evidence(
             value=_clip_text(evidence.evidence_text, 1_200),
             source_status="available_unverified",
             url=safe_url,
+            provenance="web_search",
         )
         urls.add(safe_url)
         for match in YEAR_TOKEN.finditer(evidence.evidence_text):
@@ -619,6 +708,47 @@ def extend_catalog_with_web_evidence(
         values=values,
         explicit_years=frozenset(explicit_years),
         allowed_year_tokens=frozenset(years),
+        allowed_urls=frozenset(urls),
+    )
+
+
+def extend_catalog_with_curated_videos(
+    catalog: EvidenceCatalog,
+    curated_videos: Iterable[CuratedVideoEntry],
+) -> EvidenceCatalog:
+    """Add manually reviewed video links without presenting them as tool sources."""
+
+    values = dict(catalog.values)
+    urls = set(catalog.allowed_urls)
+    changed = False
+    for video in curated_videos:
+        if video.ref in values:
+            raise EvidenceValidationError(
+                "Curated video ref collides with existing evidence"
+            )
+        safe_url = _http_url(video.url)
+        if safe_url is None or _youtube_video_id(safe_url) is None:
+            raise EvidenceValidationError(
+                "Curated video is not a specific YouTube video"
+            )
+        values[video.ref] = EvidenceValue(
+            ref=video.ref,
+            label=_clip_text(f"Video do ban biên tập chọn: {video.title}", 180),
+            value=_clip_text(
+                f"{video.relevance} Rà soát ngày {video.reviewed_at}.",
+                1_200,
+            ),
+            source_status="verified",
+            url=safe_url,
+            provenance=video.provenance,
+        )
+        urls.add(safe_url)
+        changed = True
+    if not changed:
+        return catalog
+    return replace(
+        catalog,
+        values=values,
         allowed_urls=frozenset(urls),
     )
 
@@ -741,6 +871,68 @@ def _matches_allowed_url(url: str, allowed_urls: frozenset[str]) -> bool:
             return False
         candidate = candidate[:-1]
     return False
+
+
+def _youtube_video_id(value: str) -> str | None:
+    """Return a specific public YouTube video id, never a search/channel URL."""
+
+    safe_url = _http_url(value)
+    if safe_url is None:
+        return None
+    try:
+        parsed = urlsplit(safe_url)
+        if (
+            parsed.scheme.casefold() != "https"
+            or parsed.username is not None
+            or parsed.password is not None
+            or parsed.port is not None
+        ):
+            return None
+    except ValueError:
+        return None
+    host = (parsed.hostname or "").casefold()
+    candidate: str | None = None
+    if host in {"youtu.be", "www.youtu.be"}:
+        candidate = parsed.path.strip("/").split("/", 1)[0]
+    elif host in {
+        "youtube.com",
+        "www.youtube.com",
+        "m.youtube.com",
+        "music.youtube.com",
+    }:
+        path_parts = [part for part in parsed.path.split("/") if part]
+        if parsed.path.rstrip("/") == "/watch":
+            candidate = (parse_qs(parsed.query).get("v") or [None])[0]
+        elif len(path_parts) == 2 and path_parts[0] in {"shorts", "live"}:
+            candidate = path_parts[1]
+    return candidate if candidate and YOUTUBE_VIDEO_ID.fullmatch(candidate) else None
+
+
+def _validate_related_videos(
+    content: GeneratedLearningContent,
+    catalog: EvidenceCatalog,
+) -> None:
+    seen_video_ids: set[str] = set()
+    for video in content.related_videos:
+        _validate_refs(video.evidence_refs, catalog)
+        video_id = _youtube_video_id(video.url)
+        if video_id is None:
+            raise EvidenceValidationError(
+                "Related video URL is not a specific YouTube video"
+            )
+        if video_id in seen_video_ids:
+            raise EvidenceValidationError("Duplicate related YouTube video")
+        seen_video_ids.add(video_id)
+        matching_source = any(
+            ref.startswith(("web.", "curated.video."))
+            and catalog.values[ref].url == video.url
+            and _youtube_video_id(catalog.values[ref].url or "") == video_id
+            for ref in video.evidence_refs
+        )
+        if not matching_source:
+            raise EvidenceValidationError(
+                "Related video URL is not backed by cited web evidence"
+            )
 
 
 def _significant_tokens(value: str) -> list[str]:
@@ -938,6 +1130,38 @@ def repair_generated_grounding(
         update={"central_label": central_label, "branches": branches}
     )
 
+    related_videos: list[RelatedVideo] = []
+    seen_video_ids: set[str] = set()
+    for video in content.related_videos:
+        source_ref = next(
+            (
+                ref
+                for ref in video.evidence_refs
+                if ref.startswith("web.")
+                and ref in extended.values
+                and extended.values[ref].url is not None
+                and _youtube_video_id(extended.values[ref].url or "") is not None
+            ),
+            None,
+        )
+        if source_ref is None:
+            continue
+        source = extended.values[source_ref]
+        assert source.url is not None
+        video_id = _youtube_video_id(source.url)
+        if video_id is None or video_id in seen_video_ids:
+            continue
+        seen_video_ids.add(video_id)
+        related_videos.append(
+            video.model_copy(
+                update={
+                    "title": _clip_text(source.label, 300),
+                    "url": source.url,
+                    "evidence_refs": [source_ref],
+                }
+            )
+        )
+
     self_check = content.self_check
     if self_check is not None:
         correct_index = next(
@@ -967,6 +1191,7 @@ def repair_generated_grounding(
             "timeline": timeline,
             "keywords": keywords,
             "mindmap": mindmap,
+            "related_videos": related_videos,
             "self_check": self_check,
         }
     )
@@ -1049,6 +1274,47 @@ def _is_generic_mindmap_label(value: str) -> bool:
     }
 
 
+def _validate_historical_framing(content: GeneratedLearningContent) -> None:
+    """Reject museum prose that talks about teaching instead of the history."""
+
+    for text in _historical_narrative_strings(content):
+        if AUDIENCE_DIRECTED_FRAMING.search(text):
+            raise EvidenceValidationError(
+                "Generated text uses audience-directed educational framing"
+            )
+    for section in content.deep_sections:
+        if SECTION_META_OPENING.search(section.summary) or SECTION_META_OPENING.search(
+            section.body
+        ):
+            raise EvidenceValidationError("Deep section uses a meta introduction")
+
+
+def _historical_narrative_strings(
+    content: GeneratedLearningContent,
+) -> Iterable[str]:
+    """Yield authored explanation while leaving verbatim evidence claims untouched."""
+
+    yield content.storytelling.quick.text
+    yield content.storytelling.one_minute.text
+    for section in content.deep_sections:
+        yield section.title
+        yield section.summary
+        yield section.body
+    for entry in content.timeline:
+        yield entry.label
+    for keyword in content.keywords:
+        yield keyword.explanation
+    for branch in content.mindmap.branches:
+        yield branch.label
+        for node in branch.nodes:
+            yield node.note
+    for video in content.related_videos:
+        yield video.relevance
+    if content.self_check is not None:
+        yield content.self_check.question
+        yield content.self_check.explanation
+
+
 def _generated_prose_strings(
     content: GeneratedLearningContent,
 ) -> Iterable[str]:
@@ -1075,6 +1341,12 @@ def _generated_prose_strings(
             yield node.label
             if node.note:
                 yield node.note
+    for video in content.related_videos:
+        yield video.title
+        yield video.url
+        yield video.channel_name
+        yield video.trust_reason
+        yield video.relevance
     if content.self_check is not None:
         yield content.self_check.question
         yield from (option.label for option in content.self_check.options)
@@ -1103,6 +1375,11 @@ def _content_evidence_refs(content: GeneratedLearningContent) -> set[str]:
         refs.update(branch.evidence_refs)
         for node in branch.nodes:
             refs.update(node.evidence_refs)
+    refs.update(
+        ref
+        for video in content.related_videos
+        for ref in video.evidence_refs
+    )
     if content.self_check is not None:
         refs.update(content.self_check.evidence_refs)
     return refs
@@ -1145,8 +1422,16 @@ def build_fallback_content(
         quick_parts.append(str(history.year))
         quick_claims.append(claim(str(history.year), ["history.year"]))
 
-    description = _clean_text(history.description, 3_000) or title
-    description_refs = ["history.description"] if "history.description" in catalog.values else [title_ref]
+    description = _fallback_historical_excerpt(history.description)
+    if description:
+        description_refs = (
+            ["history.description"]
+            if "history.description" in catalog.values
+            else [title_ref]
+        )
+    else:
+        description = title
+        description_refs = [title_ref]
     description_claim = claim(description, description_refs)
     event_claim: str | None = None
     event = _clean_text(history.event, 500)

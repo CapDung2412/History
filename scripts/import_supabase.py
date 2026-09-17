@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 from src.config import PROJECT_ROOT
 from src.dataset.validate_dataset import validate
 from src.repositories import RepositoryError, SupabaseRestClient
-from src.repositories.content import build_category_challenge
+from src.repositories.content import build_artifact_challenge
 from src.repositories.loader import load_artifacts
 
 
@@ -90,7 +90,7 @@ def plan_table(spec: TableSpec, existing_rows: list[dict[str, Any]]) -> TablePla
 
 def build_table_specs(json_root: Path, image_root: Path) -> tuple[TableSpec, ...]:
     artifacts = load_artifacts(json_root, image_root)
-    categories = tuple(sorted({artifact.category for artifact in artifacts.values()}))
+    catalog = tuple(artifacts[item_id] for item_id in sorted(artifacts))
 
     items: list[dict[str, Any]] = []
     stories: list[dict[str, Any]] = []
@@ -150,7 +150,7 @@ def build_table_specs(json_root: Path, image_root: Path) -> tuple[TableSpec, ...
             tags[tag] = {"slug": tag, "label": tag}
             item_tags.append({"item_id": artifact.id, "tag_slug": tag})
 
-        challenge = build_category_challenge(artifact, categories)
+        challenge = build_artifact_challenge(artifact, catalog)
         if challenge:
             challenges.append(
                 {

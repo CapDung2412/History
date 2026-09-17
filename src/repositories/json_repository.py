@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from .analytics import AnalyticsStore, SqliteAnalyticsStore
-from .content import build_category_challenge, build_story
+from .content import build_artifact_challenge, build_story
 from .helpers import require_public_id
 from .loader import load_artifacts
 from .models import (
@@ -35,7 +35,9 @@ class JsonHeritageRepository:
         self._analytics = analytics_store or SqliteAnalyticsStore(
             analytics_path or json_root.parent / "data" / "analytics.sqlite3"
         )
-        self._categories = tuple(sorted({item.category for item in self._artifacts.values()}))
+        self._catalog = tuple(
+            self._artifacts[item_id] for item_id in sorted(self._artifacts)
+        )
 
     def get_artifact(self, item_id: str) -> ArtifactRecord | None:
         return self._artifacts.get(require_public_id(item_id))
@@ -55,7 +57,7 @@ class JsonHeritageRepository:
         artifact = self.get_artifact(item_id)
         if artifact is None:
             return None
-        return build_category_challenge(artifact, self._categories)
+        return build_artifact_challenge(artifact, self._catalog)
 
     def record_recognition(self, record: RecognitionRecord) -> None:
         self._analytics.record_recognition(record)

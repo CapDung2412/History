@@ -59,7 +59,7 @@ function ChallengeContent({
       <div className="challenge-heading">
         <div>
           <p className="eyebrow eyebrow-light">Thử thách 30 giây</p>
-          <h2 id="challenge-title">Quan sát và ghi nhớ</h2>
+          <h2 id="challenge-title">Hiểu và ghi nhớ</h2>
         </div>
         <span className="challenge-mark" aria-hidden="true">
           ?

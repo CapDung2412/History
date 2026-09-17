@@ -78,7 +78,13 @@ describe("backend API contract", () => {
         cache_status: "bypass",
         model: null,
         notice: "Chưa có nguồn kiểm chứng.",
-        references: [],
+        references: [{
+          ref: "web.1",
+          label: "Video tư liệu từ kênh chính thức",
+          value: "Video cụ thể đã được backend đối chiếu nguồn.",
+          source_status: "verified",
+          url: "https://www.youtube.com/watch?v=AbCdEfGhI12",
+        }],
         content: {
           factual_claims: [],
           storytelling: {
@@ -88,6 +94,74 @@ describe("backend API contract", () => {
           deep_sections: [],
           timeline: [],
           keywords: [{ term: "hiện vật", explanation: "Từ dữ liệu." }],
+          related_videos: [
+            {
+              title: "Phim tư liệu kiểm thử",
+              url: "https://www.youtube.com/watch?v=AbCdEfGhI12&list=tracking",
+              channel_name: "Đài truyền hình kiểm thử",
+              trust_level: "official",
+              trust_reason: "Kênh chính thức của một cơ quan truyền hình.",
+              relevance: "Liên quan trực tiếp đến hiện vật.",
+              scope: "exact_artifact",
+              evidence_refs: ["web.1"],
+            },
+            {
+              title: "Video dạng liên kết ngắn",
+              url: "https://www.youtu.be/9bZkp7q19f0?t=10",
+              relevance: "Nguồn minh họa.",
+              scope: "related_event",
+              evidence_refs: [],
+            },
+            {
+              title: "Video Shorts",
+              url: "https://youtube.com/shorts/aqz-KE-bpKQ?feature=share",
+              relevance: "Chi tiết liên quan.",
+              scope: "site_or_museum",
+              evidence_refs: [],
+            },
+            {
+              title: "Video trực tiếp",
+              url: "https://m.youtube.com/live/J---aiyznGQ?feature=share",
+              relevance: "Một video cụ thể trên tên miền YouTube dành cho di động.",
+              scope: "broader_context",
+              evidence_refs: [],
+            },
+            {
+              title: "Video trên YouTube Music",
+              url: "https://music.youtube.com/watch?v=AbCdEfGhI12&utm_source=test",
+              relevance: "Một trang video cụ thể.",
+              scope: "broader_context",
+              evidence_refs: [],
+            },
+            {
+              title: "Không an toàn vì dùng HTTP",
+              url: "http://www.youtube.com/watch?v=dQw4w9WgXcQ",
+              relevance: "Không được hiển thị.",
+              scope: "broader_context",
+              evidence_refs: [],
+            },
+            {
+              title: "Tên miền giả mạo",
+              url: "https://youtube.com.evil.test/watch?v=dQw4w9WgXcQ",
+              relevance: "Không được hiển thị.",
+              scope: "broader_context",
+              evidence_refs: [],
+            },
+            {
+              title: "Không phải trang video",
+              url: "https://www.youtube.com/results?search_query=history",
+              relevance: "Không được hiển thị.",
+              scope: "broader_context",
+              evidence_refs: [],
+            },
+            {
+              title: "Phạm vi không hợp lệ",
+              url: "https://www.youtube.com/watch?v=J---aiyznGQ",
+              relevance: "Không được hiển thị.",
+              scope: "unreviewed",
+              evidence_refs: [],
+            },
+          ],
           mindmap: {
             central_label: artifact.name,
             branches: [{
@@ -122,6 +196,15 @@ describe("backend API contract", () => {
     const narration = await requestNarration(artifact.item_id, "short");
 
     expect(learning.content.mindmap.central_label).toBe(artifact.name);
+    expect(learning.content.related_videos).toEqual([
+      expect.objectContaining({
+        title: "Phim tư liệu kiểm thử",
+        url: "https://www.youtube.com/watch?v=AbCdEfGhI12",
+        channel_name: "Đài truyền hình kiểm thử",
+        trust_level: "official",
+        scope: "exact_artifact",
+      }),
+    ]);
     expect(learning.generation_status).toBe("fallback_missing_source");
     expect(narration.transcript).toBe(artifact.name);
     expect(fetchMock.mock.calls[0][1]).toMatchObject({ method: "POST" });

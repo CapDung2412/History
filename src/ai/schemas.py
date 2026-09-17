@@ -54,11 +54,12 @@ class DeepSection(StrictModel):
         "recognition",
         "material",
         "context",
+        "activities",
         "timeline",
         "role",
         "impact",
+        "highlights",
         "provenance",
-        "education",
         "sources",
         "significance",
         "story",
@@ -72,15 +73,19 @@ class DeepSection(StrictModel):
     summary: str = Field(
         min_length=1,
         max_length=300,
-        description="A concrete two- or three-sentence orientation for this section.",
+        description=(
+            "A concrete two- or three-sentence historical statement that begins "
+            "directly with the relevant object, actor, action, event, or consequence."
+        ),
     )
     body: str = Field(
         min_length=1,
         max_length=2_400,
         description=(
             "Detailed source-grounded Vietnamese explanation that adds concrete "
-            "object details, historical causality, or documented meaning instead "
-            "of repeating the overview. Material and technique must never be inferred."
+            "object details, actors, activities, notable features, historical causality, "
+            "consequences, or documented historical meaning instead of repeating the "
+            "overview. Material and technique must never be inferred."
         ),
     )
     claim_ids: list[str] = Field(min_length=1, max_length=20)
@@ -112,8 +117,9 @@ class MindMapNode(StrictModel):
         min_length=1,
         max_length=650,
         description=(
-            "Two concise Vietnamese sentences: explain this step's exact connection "
-            "to the artifact, then connect it to the next historical development."
+            "Two concise Vietnamese sentences: explain what historically happened and "
+            "this step's exact connection to the artifact, then connect it to the next "
+            "development or consequence without discussing an audience."
         ),
     )
     evidence_refs: list[EvidenceRef] = Field(min_length=1, max_length=6)
@@ -201,6 +207,56 @@ class WebEvidence(StrictModel):
     evidence_text: str = Field(min_length=1, max_length=1_200)
 
 
+class RelatedVideo(StrictModel):
+    """A specific YouTube video backed by a provider-returned web source."""
+
+    title: str = Field(min_length=1, max_length=300)
+    url: str = Field(min_length=1, max_length=2_000)
+    channel_name: str = Field(
+        min_length=2,
+        max_length=180,
+        description="The publisher/channel name shown for the exact YouTube video.",
+    )
+    trust_level: Literal["official", "reputable_institution"]
+    trust_reason: str = Field(
+        min_length=20,
+        max_length=500,
+        description=(
+            "A concrete Vietnamese reason the named publisher is authoritative, "
+            "such as an official museum, archive, university, public broadcaster, "
+            "government body, or established news institution."
+        ),
+    )
+    scope: Literal[
+        "exact_artifact",
+        "related_event",
+        "site_or_museum",
+        "broader_context",
+    ]
+    relevance: str = Field(
+        min_length=1,
+        max_length=500,
+        description=(
+            "A concise Vietnamese explanation of the video's specific connection "
+            "to the artifact, event, site, actors, or historical context."
+        ),
+    )
+    evidence_refs: list[EvidenceRef] = Field(min_length=1, max_length=2)
+
+
+class RelatedVideoDiscovery(StrictModel):
+    """Small structured result for the dedicated trusted-video search pass."""
+
+    related_videos: list[RelatedVideo] = Field(max_length=4)
+    web_evidence: list[WebEvidence] = Field(max_length=4)
+
+    @classmethod
+    def openai_json_schema(cls) -> dict[str, Any]:
+        schema = cls.model_json_schema()
+        _make_schema_strict(schema)
+        return schema
+
+
 class GeneratedLearningContent(StrictModel):
     """Only the model-generated portion of the public response.
 
@@ -215,7 +271,8 @@ class GeneratedLearningContent(StrictModel):
         description=(
             "Six to eight non-repeating sections. Start with a detailed overview, "
             "then cover recognition, source-supported material or construction, "
-            "historical context and story, role or impact, documented meaning, and sources."
+            "historical context, actors and activities, chronological story, notable "
+            "features, role or impact, documented historical meaning, and sources."
         ),
     )
     timeline: list[TimelineEntry] = Field(
@@ -227,6 +284,14 @@ class GeneratedLearningContent(StrictModel):
     )
     keywords: list[Keyword] = Field(max_length=20)
     mindmap: MindMap
+    related_videos: list[RelatedVideo] = Field(
+        default_factory=list,
+        max_length=4,
+        description=(
+            "Zero to four exact YouTube video pages discovered by web search. "
+            "Use an empty list when no attributable video page is available."
+        ),
+    )
     self_check: SelfCheck | None
     narration: NarrationText
     web_evidence: list[WebEvidence] = Field(default_factory=list, max_length=12)
@@ -314,6 +379,7 @@ class EvidenceReference(StrictModel):
     label: str = Field(min_length=1, max_length=180)
     value: str = Field(min_length=1, max_length=1_200)
     source_status: Literal["not_applicable", "missing", "available_unverified", "verified"]
+    provenance: Literal["canonical", "web_search", "editorial_curated"] = "canonical"
     url: str | None = Field(max_length=2_000)
 
 

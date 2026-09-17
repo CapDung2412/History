@@ -89,7 +89,6 @@ function StoryContent({ artifact, story }: StoryExplorerProps) {
     if (level === "overview" && generatedOneMinute) return generatedOneMinute;
     if (level === "deep" && generated) {
       return uniqueText([
-        generatedOneMinute || "",
         ...generated.deep_sections.flatMap((section) => [section.summary, section.body]),
       ]).join(". ");
     }
@@ -384,13 +383,24 @@ function DeepStory({
   const generated = learning?.generation_status === "generated" ? learning.content : null;
   const learningTimeline = learning?.content.timeline || [];
   const learningKeywords = learning?.content.keywords || [];
-  const linkedReferences = uniqueLinkedReferences(learning?.references || []);
+  const videoReferenceIds = new Set(
+    (learning?.content.related_videos || []).flatMap((video) => video.evidence_refs),
+  );
+  const linkedReferences = uniqueLinkedReferences(learning?.references || []).filter(
+    (reference) => !videoReferenceIds.has(reference.ref),
+  );
+  const generatedOverview = generated?.deep_sections.find(
+    (section) => section.key === "overview",
+  );
+  const generatedDetailSections = generated?.deep_sections.filter(
+    (section) => section.key !== "overview",
+  ) || [];
   const generalIntroduction =
-    generated?.storytelling.one_minute.text || overview || story.overview.description;
+    generatedOverview?.body || overview || story.overview.description;
+  const generalIntroductionSummary = generatedOverview?.summary || "";
   const mindmapTimeline = learningTimeline.length > 0
     ? learningTimeline
     : timeline.map((entry) => ({ ...entry, period: null }));
-
   return (
     <div className="deep-story">
       <span className="story-level-label">Khám phá đầy đủ</span>
@@ -433,16 +443,32 @@ function DeepStory({
           <section className="deep-overview" aria-labelledby="deep-overview-title">
             <p className="eyebrow">Giới thiệu tổng quát</p>
             <h3 id="deep-overview-title">{artifact.name}</h3>
+            {generalIntroductionSummary &&
+              generalIntroductionSummary !== generalIntroduction && (
+                <p className="story-intro">{generalIntroductionSummary}</p>
+              )}
             <p>{generalIntroduction}</p>
-            {generated && (
-              <small>Phần dẫn nhập do AI biên soạn từ các dữ kiện có tham chiếu.</small>
+            {generatedOverview && learning && (
+              <SectionEvidence
+                learning={learning}
+                claimIds={generatedOverview.claim_ids}
+              />
             )}
           </section>
         )}
 
+        <DeepSection title="Sơ đồ diễn biến lịch sử" defaultOpen>
+          <HeritageMindmap
+            artifact={artifact}
+            story={story}
+            learningMindmap={learning?.content.mindmap}
+            timeline={mindmapTimeline}
+          />
+        </DeepSection>
+
         <h3 className="deep-details-heading">Phân tích chi tiết</h3>
-        {generated && generated.deep_sections.length > 0 ? (
-          generated.deep_sections.map((section, index) => (
+        {generated ? (
+          generatedDetailSections.map((section, index) => (
             <DeepSection key={`${section.key}-${section.title}`} title={section.title} defaultOpen={index === 0}>
               <div className="prose-block prose-wide">
                 {section.summary !== section.body && <p className="story-intro">{section.summary}</p>}
@@ -503,15 +529,6 @@ function DeepStory({
           </DeepSection>
         )}
 
-        <DeepSection title="Mindmap ghi nhớ">
-          <HeritageMindmap
-            artifact={artifact}
-            story={story}
-            learningMindmap={learning?.content.mindmap}
-            timeline={mindmapTimeline}
-          />
-        </DeepSection>
-
         {images.length > 0 && (
           <DeepSection title="Hình ảnh liên quan">
             <div className="gallery-grid">
@@ -528,7 +545,7 @@ function DeepStory({
         )}
 
         {(learningKeywords.length > 0 || artifact.tags.length > 0) && (
-          <DeepSection title="Từ khóa cần nhớ">
+          <DeepSection title="Khái niệm và dữ kiện nổi bật">
             <ul className="fact-chip-list">
               {(learningKeywords.length > 0
                 ? learningKeywords.map((keyword) => keyword.term)

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import hashlib
+import re
+from collections.abc import Iterable
 
 from .models import (
     ArtifactRecord,
@@ -68,37 +70,193 @@ def build_category_challenge(
     artifact: ArtifactRecord,
     available_categories: tuple[str, ...],
 ) -> ChallengeRecord | None:
-    distractors = sorted(category for category in set(available_categories) if category != artifact.category)
-    if len(distractors) < 3:
+    correct_label = category_label(artifact.category)
+    return _build_choice_challenge(
+        artifact=artifact,
+        source_field="category",
+        question=f"“{artifact.name}” thuộc nhóm tư liệu nào?",
+        correct_label=correct_label,
+        distractor_labels=(
+            category_label(category)
+            for category in available_categories
+            if category != artifact.category
+        ),
+        explanation=f"Dữ liệu trưng bày phân loại hiện vật này là “{correct_label}”.",
+    )
+
+
+def build_artifact_challenge(
+    artifact: ArtifactRecord,
+    catalog: tuple[ArtifactRecord, ...],
+) -> ChallengeRecord | None:
+    """Build one deterministic quiz from a range of canonical artifact fields."""
+
+    history = artifact.historical_info
+    candidates: list[ChallengeRecord] = []
+
+    statement = _content_statement(history.description)
+    if statement:
+        challenge = _build_choice_challenge(
+            artifact=artifact,
+            source_field="historical_info.description",
+            question=f"Theo nội dung giới thiệu, nhận định nào đúng về “{artifact.name}”?",
+            correct_label=statement,
+            distractor_labels=(
+                candidate_statement
+                for item in catalog
+                if item.id != artifact.id
+                if (candidate_statement := _content_statement(item.historical_info.description))
+            ),
+            explanation=f"Nội dung mô tả cho biết: “{statement}”",
+        )
+        if challenge:
+            candidates.append(challenge)
+
+    if history.event:
+        challenge = _build_choice_challenge(
+            artifact=artifact,
+            source_field="historical_info.event",
+            question=f"Nội dung hoặc sự kiện nào gắn trực tiếp với “{artifact.name}”?",
+            correct_label=history.event,
+            distractor_labels=(
+                item.historical_info.event
+                for item in catalog
+                if item.id != artifact.id and item.historical_info.event
+            ),
+            explanation=f"Dữ liệu hiện vật ghi nội dung/sự kiện là “{history.event}”.",
+        )
+        if challenge:
+            candidates.append(challenge)
+
+    if history.historical_period:
+        challenge = _build_choice_challenge(
+            artifact=artifact,
+            source_field="historical_info.historical_period",
+            question=f"“{artifact.name}” được đặt trong bối cảnh lịch sử nào?",
+            correct_label=history.historical_period,
+            distractor_labels=(
+                item.historical_info.historical_period
+                for item in catalog
+                if item.id != artifact.id and item.historical_info.historical_period
+            ),
+            explanation=f"Bối cảnh lịch sử được ghi trong dữ liệu là “{history.historical_period}”.",
+        )
+        if challenge:
+            candidates.append(challenge)
+
+    if history.year is not None:
+        year_label = str(history.year)
+        challenge = _build_choice_challenge(
+            artifact=artifact,
+            source_field="historical_info.year",
+            question=f"Mốc thời gian nào được ghi nhận cho “{artifact.name}”?",
+            correct_label=year_label,
+            distractor_labels=(
+                str(item.historical_info.year)
+                for item in catalog
+                if item.id != artifact.id and item.historical_info.year is not None
+            ),
+            explanation=f"Mốc thời gian được ghi trong dữ liệu là {year_label}.",
+        )
+        if challenge:
+            candidates.append(challenge)
+
+    category_challenge = build_category_challenge(
+        artifact,
+        tuple(item.category for item in catalog),
+    )
+    if category_challenge:
+        candidates.append(category_challenge)
+
+    if not candidates:
         return None
 
+    selector = hashlib.sha256(artifact.id.encode("utf-8")).digest()[0]
+    return candidates[selector % len(candidates)]
+
+
+def _content_statement(description: str, max_length: int = 220) -> str | None:
+    normalized = " ".join(description.split())
+    if not normalized:
+        return None
+
+    sentences = [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[.!?])\s+", normalized)
+        if len(sentence.strip()) >= 24
+    ]
+    if not sentences:
+        sentences = [normalized]
+
+    generic_prefixes = (
+        "hiện vật được nhận diện",
+        "hiện vật được đặt",
+        "tư liệu được đặt",
+        "nguồn hiện có chưa",
+    )
+    sentence = min(
+        sentences,
+        key=lambda value: (
+            value.casefold().startswith(generic_prefixes),
+            abs(min(len(value), max_length) - 125),
+        ),
+    )
+    if len(sentence) <= max_length:
+        return sentence
+
+    shortened = sentence[: max_length - 1].rsplit(" ", 1)[0].rstrip(" ,;")
+    return f"{shortened}…"
+
+
+def _build_choice_challenge(
+    *,
+    artifact: ArtifactRecord,
+    source_field: str,
+    question: str,
+    correct_label: str,
+    distractor_labels: Iterable[str | None],
+    explanation: str,
+) -> ChallengeRecord | None:
     challenge_id = f"challenge-{artifact.id}-category-v1"
-    digest = hashlib.sha256(challenge_id.encode("utf-8")).digest()
+    normalized_correct = correct_label.strip()
+    unique: dict[str, str] = {}
+    for raw_label in distractor_labels:
+        label = str(raw_label or "").strip()
+        key = label.casefold()
+        if label and key != normalized_correct.casefold():
+            unique.setdefault(key, label)
+
+    remaining = sorted(unique.values(), key=str.casefold)
+    digest = hashlib.sha256(f"{challenge_id}\0{source_field}".encode("utf-8")).digest()
     selected: list[str] = []
-    remaining = list(distractors)
     for byte in digest:
         if not remaining or len(selected) == 3:
             break
         selected.append(remaining.pop(byte % len(remaining)))
+    if len(selected) < 3:
+        return None
 
-    values = [artifact.category, *selected]
-    values.sort(key=lambda value: hashlib.sha256(f"{challenge_id}\0{value}".encode()).digest())
+    values = [normalized_correct, *selected]
+    values.sort(
+        key=lambda value: hashlib.sha256(
+            f"{challenge_id}\0{source_field}\0{value}".encode("utf-8")
+        ).digest()
+    )
     options = tuple(
         ChallengeOptionRecord(
             id=f"{challenge_id}-option-{index + 1}",
-            label=category_label(value),
-            is_correct=value == artifact.category,
+            label=value,
+            is_correct=value == normalized_correct,
             sort_order=index,
         )
         for index, value in enumerate(values)
     )
-    correct_label = category_label(artifact.category)
     return ChallengeRecord(
         id=challenge_id,
         item_id=artifact.id,
         type="single_choice",
-        question=f"“{artifact.name}” thuộc nhóm tư liệu nào?",
+        question=question,
         options=options,
-        explanation=f"Dữ liệu trưng bày phân loại hiện vật này là “{correct_label}”.",
-        source_field="category",
+        explanation=explanation,
+        source_field=source_field,
     )

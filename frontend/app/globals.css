@@ -21,10 +21,14 @@
   --surface: #ffffff;
   --shadow-sm: 0 4px 18px rgba(16, 42, 67, 0.08);
   --shadow-lg: 0 24px 64px rgba(16, 42, 67, 0.14);
-  --font-sans: Arial, "Segoe UI", Tahoma, sans-serif;
-  --font-serif: "Noto Serif", Georgia, "Times New Roman", serif;
-  /* Segoe UI ships with complete Vietnamese glyph positioning on Windows. */
-  --font-vietnamese: "Segoe UI", Arial, Tahoma, sans-serif;
+  /*
+   * Use one Windows font with complete Vietnamese glyphs everywhere. Mixing a
+   * missing Noto Serif with fallback serif fonts made stacked marks in letters
+   * such as ấ and ề look detached from their base glyph.
+   */
+  --font-vietnamese: "Segoe UI", Tahoma, Arial, sans-serif;
+  --font-sans: var(--font-vietnamese);
+  --font-serif: var(--font-vietnamese);
   --text-xs: 0.8125rem;
   --text-sm: 0.9375rem;
   --text-base: 1rem;
@@ -63,6 +67,8 @@ body {
   font-family: var(--font-sans);
   font-size: var(--text-base);
   font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "mark" 1, "mkmk" 1;
   line-height: var(--leading-body);
   letter-spacing: normal;
   text-rendering: optimizeLegibility;

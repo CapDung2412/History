@@ -126,7 +126,9 @@ def test_json_repository_requires_explicit_consistent_source_verification(
         JsonHeritageRepository(json_root, image_root)
 
 
-def test_json_challenge_is_deterministic_and_uses_real_categories(tmp_path: Path) -> None:
+def test_json_challenge_is_deterministic_and_uses_multiple_canonical_fields(
+    tmp_path: Path,
+) -> None:
     json_root, image_root = make_dataset(tmp_path)
     repository = JsonHeritageRepository(json_root, image_root)
 
@@ -136,7 +138,21 @@ def test_json_challenge_is_deterministic_and_uses_real_categories(tmp_path: Path
     assert first is not None
     assert len(first.options) == 4
     assert sum(option.is_correct for option in first.options) == 1
-    assert first.source_field == "category"
+    assert first.source_field == "historical_info.event"
+
+    challenges = [repository.get_challenge(f"item-{index}") for index in range(1, 5)]
+    assert all(challenge is not None for challenge in challenges)
+    assert {challenge.source_field for challenge in challenges if challenge} == {
+        "category",
+        "historical_info.description",
+        "historical_info.event",
+        "historical_info.year",
+    }
+
+    description_challenge = repository.get_challenge("item-3")
+    assert description_challenge is not None
+    correct_option = next(option for option in description_challenge.options if option.is_correct)
+    assert correct_option.label == "Mô tả dữ liệu gốc của hiện vật 3."
 
 
 def test_invalid_public_id_is_rejected(tmp_path: Path) -> None:

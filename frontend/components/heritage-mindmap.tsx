@@ -73,7 +73,7 @@ export function HeritageMindmap({ artifact, story, learningMindmap, timeline = [
           <h4 id={`${baseId}-title`}>Sơ đồ luồng lịch sử và mối liên hệ</h4>
           <p>Đi từ bối cảnh, qua diễn biến đến ý nghĩa của hiện vật; mở từng nhánh để xem nội dung chi tiết.</p>
         </div>
-        <div className="mindmap-controls" aria-label="Điều khiển sơ đồ kiến thức">
+        <div className="mindmap-controls" aria-label="Điều khiển sơ đồ lịch sử">
           <button
             type="button"
             onClick={() => setZoomIndex((value) => Math.max(0, value - 1))}
@@ -106,9 +106,9 @@ export function HeritageMindmap({ artifact, story, learningMindmap, timeline = [
       >
         <div className="mindmap-center">
           <span className="mindmap-center-orbit" aria-hidden="true" />
-          <span>Điểm neo câu chuyện</span>
+          <span>Hiện vật trung tâm</span>
           <strong>{learningMindmap?.central_label || artifact.name}</strong>
-          <small>{branches.length} mối liên hệ · {knowledgePointCount} điểm kiến thức</small>
+          <small>{branches.length} mối liên hệ · {knowledgePointCount} chi tiết lịch sử</small>
         </div>
 
         {historicalFlow.length > 0 && (
@@ -139,9 +139,9 @@ export function HeritageMindmap({ artifact, story, learningMindmap, timeline = [
         {branches.length > 0 ? (
           <section className="mindmap-relations" aria-labelledby={`${baseId}-relations-title`}>
             <div className="mindmap-section-heading">
-              <span>02 · Mở rộng kiến thức</span>
+              <span>02 · Các mối liên hệ</span>
               <h5 id={`${baseId}-relations-title`}>Các mối liên hệ quanh hiện vật</h5>
-              <p>Mỗi cụm giải thích một lát cắt: nhận diện, bối cảnh, câu chuyện, ý nghĩa hoặc căn cứ dữ liệu.</p>
+              <p>Mỗi nhánh trình bày một tác nhân, hành động, diễn biến, hệ quả hoặc căn cứ lịch sử liên quan.</p>
             </div>
             <ul className="mindmap-tree" aria-label={`Kiến thức về ${artifact.name}`}>
               {branches.map((branch, index) => {
@@ -188,7 +188,7 @@ export function HeritageMindmap({ artifact, story, learningMindmap, timeline = [
           </section>
         ) : (
           <p className="mindmap-empty">
-            Chưa đủ dữ liệu để tạo thêm nhánh kiến thức cho hiện vật này.
+            Chưa đủ dữ kiện để tạo thêm nhánh lịch sử cho hiện vật này.
           </p>
         )}
       </div>
@@ -313,7 +313,7 @@ function buildBranches(artifact: Artifact, story: ArtifactStory): MindmapBranch[
   branches.push(
     branch(
       "keywords",
-      "Từ khóa cần nhớ",
+      "Từ khóa dữ liệu",
       "được mô tả bởi",
       unique(artifact.tags.filter(isText)),
       "tags",

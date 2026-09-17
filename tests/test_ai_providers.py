@@ -138,11 +138,19 @@ def test_responses_provider_uses_strict_non_stored_grounded_request() -> None:
     assert schema["$defs"]["MindMapBranch"]["properties"]["nodes"]["minItems"] == 3
     assert schema["$defs"]["MindMapBranch"]["properties"]["nodes"]["maxItems"] == 5
     assert schema["$defs"]["MindMapNode"]["properties"]["note"]["minLength"] == 80
+    assert "related_videos" in schema["required"]
+    assert schema["properties"]["related_videos"]["maxItems"] == 4
     assert "135-165 Vietnamese words" in request["instructions"]
     assert "Giới thiệu tổng quát" in request["instructions"]
     assert "Chất liệu và kỹ thuật tạo tác" in request["instructions"]
     assert "three internal passes inside this single response" in request["instructions"]
     assert "detailed, readable historical flow" in request["instructions"]
+    assert "Never explain the content's usefulness to students" in request["instructions"]
+    assert "activities or developments occurred" in request["instructions"]
+    assert "what made the artifact" in request["instructions"]
+    assert "historically distinctive" in request["instructions"]
+    assert "Describe the history directly" in request["instructions"]
+    assert "Set related_videos to an empty list unless WEB_SEARCH_MODE" in request["instructions"]
     assert "Never infer alloy" in request["instructions"]
     assert "narration.full_text must equal" in request["instructions"]
     assert len(transport.calls) == 1
@@ -215,8 +223,166 @@ def test_responses_provider_requires_search_and_accepts_only_returned_source_url
     assert request["tool_choice"] == "required"
     assert request["include"] == ["web_search_call.action.sources"]
     assert "WEB_SEARCH_MODE" in request["instructions"]
+    assert "specific YouTube videos" in request["instructions"]
+    assert "never construct a video id" in request["instructions"]
     assert generated.web_evidence[0].url == "https://example.org/archive/item?lang=vi"
     assert generated.web_evidence[0].title == "Hồ sơ lưu trữ chính thức"
+
+
+def test_trusted_video_discovery_uses_youtube_only_search_and_exact_sources() -> None:
+    artifact = _verified_artifact()
+    catalog = build_evidence_catalog(artifact)
+    youtube_url = "https://www.youtube.com/watch?v=AbCdEfGhI12"
+    discovery = {
+        "related_videos": [
+            {
+                "title": "Tiêu đề do mô hình trả về",
+                "url": youtube_url,
+                "channel_name": "Bảo tàng Lịch sử Quốc gia",
+                "trust_level": "official",
+                "trust_reason": (
+                    "Bảo tàng Lịch sử Quốc gia là cơ quan bảo tàng công bố video này."
+                ),
+                "scope": "related_event",
+                "relevance": "Video trình bày trực tiếp sự kiện gắn với hiện vật kiểm thử.",
+                "evidence_refs": ["web.1"],
+            }
+        ],
+        "web_evidence": [
+            {
+                "ref": "web.1",
+                "title": "Tiêu đề do mô hình trả về",
+                "url": youtube_url,
+                "evidence_text": "Video trình bày sự kiện gắn với hiện vật kiểm thử.",
+            }
+        ],
+    }
+    response = json.dumps(
+        {
+            "output": [
+                {
+                    "type": "web_search_call",
+                    "action": {
+                        "type": "search",
+                        "sources": [
+                            {
+                                "type": "url",
+                                "url": youtube_url,
+                                "title": "Phim tư liệu từ Bảo tàng Lịch sử Quốc gia",
+                            }
+                        ],
+                    },
+                },
+                {
+                    "type": "message",
+                    "content": [
+                        {"type": "output_text", "text": json.dumps(discovery)}
+                    ],
+                },
+            ]
+        }
+    ).encode("utf-8")
+    transport = Transport(response)
+    provider = OpenAIResponsesProvider(
+        api_key="test-key-not-a-real-secret",
+        base_url="https://api.openai.com/v1",
+        model="test-model",
+        prompt_version="prompt-v8",
+        timeout_seconds=4,
+        max_retries=0,
+        max_output_tokens=2400,
+        transport=transport,
+    )
+
+    result = provider.discover_related_videos(
+        artifact_id=artifact.id,
+        normalized_input=catalog.normalized_input,
+    )
+
+    request = json.loads(transport.calls[0]["body"])
+    assert request["store"] is False
+    assert request["tool_choice"] == "required"
+    assert request["include"] == ["web_search_call.action.sources"]
+    assert request["max_tool_calls"] == 4
+    assert request["tools"] == [
+        {
+            "type": "web_search",
+            "filters": {"allowed_domains": ["youtube.com", "youtu.be"]},
+        }
+    ]
+    assert request["text"]["format"]["strict"] is True
+    assert request["text"]["format"]["schema"]["additionalProperties"] is False
+    assert "publisher credibility is mandatory" in request["instructions"]
+    assert result.related_videos[0].title == (
+        "Phim tư liệu từ Bảo tàng Lịch sử Quốc gia"
+    )
+    assert result.related_videos[0].url == youtube_url
+    assert result.related_videos[0].channel_name == "Bảo tàng Lịch sử Quốc gia"
+
+
+def test_trusted_video_discovery_rejects_url_not_exactly_in_search_sources() -> None:
+    artifact = _verified_artifact()
+    catalog = build_evidence_catalog(artifact)
+    attributed_url = "https://www.youtube.com/watch?v=AbCdEfGhI12"
+    unreturned_url = "https://www.youtube.com/watch?v=ZyXwVuTsR98"
+    discovery = {
+        "related_videos": [
+            {
+                "title": "Video không được trả về",
+                "url": unreturned_url,
+                "channel_name": "Bảo tàng Kiểm thử",
+                "trust_level": "official",
+                "trust_reason": "Bảo tàng Kiểm thử là đơn vị bảo tàng công bố video này.",
+                "scope": "exact_artifact",
+                "relevance": "Video được mô tả là liên quan trực tiếp đến hiện vật.",
+                "evidence_refs": ["web.1"],
+            }
+        ],
+        "web_evidence": [
+            {
+                "ref": "web.1",
+                "title": "Video không được trả về",
+                "url": unreturned_url,
+                "evidence_text": "Video được mô tả là liên quan đến hiện vật.",
+            }
+        ],
+    }
+    response = json.dumps(
+        {
+            "output": [
+                {
+                    "type": "web_search_call",
+                    "action": {
+                        "sources": [
+                            {"url": attributed_url, "title": "Nguồn thật"}
+                        ]
+                    },
+                },
+                {
+                    "type": "message",
+                    "content": [
+                        {"type": "output_text", "text": json.dumps(discovery)}
+                    ],
+                },
+            ]
+        }
+    ).encode("utf-8")
+    provider = OpenAIResponsesProvider(
+        api_key="test-key-not-a-real-secret",
+        base_url="https://api.openai.com/v1",
+        model="test-model",
+        prompt_version="prompt-v8",
+        timeout_seconds=4,
+        max_retries=0,
+        max_output_tokens=2400,
+        transport=Transport(response),
+    )
+
+    with pytest.raises(ProviderInvalidResponseError, match="invalid response"):
+        provider.discover_related_videos(
+            artifact_id=artifact.id,
+            normalized_input=catalog.normalized_input,
+        )
 
 
 def test_responses_provider_rejects_web_url_not_returned_by_search() -> None:

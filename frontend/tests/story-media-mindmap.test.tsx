@@ -104,10 +104,11 @@ describe("story media and grounded exploration", () => {
     expect(screen.getAllByText("1975").length).toBeGreaterThanOrEqual(1);
     expect(screen.getByText("Chưa có nguồn kiểm chứng trong bộ dữ liệu.")).toBeInTheDocument();
 
-    await user.click(screen.getByText("Mindmap ghi nhớ"));
+    const mindmapDetails = screen.getByText("Sơ đồ diễn biến lịch sử").closest("details");
+    expect(mindmapDetails).toHaveAttribute("open");
     expect(screen.getByRole("heading", { name: "Luồng lịch sử liên quan đến hiện vật" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Các mối liên hệ quanh hiện vật" })).toBeInTheDocument();
-    expect(screen.getByText(/\d+ mối liên hệ · \d+ điểm kiến thức/)).toBeInTheDocument();
+    expect(screen.getByText(/\d+ mối liên hệ · \d+ chi tiết lịch sử/)).toBeInTheDocument();
     expect(screen.getAllByText(/Mốc 0\d/).length).toBeGreaterThanOrEqual(2);
     const identity = screen.getByRole("button", { name: /Nhận diện/ });
     expect(identity).toHaveAttribute("aria-expanded", "true");
@@ -152,6 +153,7 @@ describe("story media and grounded exploration", () => {
           { year: 1975, period: null, label: "Dấu mốc kết thúc mạch sự kiện" },
         ],
         keywords: [],
+        related_videos: [],
         mindmap: {
           central_label: artifact.name,
           branches: [{
@@ -174,8 +176,10 @@ describe("story media and grounded exploration", () => {
     await user.click(screen.getByRole("tab", { name: /Khám phá sâu/ }));
     expect(await screen.findByText("Dữ liệu hiện vật đang thiếu nguồn kiểm chứng")).toBeInTheDocument();
     expect(screen.getByText(/không gọi AI sinh nội dung/)).toBeInTheDocument();
-    await user.click(screen.getByText("Mindmap ghi nhớ"));
+    expect(screen.getByText("Sơ đồ diễn biến lịch sử").closest("details")).toHaveAttribute("open");
     expect(screen.getByRole("button", { name: /Nhận diện từ máy chủ/ })).toBeInTheDocument();
+    expect(screen.queryByText("Video YouTube liên quan")).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /YouTube/i })).not.toBeInTheDocument();
 
     await user.click(screen.getByRole("tab", { name: /Nhìn nhanh/ }));
     await user.click(screen.getByRole("tab", { name: /Khám phá sâu/ }));
@@ -209,6 +213,13 @@ describe("story media and grounded exploration", () => {
           source_status: "available_unverified",
           url: "https://example.test/source#duplicate",
         },
+        {
+          ref: "web.3",
+          label: "Video tư liệu từ kênh chính thức",
+          value: "Trang video cụ thể do công cụ tìm kiếm trả về.",
+          source_status: "verified",
+          url: "https://www.youtube.com/watch?v=AbCdEfGhI12",
+        },
       ],
       content: {
         factual_claims: [{
@@ -220,18 +231,37 @@ describe("story media and grounded exploration", () => {
           quick: { text: artifact.name, claim_ids: ["fact-description"] },
           one_minute: { text: oneMinute, claim_ids: ["fact-description"] },
         },
-        deep_sections: [{
-          key: "context",
-          title: "Bối cảnh lịch sử cụ thể",
-          summary: "Tóm tắt có dữ kiện",
-          body: artifact.description,
-          claim_ids: ["fact-description"],
-        }],
+        deep_sections: [
+          {
+            key: "overview",
+            title: "Giới thiệu tổng quát",
+            summary: "Khái quát riêng của phần khám phá sâu",
+            body: "Hiện vật gắn trực tiếp với một chuỗi diễn biến lịch sử có nguồn xác nhận.",
+            claim_ids: ["fact-description"],
+          },
+          {
+            key: "context",
+            title: "Bối cảnh lịch sử cụ thể",
+            summary: "Tóm tắt có dữ kiện",
+            body: artifact.description,
+            claim_ids: ["fact-description"],
+          },
+        ],
         timeline: [
           { year: 1961, period: null, label: "Bối cảnh lịch sử mở đầu" },
           { year: 1975, period: null, label: "Dấu mốc kết thúc mạch sự kiện" },
         ],
         keywords: [],
+        related_videos: [{
+          title: "Phim tư liệu về hiện vật",
+          url: "https://www.youtube.com/watch?v=AbCdEfGhI12",
+          channel_name: "Đài truyền hình kiểm thử",
+          trust_level: "official",
+          trust_reason: "Đây là kênh chính thức của cơ quan truyền hình kiểm thử.",
+          relevance: "Trình bày bối cảnh lịch sử liên quan.",
+          scope: "related_event",
+          evidence_refs: ["web.3"],
+        }],
         mindmap: {
           central_label: artifact.name,
           branches: [{
@@ -260,8 +290,11 @@ describe("story media and grounded exploration", () => {
     expect(await screen.findByText("Bối cảnh lịch sử cụ thể")).toBeInTheDocument();
     expect(screen.getByText("Giới thiệu tổng quát")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: artifact.name })).toBeInTheDocument();
-    expect(screen.getByText("Căn cứ dữ liệu")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Mở nguồn" })).toHaveAttribute(
+    expect(screen.getByText("Khái quát riêng của phần khám phá sâu")).toBeInTheDocument();
+    expect(screen.getByText("Hiện vật gắn trực tiếp với một chuỗi diễn biến lịch sử có nguồn xác nhận.")).toBeInTheDocument();
+    expect(screen.queryByText(oneMinute)).not.toBeInTheDocument();
+    expect(screen.getAllByText("Căn cứ dữ liệu").length).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByRole("link", { name: "Mở nguồn" })[0]).toHaveAttribute(
       "href",
       "https://example.test/source",
     );
@@ -273,7 +306,7 @@ describe("story media and grounded exploration", () => {
     expect(screen.queryByRole("link", { name: "Nguồn trùng cần loại bỏ" })).not.toBeInTheDocument();
     expect(screen.getByText(/nguồn do AI tìm trên web cần được đối chiếu/i)).toBeInTheDocument();
 
-    await user.click(screen.getByText("Mindmap ghi nhớ"));
+    expect(screen.getByText("Sơ đồ diễn biến lịch sử").closest("details")).toHaveAttribute("open");
     const flowHeading = screen.getByRole("heading", { name: "Luồng lịch sử liên quan đến hiện vật" });
     expect(flowHeading).toBeInTheDocument();
     const flow = flowHeading.closest("section");
@@ -282,6 +315,9 @@ describe("story media and grounded exploration", () => {
     expect(within(flow as HTMLElement).getByText("Dấu mốc kết thúc mạch sự kiện")).toBeInTheDocument();
     expect(screen.getByText("Chi tiết lịch sử 6")).toBeInTheDocument();
     expect(screen.getByText("Giải thích 6")).toBeInTheDocument();
+    expect(screen.queryByText("Video YouTube liên quan")).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /Phim tư liệu về hiện vật/ })).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Video tư liệu từ kênh chính thức" })).not.toBeInTheDocument();
 
     await user.click(screen.getByRole("tab", { name: /Câu chuyện/ }));
     const oneMinuteCopies = screen.getAllByText(oneMinute);
