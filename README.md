@@ -270,4 +270,5 @@ tests/
 
 Metadata Pinecone gồm ID hiện vật/ảnh, tiêu đề, mô tả, danh mục, giai đoạn, địa điểm, tags, caption, đường dẫn tương đối, loại embedding, model và checksum. ID vector ổn định theo dạng `<location-id>:<image-id>`.
 #   H i s t o r y  
+ #   H i s t o r y  
  
