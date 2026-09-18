@@ -146,15 +146,19 @@ export interface ChallengeOption {
   label: string;
 }
 
-export interface Challenge {
+export interface ChallengeQuestion {
   id: string;
-  item_id: string;
   type: ChallengeType;
   question: string;
   options: ChallengeOption[];
   correct_option_id: string;
   explanation: string;
   source_field?: string;
+}
+
+export interface Challenge extends ChallengeQuestion {
+  item_id: string;
+  questions?: ChallengeQuestion[];
 }
 
 export interface FeedbackPayload {

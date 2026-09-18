@@ -109,6 +109,7 @@ class ChallengeRecord:
     options: tuple[ChallengeOptionRecord, ...]
     explanation: str
     source_field: str
+    additional_questions: tuple["ChallengeRecord", ...] = ()
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

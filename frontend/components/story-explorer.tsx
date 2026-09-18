@@ -195,6 +195,8 @@ function QuickStory({
 }) {
   const image = story.quick.image || artifact.images[0];
   const recognitionDetail = specificRecognitionDetail(image, artifact.name);
+  const specificEvent = specificHistoricalEvent(artifact, story);
+  const currentLocation = formatCurrentLocation(artifact);
   return (
     <div className="quick-story">
       <StoryImage image={image} name={artifact.name} featured onOpen={onOpenImage} />
@@ -215,10 +217,16 @@ function QuickStory({
               )}
             </dd>
           </div>
-          {artifact.location?.city && (
+          {specificEvent && (
             <div>
-              <dt>Nơi lưu giữ</dt>
-              <dd>{artifact.location.city}</dd>
+              <dt>Sự kiện hoặc nội dung cụ thể</dt>
+              <dd>{specificEvent}</dd>
+            </div>
+          )}
+          {currentLocation && (
+            <div>
+              <dt>Nơi lưu giữ hiện nay</dt>
+              <dd>{currentLocation}</dd>
             </div>
           )}
           {recognitionDetail && (
@@ -370,7 +378,8 @@ function DeepStory({
     ? story.deep.source_verified === true
     : artifact.source_verified === true;
   const timeline = buildTimeline(artifact, images);
-  const event = story.deep.event || artifact.event;
+  const event = specificHistoricalEvent(artifact, story);
+  const currentLocation = formatCurrentLocation(artifact);
   const context = story.overview.context;
   const relatedEvents = uniqueText(story.deep.related_events || []).filter(
     (value) => value !== event,
@@ -392,8 +401,11 @@ function DeepStory({
   const generatedOverview = generated?.deep_sections.find(
     (section) => section.key === "overview",
   );
+  const eventPlaceSection = generated?.deep_sections.find(
+    (section) => ["context", "activities", "provenance"].includes(section.key),
+  );
   const generatedDetailSections = generated?.deep_sections.filter(
-    (section) => section.key !== "overview",
+    (section) => section.key !== "overview" && section !== eventPlaceSection,
   ) || [];
   const generalIntroduction =
     generatedOverview?.body || overview || story.overview.description;
@@ -455,6 +467,36 @@ function DeepStory({
               />
             )}
           </section>
+        )}
+
+        {(event || currentLocation || eventPlaceSection) && (
+          <DeepSection title="Sự kiện và địa điểm gắn với hiện vật" defaultOpen>
+            <div className="prose-block prose-wide">
+              {event && (
+                <p><strong>Sự kiện hoặc nội dung cụ thể:</strong> {event}</p>
+              )}
+              {eventPlaceSection && (
+                <>
+                  {eventPlaceSection.summary !== eventPlaceSection.body && (
+                    <p className="story-intro">{eventPlaceSection.summary}</p>
+                  )}
+                  <p>{eventPlaceSection.body}</p>
+                </>
+              )}
+              {currentLocation && (
+                <p><strong>Nơi lưu giữ hoặc trưng bày hiện nay:</strong> {currentLocation}</p>
+              )}
+              {!eventPlaceSection && (
+                <p>
+                  <strong>Địa điểm diễn ra sự kiện hoặc phát hiện hiện vật:</strong>{" "}
+                  Dữ liệu hiện tại chưa ghi rõ. Địa chỉ bảo tàng không được dùng thay cho địa điểm lịch sử.
+                </p>
+              )}
+            </div>
+            {eventPlaceSection && learning && (
+              <SectionEvidence learning={learning} claimIds={eventPlaceSection.claim_ids} />
+            )}
+          </DeepSection>
         )}
 
         <DeepSection title="Sơ đồ diễn biến lịch sử" defaultOpen>
@@ -816,4 +858,28 @@ function specificRecognitionDetail(
     return null;
   }
   return caption;
+}
+
+function specificHistoricalEvent(
+  artifact: Artifact,
+  story: ArtifactStory,
+): string | null {
+  const period = story.quick.period || artifact.historical_period || artifact.period || "";
+  const candidates = [story.deep.event, story.overview.event, artifact.event];
+  for (const candidate of candidates) {
+    const event = candidate?.normalize("NFC").replace(/\s+/g, " ").trim();
+    if (!event || sameText(event, period)) continue;
+    if (/^(giai đoạn|thời kỳ)?\s*\d{4}\s*[–—-]\s*\d{4}$/iu.test(event)) continue;
+    return event;
+  }
+  return null;
+}
+
+function formatCurrentLocation(artifact: Artifact): string | null {
+  const location = artifact.location;
+  if (!location) return null;
+  const parts = [location.address, location.city, location.province, location.country]
+    .map((value) => value?.normalize("NFC").trim())
+    .filter((value): value is string => Boolean(value));
+  return uniqueText(parts).join(", ") || null;
 }

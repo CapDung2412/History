@@ -20,10 +20,23 @@ function ChallengeContent({
   challenge,
   onExploreAnother,
 }: ChallengeCardProps) {
+  const questions = challenge
+    ? challenge.questions?.length
+      ? challenge.questions.slice(0, 3)
+      : [challenge]
+    : [];
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [score, setScore] = useState(0);
+  const currentQuestion = questions[currentIndex];
 
-  if (!challenge || !challenge.options.length || !challenge.correct_option_id) {
+  if (
+    !challenge ||
+    !currentQuestion ||
+    !currentQuestion.options.length ||
+    !currentQuestion.correct_option_id
+  ) {
     return (
       <section
         className="challenge-card challenge-empty"
@@ -47,11 +60,22 @@ function ChallengeContent({
     );
   }
 
-  const correct = selected === challenge.correct_option_id;
+  const correct = selected === currentQuestion.correct_option_id;
+  const isLastQuestion = currentIndex === questions.length - 1;
 
   function submit(event: FormEvent) {
     event.preventDefault();
-    if (selected) setSubmitted(true);
+    if (!selected) return;
+    setSubmitted(true);
+    if (selected === currentQuestion.correct_option_id) {
+      setScore((value) => value + 1);
+    }
+  }
+
+  function nextQuestion() {
+    setCurrentIndex((value) => value + 1);
+    setSelected("");
+    setSubmitted(false);
   }
 
   return (
@@ -60,6 +84,9 @@ function ChallengeContent({
         <div>
           <p className="eyebrow eyebrow-light">Thử thách 30 giây</p>
           <h2 id="challenge-title">Hiểu và ghi nhớ</h2>
+          <p className="challenge-progress">
+            Câu {currentIndex + 1}/{questions.length}
+          </p>
         </div>
         <span className="challenge-mark" aria-hidden="true">
           ?
@@ -67,9 +94,9 @@ function ChallengeContent({
       </div>
       <form onSubmit={submit}>
         <fieldset disabled={submitted}>
-          <legend>{challenge.question}</legend>
+          <legend>{currentQuestion.question}</legend>
           <div className="challenge-options">
-            {challenge.options.map((option) => (
+            {currentQuestion.options.map((option) => (
               <label
                 key={option.id}
                 className={`challenge-option ${
@@ -78,7 +105,7 @@ function ChallengeContent({
               >
                 <input
                   type="radio"
-                  name={`challenge-${challenge.id}`}
+                  name={`challenge-${currentQuestion.id}`}
                   value={option.id}
                   checked={selected === option.id}
                   onChange={() => setSelected(option.id)}
@@ -108,7 +135,7 @@ function ChallengeContent({
               {correct ? <CheckIcon /> : <RotateIcon />}
               <strong>{correct ? "Chính xác!" : "Chưa đúng rồi."}</strong>
             </div>
-            <p>{challenge.explanation}</p>
+            <p>{currentQuestion.explanation}</p>
             {!correct && (
               <button
                 type="button"
@@ -120,6 +147,21 @@ function ChallengeContent({
               >
                 Thử lại câu này
               </button>
+            )}
+            {!isLastQuestion && (
+              <button
+                type="button"
+                className="button button-cream challenge-next"
+                onClick={nextQuestion}
+              >
+                Câu tiếp theo
+                <ArrowIcon />
+              </button>
+            )}
+            {isLastQuestion && (
+              <p className="challenge-score">
+                Hoàn thành: {score}/{questions.length} câu đúng.
+              </p>
             )}
           </div>
         )}

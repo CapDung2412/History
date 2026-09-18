@@ -52,6 +52,28 @@ describe("reading and learning controls", () => {
     expect(screen.queryByRole("radio")).not.toBeInTheDocument();
   });
 
+  it("moves through a two-question 30-second challenge", async () => {
+    const user = userEvent.setup();
+    const second = {
+      ...challenge,
+      id: "test-challenge-2",
+      question: "Sự kiện nào gắn với hiện vật?",
+    };
+    render(
+      <ChallengeCard
+        challenge={{ ...challenge, questions: [challenge, second] }}
+        onExploreAnother={vi.fn()}
+      />,
+    );
+
+    expect(screen.getByText("Câu 1/2")).toBeInTheDocument();
+    await user.click(screen.getByRole("radio", { name: "Hiện vật" }));
+    await user.click(screen.getByRole("button", { name: "Kiểm tra đáp án" }));
+    await user.click(screen.getByRole("button", { name: "Câu tiếp theo" }));
+    expect(screen.getByText("Câu 2/2")).toBeInTheDocument();
+    expect(screen.getByText("Sự kiện nào gắn với hiện vật?")).toBeInTheDocument();
+  });
+
   it("applies accessibility controls even when browser storage is blocked", () => {
     vi.spyOn(Storage.prototype, "getItem").mockImplementation(() => { throw new DOMException("Blocked", "SecurityError"); });
     vi.spyOn(Storage.prototype, "setItem").mockImplementation(() => { throw new DOMException("Blocked", "SecurityError"); });

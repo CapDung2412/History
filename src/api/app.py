@@ -194,18 +194,33 @@ def _story_payload(record: Any) -> dict[str, Any]:
 
 def _challenge_payload(record: Any) -> dict[str, Any]:
     raw = record.to_dict()
-    options = list(raw.get("options") or [])
-    correct = next((str(option["id"]) for option in options if option.get("is_correct")), "")
-    return {
-        "id": raw["id"],
-        "item_id": raw["item_id"],
-        "type": raw["type"],
-        "question": raw["question"],
-        "options": [{"id": option["id"], "label": option["label"]} for option in options],
-        "correct_option_id": correct,
-        "explanation": raw["explanation"],
-        "source_field": raw["source_field"],
-    }
+
+    def question_payload(value: dict[str, Any]) -> dict[str, Any]:
+        options = list(value.get("options") or [])
+        correct = next(
+            (str(option["id"]) for option in options if option.get("is_correct")),
+            "",
+        )
+        return {
+            "id": value["id"],
+            "type": value["type"],
+            "question": value["question"],
+            "options": [
+                {"id": option["id"], "label": option["label"]}
+                for option in options
+            ],
+            "correct_option_id": correct,
+            "explanation": value["explanation"],
+            "source_field": value["source_field"],
+        }
+
+    primary = question_payload(raw)
+    questions = [primary]
+    questions.extend(
+        question_payload(question)
+        for question in raw.get("additional_questions") or []
+    )
+    return {**primary, "item_id": raw["item_id"], "questions": questions[:3]}
 
 
 def _quality_payload(result: QualityResult, file_size: int) -> dict[str, Any]:

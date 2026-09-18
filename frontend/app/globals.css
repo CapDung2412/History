@@ -1158,15 +1158,17 @@ svg {
 }
 
 .candidate-image {
+  width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--navy-900);
 }
 
 .candidate-image img {
+  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .candidate-placeholder {
@@ -2069,6 +2071,7 @@ svg {
 }
 
 .challenge-card h2 { color: white; font-size: clamp(1.8rem, 4vw, 2.7rem); }
+.challenge-progress { margin: .35rem 0 0; color: var(--gold-300); font-weight: 800; }
 .challenge-mark {
   width: 3.4rem;
   aspect-ratio: 1;
@@ -2112,6 +2115,8 @@ svg {
 .feedback-heading { display: flex; align-items: center; gap: .5rem; }
 .feedback-heading svg { width: 1.2rem; }
 .challenge-feedback p { margin: .45rem 0; color: #e4ebef; }
+.challenge-next { margin-top: .75rem; }
+.challenge-score { font-weight: 800; }
 .explore-another { margin-top: 2rem; }
 .challenge-empty { background: var(--cream-100); color: var(--ink); border: 1px solid var(--line); box-shadow: var(--shadow-sm); }
 .challenge-empty h2 { color: var(--navy-950); }
@@ -2272,8 +2277,8 @@ html[data-contrast="high"] .deep-section {
   .hero-visual { width: min(100%, 29rem); margin-inline: auto; }
   .how-grid { grid-template-columns: 1fr; }
   .candidate-grid { grid-template-columns: 1fr; }
-  .candidate-card { display: grid; grid-template-columns: 12rem minmax(0,1fr); }
-  .candidate-image { height: 100%; aspect-ratio: auto; }
+  .candidate-card { display: grid; grid-template-columns: minmax(0, 1fr); }
+  .candidate-image { height: auto; min-height: 0; aspect-ratio: 16 / 10; }
   .candidate-meta { min-height: 0; }
   .feedback-card { align-items: flex-start; flex-direction: column; }
   .quick-story { grid-template-columns: 1fr; }
@@ -2308,8 +2313,8 @@ html[data-contrast="high"] .deep-section {
   .preview-frame img { height: min(52vh, 27rem); }
   .accepted-summary { grid-template-columns: 1fr; text-align: center; }
   .accepted-summary .candidate-image { width: min(100%, 20rem); margin-inline: auto; }
-  .candidate-card { display: block; }
-  .candidate-image { aspect-ratio: 16 / 10; }
+  .candidate-card { display: grid; grid-template-columns: minmax(0, 1fr); }
+  .candidate-image { width: 100%; height: auto; min-height: 0; aspect-ratio: 16 / 10; }
   .story-tabs button { padding-inline: .25rem; font-size: .82rem; }
   .story-tabs small { font-size: var(--text-xs); }
   .audio-buttons { align-items: stretch; flex-direction: column; }

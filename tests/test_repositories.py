@@ -137,6 +137,8 @@ def test_json_challenge_is_deterministic_and_uses_multiple_canonical_fields(
     assert first == second
     assert first is not None
     assert len(first.options) == 4
+    assert len(first.additional_questions) == 2
+    assert len({first.id, *(question.id for question in first.additional_questions)}) == 3
     assert sum(option.is_correct for option in first.options) == 1
     assert first.source_field == "historical_info.event"
 

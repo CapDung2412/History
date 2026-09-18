@@ -147,15 +147,19 @@ class ChallengeOption(APIModel):
     label: str
 
 
-class ChallengeResponse(APIModel):
+class ChallengeQuestionResponse(APIModel):
     id: str
-    item_id: str
     type: str
     question: str
     options: list[ChallengeOption]
     correct_option_id: str
     explanation: str
     source_field: str
+
+
+class ChallengeResponse(ChallengeQuestionResponse):
+    item_id: str
+    questions: list[ChallengeQuestionResponse] = Field(min_length=1, max_length=3)
 
 
 class RecognitionCandidate(APIModel):

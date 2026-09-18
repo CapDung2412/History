@@ -2,6 +2,7 @@ import type {
   Artifact,
   ArtifactStory,
   Challenge,
+  ChallengeQuestion,
   FeedbackPayload,
   FeedbackResponse,
   RecognitionResponse,
@@ -867,6 +868,25 @@ function normalizeStory(value: unknown): ArtifactStory {
 
 function normalizeChallenge(value: unknown): Challenge {
   const raw = asRecord(value);
+  const primary = normalizeChallengeQuestion(raw);
+  const questions = arrayValue(raw.questions)
+    .map((entry) => normalizeChallengeQuestion(asRecord(entry)))
+    .filter(
+      (question) =>
+        question.id &&
+        question.question &&
+        question.options.length > 0 &&
+        question.correct_option_id,
+    )
+    .slice(0, 3);
+  return {
+    ...primary,
+    item_id: stringValue(raw.item_id),
+    questions: questions.length ? questions : [primary],
+  };
+}
+
+function normalizeChallengeQuestion(raw: UnknownRecord): ChallengeQuestion {
   const options = arrayValue(raw.options).map((value, index) => {
     const option = asRecord(value);
     return {
@@ -881,7 +901,6 @@ function normalizeChallenge(value: unknown): Challenge {
     "";
   return {
     id: stringValue(raw.id || raw.challenge_id),
-    item_id: stringValue(raw.item_id),
     type: stringValue(raw.type, "single_choice") as Challenge["type"],
     question: stringValue(raw.question),
     options: options.map(({ id, label }) => ({ id, label })),

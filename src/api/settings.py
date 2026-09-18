@@ -83,7 +83,7 @@ class APISettings:
     openai_timeout_seconds: float = 90.0
     openai_max_retries: int = 2
     openai_max_output_tokens: int = 6000
-    ai_prompt_version: str = "heritage-learning-v8"
+    ai_prompt_version: str = "heritage-learning-v9"
     ai_schema_version: str = "8"
     ai_cache_sqlite_path: str = "data/ai-content-cache.sqlite3"
     tts_cache_dir: str = "data/tts-cache"
@@ -146,7 +146,7 @@ class APISettings:
             openai_timeout_seconds=_env_float("OPENAI_TIMEOUT_SECONDS", 90.0),
             openai_max_retries=_env_int("OPENAI_MAX_RETRIES", 2),
             openai_max_output_tokens=_env_int("OPENAI_MAX_OUTPUT_TOKENS", 6000),
-            ai_prompt_version=os.getenv("AI_PROMPT_VERSION", "heritage-learning-v8").strip(),
+            ai_prompt_version=os.getenv("AI_PROMPT_VERSION", "heritage-learning-v9").strip(),
             ai_schema_version=os.getenv("AI_SCHEMA_VERSION", "8").strip(),
             ai_cache_sqlite_path=os.getenv("AI_CACHE_SQLITE_PATH", "data/ai-content-cache.sqlite3").strip(),
             tts_cache_dir=os.getenv("TTS_CACHE_DIR", "data/tts-cache").strip(),

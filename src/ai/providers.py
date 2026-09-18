@@ -171,6 +171,13 @@ narration.full_text must equal the one-minute story exactly so displayed and spo
 Create 6-8 substantial deep sections. The first is a detailed general introduction titled
 “Giới thiệu tổng quát”; its summary and body state directly what the object or event is, its
 historical setting, its connection to the recorded event, and why it is historically significant.
+Treat a broad span such as “1945–1975” only as context, never as the specific event. In the
+context, activities, or provenance section, name the exact documented event, operation,
+activity, creation, use, discovery, or commemoration linked to the artifact. State where that
+event occurred or where the artifact was found, made, used, or originally installed only when
+a cited source establishes the place. If no source establishes it, say explicitly that the
+historical place is not yet documented. Always distinguish that historical place from the
+museum's current storage or exhibition address.
 Then cover these distinct questions as evidence permits: (1) documented identity and notable
 features; (2) material, components, construction, original function, or making technique;
 (3) the wider historical context, actors, forces, and conditions; (4) the concrete activities,

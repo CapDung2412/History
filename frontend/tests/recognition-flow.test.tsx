@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { HeritageLensApp } from "@/components/heritage-lens-app";
@@ -44,9 +44,24 @@ describe("student recognition journey", () => {
   });
 
   it("waits for Top-3 selection, then removes candidate buttons and opens the chosen story", async () => {
-    vi.mocked(api.recognizeImage).mockResolvedValue(recognition("needs_confirmation"));
+    const topThreeResult = recognition("needs_confirmation");
+    topThreeResult.candidates.push({
+      ...secondCandidate,
+      item_id: "test-third-candidate",
+      name: "Hiện vật thử nghiệm thứ ba",
+      score: 0.52,
+    });
+    vi.mocked(api.recognizeImage).mockResolvedValue(topThreeResult);
     const user = await analyze();
     await screen.findByRole("heading", { name: "Em thấy hiện vật nào giống nhất?" });
+    const candidateList = screen.getByRole("list", {
+      name: "Các kết quả nhận diện gần nhất",
+    });
+    const candidateCards = within(candidateList).getAllByRole("listitem");
+    expect(candidateCards).toHaveLength(3);
+    candidateCards.forEach((card) => {
+      expect(within(card).getByRole("img")).toBeInTheDocument();
+    });
     expect(api.getArtifact).not.toHaveBeenCalled();
     vi.mocked(api.getArtifact).mockResolvedValue({ ...artifact, item_id: secondCandidate.item_id });
     await user.click(screen.getAllByRole("button", { name: "Chọn hiện vật này" })[1]);

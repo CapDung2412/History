@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import {
   AlertIcon,
   ArrowIcon,
@@ -133,7 +134,11 @@ function ConfirmationResult({
           rồi chọn một đáp án phù hợp.
         </p>
       </div>
-      <div className="candidate-grid" role="list">
+      <div
+        className="candidate-grid"
+        role="list"
+        aria-label="Các kết quả nhận diện gần nhất"
+      >
         {unique.map((candidate, index) => (
           <article
             className="candidate-card"
@@ -214,13 +219,18 @@ function CandidateSummary({ candidate }: { candidate: RecognitionCandidate }) {
 
 function CandidateImage({ candidate }: { candidate: RecognitionCandidate }) {
   const imageUrl = toAssetUrl(candidate.image_url);
-  return imageUrl ? (
+  const [imageFailed, setImageFailed] = useState(false);
+
+  return imageUrl && !imageFailed ? (
     <div className="candidate-image">
       {/* Backend URLs are runtime-configured, so a native image is used here. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={imageUrl}
         alt={candidate.image_caption || `Ảnh của ${candidate.name}`}
+        loading="eager"
+        decoding="async"
+        onError={() => setImageFailed(true)}
       />
     </div>
   ) : (

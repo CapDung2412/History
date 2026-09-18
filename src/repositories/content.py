@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import re
 from collections.abc import Iterable
+from dataclasses import replace
 
 from .models import (
     ArtifactRecord,
@@ -89,7 +90,20 @@ def build_artifact_challenge(
     artifact: ArtifactRecord,
     catalog: tuple[ArtifactRecord, ...],
 ) -> ChallengeRecord | None:
-    """Build one deterministic quiz from a range of canonical artifact fields."""
+    """Build a deterministic 2-3 question set while preserving the legacy API shape."""
+
+    questions = build_artifact_challenges(artifact, catalog)
+    if not questions:
+        return None
+    return replace(questions[0], additional_questions=questions[1:])
+
+
+def build_artifact_challenges(
+    artifact: ArtifactRecord,
+    catalog: tuple[ArtifactRecord, ...],
+    limit: int = 3,
+) -> tuple[ChallengeRecord, ...]:
+    """Build up to three grounded questions without treating a broad period as an event."""
 
     history = artifact.historical_info
     candidates: list[ChallengeRecord] = []
@@ -128,22 +142,6 @@ def build_artifact_challenge(
         if challenge:
             candidates.append(challenge)
 
-    if history.historical_period:
-        challenge = _build_choice_challenge(
-            artifact=artifact,
-            source_field="historical_info.historical_period",
-            question=f"“{artifact.name}” được đặt trong bối cảnh lịch sử nào?",
-            correct_label=history.historical_period,
-            distractor_labels=(
-                item.historical_info.historical_period
-                for item in catalog
-                if item.id != artifact.id and item.historical_info.historical_period
-            ),
-            explanation=f"Bối cảnh lịch sử được ghi trong dữ liệu là “{history.historical_period}”.",
-        )
-        if challenge:
-            candidates.append(challenge)
-
     if history.year is not None:
         year_label = str(history.year)
         challenge = _build_choice_challenge(
@@ -169,10 +167,35 @@ def build_artifact_challenge(
         candidates.append(category_challenge)
 
     if not candidates:
-        return None
+        return ()
 
     selector = hashlib.sha256(artifact.id.encode("utf-8")).digest()[0]
-    return candidates[selector % len(candidates)]
+    start = selector % len(candidates)
+    ordered = candidates[start:] + candidates[:start]
+    selected = ordered[: max(1, min(limit, 3))]
+    return tuple(
+        _rekey_challenge(challenge, artifact.id, index)
+        for index, challenge in enumerate(selected)
+    )
+
+
+def _rekey_challenge(
+    challenge: ChallengeRecord,
+    artifact_id: str,
+    index: int,
+) -> ChallengeRecord:
+    base_id = f"challenge-{artifact_id}-category-v1"
+    challenge_id = base_id if index == 0 else f"{base_id}-q{index + 1}"
+    options = tuple(
+        replace(option, id=f"{challenge_id}-option-{option_index + 1}")
+        for option_index, option in enumerate(challenge.options)
+    )
+    return replace(
+        challenge,
+        id=challenge_id,
+        options=options,
+        additional_questions=(),
+    )
 
 
 def _content_statement(description: str, max_length: int = 220) -> str | None:

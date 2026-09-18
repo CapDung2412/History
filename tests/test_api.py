@@ -332,6 +332,7 @@ def test_content_story_challenge_media_and_feedback(tmp_path: Path) -> None:
     challenge = client.get("/api/v1/artifacts/artifact-a/challenge").json()
     assert challenge["item_id"] == "artifact-a"
     assert challenge["correct_option_id"] == "option-1"
+    assert len(challenge["questions"]) == 1
     assert all("is_correct" not in option for option in challenge["options"])
 
     assert client.get("/api/v1/artifacts/artifact-a/images/artifact-a_01").status_code == 200
