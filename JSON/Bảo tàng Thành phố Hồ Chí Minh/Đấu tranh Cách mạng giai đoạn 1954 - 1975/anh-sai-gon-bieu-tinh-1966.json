@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-sai-gon-bieu-tinh-1966",
+      "name": "Ảnh Sài Gòn biểu tình 1966",
+      "slug": "bt-tphcm-anh-sai-gon-bieu-tinh-1966",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh Sài Gòn biểu tình 1966",
+        "description": "Ảnh tư liệu ảnh sài gòn biểu tình 1966 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": 1966,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-sai-gon-bieu-tinh-1966_01",
+          "filename": "anh-sai-gon-bieu-tinh-1966_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1TJgoneDq_PqA5Xy5kDI54rpZIMb2QFM3/view",
+          "caption": "Ảnh Sài Gòn biểu tình 1966 – ảnh 1/2.",
+          "year": 1966,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-anh-sai-gon-bieu-tinh-1966_02",
+          "filename": "anh-sai-gon-bieu-tinh-1966_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/12MxynkD9cGookpsoQvCcQoo1rcYBDD8q/view",
+          "caption": "Ảnh Sài Gòn biểu tình 1966 – ảnh 2/2.",
+          "year": 1966,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

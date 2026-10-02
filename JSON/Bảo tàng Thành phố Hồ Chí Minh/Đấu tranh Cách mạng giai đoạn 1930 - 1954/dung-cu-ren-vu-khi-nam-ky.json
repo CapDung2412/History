@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-dung-cu-ren-vu-khi-nam-ky",
+      "name": "Dụng cụ rèn vũ khí Nam Kỳ",
+      "slug": "bt-tphcm-dung-cu-ren-vu-khi-nam-ky",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Dụng cụ rèn vũ khí Nam Kỳ",
+        "description": "Hiện vật dụng cụ rèn vũ khí nam kỳ thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-dung-cu-ren-vu-khi-nam-ky_01",
+          "filename": "dung-cu-ren-vu-khi-nam-ky_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ujZKOrU1SQzqhnPWVUUK0VEB5_u5Ls3M/view",
+          "caption": "Dụng cụ rèn vũ khí Nam Kỳ – ảnh 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-ren-vu-khi-nam-ky_02",
+          "filename": "dung-cu-ren-vu-khi-nam-ky_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1j0yTeA9oXEpEY6hZhMfI8h1p2fDIMEmg/view",
+          "caption": "Dụng cụ rèn vũ khí Nam Kỳ – ảnh 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-ren-vu-khi-nam-ky_03",
+          "filename": "dung-cu-ren-vu-khi-nam-ky_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/17FNhPEz5RxTvkJs_P7TL0qSirM4MFX3H/view",
+          "caption": "Dụng cụ rèn vũ khí Nam Kỳ – ảnh 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-ren-vu-khi-nam-ky_04",
+          "filename": "dung-cu-ren-vu-khi-nam-ky_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1NRiT_OAiNMXnHNkM9ChjYWFYY2zoBCwa/view",
+          "caption": "Dụng cụ rèn vũ khí Nam Kỳ – ảnh 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-ren-vu-khi-nam-ky_05",
+          "filename": "dung-cu-ren-vu-khi-nam-ky_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1UcnGF0ky5TRFR9QtW9lc2Uiue8dNPuiY/view",
+          "caption": "Dụng cụ rèn vũ khí Nam Kỳ – ảnh 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}

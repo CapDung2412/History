@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tu-ky-vat-van-tien-dung",
+      "name": "Tủ kỷ vật Văn Tiến Dũng",
+      "slug": "bt-tphcm-tu-ky-vat-van-tien-dung",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tủ kỷ vật Văn Tiến Dũng",
+        "description": "Hiện vật tủ kỷ vật văn tiến dũng thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tu-ky-vat-van-tien-dung_01",
+          "filename": "tu-ky-vat-van-tien-dung.jpg",
+          "drive_url": "https://drive.google.com/file/d/1srVUe0cwt7VLdl9kKfUenGQ8rMRZuGsm/view",
+          "caption": "Tủ kỷ vật Văn Tiến Dũng – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tu-ky-vat-van-tien-dung_02",
+          "filename": "tu-ky-vat-van-tien-dung_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/158YRu7kyivZxqtAkppFsN4NT8JYOjKGQ/view",
+          "caption": "Tủ kỷ vật Văn Tiến Dũng – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

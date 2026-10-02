@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-phong-thuong-mai-1928",
+      "name": "Ảnh Phòng Thương mại 1928",
+      "slug": "bt-tphcm-anh-phong-thuong-mai-1928",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thuong-cang-thuong-mai-dich-vu",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh Phòng Thương mại 1928",
+        "description": "Ảnh tư liệu ảnh phòng thương mại 1928 thuộc chủ đề “Thương cảng - Thương mại - Dịch vụ” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử thương cảng, thương mại và dịch vụ Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": 1928,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2085",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-phong-thuong-mai-1928_01",
+          "filename": "anh-phong-thuong-mai-1928.jpg",
+          "drive_url": "https://drive.google.com/file/d/19w0SGS8PSWQGsZP4yyq4-vRB_K9YbIZN/view",
+          "caption": "Ảnh Phòng Thương mại 1928 – ảnh 1/1.",
+          "year": 1928,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-quan-nhan",
+      "name": "Giấy quân nhân",
+      "slug": "bt-tphcm-giay-quan-nhan",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy quân nhân",
+        "description": "Hiện vật giấy quân nhân thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-quan-nhan_01",
+          "filename": "giay-quan-nhan_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1_h7B9_WB1kHQe5eXL08zD3ZOqv2XjCY0/view",
+          "caption": "Giấy quân nhân – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-giay-quan-nhan_02",
+          "filename": "giay-quan-nhan_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1u_6EV71x9SYVgKII83X7XEj3QWBCi9hK/view",
+          "caption": "Giấy quân nhân – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

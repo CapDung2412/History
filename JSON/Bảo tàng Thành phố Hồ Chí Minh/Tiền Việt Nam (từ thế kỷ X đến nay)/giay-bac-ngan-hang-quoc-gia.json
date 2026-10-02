@@ -1,0 +1,100 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia",
+      "name": "Giấy bạc Ngân hàng Quốc gia",
+      "slug": "bt-tphcm-giay-bac-ngan-hang-quoc-gia",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy bạc Ngân hàng Quốc gia",
+        "description": "Hiện vật giấy bạc ngân hàng quốc gia thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_01",
+          "filename": "giay-bac-ngan-hang-quoc-gia.jpg",
+          "drive_url": "https://drive.google.com/file/d/1v-hsVpoBd4Ipp0nxprQz4vSCaG7KXj-Z/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 1/8.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_02",
+          "filename": "giay-bac-ngan-hang-quoc-gia_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1JahCBCOq5LGkh6UbhN9GYoh70tfFZPBa/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 2/8.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_03",
+          "filename": "giay-bac-ngan-hang-quoc-gia_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1LUJ4QKNUrVQp-ovOTduYEp3jXLzRnT28/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 3/8.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_04",
+          "filename": "giay-bac-ngan-hang-quoc-gia_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1oit8JjsBbpP7-WqMTTG1qNK7h6tot8-2/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 4/8.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_05",
+          "filename": "giay-bac-ngan-hang-quoc-gia_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1IvBuk9oT979IIBM502o3Dw-ZR6na36G9/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 5/8.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_06",
+          "filename": "giay-bac-ngan-hang-quoc-gia_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xIb_WnuOF9XB47CnnyvWe0WFCD2eZqOK/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 6/8.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_07",
+          "filename": "giay-bac-ngan-hang-quoc-gia_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zWYyCJPdQgvDe6vK8kRt4-hS_9x9mw-3/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 7/8.",
+          "year": null,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-ngan-hang-quoc-gia_08",
+          "filename": "giay-bac-ngan-hang-quoc-gia_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1yhRlnLRJMlkxgQwkbvkTmBcC5Qe1ZAJ6/view",
+          "caption": "Giấy bạc Ngân hàng Quốc gia – ảnh 8/8.",
+          "year": null,
+          "view": "goc-nhin-08"
+        }
+      ]
+    }
+  ]
+}

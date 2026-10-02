@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-phat-tu-bieu-tinh-1963",
+      "name": "Ảnh Phật tử biểu tình 1963",
+      "slug": "bt-tphcm-anh-phat-tu-bieu-tinh-1963",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh Phật tử biểu tình 1963",
+        "description": "Ảnh tư liệu ảnh phật tử biểu tình 1963 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": 1963,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-phat-tu-bieu-tinh-1963_01",
+          "filename": "anh-phat-tu-bieu-tinh-1963.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ioKq6G84PuDLpohXUxoI1uQegKsIluVF/view",
+          "caption": "Ảnh Phật tử biểu tình 1963 – ảnh 1/1.",
+          "year": 1963,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-ban-ui-dong",
+      "name": "Bàn ủi đồng",
+      "slug": "bt-tphcm-ban-ui-dong",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bàn ủi đồng",
+        "description": "Hiện vật bàn ủi đồng thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/245",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-ban-ui-dong_01",
+          "filename": "ban-ui-dong.jpg",
+          "drive_url": "https://drive.google.com/file/d/1-H4cB5GKKgbXw0F8p8VdU5TpqiXdhrnV/view",
+          "caption": "Bàn ủi đồng – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-ban-ui-dong_02",
+          "filename": "ban-ui-dong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/10LrMaYxCsvBNefgUtSzoDqTrxzmzyBCc/view",
+          "caption": "Bàn ủi đồng – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-ban-ui-dong_03",
+          "filename": "ban-ui-dong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1-8t3wXmEc2hQOUd0jt2F5uM4aK3nbnXe/view",
+          "caption": "Bàn ủi đồng – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

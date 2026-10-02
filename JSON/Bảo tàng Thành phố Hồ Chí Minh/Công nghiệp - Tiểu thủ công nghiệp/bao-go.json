@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bao-go",
+      "name": "Bào gỗ",
+      "slug": "bt-tphcm-bao-go",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bào gỗ",
+        "description": "Tư liệu bào gỗ thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/245",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bao-go_01",
+          "filename": "bao-go.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xWgeVrxO6A_b76jEDBG05PhHhALiGXcn/view",
+          "caption": "Bào gỗ – ảnh 1/6.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bao-go_02",
+          "filename": "bao-go_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1gMYwzqWZGFh3JatvqoAlu0nZ85gxLuP9/view",
+          "caption": "Bào gỗ – ảnh 2/6.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-bao-go_03",
+          "filename": "bao-go_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/16DTXl7ve-NOXED40Wr-m2p_QindInBcB/view",
+          "caption": "Bào gỗ – ảnh 3/6.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-bao-go_04",
+          "filename": "bao-go_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1OyRC9FOUIdlfBRpr0XrSZm3tvXhYc8Z7/view",
+          "caption": "Bào gỗ – ảnh 4/6.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-bao-go_05",
+          "filename": "bao-go_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1HJB9AChxMiY6ONFLkAIBlwhnvJjFfNgb/view",
+          "caption": "Bào gỗ – ảnh 5/6.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-bao-go_06",
+          "filename": "bao-go_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1USutODsgrFInbfirCnfgPnYh7zt9n4RX/view",
+          "caption": "Bào gỗ – ảnh 6/6.",
+          "year": null,
+          "view": "goc-nhin-06"
+        }
+      ]
+    }
+  ]
+}

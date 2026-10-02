@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-cedar-falls-1967",
+      "name": "Ảnh chiến dịch Cedar Falls 1967",
+      "slug": "bt-tphcm-anh-cedar-falls-1967",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh chiến dịch Cedar Falls 1967",
+        "description": "Ảnh tư liệu ảnh chiến dịch cedar falls 1967 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": 1967,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-cedar-falls-1967_01",
+          "filename": "anh-cedar-falls-1967_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1FMYh9Ukt5MJJj6cehKYhH_oO6xzzYDt6/view",
+          "caption": "Ảnh chiến dịch Cedar Falls 1967 – ảnh 1/4.",
+          "year": 1967,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-anh-cedar-falls-1967_02",
+          "filename": "anh-cedar-falls-1967_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1q6q1Re1gBw79Q0b7di2sXwQJvafY32JF/view",
+          "caption": "Ảnh chiến dịch Cedar Falls 1967 – ảnh 2/4.",
+          "year": 1967,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-anh-cedar-falls-1967_03",
+          "filename": "anh-cedar-falls-1967_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1VrekMENN3nA1KM8TKlkIYpBOvv-9K1k2/view",
+          "caption": "Ảnh chiến dịch Cedar Falls 1967 – ảnh 3/4.",
+          "year": 1967,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-anh-cedar-falls-1967_04",
+          "filename": "anh-cedar-falls-1967_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1LX0-3_4-wbljWWO38-7R_Vz21-HPbyE4/view",
+          "caption": "Ảnh chiến dịch Cedar Falls 1967 – ảnh 4/4.",
+          "year": 1967,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

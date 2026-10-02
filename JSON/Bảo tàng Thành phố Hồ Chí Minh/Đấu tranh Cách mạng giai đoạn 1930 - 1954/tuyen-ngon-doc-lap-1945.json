@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tuyen-ngon-doc-lap-1945",
+      "name": "Tuyên ngôn độc lập 1945",
+      "slug": "bt-tphcm-tuyen-ngon-doc-lap-1945",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tuyên ngôn độc lập 1945",
+        "description": "Hiện vật tuyên ngôn độc lập 1945 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": 1945,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tuyen-ngon-doc-lap-1945_01",
+          "filename": "tuyen-ngon-doc-lap-1945.jpg",
+          "drive_url": "https://drive.google.com/file/d/1d_BEJzdPq2SC80C-VBJBO9I_AaH-MRn2/view",
+          "caption": "Tuyên ngôn độc lập 1945 – ảnh 1/1.",
+          "year": 1945,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

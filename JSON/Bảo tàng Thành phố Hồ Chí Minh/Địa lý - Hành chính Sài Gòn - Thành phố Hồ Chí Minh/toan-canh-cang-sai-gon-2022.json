@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-toan-canh-cang-sai-gon-2022",
+      "name": "Toàn cảnh cảng Sài Gòn 2022",
+      "slug": "bt-tphcm-toan-canh-cang-sai-gon-2022",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Toàn cảnh cảng Sài Gòn 2022",
+        "description": "Hiện vật toàn cảnh cảng sài gòn 2022 thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": 2022,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/trung-bay-thuong-xuyen-1/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-toan-canh-cang-sai-gon-2022_01",
+          "filename": "toan-canh-cang-sai-gon-2022.jpg",
+          "drive_url": "https://drive.google.com/file/d/1neNpDBZr_rdwITVgj1cFr4GZWeiF86ki/view",
+          "caption": "Toàn cảnh cảng Sài Gòn 2022 – ảnh 1/1.",
+          "year": 2022,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

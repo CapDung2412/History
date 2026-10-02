@@ -26,10 +26,15 @@ class JsonHeritageRepository:
         *,
         analytics_store: AnalyticsStore | None = None,
         analytics_path: Path | None = None,
+        skip_missing_images: bool = False,
     ) -> None:
         self.json_root = json_root
         self.image_root = image_root
-        self._artifacts = load_artifacts(json_root, image_root)
+        self._artifacts = load_artifacts(
+            json_root,
+            image_root,
+            skip_missing_images=skip_missing_images,
+        )
         if analytics_store is not None and analytics_path is not None:
             raise ValueError("Pass analytics_store or analytics_path, not both")
         self._analytics = analytics_store or SqliteAnalyticsStore(

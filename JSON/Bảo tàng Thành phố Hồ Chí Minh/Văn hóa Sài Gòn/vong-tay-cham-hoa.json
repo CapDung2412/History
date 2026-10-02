@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-vong-tay-cham-hoa",
+      "name": "Vòng tay chạm hoa",
+      "slug": "bt-tphcm-vong-tay-cham-hoa",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "van-hoa-sai-gon",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Vòng tay chạm hoa",
+        "description": "Hiện vật vòng tay chạm hoa thuộc chủ đề “Văn hóa Sài Gòn” tại Bảo tàng Thành phố Hồ Chí Minh. Phòng văn hóa giới thiệu những nét trong đời sống, phong tục và nghệ thuật của Sài Gòn – Thành phố Hồ Chí Minh.",
+        "historical_period": "Văn hóa Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/271",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-vong-tay-cham-hoa_01",
+          "filename": "vong-tay-cham-hoa_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1E1ZRbG06qNRJS2lAIaDlkpRNoZyF9LJD/view",
+          "caption": "Vòng tay chạm hoa – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-vong-tay-cham-hoa_02",
+          "filename": "vong-tay-cham-hoa_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1iMO883jUNFzvo9WQUXeYt7OydFVL_gZt/view",
+          "caption": "Vòng tay chạm hoa – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

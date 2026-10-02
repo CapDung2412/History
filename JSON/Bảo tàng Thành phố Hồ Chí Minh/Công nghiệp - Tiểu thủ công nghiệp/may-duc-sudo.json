@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-may-duc-sudo",
+      "name": "Máy đúc Sudo",
+      "slug": "bt-tphcm-may-duc-sudo",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Máy đúc Sudo",
+        "description": "Hiện vật máy đúc sudo thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1gPb8rs_Fa_wDrrIb8T2qIaZb4H2URCqm/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-may-duc-sudo_01",
+          "filename": "may-duc-sudo_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1PjMJyGb1r0LkZurjuZ1-mQ9o7iSs7UF_/view",
+          "caption": "Máy đúc Sudo – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-may-duc-sudo_02",
+          "filename": "may-duc-sudo_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1g6TwQcwL4Jz4XeAToq76x3pcns6T_yQs/view",
+          "caption": "Máy đúc Sudo – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-may-duc-sudo_03",
+          "filename": "may-duc-sudo_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1nknHOAAIBYTsuTs81WprGjLp9QguSCdt/view",
+          "caption": "Máy đúc Sudo – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

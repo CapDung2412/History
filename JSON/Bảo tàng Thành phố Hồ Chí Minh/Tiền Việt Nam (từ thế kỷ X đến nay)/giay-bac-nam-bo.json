@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-bac-nam-bo",
+      "name": "Giấy bạc Nam Bộ",
+      "slug": "bt-tphcm-giay-bac-nam-bo",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy bạc Nam Bộ",
+        "description": "Hiện vật giấy bạc nam bộ thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-bac-nam-bo_01",
+          "filename": "giay-bac-nam-bo.jpg",
+          "drive_url": "https://drive.google.com/file/d/1IBf5UtMjuqKmovAN0fSFBAtnf4apvbSl/view",
+          "caption": "Giấy bạc Nam Bộ – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-nam-bo_02",
+          "filename": "giay-bac-nam-bo_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1y6Wbp2TGSQ9a4tkfvpCh5TXQDe7xP9bo/view",
+          "caption": "Giấy bạc Nam Bộ – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-nam-bo_03",
+          "filename": "giay-bac-nam-bo_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1aJunXMhGrAiIp95cYhU6xI0xjeABOm5j/view",
+          "caption": "Giấy bạc Nam Bộ – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

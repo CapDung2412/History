@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-bieu-tinh-sai-gon-1950",
+      "name": "Bảng thuyết minh: Biểu tình Sài Gòn 1950",
+      "slug": "bt-tphcm-bang-bieu-tinh-sai-gon-1950",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Biểu tình Sài Gòn 1950",
+        "description": "Ảnh chụp bảng thuyết minh: biểu tình sài gòn 1950 trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": 1950,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1YuWRfLHEnMN-6YpYpO6e7GJwwEht4StF/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-bieu-tinh-sai-gon-1950_01",
+          "filename": "bang-bieu-tinh-sai-gon-1950.jpg",
+          "drive_url": "https://drive.google.com/file/d/1YuWRfLHEnMN-6YpYpO6e7GJwwEht4StF/view",
+          "caption": "Bảng thuyết minh: Biểu tình Sài Gòn 1950 – ảnh 1/1.",
+          "year": 1950,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

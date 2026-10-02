@@ -34,6 +34,10 @@ from .schemas import (
 SourceStatus = Literal["missing", "available_unverified", "verified"]
 DataStatus = Literal["missing", "needs_verification", "sufficient"]
 YEAR_TOKEN = re.compile(r"(?<!\d)(?:1\d{3}|20\d{2})(?!\d)")
+YEAR_WITH_OPTIONAL_PREFIX = re.compile(
+    r"(?<!\w)(?:năm\s+)?(?P<year>1\d{3}|20\d{2})(?!\d)",
+    re.IGNORECASE,
+)
 URL_TOKEN = re.compile(r"https?://[^\s<>]+", re.IGNORECASE)
 WORD_TOKEN = re.compile(r"[^\W_]+", re.UNICODE)
 MEASUREMENT_TOKEN = re.compile(
@@ -697,7 +701,13 @@ def extend_catalog_with_web_evidence(
             provenance="web_search",
         )
         urls.add(safe_url)
-        for match in YEAR_TOKEN.finditer(evidence.evidence_text):
+        # Search-result titles are provider-verified source metadata and often
+        # carry the event/artifact year even when the short evidence excerpt
+        # omits it. Accept title years, but never years invented elsewhere in
+        # the generated prose.
+        for match in YEAR_TOKEN.finditer(
+            f"{evidence.title} {evidence.evidence_text}"
+        ):
             years.add(match.group(0))
             explicit_years.add(int(match.group(0)))
         changed = True
@@ -1183,7 +1193,7 @@ def repair_generated_grounding(
             update={"options": options, "evidence_refs": refs}
         )
 
-    return content.model_copy(
+    repaired = content.model_copy(
         update={
             "factual_claims": claims,
             "storytelling": storytelling,
@@ -1195,6 +1205,7 @@ def repair_generated_grounding(
             "self_check": self_check,
         }
     )
+    return _repair_unsupported_years(repaired, extended)
 
 
 def _known_or_best_refs(
@@ -1272,6 +1283,109 @@ def _is_generic_mindmap_label(value: str) -> bool:
         "sự kiện",
         "câu chuyện",
     }
+
+
+def _repair_unsupported_years(
+    content: GeneratedLearningContent,
+    catalog: EvidenceCatalog,
+) -> GeneratedLearningContent:
+    """Replace unsupported model-added years while preserving the strict gate."""
+
+    def clean(text: str) -> str:
+        def replace_year(match: re.Match[str]) -> str:
+            if match.group("year") in catalog.allowed_year_tokens:
+                return match.group(0)
+            return "mốc thời gian chưa được nguồn xác nhận"
+
+        return YEAR_WITH_OPTIONAL_PREFIX.sub(replace_year, text)
+
+    quick = content.storytelling.quick.model_copy(
+        update={"text": clean(content.storytelling.quick.text)}
+    )
+    one_minute = content.storytelling.one_minute.model_copy(
+        update={"text": clean(content.storytelling.one_minute.text)}
+    )
+    storytelling = content.storytelling.model_copy(
+        update={"quick": quick, "one_minute": one_minute}
+    )
+    deep_sections = [
+        section.model_copy(
+            update={
+                "title": clean(section.title),
+                "summary": clean(section.summary),
+                "body": clean(section.body),
+            }
+        )
+        for section in content.deep_sections
+    ]
+    timeline = [
+        entry.model_copy(
+            update={
+                "label": clean(entry.label),
+                "period": clean(entry.period) if entry.period else None,
+            }
+        )
+        for entry in content.timeline
+    ]
+    keywords = [
+        keyword.model_copy(update={"explanation": clean(keyword.explanation)})
+        for keyword in content.keywords
+    ]
+    branches = [
+        branch.model_copy(
+            update={
+                "label": clean(branch.label),
+                "nodes": [
+                    node.model_copy(
+                        update={"note": clean(node.note) if node.note else None}
+                    )
+                    for node in branch.nodes
+                ],
+            }
+        )
+        for branch in content.mindmap.branches
+    ]
+    mindmap = content.mindmap.model_copy(update={"branches": branches})
+    videos = [
+        video.model_copy(
+            update={
+                "title": clean(video.title),
+                "channel_name": clean(video.channel_name),
+                "trust_reason": clean(video.trust_reason),
+                "relevance": clean(video.relevance),
+            }
+        )
+        for video in content.related_videos
+    ]
+    self_check = content.self_check
+    if self_check is not None:
+        self_check = self_check.model_copy(
+            update={
+                "question": clean(self_check.question),
+                "options": [
+                    option.model_copy(update={"label": clean(option.label)})
+                    for option in self_check.options
+                ],
+                "explanation": clean(self_check.explanation),
+            }
+        )
+    return content.model_copy(
+        update={
+            "storytelling": storytelling,
+            "deep_sections": deep_sections,
+            "timeline": timeline,
+            "keywords": keywords,
+            "mindmap": mindmap,
+            "related_videos": videos,
+            "self_check": self_check,
+            "narration": content.narration.model_copy(
+                update={
+                    "short_text": quick.text,
+                    "full_text": one_minute.text,
+                }
+            ),
+        }
+    )
 
 
 def _validate_historical_framing(content: GeneratedLearningContent) -> None:

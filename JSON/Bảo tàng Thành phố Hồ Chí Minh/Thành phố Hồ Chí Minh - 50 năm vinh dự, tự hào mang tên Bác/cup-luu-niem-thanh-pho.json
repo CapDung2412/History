@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-cup-luu-niem-thanh-pho",
+      "name": "Cúp lưu niệm thành phố",
+      "slug": "bt-tphcm-cup-luu-niem-thanh-pho",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thanh-pho-50-nam",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Cúp lưu niệm thành phố",
+        "description": "Hiện vật cúp lưu niệm thành phố thuộc chủ đề “Thành phố Hồ Chí Minh - 50 năm vinh dự, tự hào mang tên Bác” tại Bảo tàng Thành phố Hồ Chí Minh. Không gian chuyên đề ghi lại hành trình phát triển của Thành phố Hồ Chí Minh sau khi mang tên Bác.",
+        "historical_period": "Thành phố Hồ Chí Minh từ năm 1976",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-cup-luu-niem-thanh-pho_01",
+          "filename": "cup-luu-niem-thanh-pho_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1F7tgcQ_vbaJDK_e-9B95zsaEQKvicLYN/view",
+          "caption": "Cúp lưu niệm thành phố – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-cup-luu-niem-thanh-pho_02",
+          "filename": "cup-luu-niem-thanh-pho_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1IOTVloixFpozKEq9oy7wUqvbAnORD_xI/view",
+          "caption": "Cúp lưu niệm thành phố – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

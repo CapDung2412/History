@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-ruot-tuong-tiep-te-gao",
+      "name": "Ruột tượng tiếp tế gạo",
+      "slug": "bt-tphcm-ruot-tuong-tiep-te-gao",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ruột tượng tiếp tế gạo",
+        "description": "Hiện vật ruột tượng tiếp tế gạo thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-ruot-tuong-tiep-te-gao_01",
+          "filename": "ruot-tuong-tiep-te-gao_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RuMOIFlwRWkCJfhZKS3STjxcfETLaAzo/view",
+          "caption": "Ruột tượng tiếp tế gạo – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-ruot-tuong-tiep-te-gao_02",
+          "filename": "ruot-tuong-tiep-te-gao_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zc2BKDwmq3ape1OnrJ4BXbVavZ2C68su/view",
+          "caption": "Ruột tượng tiếp tế gạo – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

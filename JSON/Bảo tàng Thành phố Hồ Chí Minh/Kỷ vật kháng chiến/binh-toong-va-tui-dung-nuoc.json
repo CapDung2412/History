@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-binh-toong-va-tui-dung-nuoc",
+      "name": "Bình toong và túi đựng nước",
+      "slug": "bt-tphcm-binh-toong-va-tui-dung-nuoc",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bình toong và túi đựng nước",
+        "description": "Hiện vật bình toong và túi đựng nước thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-binh-toong-va-tui-dung-nuoc_01",
+          "filename": "binh-toong-va-tui-dung-nuoc.jpg",
+          "drive_url": "https://drive.google.com/file/d/1m6wRlP0qpr0VrCloY5HW8Ax-6mW1jwG2/view",
+          "caption": "Bình toong và túi đựng nước – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

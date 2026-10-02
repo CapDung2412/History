@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-phep-chon-tran-van-on",
+      "name": "Giấy phép chôn cất Trần Văn Ơn",
+      "slug": "bt-tphcm-giay-phep-chon-tran-van-on",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy phép chôn cất Trần Văn Ơn",
+        "description": "Hiện vật giấy phép chôn cất trần văn ơn thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-phep-chon-tran-van-on_01",
+          "filename": "giay-phep-chon-tran-van-on.jpg",
+          "drive_url": "https://drive.google.com/file/d/1XoK_eBKn95Hp9Mm2GBgNWqW1TghUx2Ke/view",
+          "caption": "Giấy phép chôn cất Trần Văn Ơn – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

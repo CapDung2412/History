@@ -107,6 +107,23 @@ def test_json_repository_preserves_content_and_marks_missing_source(tmp_path: Pa
     assert "chưa được xác minh" in sourced_story.deep["source_notice"]
 
 
+def test_json_repository_can_skip_declared_images_missing_from_disk(tmp_path: Path) -> None:
+    json_root, image_root = make_dataset(tmp_path)
+    (image_root / "item-1_01.jpg").unlink()
+
+    with pytest.raises(RepositoryIntegrityError, match="found 0"):
+        JsonHeritageRepository(json_root, image_root)
+
+    repository = JsonHeritageRepository(
+        json_root,
+        image_root,
+        skip_missing_images=True,
+    )
+    artifact = repository.get_artifact("item-1")
+    assert artifact is not None
+    assert artifact.images == ()
+
+
 def test_json_repository_requires_explicit_consistent_source_verification(
     tmp_path: Path,
 ) -> None:

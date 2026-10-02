@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-nhan-to-truyen-nguyen-anh",
+      "name": "Nhãn hiện vật: Tờ truyền của Nguyễn Ánh",
+      "slug": "bt-tphcm-nhan-to-truyen-nguyen-anh",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Nhãn hiện vật: Tờ truyền của Nguyễn Ánh",
+        "description": "Ảnh chụp nhãn hiện vật: tờ truyền của nguyễn ánh trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1-0-guPUMqSXIQsk1mG-APG2j4AO9Iss2/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-nhan-to-truyen-nguyen-anh_01",
+          "filename": "nhan-to-truyen-nguyen-anh.jpg",
+          "drive_url": "https://drive.google.com/file/d/1-0-guPUMqSXIQsk1mG-APG2j4AO9Iss2/view",
+          "caption": "Nhãn hiện vật: Tờ truyền của Nguyễn Ánh – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

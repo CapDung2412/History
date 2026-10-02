@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-mau-go-cua-long",
+      "name": "Bảng thuyết minh: Mẫu gỗ ở giai đoạn cưa lọng",
+      "slug": "bt-tphcm-bang-mau-go-cua-long",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Mẫu gỗ ở giai đoạn cưa lọng",
+        "description": "Ảnh chụp bảng thuyết minh: mẫu gỗ ở giai đoạn cưa lọng trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1HF6YBnIlf_Y4-IL7QgyTi4xlP2QxnR_2/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-mau-go-cua-long_01",
+          "filename": "bang-mau-go-cua-long.jpg",
+          "drive_url": "https://drive.google.com/file/d/1HF6YBnIlf_Y4-IL7QgyTi4xlP2QxnR_2/view",
+          "caption": "Bảng thuyết minh: Mẫu gỗ ở giai đoạn cưa lọng – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

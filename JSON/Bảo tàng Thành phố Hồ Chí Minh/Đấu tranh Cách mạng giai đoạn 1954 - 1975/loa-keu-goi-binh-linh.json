@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-loa-keu-goi-binh-linh",
+      "name": "Loa kêu gọi binh lính",
+      "slug": "bt-tphcm-loa-keu-goi-binh-linh",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Loa kêu gọi binh lính",
+        "description": "Hiện vật loa kêu gọi binh lính thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-loa-keu-goi-binh-linh_01",
+          "filename": "loa-keu-goi-binh-linh_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/16BGeOtTEHMcnH5zOe12C_gii4s8mEqU6/view",
+          "caption": "Loa kêu gọi binh lính – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-loa-keu-goi-binh-linh_02",
+          "filename": "loa-keu-goi-binh-linh_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1x7EwoRF_LPzF3lBVgWR5ukh5Umkz7c26/view",
+          "caption": "Loa kêu gọi binh lính – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-loa-keu-goi-binh-linh_03",
+          "filename": "loa-keu-goi-binh-linh_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/16k0Isi_BcI1yf_ZeS4-pfsIL03WLf2x8/view",
+          "caption": "Loa kêu gọi binh lính – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-loa-keu-goi-binh-linh_04",
+          "filename": "loa-keu-goi-binh-linh_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1riF6iy9iHJiN4BJRQ3GHWQ0jvf2hpN8h/view",
+          "caption": "Loa kêu gọi binh lính – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

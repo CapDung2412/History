@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-huan-huy-chuong-khang-chien",
+      "name": "Huân, huy chương kháng chiến",
+      "slug": "bt-tphcm-huan-huy-chuong-khang-chien",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Huân, huy chương kháng chiến",
+        "description": "Hiện vật huân, huy chương kháng chiến thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-huan-huy-chuong-khang-chien_01",
+          "filename": "huan-huy-chuong-khang-chien.jpg",
+          "drive_url": "https://drive.google.com/file/d/1PjiZO-0THm-lHkd6-_WQWxlij1RZuUKp/view",
+          "caption": "Huân, huy chương kháng chiến – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-huan-huy-chuong-khang-chien_02",
+          "filename": "huan-huy-chuong-khang-chien_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1b7ioNZNgidrFhCafPVf3loiFTgVgbrGu/view",
+          "caption": "Huân, huy chương kháng chiến – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

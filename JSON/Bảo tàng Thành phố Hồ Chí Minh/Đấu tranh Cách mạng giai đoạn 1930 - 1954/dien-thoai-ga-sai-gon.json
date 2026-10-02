@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-dien-thoai-ga-sai-gon",
+      "name": "Điện thoại ga Sài Gòn",
+      "slug": "bt-tphcm-dien-thoai-ga-sai-gon",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Điện thoại ga Sài Gòn",
+        "description": "Hiện vật điện thoại ga sài gòn thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-dien-thoai-ga-sai-gon_01",
+          "filename": "dien-thoai-ga-sai-gon_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1wVMMmzbXji7cvK-yS0YcsfWSMxs72PSz/view",
+          "caption": "Điện thoại ga Sài Gòn – ảnh 1/6.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-dien-thoai-ga-sai-gon_02",
+          "filename": "dien-thoai-ga-sai-gon_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dqp6EMQDXjwCwOdXqKcJHgKvROrw_8IH/view",
+          "caption": "Điện thoại ga Sài Gòn – ảnh 2/6.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-dien-thoai-ga-sai-gon_03",
+          "filename": "dien-thoai-ga-sai-gon_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1n3FLsYd8NLUYU518feDVcRpO0qb3Tcxi/view",
+          "caption": "Điện thoại ga Sài Gòn – ảnh 3/6.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-dien-thoai-ga-sai-gon_04",
+          "filename": "dien-thoai-ga-sai-gon_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/16czPWeyFuHKowyA8LEDG2DrVQiQR0sTR/view",
+          "caption": "Điện thoại ga Sài Gòn – ảnh 4/6.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-dien-thoai-ga-sai-gon_05",
+          "filename": "dien-thoai-ga-sai-gon_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1c1he1bIQk95pMJ5sltTqZmKAoZ8Mj0rQ/view",
+          "caption": "Điện thoại ga Sài Gòn – ảnh 5/6.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-dien-thoai-ga-sai-gon_06",
+          "filename": "dien-thoai-ga-sai-gon_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zIaO9u-oterCcVSAcZy3VmIXBfgm57xx/view",
+          "caption": "Điện thoại ga Sài Gòn – ảnh 6/6.",
+          "year": null,
+          "view": "goc-nhin-06"
+        }
+      ]
+    }
+  ]
+}

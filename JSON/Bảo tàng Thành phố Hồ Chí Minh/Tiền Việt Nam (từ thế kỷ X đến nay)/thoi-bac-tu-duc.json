@@ -1,0 +1,180 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-thoi-bac-tu-duc",
+      "name": "Thỏi bạc Tự Đức",
+      "slug": "bt-tphcm-thoi-bac-tu-duc",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Thỏi bạc Tự Đức",
+        "description": "Hiện vật thỏi bạc tự đức thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_01",
+          "filename": "thoi-bac-tu-duc.jpg",
+          "drive_url": "https://drive.google.com/file/d/1h7OxDNO3IHLnV2ZQKRmAV546XDqCmK_i/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 1/18.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_02",
+          "filename": "thoi-bac-tu-duc_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Z9WxDnxK9Rzj0DhO0NDFv3BAqfHqVCpb/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 2/18.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_03",
+          "filename": "thoi-bac-tu-duc_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/16sdAuKwWEBz7u-Zzz1Jo4IJAWbYy6Thd/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 3/18.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_04",
+          "filename": "thoi-bac-tu-duc_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Woq2bJNkAAks-s3c-BEfdepi1PbhbZjp/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 4/18.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_05",
+          "filename": "thoi-bac-tu-duc_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Cd5gpWaAOcF5OEdMVjUJ4dqOPNW8ES5d/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 5/18.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_06",
+          "filename": "thoi-bac-tu-duc_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/150avDXWZeuheeXIENyM1r1fFYHqKguG1/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 6/18.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_07",
+          "filename": "thoi-bac-tu-duc_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/18ZQn0hIxDSR241LeuEh9_YO4kgk3ZWCy/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 7/18.",
+          "year": null,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_08",
+          "filename": "thoi-bac-tu-duc_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1hWdUKF4svo1_svvxMWz__A5abQRXSQyi/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 8/18.",
+          "year": null,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_09",
+          "filename": "thoi-bac-tu-duc_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1FiwDRLXksT51O1EGQWCC4WyJl2sUidW4/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 9/18.",
+          "year": null,
+          "view": "goc-nhin-09"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_10",
+          "filename": "thoi-bac-tu-duc_09.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dvwnec2qUGa6T8hjLJY2RxXi2FUX_3wb/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 10/18.",
+          "year": null,
+          "view": "goc-nhin-10"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_11",
+          "filename": "thoi-bac-tu-duc_10.jpg",
+          "drive_url": "https://drive.google.com/file/d/1eogPZ67biY6XIEhCOIhGrnvkUt3MXKz_/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 11/18.",
+          "year": null,
+          "view": "goc-nhin-11"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_12",
+          "filename": "thoi-bac-tu-duc_11.jpg",
+          "drive_url": "https://drive.google.com/file/d/1h-zmpdsw02AxpO8IbqpfQAqd8kcMIErL/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 12/18.",
+          "year": null,
+          "view": "goc-nhin-12"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_13",
+          "filename": "thoi-bac-tu-duc_12.jpg",
+          "drive_url": "https://drive.google.com/file/d/1sHGbpg6HY3CJFVJ3sFrbcDY3aK44XZzw/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 13/18.",
+          "year": null,
+          "view": "goc-nhin-13"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_14",
+          "filename": "thoi-bac-tu-duc_13.jpg",
+          "drive_url": "https://drive.google.com/file/d/1nHEKuX4MN2rWBownmTAiaep3TVqt_rvs/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 14/18.",
+          "year": null,
+          "view": "goc-nhin-14"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_15",
+          "filename": "thoi-bac-tu-duc_14.jpg",
+          "drive_url": "https://drive.google.com/file/d/1veBPL_oksPHNdw62isSA0ykhQKj0Y9cN/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 15/18.",
+          "year": null,
+          "view": "goc-nhin-15"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_16",
+          "filename": "thoi-bac-tu-duc_15.jpg",
+          "drive_url": "https://drive.google.com/file/d/16dLpr0UDP_ZnYRykg7WI8MjBj-7ckCsz/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 16/18.",
+          "year": null,
+          "view": "goc-nhin-16"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_17",
+          "filename": "thoi-bac-tu-duc_16.jpg",
+          "drive_url": "https://drive.google.com/file/d/1w2yYLM2tKDx4l06GuFeN9f__6P1q8lBv/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 17/18.",
+          "year": null,
+          "view": "goc-nhin-17"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-tu-duc_18",
+          "filename": "thoi-bac-tu-duc_17.jpg",
+          "drive_url": "https://drive.google.com/file/d/1cSmWoFSz5DURJoJAVR69BKdSScdRqlKV/view",
+          "caption": "Thỏi bạc Tự Đức – ảnh 18/18.",
+          "year": null,
+          "view": "goc-nhin-18"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-ban-do-sai-gon-1623-1679",
+      "name": "Bản đồ Sài Gòn giai đoạn 1623–1679",
+      "slug": "bt-tphcm-ban-do-sai-gon-1623-1679",
+      "category": "historical_map",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "historical_map"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bản đồ Sài Gòn giai đoạn 1623–1679",
+        "description": "Bản đồ bản đồ sài gòn giai đoạn 1623–1679 thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/trung-bay-thuong-xuyen-1/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-ban-do-sai-gon-1623-1679_01",
+          "filename": "ban-do-sai-gon-1623-1679.jpg",
+          "drive_url": "https://drive.google.com/file/d/1-_lR-CqnquieHs_q7M59kd1P8LaDSv73/view",
+          "caption": "Bản đồ Sài Gòn giai đoạn 1623–1679 – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-ban-do-sai-gon-1623-1679_02",
+          "filename": "ban-do-sai-gon-1623-1679_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/11l_6ixMAMaeaUYr_QnIP4jcjJOQInzmc/view",
+          "caption": "Bản đồ Sài Gòn giai đoạn 1623–1679 – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-ban-do-sai-gon-1623-1679_03",
+          "filename": "ban-do-sai-gon-1623-1679_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BDKJCVKV0LdsEEC6Y7vlEHoFQO7BvHgq/view",
+          "caption": "Bản đồ Sài Gòn giai đoạn 1623–1679 – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-ban-do-sai-gon-1623-1679_04",
+          "filename": "ban-do-sai-gon-1623-1679_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/11QB5bGKwQ_G-EDx7C7S2RcaLIYu1f2au/view",
+          "caption": "Bản đồ Sài Gòn giai đoạn 1623–1679 – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-lon-dong-hat-roi",
+      "name": "Lon đong hạt rời",
+      "slug": "bt-tphcm-lon-dong-hat-roi",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thuong-cang-thuong-mai-dich-vu",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lon đong hạt rời",
+        "description": "Hiện vật lon đong hạt rời thuộc chủ đề “Thương cảng - Thương mại - Dịch vụ” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử thương cảng, thương mại và dịch vụ Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2085",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-lon-dong-hat-roi_01",
+          "filename": "lon-dong-hat-roi.jpg",
+          "drive_url": "https://drive.google.com/file/d/1mGW_QWrnq07FNICQfACpcR7drdRmLQUA/view",
+          "caption": "Lon đong hạt rời – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-lon-dong-hat-roi_02",
+          "filename": "lon-dong-hat-roi_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1oVZsoO41TRb_9aKcaMezRLh_oDf3JwZ9/view",
+          "caption": "Lon đong hạt rời – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-lon-dong-hat-roi_03",
+          "filename": "lon-dong-hat-roi_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1GRp46G9Sc5aGURW1N1E0qYFP4aqZkoJW/view",
+          "caption": "Lon đong hạt rời – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-lon-dong-hat-roi_04",
+          "filename": "lon-dong-hat-roi_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/13x5q512DkV5Hd8-0wcbTcPc3tKpBU6Im/view",
+          "caption": "Lon đong hạt rời – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-kho-van-cat-lai-2023",
+      "name": "Ảnh kho vận Cát Lái 2023",
+      "slug": "bt-tphcm-anh-kho-van-cat-lai-2023",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thuong-cang-thuong-mai-dich-vu",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh kho vận Cát Lái 2023",
+        "description": "Ảnh tư liệu ảnh kho vận cát lái 2023 thuộc chủ đề “Thương cảng - Thương mại - Dịch vụ” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử thương cảng, thương mại và dịch vụ Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": 2023,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2085",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-kho-van-cat-lai-2023_01",
+          "filename": "anh-kho-van-cat-lai-2023.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Qm7WC3Wi5L3AqzNenMyF4cubVRLzqvCq/view",
+          "caption": "Ảnh kho vận Cát Lái 2023 – ảnh 1/1.",
+          "year": 2023,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

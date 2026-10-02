@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tu-vat-dung-tu-che",
+      "name": "Tủ vật dụng tự chế",
+      "slug": "bt-tphcm-tu-vat-dung-tu-che",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tủ vật dụng tự chế",
+        "description": "Hiện vật tủ vật dụng tự chế thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tu-vat-dung-tu-che_01",
+          "filename": "tu-vat-dung-tu-che_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1wJhneGz_un0c656e67E4BudrTA9HZjWv/view",
+          "caption": "Tủ vật dụng tự chế – ảnh 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tu-vat-dung-tu-che_02",
+          "filename": "tu-vat-dung-tu-che_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1XHdIKeOarG9lwIFA-l62FDDPmSlNOI0K/view",
+          "caption": "Tủ vật dụng tự chế – ảnh 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-tu-vat-dung-tu-che_03",
+          "filename": "tu-vat-dung-tu-che_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1hW0QNGbro6saHMMH2IJyr44l3nUnQCLE/view",
+          "caption": "Tủ vật dụng tự chế – ảnh 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-tu-vat-dung-tu-che_04",
+          "filename": "tu-vat-dung-tu-che_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/193c0pMrYfI53J0_2XdsDVcOhLdnlvdNc/view",
+          "caption": "Tủ vật dụng tự chế – ảnh 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-tu-vat-dung-tu-che_05",
+          "filename": "tu-vat-dung-tu-che_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1hABn-x6sVbrY16FmgBvv-aM0zujenK-p/view",
+          "caption": "Tủ vật dụng tự chế – ảnh 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}

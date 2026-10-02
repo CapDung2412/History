@@ -1,6 +1,7 @@
 import { AccessibilityToolbar } from "@/components/accessibility-toolbar";
 import { HeritageLensApp } from "@/components/heritage-lens-app";
 import { ArrowIcon, CameraIcon, CheckIcon, SparkIcon } from "@/components/icons";
+import { Museum360Experience } from "@/components/museum-360-experience";
 
 export default function HomePage() {
   return (
@@ -22,6 +23,7 @@ export default function HomePage() {
           <nav aria-label="Điều hướng chính">
             <a href="#gioi-thieu">Giới thiệu</a>
             <a href="#cach-hoat-dong">Cách hoạt động</a>
+            <a href="#tham-quan-360">Tham quan 360°</a>
             <a href="#nhan-dien" className="nav-cta">
               Nhận diện ngay
             </a>
@@ -130,6 +132,8 @@ export default function HomePage() {
             </ol>
           </div>
         </section>
+
+        <Museum360Experience />
 
         <div className="site-shell app-shell">
           <HeritageLensApp />

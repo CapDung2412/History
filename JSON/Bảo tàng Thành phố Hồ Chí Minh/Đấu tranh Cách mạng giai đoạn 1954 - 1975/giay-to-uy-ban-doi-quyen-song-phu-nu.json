@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-to-uy-ban-doi-quyen-song-phu-nu",
+      "name": "Giấy tờ Ủy ban Đòi quyền sống Phụ nữ",
+      "slug": "bt-tphcm-giay-to-uy-ban-doi-quyen-song-phu-nu",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy tờ Ủy ban Đòi quyền sống Phụ nữ",
+        "description": "Tư liệu giấy tờ ủy ban đòi quyền sống phụ nữ thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-to-uy-ban-doi-quyen-song-phu-nu_01",
+          "filename": "giay-to-uy-ban-doi-quyen-song-phu-nu.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xqeRDzevCEZb4O9gUZqgcJM2Otj8ELHt/view",
+          "caption": "Giấy tờ Ủy ban Đòi quyền sống Phụ nữ – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

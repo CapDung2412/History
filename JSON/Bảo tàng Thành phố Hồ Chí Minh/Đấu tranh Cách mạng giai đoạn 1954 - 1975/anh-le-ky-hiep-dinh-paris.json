@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-le-ky-hiep-dinh-paris",
+      "name": "Ảnh lễ ký Hiệp định Paris",
+      "slug": "bt-tphcm-anh-le-ky-hiep-dinh-paris",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh lễ ký Hiệp định Paris",
+        "description": "Ảnh tư liệu ảnh lễ ký hiệp định paris thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-le-ky-hiep-dinh-paris_01",
+          "filename": "anh-le-ky-hiep-dinh-paris_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1whceFt8fh-LrAQjSEkPEcSaLRGx_8SGE/view",
+          "caption": "Ảnh lễ ký Hiệp định Paris – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-anh-le-ky-hiep-dinh-paris_02",
+          "filename": "anh-le-ky-hiep-dinh-paris_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1s1PG7iPKextSp-CxKSrqLVdQmWG0KsMn/view",
+          "caption": "Ảnh lễ ký Hiệp định Paris – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

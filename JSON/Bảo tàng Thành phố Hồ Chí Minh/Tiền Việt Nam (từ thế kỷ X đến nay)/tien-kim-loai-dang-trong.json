@@ -1,0 +1,108 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tien-kim-loai-dang-trong",
+      "name": "Tiền kẽm đúc ở Đàng Trong",
+      "slug": "bt-tphcm-tien-kim-loai-dang-trong",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tiền kẽm đúc ở Đàng Trong",
+        "description": "Tiền kẽm đúc ở Đàng Trong, thuộc phần trưng bày tiền kim loại. Bảng chú thích tại bảo tàng xếp nhóm hiện vật này vào khoảng thế kỷ XVI–XVIII.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1svyjhvWqkviEvRXTNh8s0Jp9B_L14mb-/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_01",
+          "filename": "tien-kim-loai-dang-trong.jpg",
+          "drive_url": "https://drive.google.com/file/d/1PU9T4CwxufDinYef56rxUgb5mGcxeEyL/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 1/9.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_02",
+          "filename": "tien-kim-loai-dang-trong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1vciiiTogx6pnvomkORfDG4qyX6BGP0fA/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 2/9.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_03",
+          "filename": "tien-kim-loai-dang-trong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1j1IR5hN34RD1minCbPseP1LhkTJgMVB0/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 3/9.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_04",
+          "filename": "tien-kim-loai-dang-trong_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1EQLsJcsSr3BpEHxiFLzt7D9G_TrVU1H4/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 4/9.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_05",
+          "filename": "tien-kim-loai-dang-trong_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1TvvhS7pTekwaqncPhT-DSQgnhGknOBbP/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 5/9.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_06",
+          "filename": "tien-kim-loai-dang-trong_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Bu52zfjOFZvxMSorgPRQ9CcezQ1dux6E/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 6/9.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_07",
+          "filename": "tien-kim-loai-dang-trong_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Jz9GSvJ8z8WXPvJfF3cgKqZzCs9-h-WQ/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 7/9.",
+          "year": null,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_08",
+          "filename": "tien-kim-loai-dang-trong_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1t6cHV8Drjd7B4DRBJFAnboCWluoPxVEx/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 8/9.",
+          "year": null,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "bt-tphcm-tien-kim-loai-dang-trong_09",
+          "filename": "tien-kim-loai-dang-trong_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1yQufCi2LVeNqXF9jWbw0FHXhNP-bK8UF/view",
+          "caption": "Tiền kẽm đúc ở Đàng Trong – ảnh 9/9.",
+          "year": null,
+          "view": "goc-nhin-09"
+        }
+      ]
+    }
+  ]
+}

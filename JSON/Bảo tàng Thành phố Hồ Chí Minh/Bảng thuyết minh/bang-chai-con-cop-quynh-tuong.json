@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-chai-con-cop-quynh-tuong",
+      "name": "Bảng thuyết minh: Chai Con Cọp và rượu Quỳnh Tương",
+      "slug": "bt-tphcm-bang-chai-con-cop-quynh-tuong",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Chai Con Cọp và rượu Quỳnh Tương",
+        "description": "Ảnh chụp bảng thuyết minh: chai con cọp và rượu quỳnh tương trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1IWCPWFdUzOdtQkWW4FWQnsus8cSdiMwj/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-chai-con-cop-quynh-tuong_01",
+          "filename": "bang-chai-con-cop-quynh-tuong.jpg",
+          "drive_url": "https://drive.google.com/file/d/1IWCPWFdUzOdtQkWW4FWQnsus8cSdiMwj/view",
+          "caption": "Bảng thuyết minh: Chai Con Cọp và rượu Quỳnh Tương – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

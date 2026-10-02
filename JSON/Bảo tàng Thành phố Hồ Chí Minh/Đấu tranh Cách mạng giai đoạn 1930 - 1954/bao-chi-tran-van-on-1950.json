@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bao-chi-tran-van-on-1950",
+      "name": "Báo chí về Trần Văn Ơn năm 1950",
+      "slug": "bt-tphcm-bao-chi-tran-van-on-1950",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Báo chí về Trần Văn Ơn năm 1950",
+        "description": "Tư liệu báo chí về trần văn ơn năm 1950 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": 1950,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bao-chi-tran-van-on-1950_01",
+          "filename": "bao-chi-tran-van-on-1950_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1VyDEUH1zi88t8aXjR4yvOOxEtdpfvUfV/view",
+          "caption": "Báo chí về Trần Văn Ơn năm 1950 – ảnh 1/6.",
+          "year": 1950,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bao-chi-tran-van-on-1950_02",
+          "filename": "bao-chi-tran-van-on-1950_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1q2aUqC2fESlXuhXAvItR0ITZJVJ9ZZar/view",
+          "caption": "Báo chí về Trần Văn Ơn năm 1950 – ảnh 2/6.",
+          "year": 1950,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-bao-chi-tran-van-on-1950_03",
+          "filename": "bao-chi-tran-van-on-1950_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zCzoHi-y6irsx9qj3rb4fuEhOmLKI2na/view",
+          "caption": "Báo chí về Trần Văn Ơn năm 1950 – ảnh 3/6.",
+          "year": 1950,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-bao-chi-tran-van-on-1950_04",
+          "filename": "bao-chi-tran-van-on-1950_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1hBsMsjM9XIY-hypa4G54QVIL7YOsFiXm/view",
+          "caption": "Báo chí về Trần Văn Ơn năm 1950 – ảnh 4/6.",
+          "year": 1950,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-bao-chi-tran-van-on-1950_05",
+          "filename": "bao-chi-tran-van-on-1950_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RTv3U1TPIAMeIP2Alk7GgX_I86pUK-eX/view",
+          "caption": "Báo chí về Trần Văn Ơn năm 1950 – ảnh 5/6.",
+          "year": 1950,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-bao-chi-tran-van-on-1950_06",
+          "filename": "bao-chi-tran-van-on-1950_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1JmjEyejDhxgTosFjtiZ6Gm0GL4BoM-xT/view",
+          "caption": "Báo chí về Trần Văn Ơn năm 1950 – ảnh 6/6.",
+          "year": 1950,
+          "view": "goc-nhin-06"
+        }
+      ]
+    }
+  ]
+}

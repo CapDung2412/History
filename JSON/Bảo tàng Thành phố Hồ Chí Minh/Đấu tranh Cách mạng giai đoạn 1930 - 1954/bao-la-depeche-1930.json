@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bao-la-depeche-1930",
+      "name": "Báo La Dépêche năm 1930",
+      "slug": "bt-tphcm-bao-la-depeche-1930",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Báo La Dépêche năm 1930",
+        "description": "Tư liệu báo la dépêche năm 1930 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": 1930,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bao-la-depeche-1930_01",
+          "filename": "bao-la-depeche-1930_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RqVNLgDrnkD8fQNS2tGNKmHsKbQxdgyZ/view",
+          "caption": "Báo La Dépêche năm 1930 – ảnh 1/2.",
+          "year": 1930,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bao-la-depeche-1930_02",
+          "filename": "bao-la-depeche-1930_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jW1WzLn_leGl0427sTEyDzaaY7XTBBpX/view",
+          "caption": "Báo La Dépêche năm 1930 – ảnh 2/2.",
+          "year": 1930,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

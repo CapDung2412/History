@@ -1,0 +1,92 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tuong-su-tu-go",
+      "name": "Tượng sư tử gỗ",
+      "slug": "bt-tphcm-tuong-su-tu-go",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tượng sư tử gỗ",
+        "description": "Hiện vật tượng sư tử gỗ thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/15-yPtPGkDKnov8q4Os7ygamsH71WzOr_/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tuong-su-tu-go_01",
+          "filename": "tuong-su-tu-go.jpg",
+          "drive_url": "https://drive.google.com/file/d/1lPO0nlFhWO8Km1NT7X2gaJz1w8tENASi/view",
+          "caption": "Tượng sư tử gỗ – ảnh 1/7.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tuong-su-tu-go_02",
+          "filename": "tuong-su-tu-go_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1FhmgbdvpefxZdcKLUavMO8BChrf-rLR8/view",
+          "caption": "Tượng sư tử gỗ – ảnh 2/7.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-tuong-su-tu-go_03",
+          "filename": "tuong-su-tu-go_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1W9TFhc8mse24dI0v-mSkFJUR8L6cusb2/view",
+          "caption": "Tượng sư tử gỗ – ảnh 3/7.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-tuong-su-tu-go_04",
+          "filename": "tuong-su-tu-go_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1lFbgdE0mzDmMDDJOu30opH4zGp6JS-q2/view",
+          "caption": "Tượng sư tử gỗ – ảnh 4/7.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-tuong-su-tu-go_05",
+          "filename": "tuong-su-tu-go_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1C6nIGFTxuO-rqfijaEjBlZHyKevuJsLj/view",
+          "caption": "Tượng sư tử gỗ – ảnh 5/7.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-tuong-su-tu-go_06",
+          "filename": "tuong-su-tu-go_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xsm_6JiiQQHeMc6jB3ZxoE1RTB185c7c/view",
+          "caption": "Tượng sư tử gỗ – ảnh 6/7.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-tuong-su-tu-go_07",
+          "filename": "tuong-su-tu-go_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1IFthfGINqGlqUWvDp9UfjWvQOVZQxyNj/view",
+          "caption": "Tượng sư tử gỗ – ảnh 7/7.",
+          "year": null,
+          "view": "goc-nhin-07"
+        }
+      ]
+    }
+  ]
+}

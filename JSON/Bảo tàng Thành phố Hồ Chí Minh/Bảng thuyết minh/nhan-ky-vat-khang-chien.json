@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-nhan-ky-vat-khang-chien",
+      "name": "Nhãn hiện vật: Kỷ vật kháng chiến",
+      "slug": "bt-tphcm-nhan-ky-vat-khang-chien",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Nhãn hiện vật: Kỷ vật kháng chiến",
+        "description": "Ảnh chụp nhãn hiện vật: kỷ vật kháng chiến trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1L_2VQMO2BFGfLtsBgikhJ8M1qbvWMlL3/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-nhan-ky-vat-khang-chien_01",
+          "filename": "nhan-ky-vat-khang-chien.jpg",
+          "drive_url": "https://drive.google.com/file/d/1L_2VQMO2BFGfLtsBgikhJ8M1qbvWMlL3/view",
+          "caption": "Nhãn hiện vật: Kỷ vật kháng chiến – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-nhan-ky-vat-khang-chien_02",
+          "filename": "nhan-ky-vat-khang-chien_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1g6KFGz2mAN5mAaLuytJfp16B7V2jObzQ/view",
+          "caption": "Nhãn hiện vật: Kỷ vật kháng chiến – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-nhan-ky-vat-khang-chien_03",
+          "filename": "nhan-ky-vat-khang-chien_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1e9cEBbX7iHwd3hRQErej_dvgbcKqmNRn/view",
+          "caption": "Nhãn hiện vật: Kỷ vật kháng chiến – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

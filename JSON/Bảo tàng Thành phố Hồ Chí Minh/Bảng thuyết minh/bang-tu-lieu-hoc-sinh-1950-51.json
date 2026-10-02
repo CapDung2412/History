@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-tu-lieu-hoc-sinh-1950-51",
+      "name": "Bảng thuyết minh: Tư liệu học sinh 1950–1951",
+      "slug": "bt-tphcm-bang-tu-lieu-hoc-sinh-1950-51",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Tư liệu học sinh 1950–1951",
+        "description": "Ảnh chụp bảng thuyết minh: tư liệu học sinh 1950–1951 trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1dmVHgJAGZuWXHaa81HerbxqkuPMl7aWx/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-tu-lieu-hoc-sinh-1950-51_01",
+          "filename": "bang-tu-lieu-hoc-sinh-1950-51_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dmVHgJAGZuWXHaa81HerbxqkuPMl7aWx/view",
+          "caption": "Bảng thuyết minh: Tư liệu học sinh 1950–1951 – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bang-tu-lieu-hoc-sinh-1950-51_02",
+          "filename": "bang-tu-lieu-hoc-sinh-1950-51_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jUqTKhLB_JCNNBoMQ9nk2ckbJpf2DC7j/view",
+          "caption": "Bảng thuyết minh: Tư liệu học sinh 1950–1951 – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-bang-tu-lieu-hoc-sinh-1950-51_03",
+          "filename": "bang-tu-lieu-hoc-sinh-1950-51_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1V4Nd7oBoeJnnW2x-h3ppcQ_Df2UcEi1-/view",
+          "caption": "Bảng thuyết minh: Tư liệu học sinh 1950–1951 – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-bang-tu-lieu-hoc-sinh-1950-51_04",
+          "filename": "bang-tu-lieu-hoc-sinh-1950-51_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1OpbNzuBxWt94Gm28SdCqkbR9S1fNTXhT/view",
+          "caption": "Bảng thuyết minh: Tư liệu học sinh 1950–1951 – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

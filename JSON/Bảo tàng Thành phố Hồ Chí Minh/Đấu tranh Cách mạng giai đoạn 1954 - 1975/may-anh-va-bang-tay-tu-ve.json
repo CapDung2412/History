@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-may-anh-va-bang-tay-tu-ve",
+      "name": "Máy ảnh và băng tay tự vệ",
+      "slug": "bt-tphcm-may-anh-va-bang-tay-tu-ve",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Máy ảnh và băng tay tự vệ",
+        "description": "Hiện vật máy ảnh và băng tay tự vệ thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-may-anh-va-bang-tay-tu-ve_01",
+          "filename": "may-anh-va-bang-tay-tu-ve_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1WRcCZS6Se9hml-q739t1M-rPCUUGmJII/view",
+          "caption": "Máy ảnh và băng tay tự vệ – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-may-anh-va-bang-tay-tu-ve_02",
+          "filename": "may-anh-va-bang-tay-tu-ve_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/18OnRUikSsswOyfIm7xtrLoiEoRLMGoFv/view",
+          "caption": "Máy ảnh và băng tay tự vệ – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-khan-tay-quach-thi-trang",
+      "name": "Khăn tay Quách Thị Trang",
+      "slug": "bt-tphcm-khan-tay-quach-thi-trang",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Khăn tay Quách Thị Trang",
+        "description": "Hiện vật khăn tay quách thị trang thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-khan-tay-quach-thi-trang_01",
+          "filename": "khan-tay-quach-thi-trang.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ITjyTP4kNE2CNpl_U3shKwLMV-fgpgOb/view",
+          "caption": "Khăn tay Quách Thị Trang – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-khan-tay-quach-thi-trang_02",
+          "filename": "khan-tay-quach-thi-trang_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Jx1GnOGyfKRmF5Nzsucb-SpmEYe38t5C/view",
+          "caption": "Khăn tay Quách Thị Trang – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

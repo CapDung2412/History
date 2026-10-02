@@ -17,11 +17,13 @@ def build_repository(
     service_role_key: str | None = None,
     analytics_path: Path | None = None,
     supabase_transport: SupabaseTransport | None = None,
+    skip_missing_images: bool = False,
 ) -> HeritageRepository:
     fallback = JsonHeritageRepository(
         json_root=json_root,
         image_root=image_root,
         analytics_path=analytics_path,
+        skip_missing_images=skip_missing_images,
     )
     if supabase_transport is not None:
         primary = SupabaseHeritageRepository(transport=supabase_transport)
@@ -44,4 +46,5 @@ def build_repository_from_env(
         supabase_url=os.getenv("SUPABASE_URL"),
         service_role_key=os.getenv("SUPABASE_SERVICE_ROLE_KEY"),
         analytics_path=analytics_path,
+        skip_missing_images=True,
     )

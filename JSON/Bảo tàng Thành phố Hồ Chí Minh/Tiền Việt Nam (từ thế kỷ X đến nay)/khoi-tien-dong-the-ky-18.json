@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-khoi-tien-dong-the-ky-18",
+      "name": "Khối tiền đồng thế kỷ XVIII",
+      "slug": "bt-tphcm-khoi-tien-dong-the-ky-18",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Khối tiền đồng thế kỷ XVIII",
+        "description": "Hiện vật khối tiền đồng thế kỷ xviii thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-khoi-tien-dong-the-ky-18_01",
+          "filename": "khoi-tien-dong-the-ky-18.jpg",
+          "drive_url": "https://drive.google.com/file/d/1tkvC_3YVPF9i-FXdd5TKZx7lNIiS2IdQ/view",
+          "caption": "Khối tiền đồng thế kỷ XVIII – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-khoi-tien-dong-the-ky-18_02",
+          "filename": "khoi-tien-dong-the-ky-18_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1_ihoJ9BeTG96JtemhUDPinJqHbVgiwxw/view",
+          "caption": "Khối tiền đồng thế kỷ XVIII – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-khoi-tien-dong-the-ky-18_03",
+          "filename": "khoi-tien-dong-the-ky-18_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1lW4VCzIft4cr3ld9GrRihVw0LELwQaD8/view",
+          "caption": "Khối tiền đồng thế kỷ XVIII – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-khong-gian-trung-bay-mau-than",
+      "name": "Không gian trưng bày Mậu Thân",
+      "slug": "bt-tphcm-khong-gian-trung-bay-mau-than",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Không gian trưng bày Mậu Thân",
+        "description": "Hiện vật không gian trưng bày mậu thân thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_01",
+          "filename": "khong-gian-trung-bay-mau-than_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1tMGbI5vsdfWMAREHvfvXRJDJScgeUj_N/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 1/9.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_02",
+          "filename": "khong-gian-trung-bay-mau-than_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1PWZig72PFPABmRi2JGH0Ynq6jJpw-Fqd/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 2/9.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_03",
+          "filename": "khong-gian-trung-bay-mau-than_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/19JbyUIfcd19Qs_emj9-Zq0qgVZQNrrah/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 3/9.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_04",
+          "filename": "khong-gian-trung-bay-mau-than_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dCYFDr8RBMF_kEdhdOcRsDe-Wf85N_7c/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 4/9.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_05",
+          "filename": "khong-gian-trung-bay-mau-than_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RDsawgN4USkxpRfSwfB3fC7yAIPicKH2/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 5/9.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_06",
+          "filename": "khong-gian-trung-bay-mau-than_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1c2RET_SMls72r6xR4e8FwxXQC_MlN6hY/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 6/9.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_07",
+          "filename": "khong-gian-trung-bay-mau-than_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1f6Scd_9DTA-F3CT_Cb6zc02ILxoGCD-Z/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 7/9.",
+          "year": null,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_08",
+          "filename": "khong-gian-trung-bay-mau-than_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1-nzonPTWYVDl_g2dEa9b9Z2TAcYytykL/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 8/9.",
+          "year": null,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-mau-than_09",
+          "filename": "khong-gian-trung-bay-mau-than_09.jpg",
+          "drive_url": "https://drive.google.com/file/d/1N5aeaGpu9BLsHVasvn2tm6hb-1mAFAM-/view",
+          "caption": "Không gian trưng bày Mậu Thân – ảnh 9/9.",
+          "year": null,
+          "view": "goc-nhin-09"
+        }
+      ]
+    }
+  ]
+}

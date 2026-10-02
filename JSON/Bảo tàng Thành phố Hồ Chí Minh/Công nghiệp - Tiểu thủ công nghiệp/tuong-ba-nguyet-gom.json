@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tuong-ba-nguyet-gom",
+      "name": "Tượng Bà Nguyệt bằng gốm",
+      "slug": "bt-tphcm-tuong-ba-nguyet-gom",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tượng Bà Nguyệt bằng gốm",
+        "description": "Hiện vật tượng bà nguyệt bằng gốm thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/245",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tuong-ba-nguyet-gom_01",
+          "filename": "tuong-ba-nguyet-gom.jpg",
+          "drive_url": "https://drive.google.com/file/d/1COyQFbjz-uEyWVcG8NLI3VfuX2Gt6OB1/view",
+          "caption": "Tượng Bà Nguyệt bằng gốm – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tuong-ba-nguyet-gom_02",
+          "filename": "tuong-ba-nguyet-gom_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Iz-cP6hU5LpiJ9Rc9AtZdhYTDXCMBYbA/view",
+          "caption": "Tượng Bà Nguyệt bằng gốm – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-tuong-ba-nguyet-gom_03",
+          "filename": "tuong-ba-nguyet-gom_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1d5QRKDLSKF_IrGXlAAMb34SpYssnj6OW/view",
+          "caption": "Tượng Bà Nguyệt bằng gốm – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

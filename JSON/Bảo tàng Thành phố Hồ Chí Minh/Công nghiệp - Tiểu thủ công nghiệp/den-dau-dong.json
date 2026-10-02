@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-den-dau-dong",
+      "name": "Đèn dầu đồng",
+      "slug": "bt-tphcm-den-dau-dong",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Đèn dầu đồng",
+        "description": "Hiện vật đèn dầu đồng thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/245",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-den-dau-dong_01",
+          "filename": "den-dau-dong.jpg",
+          "drive_url": "https://drive.google.com/file/d/1uWQPXUdhLvm-oN482Bem8wTTySibNcDI/view",
+          "caption": "Đèn dầu đồng – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-den-dau-dong_02",
+          "filename": "den-dau-dong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RxMMdFQz_FzZ_KvY6eJEpjLBQk06AbPn/view",
+          "caption": "Đèn dầu đồng – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-den-dau-dong_03",
+          "filename": "den-dau-dong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Nl55-RvcmyOY00-wqMTMRoIdg7jREk_A/view",
+          "caption": "Đèn dầu đồng – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

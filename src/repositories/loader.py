@@ -38,7 +38,12 @@ def _optional_float(value: Any) -> float | None:
     return float(value)
 
 
-def load_artifacts(json_root: Path, image_root: Path) -> dict[str, ArtifactRecord]:
+def load_artifacts(
+    json_root: Path,
+    image_root: Path,
+    *,
+    skip_missing_images: bool = False,
+) -> dict[str, ArtifactRecord]:
     """Load the canonical JSON dataset without changing or enriching its facts."""
 
     indexed_images = image_index(image_root)
@@ -100,6 +105,8 @@ def load_artifacts(json_root: Path, image_root: Path) -> dict[str, ArtifactRecor
                 seen_image_ids.add(image_id)
                 filename = str(raw_image.get("filename", "")).strip()
                 matches = indexed_images.get(filename.casefold(), [])
+                if not matches and skip_missing_images:
+                    continue
                 if len(matches) != 1:
                     raise RepositoryIntegrityError(
                         f"Expected exactly one local image for {filename!r}; found {len(matches)}"

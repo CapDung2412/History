@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-ao-vest-nguyen-van-troi",
+      "name": "Áo vest Nguyễn Văn Trỗi",
+      "slug": "bt-tphcm-ao-vest-nguyen-van-troi",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Áo vest Nguyễn Văn Trỗi",
+        "description": "Hiện vật áo vest nguyễn văn trỗi thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-ao-vest-nguyen-van-troi_01",
+          "filename": "ao-vest-nguyen-van-troi_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1y0cx3VG5tE2h_yk4Dmg3jO67fCgWzak2/view",
+          "caption": "Áo vest Nguyễn Văn Trỗi – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-ao-vest-nguyen-van-troi_02",
+          "filename": "ao-vest-nguyen-van-troi_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jVqbWDxcAfCtgO9xL-BUECMos50ZzieJ/view",
+          "caption": "Áo vest Nguyễn Văn Trỗi – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-ao-vest-nguyen-van-troi_03",
+          "filename": "ao-vest-nguyen-van-troi_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dFHGb9kGKt17f4t8r0gBt0KTlASZsXes/view",
+          "caption": "Áo vest Nguyễn Văn Trỗi – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

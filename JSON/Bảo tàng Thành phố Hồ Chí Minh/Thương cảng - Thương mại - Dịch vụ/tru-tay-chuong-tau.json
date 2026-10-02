@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tru-tay-chuong-tau",
+      "name": "Trụ tay chuông tàu",
+      "slug": "bt-tphcm-tru-tay-chuong-tau",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thuong-cang-thuong-mai-dich-vu",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Trụ tay chuông tàu",
+        "description": "Hiện vật trụ tay chuông tàu thuộc chủ đề “Thương cảng - Thương mại - Dịch vụ” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử thương cảng, thương mại và dịch vụ Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2085",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tru-tay-chuong-tau_01",
+          "filename": "tru-tay-chuong-tau.jpg",
+          "drive_url": "https://drive.google.com/file/d/1KHUWmfTHcg9E-T8mj6Z_b5nnhi7jkA50/view",
+          "caption": "Trụ tay chuông tàu – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tru-tay-chuong-tau_02",
+          "filename": "tru-tay-chuong-tau_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1TCKKEUimH42EebnGF15hutN7VWN3hPM2/view",
+          "caption": "Trụ tay chuông tàu – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-tru-tay-chuong-tau_03",
+          "filename": "tru-tay-chuong-tau_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/137Sa2dY-6dQ1Sw6KSllxG_efezkNjbY1/view",
+          "caption": "Trụ tay chuông tàu – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

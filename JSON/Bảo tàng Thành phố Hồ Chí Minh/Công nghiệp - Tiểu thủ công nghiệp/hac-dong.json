@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-hac-dong",
+      "name": "Hạc đồng",
+      "slug": "bt-tphcm-hac-dong",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Hạc đồng",
+        "description": "Hiện vật hạc đồng thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/245",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-hac-dong_01",
+          "filename": "hac-dong.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Xzj15i2bip_V3PaZhQYQjCGUdZ6IRXJ7/view",
+          "caption": "Hạc đồng – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-hac-dong_02",
+          "filename": "hac-dong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/19ix6vA3lNzLTDdL1_r26hAFVCL-5AoAI/view",
+          "caption": "Hạc đồng – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-hac-dong_03",
+          "filename": "hac-dong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1WvW8eaSRS5NwzsjPv2N858IIxQsd61RT/view",
+          "caption": "Hạc đồng – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-hac-dong_04",
+          "filename": "hac-dong_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1aipoOaMhjA5uDuX9x68QvYMtUjhUz6fz/view",
+          "caption": "Hạc đồng – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-kieu-bao-phap-chao-mung-hiep-dinh-paris",
+      "name": "Ảnh kiều bào Pháp chào mừng Hiệp định Paris",
+      "slug": "bt-tphcm-anh-kieu-bao-phap-chao-mung-hiep-dinh-paris",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh kiều bào Pháp chào mừng Hiệp định Paris",
+        "description": "Ảnh tư liệu ảnh kiều bào pháp chào mừng hiệp định paris thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-kieu-bao-phap-chao-mung-hiep-dinh-paris_01",
+          "filename": "anh-kieu-bao-phap-chao-mung-hiep-dinh-paris.jpg",
+          "drive_url": "https://drive.google.com/file/d/1_pQjNxbA1sfCPmLw5fs_so7JwyQIua9B/view",
+          "caption": "Ảnh kiều bào Pháp chào mừng Hiệp định Paris – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

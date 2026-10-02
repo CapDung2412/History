@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-khong-gian-trung-bay-1954-1975",
+      "name": "Không gian trưng bày 1954–1975",
+      "slug": "bt-tphcm-khong-gian-trung-bay-1954-1975",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Không gian trưng bày 1954–1975",
+        "description": "Hiện vật không gian trưng bày 1954–1975 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-1954-1975_01",
+          "filename": "khong-gian-trung-bay-1954-1975_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1epwwSG1XmEu3OrKADjBDZwBhlp4aWhVA/view",
+          "caption": "Không gian trưng bày 1954–1975 – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-1954-1975_02",
+          "filename": "khong-gian-trung-bay-1954-1975_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1uJKjitLlas__CyC0gxfEdX0G8Nn5OEwy/view",
+          "caption": "Không gian trưng bày 1954–1975 – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-khong-gian-trung-bay-1954-1975_03",
+          "filename": "khong-gian-trung-bay-1954-1975_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1s8hRmdyg_NZ05yOJu4RkKdvdT9GTk2qZ/view",
+          "caption": "Không gian trưng bày 1954–1975 – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

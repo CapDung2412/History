@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-khang-chien-nam-bo-1945",
+      "name": "Bảng thuyết minh: Kháng chiến Nam Bộ 1945",
+      "slug": "bt-tphcm-bang-khang-chien-nam-bo-1945",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Kháng chiến Nam Bộ 1945",
+        "description": "Ảnh chụp bảng thuyết minh: kháng chiến nam bộ 1945 trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": 1945,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1bPyyzMnD5U8bglsOf8JNXU2EsmWmDNsl/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-khang-chien-nam-bo-1945_01",
+          "filename": "bang-khang-chien-nam-bo-1945.jpg",
+          "drive_url": "https://drive.google.com/file/d/1bPyyzMnD5U8bglsOf8JNXU2EsmWmDNsl/view",
+          "caption": "Bảng thuyết minh: Kháng chiến Nam Bộ 1945 – ảnh 1/1.",
+          "year": 1945,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

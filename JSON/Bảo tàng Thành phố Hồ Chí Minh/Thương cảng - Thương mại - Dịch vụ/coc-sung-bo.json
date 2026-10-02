@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-coc-sung-bo",
+      "name": "Cọc sừng bò",
+      "slug": "bt-tphcm-coc-sung-bo",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thuong-cang-thuong-mai-dich-vu",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Cọc sừng bò",
+        "description": "Hiện vật cọc sừng bò thuộc chủ đề “Thương cảng - Thương mại - Dịch vụ” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử thương cảng, thương mại và dịch vụ Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2085",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-coc-sung-bo_01",
+          "filename": "coc-sung-bo.jpg",
+          "drive_url": "https://drive.google.com/file/d/19gpBbWWXkbfm0MKhqQqMWYoOhdSIkt8O/view",
+          "caption": "Cọc sừng bò – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

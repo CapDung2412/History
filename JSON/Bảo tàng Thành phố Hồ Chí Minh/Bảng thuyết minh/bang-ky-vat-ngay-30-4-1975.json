@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-ky-vat-ngay-30-4-1975",
+      "name": "Bảng thuyết minh: Kỷ vật ngày 30/4/1975",
+      "slug": "bt-tphcm-bang-ky-vat-ngay-30-4-1975",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Kỷ vật ngày 30/4/1975",
+        "description": "Ảnh chụp bảng thuyết minh: kỷ vật ngày 30/4/1975 trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": 1975,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1ONLre_1ii1DwmodVyVXPnJn1MrCNlz4v/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-ky-vat-ngay-30-4-1975_01",
+          "filename": "bang-ky-vat-ngay-30-4-1975.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ONLre_1ii1DwmodVyVXPnJn1MrCNlz4v/view",
+          "caption": "Bảng thuyết minh: Kỷ vật ngày 30/4/1975 – ảnh 1/1.",
+          "year": 1975,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-nghi-quyet-dat-ten-thanh-pho-1976",
+      "name": "Nghị quyết đặt tên thành phố năm 1976",
+      "slug": "bt-tphcm-nghi-quyet-dat-ten-thanh-pho-1976",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Nghị quyết đặt tên thành phố năm 1976",
+        "description": "Tư liệu nghị quyết đặt tên thành phố năm 1976 thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": 1976,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/trung-bay-thuong-xuyen-1/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-nghi-quyet-dat-ten-thanh-pho-1976_01",
+          "filename": "nghi-quyet-dat-ten-thanh-pho-1976_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ORQ3-QAufWJ3GVhF8lfitFE9tq7OM0yN/view",
+          "caption": "Nghị quyết đặt tên thành phố năm 1976 – ảnh 1/3.",
+          "year": 1976,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-nghi-quyet-dat-ten-thanh-pho-1976_02",
+          "filename": "nghi-quyet-dat-ten-thanh-pho-1976_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jqO_L4zl-NAyzLDT1gtRVIL4aJ5kShwC/view",
+          "caption": "Nghị quyết đặt tên thành phố năm 1976 – ảnh 2/3.",
+          "year": 1976,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-nghi-quyet-dat-ten-thanh-pho-1976_03",
+          "filename": "nghi-quyet-dat-ten-thanh-pho-1976_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BUomV8Ja-qBAw329oyYqZ462zlYyncPH/view",
+          "caption": "Nghị quyết đặt tên thành phố năm 1976 – ảnh 3/3.",
+          "year": 1976,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

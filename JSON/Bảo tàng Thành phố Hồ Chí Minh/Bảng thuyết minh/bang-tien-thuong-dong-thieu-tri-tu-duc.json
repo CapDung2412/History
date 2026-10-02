@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-tien-thuong-dong-thieu-tri-tu-duc",
+      "name": "Bảng thuyết minh: Tiền thưởng đồng thời Thiệu Trị – Tự Đức",
+      "slug": "bt-tphcm-bang-tien-thuong-dong-thieu-tri-tu-duc",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Tiền thưởng đồng thời Thiệu Trị – Tự Đức",
+        "description": "Ảnh chụp bảng thuyết minh: tiền thưởng đồng thời thiệu trị – tự đức trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1a1b2WuPORG3CiJK0K8JM9yk355jmvS-1/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-tien-thuong-dong-thieu-tri-tu-duc_01",
+          "filename": "bang-tien-thuong-dong-thieu-tri-tu-duc.jpg",
+          "drive_url": "https://drive.google.com/file/d/1a1b2WuPORG3CiJK0K8JM9yk355jmvS-1/view",
+          "caption": "Bảng thuyết minh: Tiền thưởng đồng thời Thiệu Trị – Tự Đức – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bang-tien-thuong-dong-thieu-tri-tu-duc_02",
+          "filename": "bang-tien-thuong-dong-thieu-tri-tu-duc_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1guaNPupYIOJrGIODnclZWeCA9Z0r56g8/view",
+          "caption": "Bảng thuyết minh: Tiền thưởng đồng thời Thiệu Trị – Tự Đức – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

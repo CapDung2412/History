@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-dung-cu-y-te-khang-chien",
+      "name": "Dụng cụ y tế kháng chiến",
+      "slug": "bt-tphcm-dung-cu-y-te-khang-chien",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Dụng cụ y tế kháng chiến",
+        "description": "Hiện vật dụng cụ y tế kháng chiến thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-dung-cu-y-te-khang-chien_01",
+          "filename": "dung-cu-y-te-khang-chien.jpg",
+          "drive_url": "https://drive.google.com/file/d/1r02Iqk8YKUpehKAi5mLgRV-sp3U1KmuF/view",
+          "caption": "Dụng cụ y tế kháng chiến – ảnh 1/6.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-y-te-khang-chien_02",
+          "filename": "dung-cu-y-te-khang-chien_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Q3S04zXCrdrDL6NUNc9ZJ4rsr1KDGeDB/view",
+          "caption": "Dụng cụ y tế kháng chiến – ảnh 2/6.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-y-te-khang-chien_03",
+          "filename": "dung-cu-y-te-khang-chien_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1j5i_XhLWpKoHRVndla1juec5dpzFvd4S/view",
+          "caption": "Dụng cụ y tế kháng chiến – ảnh 3/6.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-y-te-khang-chien_04",
+          "filename": "dung-cu-y-te-khang-chien_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BF2fJ9h6TlW1QNNuLLaq0qbJ4J29QoYp/view",
+          "caption": "Dụng cụ y tế kháng chiến – ảnh 4/6.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-y-te-khang-chien_05",
+          "filename": "dung-cu-y-te-khang-chien_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1LSwaztt7gqwMIzup6u0XLCa5bJfVkLKo/view",
+          "caption": "Dụng cụ y tế kháng chiến – ảnh 5/6.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-dung-cu-y-te-khang-chien_06",
+          "filename": "dung-cu-y-te-khang-chien_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/11CUpvfcfp-aAlJdydnnGbYn5AVCP-T12/view",
+          "caption": "Dụng cụ y tế kháng chiến – ảnh 6/6.",
+          "year": null,
+          "view": "goc-nhin-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-khuyen-tai-hai-dau-thu",
+      "name": "Khuyên tai hai đầu thú",
+      "slug": "bt-tphcm-khuyen-tai-hai-dau-thu",
+      "category": "archaeological_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thien-nhien-khao-co",
+        "archaeological_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Khuyên tai hai đầu thú",
+        "description": "Hiện vật khuyên tai hai đầu thú thuộc chủ đề “Thiên nhiên - Khảo cổ” tại Bảo tàng Thành phố Hồ Chí Minh. Phòng trưng bày giới thiệu di tích, công cụ và đồ trang sức khảo cổ của vùng đất Sài Gòn – Thành phố Hồ Chí Minh.",
+        "historical_period": "Thời tiền sử và khảo cổ vùng Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2082",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-khuyen-tai-hai-dau-thu_01",
+          "filename": "khuyen-tai-hai-dau-thu.jpg",
+          "drive_url": "https://drive.google.com/file/d/1d8rFmteQBuRRVu-rG8WKp2fO19anDxuW/view",
+          "caption": "Khuyên tai hai đầu thú – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

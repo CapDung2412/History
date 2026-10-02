@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-bac-vien-phat-hanh-ba-nuoc",
+      "name": "Giấy bạc Viện Phát hành ba nước Đông Dương",
+      "slug": "bt-tphcm-giay-bac-vien-phat-hanh-ba-nuoc",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy bạc Viện Phát hành ba nước Đông Dương",
+        "description": "Hiện vật giấy bạc viện phát hành ba nước đông dương thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-bac-vien-phat-hanh-ba-nuoc_01",
+          "filename": "giay-bac-vien-phat-hanh-ba-nuoc.jpg",
+          "drive_url": "https://drive.google.com/file/d/17eqZV9wpYC1PaCDsIGybQXd7Camn1h7E/view",
+          "caption": "Giấy bạc Viện Phát hành ba nước Đông Dương – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-vien-phat-hanh-ba-nuoc_02",
+          "filename": "giay-bac-vien-phat-hanh-ba-nuoc_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1e2chH-hrIuivZrrGl5Ft54z9TVjf-OHv/view",
+          "caption": "Giấy bạc Viện Phát hành ba nước Đông Dương – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-vien-phat-hanh-ba-nuoc_03",
+          "filename": "giay-bac-vien-phat-hanh-ba-nuoc_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dbrtoqmgoRy4A6-DwNSQlDN9nsUsaxNo/view",
+          "caption": "Giấy bạc Viện Phát hành ba nước Đông Dương – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-kim-va-dao-cat-da",
+      "name": "Kim và dao cắt da",
+      "slug": "bt-tphcm-kim-va-dao-cat-da",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Kim và dao cắt da",
+        "description": "Hiện vật kim và dao cắt da thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-kim-va-dao-cat-da_01",
+          "filename": "kim-va-dao-cat-da_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1VW8TNciw7oAAyHmHQMCDUBCwhKQSuMI5/view",
+          "caption": "Kim và dao cắt da – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-kim-va-dao-cat-da_02",
+          "filename": "kim-va-dao-cat-da_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1UPbZEuRPoh7zJYEN9kcedrx4Gj3T0cpo/view",
+          "caption": "Kim và dao cắt da – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-kim-va-dao-cat-da_03",
+          "filename": "kim-va-dao-cat-da_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1kGOAPMw-W2ir6reMG-xFtgSWHSz8-8X2/view",
+          "caption": "Kim và dao cắt da – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-kim-va-dao-cat-da_04",
+          "filename": "kim-va-dao-cat-da_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1HDXP3dL8V1OxGEia9lEJXgiuqwWl7yGj/view",
+          "caption": "Kim và dao cắt da – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

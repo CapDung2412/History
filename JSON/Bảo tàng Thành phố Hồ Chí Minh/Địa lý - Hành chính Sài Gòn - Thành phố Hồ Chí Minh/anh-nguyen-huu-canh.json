@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-nguyen-huu-canh",
+      "name": "Ảnh Nguyễn Hữu Cảnh",
+      "slug": "bt-tphcm-anh-nguyen-huu-canh",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh Nguyễn Hữu Cảnh",
+        "description": "Ảnh tư liệu ảnh nguyễn hữu cảnh thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/trung-bay-thuong-xuyen-1/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-nguyen-huu-canh_01",
+          "filename": "anh-nguyen-huu-canh_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1y9pswjVgDXFN7xyDwZ6vyvlXrM8z8FPQ/view",
+          "caption": "Ảnh Nguyễn Hữu Cảnh – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-anh-nguyen-huu-canh_02",
+          "filename": "anh-nguyen-huu-canh_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1pK-ZY5nSREfQSWYgQpT2e25YoE41W2EL/view",
+          "caption": "Ảnh Nguyễn Hữu Cảnh – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

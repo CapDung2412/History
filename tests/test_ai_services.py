@@ -642,16 +642,22 @@ def test_grounding_repair_reconciles_unknown_model_references() -> None:
     validate_generated_content(repaired, catalog)
 
 
-def test_grounding_repair_does_not_hide_an_unsupported_year() -> None:
+def test_grounding_repair_replaces_an_unsupported_year_and_keeps_gate_strict() -> None:
     artifact = _artifact(source="Hồ sơ lưu trữ đã xác minh", source_status="verified")
     catalog = build_evidence_catalog(artifact)
     content = build_fallback_content(artifact, catalog).model_copy(deep=True)
     content.storytelling.one_minute.text += " Năm 1999 không có trong nguồn."
+    content.narration.full_text = content.storytelling.one_minute.text
+
+    with pytest.raises(EvidenceValidationError, match="unsupported year"):
+        validate_generated_content(content, catalog)
 
     repaired = repair_generated_grounding(content, catalog)
 
-    with pytest.raises(EvidenceValidationError, match="unsupported year"):
-        validate_generated_content(repaired, catalog)
+    assert "1999" not in repaired.storytelling.one_minute.text
+    assert "mốc thời gian chưa được nguồn xác nhận" in repaired.storytelling.one_minute.text
+    assert repaired.narration.full_text == repaired.storytelling.one_minute.text
+    validate_generated_content(repaired, catalog)
 
 
 def test_evidence_gate_accepts_allowed_url_with_markdown_delimiters() -> None:
@@ -670,6 +676,25 @@ def test_evidence_gate_accepts_allowed_url_with_markdown_delimiters() -> None:
     content.storytelling.one_minute.text += (
         " (https://example.org/heritage-source)."
     )
+    content.narration.full_text = content.storytelling.one_minute.text
+
+    validate_generated_content(content, catalog)
+
+
+def test_evidence_gate_accepts_year_from_verified_web_source_title() -> None:
+    artifact = _artifact(source=None, source_status="missing")
+    catalog = build_evidence_catalog(artifact)
+    content = build_fallback_content(artifact, catalog).model_copy(deep=True)
+    content.web_evidence = [
+        WebEvidence(
+            ref="web.1",
+            title="Ấn Lương Tài Hầu, niên đại 1836",
+            url="https://example.org/an-luong-tai-hau",
+            evidence_text="Bảo tàng giới thiệu hiện vật Ấn Lương Tài Hầu.",
+        )
+    ]
+    content.factual_claims[0].evidence_refs.append("web.1")
+    content.storytelling.one_minute.text += " Nguồn tư liệu ghi niên đại 1836."
     content.narration.full_text = content.storytelling.one_minute.text
 
     validate_generated_content(content, catalog)

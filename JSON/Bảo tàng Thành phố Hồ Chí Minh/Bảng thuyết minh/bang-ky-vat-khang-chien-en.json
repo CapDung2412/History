@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-ky-vat-khang-chien-en",
+      "name": "Bảng thuyết minh: Kỷ vật kháng chiến (tiếng Anh)",
+      "slug": "bt-tphcm-bang-ky-vat-khang-chien-en",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Kỷ vật kháng chiến (tiếng Anh)",
+        "description": "Ảnh chụp bảng thuyết minh: kỷ vật kháng chiến (tiếng anh) trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1N2ygZWky8v8MW0PEsNklivosAKVDpxrt/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-ky-vat-khang-chien-en_01",
+          "filename": "bang-ky-vat-khang-chien-en.jpg",
+          "drive_url": "https://drive.google.com/file/d/1N2ygZWky8v8MW0PEsNklivosAKVDpxrt/view",
+          "caption": "Bảng thuyết minh: Kỷ vật kháng chiến (tiếng Anh) – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

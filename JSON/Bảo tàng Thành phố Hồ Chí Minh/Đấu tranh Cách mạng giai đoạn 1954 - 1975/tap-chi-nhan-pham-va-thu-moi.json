@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tap-chi-nhan-pham-va-thu-moi",
+      "name": "Tạp chí Nhân Phẩm và thư mời",
+      "slug": "bt-tphcm-tap-chi-nhan-pham-va-thu-moi",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tạp chí Nhân Phẩm và thư mời",
+        "description": "Hiện vật tạp chí nhân phẩm và thư mời thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tap-chi-nhan-pham-va-thu-moi_01",
+          "filename": "tap-chi-nhan-pham-va-thu-moi_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/12sxnhr1dNuBqsp_KbcpsCRMWmoEe8uUl/view",
+          "caption": "Tạp chí Nhân Phẩm và thư mời – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tap-chi-nhan-pham-va-thu-moi_02",
+          "filename": "tap-chi-nhan-pham-va-thu-moi_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1JbLgjUcW-RuyWoAIDpMmDUITCW0RCbql/view",
+          "caption": "Tạp chí Nhân Phẩm và thư mời – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-tap-chi-nhan-pham-va-thu-moi_03",
+          "filename": "tap-chi-nhan-pham-va-thu-moi_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1JBPqyEwP2hFMTEzkDwfJPilIX78ObXDF/view",
+          "caption": "Tạp chí Nhân Phẩm và thư mời – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

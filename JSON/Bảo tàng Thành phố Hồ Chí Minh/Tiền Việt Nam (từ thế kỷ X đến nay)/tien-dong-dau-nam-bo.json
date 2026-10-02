@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-tien-dong-dau-nam-bo",
+      "name": "Tiền đồng Nam Bộ",
+      "slug": "bt-tphcm-tien-dong-dau-nam-bo",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Tiền đồng Nam Bộ",
+        "description": "Hiện vật tiền đồng nam bộ thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-tien-dong-dau-nam-bo_01",
+          "filename": "tien-dong-dau-nam-bo.jpg",
+          "drive_url": "https://drive.google.com/file/d/19qKLZ--5dXOmyOF75rJ9yANRatVU_aA-/view",
+          "caption": "Tiền đồng Nam Bộ – ảnh 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-tien-dong-dau-nam-bo_02",
+          "filename": "tien-dong-dau-nam-bo_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1eSGA24dxpGYMEHtT8zY3PlSUr4tn-RsR/view",
+          "caption": "Tiền đồng Nam Bộ – ảnh 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-tien-dong-dau-nam-bo_03",
+          "filename": "tien-dong-dau-nam-bo_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Hd7rnKd9ApTLkbl_X50jz8xDRtTeCfr6/view",
+          "caption": "Tiền đồng Nam Bộ – ảnh 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-tien-dong-dau-nam-bo_04",
+          "filename": "tien-dong-dau-nam-bo_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1P1i-BRPs7UyJIHR2AakY3x4U7tkucY1m/view",
+          "caption": "Tiền đồng Nam Bộ – ảnh 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-tien-dong-dau-nam-bo_05",
+          "filename": "tien-dong-dau-nam-bo_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1IprUzl6_niiCK8AzueN51fMeDH1FG1Oj/view",
+          "caption": "Tiền đồng Nam Bộ – ảnh 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}

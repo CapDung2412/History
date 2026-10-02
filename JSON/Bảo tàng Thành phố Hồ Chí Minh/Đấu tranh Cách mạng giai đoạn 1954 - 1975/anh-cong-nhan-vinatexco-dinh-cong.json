@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-cong-nhan-vinatexco-dinh-cong",
+      "name": "Ảnh công nhân Vinatexco đình công",
+      "slug": "bt-tphcm-anh-cong-nhan-vinatexco-dinh-cong",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh công nhân Vinatexco đình công",
+        "description": "Ảnh tư liệu ảnh công nhân vinatexco đình công thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-cong-nhan-vinatexco-dinh-cong_01",
+          "filename": "anh-cong-nhan-vinatexco-dinh-cong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1uMolianbUSFRwoZPaNuESupQJ2HBJCtK/view",
+          "caption": "Ảnh công nhân Vinatexco đình công – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-anh-cong-nhan-vinatexco-dinh-cong_02",
+          "filename": "anh-cong-nhan-vinatexco-dinh-cong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1cjFqQF1D5N3-ckbzk3p2uVwpcURnE-AI/view",
+          "caption": "Ảnh công nhân Vinatexco đình công – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

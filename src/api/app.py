@@ -96,6 +96,10 @@ class RepositoryProvider:
                     supabase_url=os.getenv("SUPABASE_URL") or None,
                     service_role_key=os.getenv("SUPABASE_SERVICE_ROLE_KEY") or None,
                     analytics_path=analytics_path,
+                    # Pinecone indexing skips declared images that are not present
+                    # locally; mirror that behavior while keeping the standalone
+                    # validator and repository loader strict by default.
+                    skip_missing_images=True,
                 )
             except Exception as exc:
                 raise RepositoryUnavailableError("Content repository is unavailable") from exc

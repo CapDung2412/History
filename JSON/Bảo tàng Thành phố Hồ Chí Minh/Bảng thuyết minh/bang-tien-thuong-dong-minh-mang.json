@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-tien-thuong-dong-minh-mang",
+      "name": "Bảng thuyết minh: Tiền thưởng đồng thời Minh Mạng",
+      "slug": "bt-tphcm-bang-tien-thuong-dong-minh-mang",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Tiền thưởng đồng thời Minh Mạng",
+        "description": "Ảnh chụp bảng thuyết minh: tiền thưởng đồng thời minh mạng trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1LjO-KwM91FrlvUOJ_cO-4o39YkNtoJLn/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-tien-thuong-dong-minh-mang_01",
+          "filename": "bang-tien-thuong-dong-minh-mang.jpg",
+          "drive_url": "https://drive.google.com/file/d/1LjO-KwM91FrlvUOJ_cO-4o39YkNtoJLn/view",
+          "caption": "Bảng thuyết minh: Tiền thưởng đồng thời Minh Mạng – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bang-tien-thuong-dong-minh-mang_02",
+          "filename": "bang-tien-thuong-dong-minh-mang_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1TSV_eG1vWsBGwFeAEKg31CfJZvsBPa1d/view",
+          "caption": "Bảng thuyết minh: Tiền thưởng đồng thời Minh Mạng – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-bang-tien-thuong-dong-minh-mang_03",
+          "filename": "bang-tien-thuong-dong-minh-mang_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ByeztJRKThX4AZPnBzajb4MAy1cJ5IaL/view",
+          "caption": "Bảng thuyết minh: Tiền thưởng đồng thời Minh Mạng – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

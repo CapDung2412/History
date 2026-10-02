@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-bac-viet-nam-dan-chu",
+      "name": "Giấy bạc Việt Nam Dân chủ",
+      "slug": "bt-tphcm-giay-bac-viet-nam-dan-chu",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy bạc Việt Nam Dân chủ",
+        "description": "Hiện vật giấy bạc việt nam dân chủ thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-bac-viet-nam-dan-chu_01",
+          "filename": "giay-bac-viet-nam-dan-chu.jpg",
+          "drive_url": "https://drive.google.com/file/d/12Pbt4k3G8uObaePqqbC1v1aYtnB1Dufp/view",
+          "caption": "Giấy bạc Việt Nam Dân chủ – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-giay-bac-viet-nam-dan-chu_02",
+          "filename": "giay-bac-viet-nam-dan-chu_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1W-ZFu2hXMg3NEytTDzcY_wA18ImvjBIx/view",
+          "caption": "Giấy bạc Việt Nam Dân chủ – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-an-ta-quan-chi-an",
+      "name": "Ấn Tả quân Chi ấn",
+      "slug": "bt-tphcm-an-ta-quan-chi-an",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ấn Tả quân Chi ấn",
+        "description": "Hiện vật ấn tả quân chi ấn thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/trung-bay-thuong-xuyen-1/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-an-ta-quan-chi-an_01",
+          "filename": "an-ta-quan-chi-an_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/14p0gWkWKfaj7HQ65YnE-Z4bexkMhD0fN/view",
+          "caption": "Ấn Tả quân Chi ấn – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-an-ta-quan-chi-an_02",
+          "filename": "an-ta-quan-chi-an_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/13G0-vMPKdfvRYcE-shw3EDkqLUn79zH7/view",
+          "caption": "Ấn Tả quân Chi ấn – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-an-ta-quan-chi-an_03",
+          "filename": "an-ta-quan-chi-an_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1fAjy5ANkKHJl3Wa0QWbSWIzBBFqZ-tbw/view",
+          "caption": "Ấn Tả quân Chi ấn – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

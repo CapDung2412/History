@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-vat-dung-nguy-trang-mau-than",
+      "name": "Vật dụng ngụy trang Mậu Thân",
+      "slug": "bt-tphcm-vat-dung-nguy-trang-mau-than",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1954-1975",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Vật dụng ngụy trang Mậu Thân",
+        "description": "Hiện vật vật dụng ngụy trang mậu thân thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1954 - 1975” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1954–1975",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4103",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-vat-dung-nguy-trang-mau-than_01",
+          "filename": "vat-dung-nguy-trang-mau-than_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jBqFjrJ_t4arnFSboBIiSsicsY9c0bg0/view",
+          "caption": "Vật dụng ngụy trang Mậu Thân – ảnh 1/6.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-vat-dung-nguy-trang-mau-than_02",
+          "filename": "vat-dung-nguy-trang-mau-than_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1k9ynJqYkiCp3OJuTKpc_sW5xkJTcBeRb/view",
+          "caption": "Vật dụng ngụy trang Mậu Thân – ảnh 2/6.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-vat-dung-nguy-trang-mau-than_03",
+          "filename": "vat-dung-nguy-trang-mau-than_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1j1YWISxUlu2SiSgSIvmLVLZBQONnjnxF/view",
+          "caption": "Vật dụng ngụy trang Mậu Thân – ảnh 3/6.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-vat-dung-nguy-trang-mau-than_04",
+          "filename": "vat-dung-nguy-trang-mau-than_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1djckeUZLXQSssf8a7uoFiSeCBSMUlRyk/view",
+          "caption": "Vật dụng ngụy trang Mậu Thân – ảnh 4/6.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-vat-dung-nguy-trang-mau-than_05",
+          "filename": "vat-dung-nguy-trang-mau-than_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1_NAEuxk7kE2Mw4QxbweOqiQmb9TU3iri/view",
+          "caption": "Vật dụng ngụy trang Mậu Thân – ảnh 5/6.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-vat-dung-nguy-trang-mau-than_06",
+          "filename": "vat-dung-nguy-trang-mau-than_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1VnlFsU9xfLnBnbn65LqCbxNcTIODuR41/view",
+          "caption": "Vật dụng ngụy trang Mậu Thân – ảnh 6/6.",
+          "year": null,
+          "view": "goc-nhin-06"
+        }
+      ]
+    }
+  ]
+}

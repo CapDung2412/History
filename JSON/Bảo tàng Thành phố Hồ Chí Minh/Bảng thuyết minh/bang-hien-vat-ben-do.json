@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-hien-vat-ben-do",
+      "name": "Bảng thuyết minh: Hiện vật Bến Đò",
+      "slug": "bt-tphcm-bang-hien-vat-ben-do",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Hiện vật Bến Đò",
+        "description": "Ảnh chụp bảng thuyết minh: hiện vật bến đò trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1OqObKHZ4GSZhwH9cF7g6BQV3EusyFf6Z/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-hien-vat-ben-do_01",
+          "filename": "bang-hien-vat-ben-do.jpg",
+          "drive_url": "https://drive.google.com/file/d/1OqObKHZ4GSZhwH9cF7g6BQV3EusyFf6Z/view",
+          "caption": "Bảng thuyết minh: Hiện vật Bến Đò – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

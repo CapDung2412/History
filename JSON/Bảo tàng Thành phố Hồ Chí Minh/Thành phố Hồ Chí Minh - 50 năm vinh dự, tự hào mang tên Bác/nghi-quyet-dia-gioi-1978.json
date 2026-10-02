@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-nghi-quyet-dia-gioi-1978",
+      "name": "Nghị quyết địa giới 1978",
+      "slug": "bt-tphcm-nghi-quyet-dia-gioi-1978",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thanh-pho-50-nam",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Nghị quyết địa giới 1978",
+        "description": "Tư liệu nghị quyết địa giới 1978 thuộc chủ đề “Thành phố Hồ Chí Minh - 50 năm vinh dự, tự hào mang tên Bác” tại Bảo tàng Thành phố Hồ Chí Minh. Không gian chuyên đề ghi lại hành trình phát triển của Thành phố Hồ Chí Minh sau khi mang tên Bác.",
+        "historical_period": "Thành phố Hồ Chí Minh từ năm 1976",
+        "year": 1978,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-nghi-quyet-dia-gioi-1978_01",
+          "filename": "nghi-quyet-dia-gioi-1978_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1VIp_we-Jp-SqQEv3wtBQg1Uy2dvOHIZ_/view",
+          "caption": "Nghị quyết địa giới 1978 – ảnh 1/3.",
+          "year": 1978,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-nghi-quyet-dia-gioi-1978_02",
+          "filename": "nghi-quyet-dia-gioi-1978_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1uiYhTcEzMcmWGLUNAEG5mdLhgypd-O89/view",
+          "caption": "Nghị quyết địa giới 1978 – ảnh 2/3.",
+          "year": 1978,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-nghi-quyet-dia-gioi-1978_03",
+          "filename": "nghi-quyet-dia-gioi-1978_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1UQwqMv9dqVRAzvzpJmfinvlGO0yvQmq6/view",
+          "caption": "Nghị quyết địa giới 1978 – ảnh 3/3.",
+          "year": 1978,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

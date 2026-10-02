@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-thuoc-do-goc",
+      "name": "Thước đo góc",
+      "slug": "bt-tphcm-thuoc-do-goc",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Thước đo góc",
+        "description": "Hiện vật thước đo góc thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/245",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-thuoc-do-goc_01",
+          "filename": "thuoc-do-goc.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Xl9H5c1-Q3DDDKILXpxH7SZPYHq9Zqz6/view",
+          "caption": "Thước đo góc – ảnh 1/6.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-thuoc-do-goc_02",
+          "filename": "thuoc-do-goc_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1GoRCXTZftMFnGshoZa4tUTB84hnq9MuR/view",
+          "caption": "Thước đo góc – ảnh 2/6.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-thuoc-do-goc_03",
+          "filename": "thuoc-do-goc_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Kxjgb4oU7b9Rzt3NUyBaJhBOXXhyKJqp/view",
+          "caption": "Thước đo góc – ảnh 3/6.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-thuoc-do-goc_04",
+          "filename": "thuoc-do-goc_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ddNNSUc1h5VN3_G2bs9JROGwcqm-ZToo/view",
+          "caption": "Thước đo góc – ảnh 4/6.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-thuoc-do-goc_05",
+          "filename": "thuoc-do-goc_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1hJbY7UFPzO_u3WSd9vprOeklPm-BZNG_/view",
+          "caption": "Thước đo góc – ảnh 5/6.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-thuoc-do-goc_06",
+          "filename": "thuoc-do-goc_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1p5s57_J745H_cYvq-u9y5qhhTD4Z4z3y/view",
+          "caption": "Thước đo góc – ảnh 6/6.",
+          "year": null,
+          "view": "goc-nhin-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-an-kham-su-dai-than-quan-phong",
+      "name": "Ấn Khâm sứ Đại thần Quan phòng",
+      "slug": "bt-tphcm-an-kham-su-dai-than-quan-phong",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ấn Khâm sứ Đại thần Quan phòng",
+        "description": "Hiện vật ấn khâm sứ đại thần quan phòng thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/trung-bay-thuong-xuyen-1/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-an-kham-su-dai-than-quan-phong_01",
+          "filename": "an-kham-su-dai-than-quan-phong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1pJ4NNHM4nNgFvO316CNK-dKRuLpyy2J9/view",
+          "caption": "Ấn Khâm sứ Đại thần Quan phòng – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-an-kham-su-dai-than-quan-phong_02",
+          "filename": "an-kham-su-dai-than-quan-phong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1e-wV9ZThrHc8KGC_oZiicV-ib7kgwd7V/view",
+          "caption": "Ấn Khâm sứ Đại thần Quan phòng – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-an-kham-su-dai-than-quan-phong_03",
+          "filename": "an-kham-su-dai-than-quan-phong_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/19WaAZcUfdCXZY6adVI1l-uvy9lS6FhKZ/view",
+          "caption": "Ấn Khâm sứ Đại thần Quan phòng – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

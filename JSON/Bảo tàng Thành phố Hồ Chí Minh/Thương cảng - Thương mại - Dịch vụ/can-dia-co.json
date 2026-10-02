@@ -1,0 +1,156 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-can-dia-co",
+      "name": "Cân đĩa cổ",
+      "slug": "bt-tphcm-can-dia-co",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thuong-cang-thuong-mai-dich-vu",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Cân đĩa cổ",
+        "description": "Hiện vật cân đĩa cổ thuộc chủ đề “Thương cảng - Thương mại - Dịch vụ” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử thương cảng, thương mại và dịch vụ Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2085",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-can-dia-co_01",
+          "filename": "can-dia-co_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/173p98JaUXBKuvbZEmxWJbbcToeRrg9pz/view",
+          "caption": "Cân đĩa cổ – ảnh 1/15.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_02",
+          "filename": "can-dia-co_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ag8EbL3kvX27s94kPUUTlREzgsHlD_C9/view",
+          "caption": "Cân đĩa cổ – ảnh 2/15.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_03",
+          "filename": "can-dia-co_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1qTvNoWkk06QUijwoNbWsvQRdsHDrR3Uo/view",
+          "caption": "Cân đĩa cổ – ảnh 3/15.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_04",
+          "filename": "can-dia-co_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1MVoeRGcz031SVWaSGuGrq_i25VlN0GDE/view",
+          "caption": "Cân đĩa cổ – ảnh 4/15.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_05",
+          "filename": "can-dia-co_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1YXmVFJHb1yu6DJxKVOc0bQDqy9uPHx7J/view",
+          "caption": "Cân đĩa cổ – ảnh 5/15.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_06",
+          "filename": "can-dia-co_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1pSx7EZDsUUwsYAUMNgvnYsE9Gip7oS1i/view",
+          "caption": "Cân đĩa cổ – ảnh 6/15.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_07",
+          "filename": "can-dia-co_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1CvzVFVnfem29K0zgpfscI1RkX2H-L_Pb/view",
+          "caption": "Cân đĩa cổ – ảnh 7/15.",
+          "year": null,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_08",
+          "filename": "can-dia-co_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1b0oSNB9LTzlkSS9XVqkIujCE2tqLrkr-/view",
+          "caption": "Cân đĩa cổ – ảnh 8/15.",
+          "year": null,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_09",
+          "filename": "can-dia-co_09.jpg",
+          "drive_url": "https://drive.google.com/file/d/1lpuX2T6yFz92OhvHdx7ZjxEzlFVs66w6/view",
+          "caption": "Cân đĩa cổ – ảnh 9/15.",
+          "year": null,
+          "view": "goc-nhin-09"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_10",
+          "filename": "can-dia-co_10.jpg",
+          "drive_url": "https://drive.google.com/file/d/1qar_i08HmsVyHrhu4DrMBB_NtnbZ5GG7/view",
+          "caption": "Cân đĩa cổ – ảnh 10/15.",
+          "year": null,
+          "view": "goc-nhin-10"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_11",
+          "filename": "can-dia-co_11.jpg",
+          "drive_url": "https://drive.google.com/file/d/13bk2id3qrkcnasQK_kw6aohc0onixiQR/view",
+          "caption": "Cân đĩa cổ – ảnh 11/15.",
+          "year": null,
+          "view": "goc-nhin-11"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_12",
+          "filename": "can-dia-co_12.jpg",
+          "drive_url": "https://drive.google.com/file/d/1JbTKPSdxz9PjRtZZx3GuZzSsrv7yvzls/view",
+          "caption": "Cân đĩa cổ – ảnh 12/15.",
+          "year": null,
+          "view": "goc-nhin-12"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_13",
+          "filename": "can-dia-co_13.jpg",
+          "drive_url": "https://drive.google.com/file/d/16lLfx47MBLQ4t5uaOYs212zCRal8QKmK/view",
+          "caption": "Cân đĩa cổ – ảnh 13/15.",
+          "year": null,
+          "view": "goc-nhin-13"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_14",
+          "filename": "can-dia-co_14.jpg",
+          "drive_url": "https://drive.google.com/file/d/1CH5l2UOr56JmCgmi8h-jXUPCEuUUWf8l/view",
+          "caption": "Cân đĩa cổ – ảnh 14/15.",
+          "year": null,
+          "view": "goc-nhin-14"
+        },
+        {
+          "id": "bt-tphcm-can-dia-co_15",
+          "filename": "can-dia-co_15.jpg",
+          "drive_url": "https://drive.google.com/file/d/1sBAZpzYxn_TkxAkImyXfHIvUjOFuE72P/view",
+          "caption": "Cân đĩa cổ – ảnh 15/15.",
+          "year": null,
+          "view": "goc-nhin-15"
+        }
+      ]
+    }
+  ]
+}

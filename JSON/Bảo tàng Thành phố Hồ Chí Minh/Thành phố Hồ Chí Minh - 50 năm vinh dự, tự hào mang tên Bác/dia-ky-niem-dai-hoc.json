@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-dia-ky-niem-dai-hoc",
+      "name": "Đĩa kỷ niệm đại học",
+      "slug": "bt-tphcm-dia-ky-niem-dai-hoc",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thanh-pho-50-nam",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Đĩa kỷ niệm đại học",
+        "description": "Hiện vật đĩa kỷ niệm đại học thuộc chủ đề “Thành phố Hồ Chí Minh - 50 năm vinh dự, tự hào mang tên Bác” tại Bảo tàng Thành phố Hồ Chí Minh. Không gian chuyên đề ghi lại hành trình phát triển của Thành phố Hồ Chí Minh sau khi mang tên Bác.",
+        "historical_period": "Thành phố Hồ Chí Minh từ năm 1976",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-dia-ky-niem-dai-hoc_01",
+          "filename": "dia-ky-niem-dai-hoc.jpg",
+          "drive_url": "https://drive.google.com/file/d/161lyvtB3wB4MNi0JO0nbjyS4UccPUtxd/view",
+          "caption": "Đĩa kỷ niệm đại học – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

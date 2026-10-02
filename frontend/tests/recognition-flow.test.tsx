@@ -30,6 +30,22 @@ async function analyze() {
 }
 
 describe("student recognition journey", () => {
+  it("opens a curated artifact without requiring image recognition", async () => {
+    const user = userEvent.setup();
+    render(<HeritageLensApp />);
+    await user.click(
+      screen.getByRole("button", {
+        name: "Khám phá Tượng Bà mẹ bằng mảnh bom",
+      }),
+    );
+
+    expect(api.recognizeImage).not.toHaveBeenCalled();
+    expect(api.getArtifact).toHaveBeenCalledWith("tuong-ba-me-bang-manh-bom");
+    expect(
+      await screen.findByRole("heading", { name: "Khám phá theo nhịp của em" }),
+    ).toBeInTheDocument();
+  });
+
   it("loads accepted content with the canonical item ID and follows a corrected result", async () => {
     const user = await analyze();
     expect(await screen.findByRole("heading", { name: "Đã nhận ra hiện vật" })).toBeInTheDocument();

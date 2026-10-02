@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-thoi-dat-nung-giong-am",
+      "name": "Thỏi đất nung Giồng Am",
+      "slug": "bt-tphcm-thoi-dat-nung-giong-am",
+      "category": "archaeological_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thien-nhien-khao-co",
+        "archaeological_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Thỏi đất nung Giồng Am",
+        "description": "Hiện vật thỏi đất nung giồng am thuộc chủ đề “Thiên nhiên - Khảo cổ” tại Bảo tàng Thành phố Hồ Chí Minh. Phòng trưng bày giới thiệu di tích, công cụ và đồ trang sức khảo cổ của vùng đất Sài Gòn – Thành phố Hồ Chí Minh.",
+        "historical_period": "Thời tiền sử và khảo cổ vùng Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1MzRKXwtwlWTUwdfTB3PU1hpZK0hDu3Tw/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-thoi-dat-nung-giong-am_01",
+          "filename": "thoi-dat-nung-giong-am_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1OUKH-ij8rhsnupV0MQB9zuRk7eSkZIVB/view",
+          "caption": "Thỏi đất nung Giồng Am – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-thoi-dat-nung-giong-am_02",
+          "filename": "thoi-dat-nung-giong-am_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1z5yqqLGk_2LMR0Cm_9w27_H9_auEJFTR/view",
+          "caption": "Thỏi đất nung Giồng Am – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

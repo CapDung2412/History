@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-khai-quat-bao-dong",
+      "name": "Khai quật báo Đông",
+      "slug": "bt-tphcm-khai-quat-bao-dong",
+      "category": "archaeological_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thien-nhien-khao-co",
+        "archaeological_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Khai quật báo Đông",
+        "description": "Hiện vật khai quật báo đông thuộc chủ đề “Thiên nhiên - Khảo cổ” tại Bảo tàng Thành phố Hồ Chí Minh. Phòng trưng bày giới thiệu di tích, công cụ và đồ trang sức khảo cổ của vùng đất Sài Gòn – Thành phố Hồ Chí Minh.",
+        "historical_period": "Thời tiền sử và khảo cổ vùng Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2082",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-khai-quat-bao-dong_01",
+          "filename": "khai-quat-bao-dong.jpg",
+          "drive_url": "https://drive.google.com/file/d/17fcV7yI16_D8Tl-I_lKKJujxpW2ClOLa/view",
+          "caption": "Khai quật báo Đông – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

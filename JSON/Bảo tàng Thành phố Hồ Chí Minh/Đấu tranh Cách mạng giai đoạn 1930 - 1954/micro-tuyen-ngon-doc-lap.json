@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-micro-tuyen-ngon-doc-lap",
+      "name": "Micro Tuyên ngôn độc lập",
+      "slug": "bt-tphcm-micro-tuyen-ngon-doc-lap",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Micro Tuyên ngôn độc lập",
+        "description": "Hiện vật micro tuyên ngôn độc lập thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-micro-tuyen-ngon-doc-lap_01",
+          "filename": "micro-tuyen-ngon-doc-lap_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1qKV2vaDPiCyHDFwsTHwY4fUP_DWLv30q/view",
+          "caption": "Micro Tuyên ngôn độc lập – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-micro-tuyen-ngon-doc-lap_02",
+          "filename": "micro-tuyen-ngon-doc-lap_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1lsRQv5thIfGECn96NbdYyJzvXNddgAPs/view",
+          "caption": "Micro Tuyên ngôn độc lập – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

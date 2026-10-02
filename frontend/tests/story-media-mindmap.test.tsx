@@ -287,7 +287,9 @@ describe("story media and grounded exploration", () => {
     render(<StoryExplorer artifact={artifact} story={story} />);
 
     await user.click(screen.getByRole("tab", { name: /Khám phá sâu/ }));
-    expect(await screen.findByText("Bối cảnh lịch sử cụ thể")).toBeInTheDocument();
+    expect(
+      await screen.findByText("Sự kiện và địa điểm gắn với hiện vật"),
+    ).toBeInTheDocument();
     expect(screen.getByText("Giới thiệu tổng quát")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: artifact.name })).toBeInTheDocument();
     expect(screen.getByText("Khái quát riêng của phần khám phá sâu")).toBeInTheDocument();

@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-nghe-lam-gom",
+      "name": "Bảng thuyết minh: Nghề làm gốm",
+      "slug": "bt-tphcm-bang-nghe-lam-gom",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Nghề làm gốm",
+        "description": "Ảnh chụp bảng thuyết minh: nghề làm gốm trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1sLqwIf39sgcDegr-nT4ThVVXM0NdQuMv/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-nghe-lam-gom_01",
+          "filename": "bang-nghe-lam-gom_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1sLqwIf39sgcDegr-nT4ThVVXM0NdQuMv/view",
+          "caption": "Bảng thuyết minh: Nghề làm gốm – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bang-nghe-lam-gom_02",
+          "filename": "bang-nghe-lam-gom_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Zf1Fz01WoprQ1kR-9cmZ_hIFEhaN4mNt/view",
+          "caption": "Bảng thuyết minh: Nghề làm gốm – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-cap-chau-van-liem",
+      "name": "Bằng cấp Châu Văn Liêm",
+      "slug": "bt-tphcm-bang-cap-chau-van-liem",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bằng cấp Châu Văn Liêm",
+        "description": "Hiện vật bằng cấp châu văn liêm thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-cap-chau-van-liem_01",
+          "filename": "bang-cap-chau-van-liem_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1nLl4rG5DWG_avoEOzIzl6jBe4EVbPPau/view",
+          "caption": "Bằng cấp Châu Văn Liêm – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bang-cap-chau-van-liem_02",
+          "filename": "bang-cap-chau-van-liem_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ijTpKjxeXDObCMpLwfxr5FdnsLiMkFYr/view",
+          "caption": "Bằng cấp Châu Văn Liêm – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-bang-cap-chau-van-liem_03",
+          "filename": "bang-cap-chau-van-liem_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/14_lht-m3dCu78YwIY6H5Tt9ywa7e6U6m/view",
+          "caption": "Bằng cấp Châu Văn Liêm – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-bang-cap-chau-van-liem_04",
+          "filename": "bang-cap-chau-van-liem_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1EgNeZUekNBm70ppXuOJH2I1J33tbbatC/view",
+          "caption": "Bằng cấp Châu Văn Liêm – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

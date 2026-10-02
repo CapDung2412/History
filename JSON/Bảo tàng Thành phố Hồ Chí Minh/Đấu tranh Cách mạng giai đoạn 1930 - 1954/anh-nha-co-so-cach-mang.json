@@ -1,0 +1,92 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-anh-nha-co-so-cach-mang",
+      "name": "Ảnh nhà cơ sở cách mạng",
+      "slug": "bt-tphcm-anh-nha-co-so-cach-mang",
+      "category": "historical_image",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_image"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Ảnh nhà cơ sở cách mạng",
+        "description": "Ảnh tư liệu ảnh nhà cơ sở cách mạng thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-anh-nha-co-so-cach-mang_01",
+          "filename": "anh-nha-co-so-cach-mang_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1KOwA7HoQom2EgZNJggDiPrIG5EpfWFwi/view",
+          "caption": "Ảnh nhà cơ sở cách mạng – ảnh 1/7.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-anh-nha-co-so-cach-mang_02",
+          "filename": "anh-nha-co-so-cach-mang_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1k4ZWFforhlwodzQ4XWfrr-U_5CpEWCXZ/view",
+          "caption": "Ảnh nhà cơ sở cách mạng – ảnh 2/7.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-anh-nha-co-so-cach-mang_03",
+          "filename": "anh-nha-co-so-cach-mang_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1uYDEKWdRbxOu2zaOTrvk-GMvwJBbxIDo/view",
+          "caption": "Ảnh nhà cơ sở cách mạng – ảnh 3/7.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-anh-nha-co-so-cach-mang_04",
+          "filename": "anh-nha-co-so-cach-mang_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1r24GgVD4bTadcwCSWYjaSJjHG-OZYp-Q/view",
+          "caption": "Ảnh nhà cơ sở cách mạng – ảnh 4/7.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-anh-nha-co-so-cach-mang_05",
+          "filename": "anh-nha-co-so-cach-mang_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1eU6DBC2eqJq9bKstKxamHxzkrLosE-Th/view",
+          "caption": "Ảnh nhà cơ sở cách mạng – ảnh 5/7.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-anh-nha-co-so-cach-mang_06",
+          "filename": "anh-nha-co-so-cach-mang_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1eEsjOSD0IGoE-L28_ZCJPfqoUj70n8gQ/view",
+          "caption": "Ảnh nhà cơ sở cách mạng – ảnh 6/7.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-anh-nha-co-so-cach-mang_07",
+          "filename": "anh-nha-co-so-cach-mang_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BMot3jnNCgmfHm0M9vkfTu9slGPmbWTo/view",
+          "caption": "Ảnh nhà cơ sở cách mạng – ảnh 7/7.",
+          "year": null,
+          "view": "goc-nhin-07"
+        }
+      ]
+    }
+  ]
+}

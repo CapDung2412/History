@@ -1,0 +1,92 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-cong-van-thuoc-dia-1940",
+      "name": "Công văn thuộc địa năm 1940",
+      "slug": "bt-tphcm-cong-van-thuoc-dia-1940",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Công văn thuộc địa năm 1940",
+        "description": "Tư liệu công văn thuộc địa năm 1940 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": 1940,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-cong-van-thuoc-dia-1940_01",
+          "filename": "cong-van-thuoc-dia-1940_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1RwTnoZd1DT8qx1E2-JumIaYuoU6ioPP0/view",
+          "caption": "Công văn thuộc địa năm 1940 – ảnh 1/7.",
+          "year": 1940,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-cong-van-thuoc-dia-1940_02",
+          "filename": "cong-van-thuoc-dia-1940_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1S2yL40enmL494956ThZsqWrBzElmQGJu/view",
+          "caption": "Công văn thuộc địa năm 1940 – ảnh 2/7.",
+          "year": 1940,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-cong-van-thuoc-dia-1940_03",
+          "filename": "cong-van-thuoc-dia-1940_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1MBagx7-jU1sofWxjaV-1ELxw9AEbnNBV/view",
+          "caption": "Công văn thuộc địa năm 1940 – ảnh 3/7.",
+          "year": 1940,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-cong-van-thuoc-dia-1940_04",
+          "filename": "cong-van-thuoc-dia-1940_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1hNjwBlZsdgOM5Y0Z9NzIBAfY_Qx5XTVP/view",
+          "caption": "Công văn thuộc địa năm 1940 – ảnh 4/7.",
+          "year": 1940,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-cong-van-thuoc-dia-1940_05",
+          "filename": "cong-van-thuoc-dia-1940_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1psy8ge8F_Cq6C7F3KXCbqr7C_QrGO6TY/view",
+          "caption": "Công văn thuộc địa năm 1940 – ảnh 5/7.",
+          "year": 1940,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-cong-van-thuoc-dia-1940_06",
+          "filename": "cong-van-thuoc-dia-1940_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/122xsXzMqq2u7DIoVhocH9P2qxuWyKlma/view",
+          "caption": "Công văn thuộc địa năm 1940 – ảnh 6/7.",
+          "year": 1940,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-cong-van-thuoc-dia-1940_07",
+          "filename": "cong-van-thuoc-dia-1940_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ENqXSHYBxbnci_uscBuhi_BKKqmZGRYW/view",
+          "caption": "Công văn thuộc địa năm 1940 – ảnh 7/7.",
+          "year": 1940,
+          "view": "goc-nhin-07"
+        }
+      ]
+    }
+  ]
+}

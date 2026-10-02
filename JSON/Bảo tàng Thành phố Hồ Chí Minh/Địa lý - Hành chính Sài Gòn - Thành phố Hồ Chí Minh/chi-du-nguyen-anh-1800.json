@@ -1,0 +1,124 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-chi-du-nguyen-anh-1800",
+      "name": "Chỉ dụ Nguyễn Ánh năm 1800",
+      "slug": "bt-tphcm-chi-du-nguyen-anh-1800",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Chỉ dụ Nguyễn Ánh năm 1800",
+        "description": "Tư liệu chỉ dụ nguyễn ánh năm 1800 thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": 1800,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1plA_x80Iz7aidfMI1uCvgkIebewiiTpL/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_01",
+          "filename": "chi-du-nguyen-anh-1800.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ow2a-RFVInIDiuqT-Un3jEXl5wxj-o9q/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 1/11.",
+          "year": 1800,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_02",
+          "filename": "chi-du-nguyen-anh-1800_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1sRhAaZpJk1Ixg2YTDWEO0EryzlBHixc3/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 2/11.",
+          "year": 1800,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_03",
+          "filename": "chi-du-nguyen-anh-1800_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1itYHOaCo80TRSgjhNeboD2iHcQ-uXhZA/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 3/11.",
+          "year": 1800,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_04",
+          "filename": "chi-du-nguyen-anh-1800_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/15ZgJH66HPNuM6m6tBJj2tIzgUMdJyYJn/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 4/11.",
+          "year": 1800,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_05",
+          "filename": "chi-du-nguyen-anh-1800_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/138ZoLaRAVCrtmpdRfqBGyYBi26Do6PEc/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 5/11.",
+          "year": 1800,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_06",
+          "filename": "chi-du-nguyen-anh-1800_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1elH8-BnCW9DIZQUOlPHZHAt2TWnxV9Qs/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 6/11.",
+          "year": 1800,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_07",
+          "filename": "chi-du-nguyen-anh-1800_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ROe9aQoJbmVPBOG5m1yPFwjCLCW3CEsp/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 7/11.",
+          "year": 1800,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_08",
+          "filename": "chi-du-nguyen-anh-1800_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/17RmfXamC1hF6BXwrbiHo2L8DVJYupd3D/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 8/11.",
+          "year": 1800,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_09",
+          "filename": "chi-du-nguyen-anh-1800_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1TaTpPK8UHa55SoQdwUdrPrg3kK2xGpKl/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 9/11.",
+          "year": 1800,
+          "view": "goc-nhin-09"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_10",
+          "filename": "chi-du-nguyen-anh-1800_09.jpg",
+          "drive_url": "https://drive.google.com/file/d/10yxQqp5twSXtsmLcYma_VVf8VyZbWPmv/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 10/11.",
+          "year": 1800,
+          "view": "goc-nhin-10"
+        },
+        {
+          "id": "bt-tphcm-chi-du-nguyen-anh-1800_11",
+          "filename": "chi-du-nguyen-anh-1800_10.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Uo4IX8faQ_Er-QMT9z61F1_--hBdyhSL/view",
+          "caption": "Chỉ dụ Nguyễn Ánh năm 1800 – ảnh 11/11.",
+          "year": 1800,
+          "view": "goc-nhin-11"
+        }
+      ]
+    }
+  ]
+}

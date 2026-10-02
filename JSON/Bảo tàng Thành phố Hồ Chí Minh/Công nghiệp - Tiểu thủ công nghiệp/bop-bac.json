@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bop-bac",
+      "name": "Bóp bạc",
+      "slug": "bt-tphcm-bop-bac",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "cong-nghiep-tieu-thu-cong-nghiep",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bóp bạc",
+        "description": "Hiện vật bóp bạc thuộc chủ đề “Công nghiệp - Tiểu thủ công nghiệp” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử nghề thủ công và công nghiệp Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/245",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bop-bac_01",
+          "filename": "bop-bac.jpg",
+          "drive_url": "https://drive.google.com/file/d/1kWCzLqesaqswbeSkfLj0-3tlwDXrNm0p/view",
+          "caption": "Bóp bạc – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-bop-bac_02",
+          "filename": "bop-bac_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1sLZxCtT6zDEmGr20Ye9sI-mSOa-VcqX4/view",
+          "caption": "Bóp bạc – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-bop-bac_03",
+          "filename": "bop-bac_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1W45rOgT-CEWVGlktgmjIC-6zRzxLheTO/view",
+          "caption": "Bóp bạc – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-gom-xu-ly-nguyen-lieu",
+      "name": "Xử lý nguyên liệu gốm",
+      "slug": "bt-tphcm-gom-xu-ly-nguyen-lieu",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "van-hoa-sai-gon",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Xử lý nguyên liệu gốm",
+        "description": "Hiện vật xử lý nguyên liệu gốm thuộc chủ đề “Văn hóa Sài Gòn” tại Bảo tàng Thành phố Hồ Chí Minh. Phòng văn hóa giới thiệu những nét trong đời sống, phong tục và nghệ thuật của Sài Gòn – Thành phố Hồ Chí Minh.",
+        "historical_period": "Văn hóa Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/271",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-gom-xu-ly-nguyen-lieu_01",
+          "filename": "gom-xu-ly-nguyen-lieu.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jycBnkmgjxMwaTBc8w_pVz-DAc8NFCwz/view",
+          "caption": "Xử lý nguyên liệu gốm – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

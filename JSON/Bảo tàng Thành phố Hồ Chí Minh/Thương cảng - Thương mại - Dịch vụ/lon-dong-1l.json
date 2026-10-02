@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-lon-dong-1l",
+      "name": "Lon đong 1l",
+      "slug": "bt-tphcm-lon-dong-1l",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thuong-cang-thuong-mai-dich-vu",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Lon đong 1l",
+        "description": "Hiện vật lon đong 1l thuộc chủ đề “Thương cảng - Thương mại - Dịch vụ” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử thương cảng, thương mại và dịch vụ Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/2085",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-lon-dong-1l_01",
+          "filename": "lon-dong-1l.jpg",
+          "drive_url": "https://drive.google.com/file/d/1DtY00fWBdSA_7jy4v_xBOUMEVQlYKX_c/view",
+          "caption": "Lon đong 1l – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-lon-dong-1l_02",
+          "filename": "lon-dong-1l_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1gfQ4bN0eFrF0tYqWWCDb2hBqxR-Hmst1/view",
+          "caption": "Lon đong 1l – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-lon-dong-1l_03",
+          "filename": "lon-dong-1l_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1AOoHGMTQUlG2YPxulWxyMjQVqmQOdpWc/view",
+          "caption": "Lon đong 1l – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-lon-dong-1l_04",
+          "filename": "lon-dong-1l_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1dUFgVmgAEe41b1DA_2_ETr31BMrUKLIl/view",
+          "caption": "Lon đong 1l – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-khuon-in-tin-phieu-5-dong",
+      "name": "Khuôn in tín phiếu 5 đồng",
+      "slug": "bt-tphcm-khuon-in-tin-phieu-5-dong",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Khuôn in tín phiếu 5 đồng",
+        "description": "Hiện vật khuôn in tín phiếu 5 đồng thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1KSdTlsiRoAWjGLvo0lhHu68WYTRF5p53/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-khuon-in-tin-phieu-5-dong_01",
+          "filename": "khuon-in-tin-phieu-5-dong.jpg",
+          "drive_url": "https://drive.google.com/file/d/1pyJIPFfrJuvGGzY3vA8XgcXvQrHogaCa/view",
+          "caption": "Khuôn in tín phiếu 5 đồng – ảnh 1/5.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-khuon-in-tin-phieu-5-dong_02",
+          "filename": "khuon-in-tin-phieu-5-dong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/120weMpHh9_swfKjgNpF5bWt-dMmefz6s/view",
+          "caption": "Khuôn in tín phiếu 5 đồng – ảnh 2/5.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-khuon-in-tin-phieu-5-dong_03",
+          "filename": "khuon-in-tin-phieu-5-dong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1zqcCmLuBFb8niGArLih81qFhQ7HNnCNJ/view",
+          "caption": "Khuôn in tín phiếu 5 đồng – ảnh 3/5.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-khuon-in-tin-phieu-5-dong_04",
+          "filename": "khuon-in-tin-phieu-5-dong_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Hzllrb0DLWoR-1I0bZ3LBGo3zRPGDL4t/view",
+          "caption": "Khuôn in tín phiếu 5 đồng – ảnh 4/5.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-khuon-in-tin-phieu-5-dong_05",
+          "filename": "khuon-in-tin-phieu-5-dong_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1mWhETxmsNSajh6fphc53oikjtUEA2edk/view",
+          "caption": "Khuôn in tín phiếu 5 đồng – ảnh 5/5.",
+          "year": null,
+          "view": "goc-nhin-05"
+        }
+      ]
+    }
+  ]
+}

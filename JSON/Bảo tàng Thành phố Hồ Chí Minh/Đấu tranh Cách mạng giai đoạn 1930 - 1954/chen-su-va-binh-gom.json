@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-chen-su-va-binh-gom",
+      "name": "Chén sứ và bình gốm",
+      "slug": "bt-tphcm-chen-su-va-binh-gom",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Chén sứ và bình gốm",
+        "description": "Hiện vật chén sứ và bình gốm thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-chen-su-va-binh-gom_01",
+          "filename": "chen-su-va-binh-gom_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1oWZDgaPbeEkKtrnDEFtn1o0zP9hwpv4S/view",
+          "caption": "Chén sứ và bình gốm – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-chen-su-va-binh-gom_02",
+          "filename": "chen-su-va-binh-gom_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/17uRtDS0E9e550S57ok0JG7oSb4Ts5enZ/view",
+          "caption": "Chén sứ và bình gốm – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-chen-su-va-binh-gom_03",
+          "filename": "chen-su-va-binh-gom_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1tDj-S7yQzK12KA1bIh45Cq9xhfLpVc2C/view",
+          "caption": "Chén sứ và bình gốm – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

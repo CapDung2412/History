@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-dinh-xa-tay-1898-1908",
+      "name": "Dinh Xã Tây giai đoạn 1898–1908",
+      "slug": "bt-tphcm-dinh-xa-tay-1898-1908",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dia-ly-hanh-chinh",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Dinh Xã Tây giai đoạn 1898–1908",
+        "description": "Hiện vật dinh xã tây giai đoạn 1898–1908 thuộc chủ đề “Địa lý - Hành chính Sài Gòn - Thành phố Hồ Chí Minh” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Lịch sử hình thành và phát triển Sài Gòn – Thành phố Hồ Chí Minh",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/trung-bay-thuong-xuyen-1/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-dinh-xa-tay-1898-1908_01",
+          "filename": "dinh-xa-tay-1898-1908.jpg",
+          "drive_url": "https://drive.google.com/file/d/1FV3gj2p44ZBK85gg6mLvGEThcF9l9GYu/view",
+          "caption": "Dinh Xã Tây giai đoạn 1898–1908 – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

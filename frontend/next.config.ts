@@ -13,7 +13,8 @@ const nextConfig: NextConfig = {
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           {
             key: "Permissions-Policy",
-            value: "camera=(self), microphone=(), geolocation=()",
+            value:
+              'camera=(self), microphone=(), geolocation=(), fullscreen=(self "https://btctct.apptgs.vn" "https://duong1c.apptgs.vn" "https://sanpham.starglobal3d.com"), accelerometer=(self "https://btctct.apptgs.vn" "https://duong1c.apptgs.vn" "https://sanpham.starglobal3d.com"), gyroscope=(self "https://btctct.apptgs.vn" "https://duong1c.apptgs.vn" "https://sanpham.starglobal3d.com")',
           },
         ],
       },

@@ -1,0 +1,132 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-truyen-don-hoc-sinh-1951",
+      "name": "Truyền đơn học sinh 1951",
+      "slug": "bt-tphcm-truyen-don-hoc-sinh-1951",
+      "category": "historical_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "dau-tranh-1930-1954",
+        "historical_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Truyền đơn học sinh 1951",
+        "description": "Hiện vật truyền đơn học sinh 1951 thuộc chủ đề “Đấu tranh Cách mạng giai đoạn 1930 - 1954” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "1930–1954",
+        "year": 1951,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4100",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_01",
+          "filename": "truyen-don-hoc-sinh-1951_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1V3aoO0uVHIb4g2V5UrOJvJQfmnHpWSiJ/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 1/12.",
+          "year": 1951,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_02",
+          "filename": "truyen-don-hoc-sinh-1951_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1bRQKv2duRknMUI2YOEdme6-t10I3Cgds/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 2/12.",
+          "year": 1951,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_03",
+          "filename": "truyen-don-hoc-sinh-1951_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1xxGLZivOoEERq3qVTr1OOWWmbhIsYGvS/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 3/12.",
+          "year": 1951,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_04",
+          "filename": "truyen-don-hoc-sinh-1951_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/1pReAEYxPtg1B_Qx8u2vAED2SylguoQM0/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 4/12.",
+          "year": 1951,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_05",
+          "filename": "truyen-don-hoc-sinh-1951_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1kAQZITD8u-UtInrAQQ53nNuZn7x7Dnvk/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 5/12.",
+          "year": 1951,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_06",
+          "filename": "truyen-don-hoc-sinh-1951_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1V5TzaSMmmL2TgaMb_IpFEMho1JOeC-3t/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 6/12.",
+          "year": 1951,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_07",
+          "filename": "truyen-don-hoc-sinh-1951_07.jpg",
+          "drive_url": "https://drive.google.com/file/d/10-a9XsRgPoUBZjDLLNQk0y_ydOjH2j5o/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 7/12.",
+          "year": 1951,
+          "view": "goc-nhin-07"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_08",
+          "filename": "truyen-don-hoc-sinh-1951_08.jpg",
+          "drive_url": "https://drive.google.com/file/d/1gA4cHaic65zPXqeVnd75dXIwLOfv2nG_/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 8/12.",
+          "year": 1951,
+          "view": "goc-nhin-08"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_09",
+          "filename": "truyen-don-hoc-sinh-1951_09.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Wqa_FYBxBwjyAA_tbnDdTG8Zz3h3vkcH/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 9/12.",
+          "year": 1951,
+          "view": "goc-nhin-09"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_10",
+          "filename": "truyen-don-hoc-sinh-1951_10.jpg",
+          "drive_url": "https://drive.google.com/file/d/1B4lC0mOld5qm4vrI0-UnMJlMry4HZkcS/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 10/12.",
+          "year": 1951,
+          "view": "goc-nhin-10"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_11",
+          "filename": "truyen-don-hoc-sinh-1951_11.jpg",
+          "drive_url": "https://drive.google.com/file/d/1oE1fJtaX8vwmcbOzr2YGSP5UqAjTkXml/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 11/12.",
+          "year": 1951,
+          "view": "goc-nhin-11"
+        },
+        {
+          "id": "bt-tphcm-truyen-don-hoc-sinh-1951_12",
+          "filename": "truyen-don-hoc-sinh-1951_12.jpg",
+          "drive_url": "https://drive.google.com/file/d/1EjbjDyCsiNylffFRyALJKcPY4qWkU02O/view",
+          "caption": "Truyền đơn học sinh 1951 – ảnh 12/12.",
+          "year": 1951,
+          "view": "goc-nhin-12"
+        }
+      ]
+    }
+  ]
+}

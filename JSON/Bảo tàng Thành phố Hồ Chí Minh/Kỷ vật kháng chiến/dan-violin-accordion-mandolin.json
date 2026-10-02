@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-dan-violin-accordion-mandolin",
+      "name": "Đàn violin, accordion và mandolin",
+      "slug": "bt-tphcm-dan-violin-accordion-mandolin",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Đàn violin, accordion và mandolin",
+        "description": "Hiện vật đàn violin, accordion và mandolin thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-dan-violin-accordion-mandolin_01",
+          "filename": "dan-violin-accordion-mandolin.jpg",
+          "drive_url": "https://drive.google.com/file/d/1e1eqFnc2XRhxdiehtb3GCSod4jIe-zQA/view",
+          "caption": "Đàn violin, accordion và mandolin – ảnh 1/3.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-dan-violin-accordion-mandolin_02",
+          "filename": "dan-violin-accordion-mandolin_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/13_JhzusAuUb6LP3hOhSyK6nSUTWHIJDC/view",
+          "caption": "Đàn violin, accordion và mandolin – ảnh 2/3.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-dan-violin-accordion-mandolin_03",
+          "filename": "dan-violin-accordion-mandolin_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Iu_04e5fb4j3Yi4QfBi_BLaZFwrlamT5/view",
+          "caption": "Đàn violin, accordion và mandolin – ảnh 3/3.",
+          "year": null,
+          "view": "goc-nhin-03"
+        }
+      ]
+    }
+  ]
+}

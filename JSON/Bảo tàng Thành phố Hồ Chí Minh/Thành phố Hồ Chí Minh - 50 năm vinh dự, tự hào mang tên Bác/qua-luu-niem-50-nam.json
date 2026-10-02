@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-qua-luu-niem-50-nam",
+      "name": "Quà lưu niệm 50 năm",
+      "slug": "bt-tphcm-qua-luu-niem-50-nam",
+      "category": "cultural_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "thanh-pho-50-nam",
+        "cultural_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Quà lưu niệm 50 năm",
+        "description": "Hiện vật quà lưu niệm 50 năm thuộc chủ đề “Thành phố Hồ Chí Minh - 50 năm vinh dự, tự hào mang tên Bác” tại Bảo tàng Thành phố Hồ Chí Minh. Không gian chuyên đề ghi lại hành trình phát triển của Thành phố Hồ Chí Minh sau khi mang tên Bác.",
+        "historical_period": "Thành phố Hồ Chí Minh từ năm 1976",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-qua-luu-niem-50-nam_01",
+          "filename": "qua-luu-niem-50-nam.jpg",
+          "drive_url": "https://drive.google.com/file/d/1vY9saWjK3s1Ngg9vpHQEyp2yCe4WFiMF/view",
+          "caption": "Quà lưu niệm 50 năm – ảnh 1/2.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-qua-luu-niem-50-nam_02",
+          "filename": "qua-luu-niem-50-nam_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1XitIcu23IM8P9geFfnWcd6IhQZGyQtCR/view",
+          "caption": "Quà lưu niệm 50 năm – ảnh 2/2.",
+          "year": null,
+          "view": "goc-nhin-02"
+        }
+      ]
+    }
+  ]
+}

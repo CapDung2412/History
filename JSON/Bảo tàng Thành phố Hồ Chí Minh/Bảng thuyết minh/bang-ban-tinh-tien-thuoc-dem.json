@@ -1,0 +1,44 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-bang-ban-tinh-tien-thuoc-dem",
+      "name": "Bảng thuyết minh: Bàn tính tiền và thước đếm",
+      "slug": "bt-tphcm-bang-ban-tinh-tien-thuoc-dem",
+      "category": "exhibition_label",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "bang-thuyet-minh",
+        "exhibition_label"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Bảng thuyết minh: Bàn tính tiền và thước đếm",
+        "description": "Ảnh chụp bảng thuyết minh: bàn tính tiền và thước đếm trong khu trưng bày của Bảo tàng Thành phố Hồ Chí Minh. Nội dung chi tiết cần đọc trực tiếp trên bảng trong ảnh.",
+        "historical_period": "Theo nội dung bảng thuyết minh",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/1sVBRWzTcbeV7DZpaL9PdbnCYs8QIK7Cl/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-bang-ban-tinh-tien-thuoc-dem_01",
+          "filename": "bang-ban-tinh-tien-thuoc-dem.jpg",
+          "drive_url": "https://drive.google.com/file/d/1sVBRWzTcbeV7DZpaL9PdbnCYs8QIK7Cl/view",
+          "caption": "Bảng thuyết minh: Bàn tính tiền và thước đếm – ảnh 1/1.",
+          "year": null,
+          "view": "goc-nhin-01"
+        }
+      ]
+    }
+  ]
+}

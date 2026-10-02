@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { AnalysisLoader } from "@/components/analysis-loader";
 import { CapturePanel } from "@/components/capture-panel";
 import { ChallengeCard } from "@/components/challenge-card";
+import { FeaturedDiscoveries } from "@/components/featured-discoveries";
 import { AlertIcon, ArrowIcon, CheckIcon, RotateIcon } from "@/components/icons";
 import { RecognitionFeedback } from "@/components/recognition-feedback";
 import { RecognitionResult } from "@/components/recognition-result";
@@ -150,6 +151,16 @@ export function HeritageLensApp() {
     setSelecting(false);
   }
 
+  async function browseArtifact(itemId: string) {
+    setResult(null);
+    setExperience(null);
+    setSelectedByUser(true);
+    setError("");
+    setNotice("");
+    setView("loading_content");
+    await loadExperience(itemId);
+  }
+
   function reset() {
     setView("capture");
     setResult(null);
@@ -166,6 +177,11 @@ export function HeritageLensApp() {
 
   return (
     <>
+      <FeaturedDiscoveries
+        busy={view === "analyzing" || view === "loading_content" || selecting}
+        onSelect={(itemId) => void browseArtifact(itemId)}
+      />
+
       <CapturePanel
         busy={view === "analyzing" || view === "loading_content" || selecting}
         onAnalyze={(file) => void analyze(file)}
@@ -183,20 +199,22 @@ export function HeritageLensApp() {
             selecting={selecting}
           />
         )}
-        {view === "experience" && result && experience && (
+        {view === "experience" && experience && (
           <div className="experience-stack">
             {notice && (
               <p className="service-notice" role="status">
                 {notice}
               </p>
             )}
-            <RecognitionResult
-              result={result}
-              onSelect={(itemId) => void selectCandidate(itemId)}
-              onRetry={reset}
-              confirmedItemId={selectedByUser ? experience.artifact.item_id : undefined}
-            />
-            {!selectedByUser && (
+            {result && (
+              <RecognitionResult
+                result={result}
+                onSelect={(itemId) => void selectCandidate(itemId)}
+                onRetry={reset}
+                confirmedItemId={selectedByUser ? experience.artifact.item_id : undefined}
+              />
+            )}
+            {result && !selectedByUser && (
               <RecognitionFeedback
                 requestId={result.request_id}
                 selectedItemId={experience.artifact.item_id}

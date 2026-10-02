@@ -250,6 +250,8 @@ learning material. Keep local JSON refs for claims supported locally. Make every
 node id unique across the entire mindmap. Omit
 uncertain claims rather than guessing. Write the learning content in Vietnamese and make the
 source distinction clear. web_evidence must never contain a URL invented from memory.
+Whenever authored content uses an exact year from a web source, that year must appear in the
+matching web_evidence title or evidence_text. Never infer a year from a broad historical period.
 
 Also search for 2-4 specific YouTube videos that directly document or explain the exact
 artifact, event, heritage site, people, activities, or immediate historical context. Prefer

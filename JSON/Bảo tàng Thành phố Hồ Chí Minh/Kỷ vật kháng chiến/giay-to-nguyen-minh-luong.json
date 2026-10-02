@@ -1,0 +1,92 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-giay-to-nguyen-minh-luong",
+      "name": "Giấy tờ Nguyễn Minh Lương",
+      "slug": "bt-tphcm-giay-to-nguyen-minh-luong",
+      "category": "documentary_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "documentary_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Giấy tờ Nguyễn Minh Lương",
+        "description": "Tư liệu giấy tờ nguyễn minh lương thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://drive.google.com/file/d/12PZNQqTcwNFbSSa1ZYoMRu3cV6Js0Ih-/view",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-giay-to-nguyen-minh-luong_01",
+          "filename": "giay-to-nguyen-minh-luong.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jmayBiwFQBpdct-cjWK2Wm72VuPNQTfx/view",
+          "caption": "Giấy tờ Nguyễn Minh Lương – ảnh 1/7.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-giay-to-nguyen-minh-luong_02",
+          "filename": "giay-to-nguyen-minh-luong_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1ricqPslFjmlXq6lYSozNn8Mi2YRSmTGj/view",
+          "caption": "Giấy tờ Nguyễn Minh Lương – ảnh 2/7.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-giay-to-nguyen-minh-luong_03",
+          "filename": "giay-to-nguyen-minh-luong_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1BdfeQSYTo__SgFJ-qONYRDtLuUsfxhx8/view",
+          "caption": "Giấy tờ Nguyễn Minh Lương – ảnh 3/7.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-giay-to-nguyen-minh-luong_04",
+          "filename": "giay-to-nguyen-minh-luong_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1LoJVSzFsMa5DRVdgUPXLoK7PNzlKnnxR/view",
+          "caption": "Giấy tờ Nguyễn Minh Lương – ảnh 4/7.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-giay-to-nguyen-minh-luong_05",
+          "filename": "giay-to-nguyen-minh-luong_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/17929QRIt2S1rnQSvf6FSMfGtDKpoGJVf/view",
+          "caption": "Giấy tờ Nguyễn Minh Lương – ảnh 5/7.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-giay-to-nguyen-minh-luong_06",
+          "filename": "giay-to-nguyen-minh-luong_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1Af9rDWMnyNt2VdYxFNPp1ExdIcG4i2wW/view",
+          "caption": "Giấy tờ Nguyễn Minh Lương – ảnh 6/7.",
+          "year": null,
+          "view": "goc-nhin-06"
+        },
+        {
+          "id": "bt-tphcm-giay-to-nguyen-minh-luong_07",
+          "filename": "giay-to-nguyen-minh-luong_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1K9FNXzM7ot_G1UVbKdVnPqYACetyaPev/view",
+          "caption": "Giấy tờ Nguyễn Minh Lương – ảnh 7/7.",
+          "year": null,
+          "view": "goc-nhin-07"
+        }
+      ]
+    }
+  ]
+}

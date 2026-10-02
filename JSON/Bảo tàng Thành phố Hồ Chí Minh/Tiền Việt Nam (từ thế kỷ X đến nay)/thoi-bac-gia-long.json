@@ -1,0 +1,68 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-thoi-bac-gia-long",
+      "name": "Thỏi bạc Gia Long",
+      "slug": "bt-tphcm-thoi-bac-gia-long",
+      "category": "currency_artifact",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "tien-viet-nam",
+        "currency_artifact"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Thỏi bạc Gia Long",
+        "description": "Hiện vật thỏi bạc gia long thuộc chủ đề “Tiền Việt Nam (từ thế kỷ X đến nay)” tại Bảo tàng Thành phố Hồ Chí Minh. Trưng bày theo dõi sự thay đổi của tiền tệ Việt Nam từ thời phong kiến đến hiện nay.",
+        "historical_period": "Từ thế kỷ X đến nay",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/4049",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-thoi-bac-gia-long_01",
+          "filename": "thoi-bac-gia-long.jpg",
+          "drive_url": "https://drive.google.com/file/d/1J5ktwrye-H-JFg5yBR9pmhM9q0u6PEJi/view",
+          "caption": "Thỏi bạc Gia Long – ảnh 1/4.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-gia-long_02",
+          "filename": "thoi-bac-gia-long_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/17ED9YNc6b5NLNI-sdOPjuMgwAdfHQ5ii/view",
+          "caption": "Thỏi bạc Gia Long – ảnh 2/4.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-gia-long_03",
+          "filename": "thoi-bac-gia-long_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1UkDtqMjI6uE_x6joCP95p6tiqfIfzI2U/view",
+          "caption": "Thỏi bạc Gia Long – ảnh 3/4.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-thoi-bac-gia-long_04",
+          "filename": "thoi-bac-gia-long_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/1GYtHiIoGlNb4AvU6Hryttto1PKo7j6J2/view",
+          "caption": "Thỏi bạc Gia Long – ảnh 4/4.",
+          "year": null,
+          "view": "goc-nhin-04"
+        }
+      ]
+    }
+  ]
+}

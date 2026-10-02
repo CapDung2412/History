@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Di San Lens",
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "bt-tphcm-con-dau-don-vi-sai-gon",
+      "name": "Con dấu đơn vị Sài Gòn",
+      "slug": "bt-tphcm-con-dau-don-vi-sai-gon",
+      "category": "war_memorabilia",
+      "tags": [
+        "bao-tang-thanh-pho-ho-chi-minh",
+        "ky-vat-khang-chien",
+        "war_memorabilia"
+      ],
+      "location": {
+        "address": "65 Lý Tự Trọng, phường Sài Gòn",
+        "city": "Thành phố Hồ Chí Minh",
+        "province": "Thành phố Hồ Chí Minh",
+        "country": "Vietnam",
+        "latitude": null,
+        "longitude": null
+      },
+      "historical_info": {
+        "title": "Con dấu đơn vị Sài Gòn",
+        "description": "Hiện vật con dấu đơn vị sài gòn thuộc chủ đề “Kỷ vật kháng chiến” tại Bảo tàng Thành phố Hồ Chí Minh. Bộ ảnh ghi lại đối tượng trưng bày và các góc chụp liên quan.",
+        "historical_period": "Các cuộc kháng chiến thế kỷ XX",
+        "year": null,
+        "event": null,
+        "source": "https://hcmc-museum.edu.vn/luu-tru/440",
+        "source_status": "available"
+      },
+      "images": [
+        {
+          "id": "bt-tphcm-con-dau-don-vi-sai-gon_01",
+          "filename": "con-dau-don-vi-sai-gon_01.jpg",
+          "drive_url": "https://drive.google.com/file/d/1E7L1Y3uuRgouiy47nEVkOrhA-xhnTV13/view",
+          "caption": "Con dấu đơn vị Sài Gòn – ảnh 1/6.",
+          "year": null,
+          "view": "goc-nhin-01"
+        },
+        {
+          "id": "bt-tphcm-con-dau-don-vi-sai-gon_02",
+          "filename": "con-dau-don-vi-sai-gon_02.jpg",
+          "drive_url": "https://drive.google.com/file/d/1lwQZocjcNgMyHcCGW6br0-oX7JNSuKLE/view",
+          "caption": "Con dấu đơn vị Sài Gòn – ảnh 2/6.",
+          "year": null,
+          "view": "goc-nhin-02"
+        },
+        {
+          "id": "bt-tphcm-con-dau-don-vi-sai-gon_03",
+          "filename": "con-dau-don-vi-sai-gon_03.jpg",
+          "drive_url": "https://drive.google.com/file/d/120g-s7CRQvFfy4McwJXpQOtpGfs9MH7_/view",
+          "caption": "Con dấu đơn vị Sài Gòn – ảnh 3/6.",
+          "year": null,
+          "view": "goc-nhin-03"
+        },
+        {
+          "id": "bt-tphcm-con-dau-don-vi-sai-gon_04",
+          "filename": "con-dau-don-vi-sai-gon_04.jpg",
+          "drive_url": "https://drive.google.com/file/d/19k2CvQBhC0lggVlEz7674isWivaxtNlv/view",
+          "caption": "Con dấu đơn vị Sài Gòn – ảnh 4/6.",
+          "year": null,
+          "view": "goc-nhin-04"
+        },
+        {
+          "id": "bt-tphcm-con-dau-don-vi-sai-gon_05",
+          "filename": "con-dau-don-vi-sai-gon_05.jpg",
+          "drive_url": "https://drive.google.com/file/d/1MOqu32n6x66FW00Jt_jlgEcfATiNIbOU/view",
+          "caption": "Con dấu đơn vị Sài Gòn – ảnh 5/6.",
+          "year": null,
+          "view": "goc-nhin-05"
+        },
+        {
+          "id": "bt-tphcm-con-dau-don-vi-sai-gon_06",
+          "filename": "con-dau-don-vi-sai-gon_06.jpg",
+          "drive_url": "https://drive.google.com/file/d/1jWAvXyGycFwqM2vZktDbaoMOQ2xfPtuT/view",
+          "caption": "Con dấu đơn vị Sài Gòn – ảnh 6/6.",
+          "year": null,
+          "view": "goc-nhin-06"
+        }
+      ]
+    }
+  ]
+}
