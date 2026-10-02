@@ -82,7 +82,10 @@ class APISettings:
     openai_tts_voice: str = "coral"
     openai_timeout_seconds: float = 90.0
     openai_max_retries: int = 2
-    openai_max_output_tokens: int = 6000
+    # This limit includes visible JSON, reasoning, tool-call, and formatting
+    # tokens. The learning payload is intentionally detailed and may also use
+    # web search, so keep the default headroom recommended for reasoning models.
+    openai_max_output_tokens: int = 25_000
     ai_prompt_version: str = "heritage-learning-v9"
     ai_schema_version: str = "8"
     ai_cache_sqlite_path: str = "data/ai-content-cache.sqlite3"
@@ -145,7 +148,7 @@ class APISettings:
             openai_tts_voice=os.getenv("OPENAI_TTS_VOICE", "coral").strip(),
             openai_timeout_seconds=_env_float("OPENAI_TIMEOUT_SECONDS", 90.0),
             openai_max_retries=_env_int("OPENAI_MAX_RETRIES", 2),
-            openai_max_output_tokens=_env_int("OPENAI_MAX_OUTPUT_TOKENS", 6000),
+            openai_max_output_tokens=_env_int("OPENAI_MAX_OUTPUT_TOKENS", 25_000),
             ai_prompt_version=os.getenv("AI_PROMPT_VERSION", "heritage-learning-v9").strip(),
             ai_schema_version=os.getenv("AI_SCHEMA_VERSION", "8").strip(),
             ai_cache_sqlite_path=os.getenv("AI_CACHE_SQLITE_PATH", "data/ai-content-cache.sqlite3").strip(),
@@ -195,8 +198,8 @@ class APISettings:
             raise ValueError("OPENAI_TIMEOUT_SECONDS must be positive and finite")
         if not 0 <= self.openai_max_retries <= 5:
             raise ValueError("OPENAI_MAX_RETRIES must be between 0 and 5")
-        if not 256 <= self.openai_max_output_tokens <= 20_000:
-            raise ValueError("OPENAI_MAX_OUTPUT_TOKENS must be between 256 and 20000")
+        if not 256 <= self.openai_max_output_tokens <= 128_000:
+            raise ValueError("OPENAI_MAX_OUTPUT_TOKENS must be between 256 and 128000")
         if not self.openai_base_url.startswith("https://") and not re.match(
             r"^http://(?:127\.0\.0\.1|localhost)(?::\d+)?(?:/|$)", self.openai_base_url
         ):
