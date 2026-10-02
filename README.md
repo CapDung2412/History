@@ -272,4 +272,5 @@ Metadata Pinecone gồm ID hiện vật/ảnh, tiêu đề, mô tả, danh mục
 #   H i s t o r y  
  #   H i s t o r y  
  #   H i s t o r y  
+ #   H i s t o r y  
  
