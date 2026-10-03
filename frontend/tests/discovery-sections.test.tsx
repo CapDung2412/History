@@ -9,14 +9,9 @@ describe("museum discovery sections", () => {
     const user = userEvent.setup();
     render(<Museum360Experience />);
 
-    const tour = screen.getByTitle(
-      "Tham quan 360 độ Thời thanh xuân trên tuyến đường 1C huyền thoại tại Bảo tàng Chứng tích Chiến tranh",
-    );
-    expect(tour).toHaveAttribute("src", "https://duong1c.apptgs.vn/");
-    expect(tour).toHaveAttribute("loading", "lazy");
-    expect(tour).toHaveAttribute("allowfullscreen");
+    expect(screen.queryByTitle(/Tham quan 360 độ/)).not.toBeInTheDocument();
     expect(
-      screen.getByRole("link", { name: /Mở trong tab mới/ }),
+      screen.getByRole("link", { name: /Xem 360 trên website/ }),
     ).toHaveAttribute("href", "https://duong1c.apptgs.vn/");
 
     expect(screen.getByRole("button", { name: "Con đường 1C" })).toHaveAttribute(
@@ -41,21 +36,18 @@ describe("museum discovery sections", () => {
       screen.getByRole("button", { name: "Toàn cảnh bảo tàng" }),
     );
 
-    const hcmcTour = screen.getByTitle(
-      "Tham quan 360 độ Toàn cảnh Bảo tàng Thành phố Hồ Chí Minh tại Bảo tàng Thành phố Hồ Chí Minh",
-    );
-    expect(hcmcTour).toHaveAttribute(
-      "src",
-      expect.stringContaining("startscene=scene_view_2"),
-    );
     expect(
-      screen.getByRole("link", { name: /Mở trong tab mới/ }),
+      screen.getByRole("link", { name: /Xem 360 trên website/ }),
     ).toHaveAttribute("href", expect.stringContaining("startscene=scene_view_2"));
     expect(
       screen.getByRole("link", {
         name: "Bảo tàng Thành phố Hồ Chí Minh — tham quan trực tuyến",
       }),
     ).toHaveAttribute("href", "https://hcmc-museum.edu.vn/");
+    expect(screen.getByRole("link", { name: "StarGlobal3D" })).toHaveAttribute(
+      "href",
+      "https://starglobal3d.com/smart-museum-360",
+    );
 
     const rooms = [
       {
@@ -83,21 +75,16 @@ describe("museum discovery sections", () => {
     for (const room of rooms) {
       await user.click(screen.getByRole("button", { name: room.button }));
 
-      const roomTour = screen.getByTitle(
-        `Tham quan 360 độ ${room.title} tại Bảo tàng Thành phố Hồ Chí Minh`,
-      );
       const expectedUrl =
         `https://sanpham.starglobal3d.com/smart-museum-3d/hcmc-museum/` +
         `?startscene=${room.scene}`;
 
-      expect(roomTour).toHaveAttribute("src", expectedUrl);
-      expect(roomTour).not.toHaveAttribute(
-        "src",
-        expect.stringContaining("%28"),
-      );
       expect(
-        screen.getByRole("link", { name: /Mở trong tab mới/ }),
+        screen.getByRole("link", { name: /Xem 360 trên website/ }),
       ).toHaveAttribute("href", expectedUrl);
+      expect(
+        screen.getByRole("link", { name: /Xem 360 trên website/ }),
+      ).not.toHaveAttribute("href", expect.stringContaining("%28"));
     }
   });
 

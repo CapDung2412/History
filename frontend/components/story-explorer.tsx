@@ -730,7 +730,10 @@ function SectionEvidence({
   );
   const references = (learning.references || []).filter((reference) =>
     evidenceRefs.has(reference.ref),
-  );
+  ).map((reference) => ({
+    ...reference,
+    url: safeHttpsUrl(reference.url),
+  }));
   if (references.length === 0) return null;
   return (
     <aside className="section-evidence" aria-label="Căn cứ dữ liệu cho phần này">
@@ -823,22 +826,26 @@ function uniqueLinkedReferences(
   const seen = new Set<string>();
   const linked: Array<LearningEvidenceReference & { url: string }> = [];
   for (const reference of references) {
-    if (!reference.url) continue;
-    let parsed: URL;
-    try {
-      parsed = new URL(reference.url);
-    } catch {
-      continue;
-    }
-    if (parsed.protocol !== "https:" && parsed.protocol !== "http:") continue;
-    parsed.hash = "";
-    const url = parsed.toString();
+    const url = safeHttpsUrl(reference.url, true);
+    if (!url) continue;
     const key = url.endsWith("/") ? url.slice(0, -1) : url;
     if (seen.has(key)) continue;
     seen.add(key);
     linked.push({ ...reference, url });
   }
   return linked;
+}
+
+function safeHttpsUrl(value?: string | null, stripHash = false): string | null {
+  if (!value) return null;
+  try {
+    const parsed = new URL(value);
+    if (parsed.protocol !== "https:") return null;
+    if (stripHash) parsed.hash = "";
+    return parsed.toString();
+  } catch {
+    return null;
+  }
 }
 
 function specificRecognitionDetail(

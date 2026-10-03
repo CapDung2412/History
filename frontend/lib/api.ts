@@ -9,7 +9,9 @@ import type {
   QualityIssue,
 } from "@/lib/types";
 
-const DEFAULT_API_URL = "http://127.0.0.1:8000";
+// An empty fallback keeps production requests on the current origin. Local
+// development sets NEXT_PUBLIC_API_BASE_URL in frontend/.env.local.
+const DEFAULT_API_URL = "";
 const REQUEST_TIMEOUT_MS = 60_000;
 const GENERATION_TIMEOUT_MS = 120_000;
 // The first CPU request may also load the CLIP weights into memory.
@@ -45,9 +47,11 @@ export function toThumbnailUrl(
 ): string | undefined {
   const asset = toAssetUrl(path);
   if (!asset) return undefined;
-  const url = new URL(asset);
+  if (asset.startsWith("blob:")) return asset;
+  const absolute = /^https?:\/\//i.test(asset);
+  const url = new URL(asset, "https://same-origin.invalid");
   url.searchParams.set("width", String(width));
-  return url.toString();
+  return absolute ? url.toString() : `${url.pathname}${url.search}${url.hash}`;
 }
 
 async function fetchJson<T>(

@@ -18,7 +18,7 @@ frontend/ (Next.js + TypeScript + Tailwind)
     → thuyết minh: văn bản an toàn → OpenAI Speech → WAV cache → Web Speech fallback
 ```
 
-CLIP mã hóa ảnh; JSON không được đưa trực tiếp vào CLIP. Pinecone giữ embedding và metadata tìm kiếm; nội dung đầy đủ được đọc lại từ repository theo ID. Website không tạo index, đổi namespace hoặc index lại ảnh. Index hiện dùng là `di-san-lens`, namespace `heritage-images-v1`, model `ViT-B-32:laion2b_s34b_b79k`, 512 chiều, cosine.
+CLIP mã hóa ảnh; JSON không được đưa trực tiếp vào CLIP. Pinecone giữ embedding và metadata tìm kiếm; nội dung đầy đủ được đọc lại từ repository theo ID. Website không tạo index, đổi namespace hoặc index lại ảnh. Index hiện dùng là `di-san-lens`, namespace `heritage-images-v1`, model `ViT-B-32:laion2b_s34b_b79k`, 512 chiều, cosine; ngày 03/10/2026 namespace có 2.541 vector.
 
 ## Chạy nhanh website trên Windows
 
@@ -45,7 +45,7 @@ if (-not (Test-Path .env.local)) { Copy-Item .env.example .env.local }
 npm run dev
 ```
 
-Website: `http://localhost:3000`. `frontend/.env.local` chỉ cần `NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000`. Khóa Pinecone và Supabase service-role chỉ nằm trong `.env` ở gốc.
+Website: `http://localhost:3000`. `frontend/.env.local` chỉ cần `NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000`. Khi triển khai public, đặt biến này thành URL HTTPS của backend; nếu bỏ trống, frontend dùng `/api` và `/media` cùng origin. Khóa Pinecone và Supabase service-role chỉ nằm trong `.env` ở gốc.
 
 Nếu máy chưa cài Node, bản portable đã tải trong workspace có thể được dùng bằng cách chạy từ thư mục gốc:
 
@@ -64,7 +64,8 @@ Không cần tải lại dependencies nếu `.venv` và `frontend/node_modules` 
 - Ảnh chất lượng thấp được hướng dẫn chụp lại trước khi chạy CLIP. Hệ thống chưa có detector đo khoảng cách hoặc độ phủ hiện vật; khung căn chỉ là hướng dẫn.
 - Kết quả rõ ràng mở trang thông tin; kết quả cần xác nhận hiển thị tối đa ba hiện vật khác nhau và lựa chọn không phù hợp. Điểm thấp không được hiển thị như đáp án.
 - Ba tầng gồm thông tin nhanh, câu chuyện khoảng một phút và khám phá sâu. Nội dung một phút không lặp nguyên văn phần nhanh; phần sâu đi thẳng vào chất liệu, tác nhân, hoạt động, diễn biến, điểm nổi bật, hệ quả và ý nghĩa lịch sử, kèm claim, nguồn và mindmap mở sẵn. Nội dung không dùng lời bình kiểu “giúp học sinh/người xem hiểu”; dataset hiện chỉ có một description cho mỗi hiện vật nên hệ thống không kéo dài câu chữ hoặc tự sáng tác dữ kiện còn thiếu.
-- Toàn bộ 583 bản ghi hiện thiếu `historical_info.source`. Khi khóa OpenAI được cấu hình, endpoint nội dung học tập dùng `web_search` để tìm nguồn tham khảo rồi kiểm tra lại evidence trước khi cache; nếu dịch vụ AI không khả dụng, hệ thống trả nội dung xác định từ JSON. Một chuỗi nguồn không tự chứng minh nội dung đã được kiểm chứng; chỉ nguồn có `source_status=verified` mới được xem là đã qua quy trình biên tập.
+- 582 trong 1.361 bản ghi hiện thiếu `historical_info.source`. Khi khóa OpenAI được cấu hình, endpoint nội dung học tập dùng `web_search` để tìm nguồn tham khảo rồi kiểm tra lại evidence trước khi cache; nếu dịch vụ AI không khả dụng, hệ thống trả nội dung xác định từ JSON. Một chuỗi nguồn không tự chứng minh nội dung đã được kiểm chứng; chỉ nguồn có `source_status=verified` mới được xem là đã qua quy trình biên tập.
+- Tour 360 không được sao chép hoặc nhúng vào website. Khung giới thiệu mở tour trong tab mới trên website nguồn và ghi rõ đơn vị nội dung/nền tảng cung cấp.
 - Câu hỏi phân loại được tạo xác định từ `category`, phương án nhiễu lấy từ category thật của dataset. Không dùng LLM để tạo dữ kiện.
 - Thuyết minh ưu tiên OpenAI Speech phía server, dùng chỉ dẫn đọc hoàn toàn bằng tiếng Việt, trả URL WAV thay vì nhúng audio vào JSON và cache theo nội dung/model/giọng/ngôn ngữ/chỉ dẫn/phiên bản cấu hình. Giao diện có nghe 30 giây/đầy đủ, phát, tạm dừng, tiếp tục, dừng, tua và tốc độ 0,75×–1,5×. Nếu server lỗi, Web Speech chỉ chọn giọng có mã ngôn ngữ tiếng Việt và đặt chính xác `vi-VN`; nếu thiết bị không có giọng Việt, hệ thống báo rõ và giữ phụ đề, tuyệt đối không tự chuyển sang giọng tiếng Anh.
 - Cỡ chữ và tương phản được lưu trên trình duyệt. Luồng hỗ trợ bàn phím, focus, dialog Escape và reduced motion.
@@ -175,8 +176,9 @@ Công cụ dataset/CLI bên dưới vẫn được giữ lại.
 
 ## Dataset hiện tại
 
-- `images/`: 957 ảnh JPG.
-- `JSON/`: 583 JSON, mỗi file chứa `locations[]`; mỗi location chứa `images[]`.
+- `images/`: 2.541 ảnh JPG.
+- `JSON/`: 1.361 JSON, mỗi file chứa `locations[]`; mỗi location chứa `images[]`.
+- JSON đang khai báo 2.593 ảnh; 52 khai báo chưa có tệp ảnh tương ứng. API và tác vụ index bỏ qua các ảnh thiếu, nhưng validator vẫn báo lỗi để dữ liệu không bị coi nhầm là hoàn chỉnh.
 - Quan hệ ảnh–metadata dựa trên `locations[].images[].filename`, không dựa vào tên JSON.
 - JSON được đọc bắt buộc bằng UTF-8 và mọi chuỗi được chuẩn hóa Unicode NFC tại ranh giới backend/frontend. Validator báo lỗi nếu phát hiện dấu hiệu mojibake và cảnh báo nếu văn bản chưa ở NFC.
 - Validator cảnh báo khi `historical_info.source` trống nhưng không coi đó là lỗi kỹ thuật.
@@ -221,7 +223,7 @@ Sau đó đặt `IMAGE_ROOT=data/images` và `JSON_ROOT=data/metadata` trong `.e
 
 ## Index Pinecone
 
-Index hiện có đã chứa 957 vector. Không chạy lệnh ghi/index lại để sử dụng website. Các lệnh tạo/index dưới đây chỉ dành cho công việc bảo trì dataset riêng khi được chủ dự án cho phép.
+Index hiện có đã chứa 2.541 vector, khớp với số ảnh JPG thực tế tại thời điểm kiểm tra 03/10/2026. Không chạy lệnh ghi/index lại để sử dụng website. Các lệnh tạo/index dưới đây chỉ dành cho công việc bảo trì dataset riêng khi được chủ dự án cho phép.
 
 Kiểm tra dataset mà không tải CLIP hoặc gọi Pinecone:
 
@@ -269,8 +271,3 @@ tests/
 ```
 
 Metadata Pinecone gồm ID hiện vật/ảnh, tiêu đề, mô tả, danh mục, giai đoạn, địa điểm, tags, caption, đường dẫn tương đối, loại embedding, model và checksum. ID vector ổn định theo dạng `<location-id>:<image-id>`.
-#   H i s t o r y  
- #   H i s t o r y  
- #   H i s t o r y  
- #   H i s t o r y  
- 

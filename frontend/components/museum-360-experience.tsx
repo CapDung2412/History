@@ -12,6 +12,8 @@ type VirtualTour = {
   tourUrl: string;
   sourceUrl: string;
   sourceLabel: string;
+  platformUrl?: string;
+  platformLabel?: string;
 };
 
 type VirtualTourGroup = {
@@ -21,6 +23,11 @@ type VirtualTourGroup = {
 
 const HCMC_MUSEUM_TOUR_URL =
   "https://sanpham.starglobal3d.com/smart-museum-3d/hcmc-museum/";
+
+const STAR_GLOBAL_3D_ATTRIBUTION = {
+  platformUrl: "https://starglobal3d.com/smart-museum-360",
+  platformLabel: "StarGlobal3D",
+};
 
 function hcmcMuseumScene(scene: string) {
   // The remote krpano viewer compares `startscene` with its scene names before
@@ -74,6 +81,7 @@ const TOUR_GROUPS: VirtualTourGroup[] = [
         tourUrl: hcmcMuseumScene("scene_view_2"),
         sourceUrl: "https://hcmc-museum.edu.vn/",
         sourceLabel: "Bảo tàng Thành phố Hồ Chí Minh — tham quan trực tuyến",
+        ...STAR_GLOBAL_3D_ATTRIBUTION,
       },
       {
         id: "hcmc-dau-tranh-cach-mang",
@@ -85,6 +93,7 @@ const TOUR_GROUPS: VirtualTourGroup[] = [
         tourUrl: hcmcMuseumScene("scene_01-phong-dau-tranh-cach-mang-(7)"),
         sourceUrl: "https://hcmc-museum.edu.vn/",
         sourceLabel: "Bảo tàng Thành phố Hồ Chí Minh — tham quan trực tuyến",
+        ...STAR_GLOBAL_3D_ATTRIBUTION,
       },
       {
         id: "hcmc-dia-ly-hanh-chinh",
@@ -96,6 +105,7 @@ const TOUR_GROUPS: VirtualTourGroup[] = [
         tourUrl: hcmcMuseumScene("scene_02_phong_dia_ly_hanh_chinh_(6)"),
         sourceUrl: "https://hcmc-museum.edu.vn/",
         sourceLabel: "Bảo tàng Thành phố Hồ Chí Minh — tham quan trực tuyến",
+        ...STAR_GLOBAL_3D_ATTRIBUTION,
       },
       {
         id: "hcmc-vo-van-kiet",
@@ -109,6 +119,7 @@ const TOUR_GROUPS: VirtualTourGroup[] = [
         ),
         sourceUrl: "https://hcmc-museum.edu.vn/",
         sourceLabel: "Bảo tàng Thành phố Hồ Chí Minh — tham quan trực tuyến",
+        ...STAR_GLOBAL_3D_ATTRIBUTION,
       },
       {
         id: "hcmc-mau-than-1968",
@@ -122,6 +133,7 @@ const TOUR_GROUPS: VirtualTourGroup[] = [
         ),
         sourceUrl: "https://hcmc-museum.edu.vn/",
         sourceLabel: "Bảo tàng Thành phố Hồ Chí Minh — tham quan trực tuyến",
+        ...STAR_GLOBAL_3D_ATTRIBUTION,
       },
     ],
   },
@@ -145,20 +157,34 @@ export function Museum360Experience() {
           className="virtual-tour-frame"
           id="virtual-tour-viewer"
           role="region"
-          aria-label={`Trình xem 360°: ${activeTour.title}`}
+          aria-label={`Giới thiệu tour 360°: ${activeTour.title}`}
+          aria-live="polite"
         >
-          <iframe
-            key={activeTour.id}
-            src={activeTour.tourUrl}
-            title={`Tham quan 360 độ ${activeTour.title} tại ${activeTour.museum}`}
-            loading="lazy"
-            allow="fullscreen; accelerometer; gyroscope"
-            allowFullScreen
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
           <span className="virtual-tour-badge">
             <RotateIcon /> 360°
           </span>
+          <div className="virtual-tour-launch" key={activeTour.id}>
+            <span className="virtual-tour-launch-icon" aria-hidden="true">
+              <RotateIcon />
+            </span>
+            <p>{activeTour.museum}</p>
+            <h3>{activeTour.title}</h3>
+            <p>
+              Nội dung toàn cảnh được mở trực tiếp trên website của đơn vị cung
+              cấp.
+            </p>
+            <a
+              className="button button-cream button-large"
+              href={activeTour.tourUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Xem 360 trên website: ${activeTour.title}`}
+            >
+              <RotateIcon />
+              Xem 360 trên website
+              <ArrowIcon />
+            </a>
+          </div>
         </div>
 
         <div className="virtual-tour-copy">
@@ -166,8 +192,8 @@ export function Museum360Experience() {
           <h2 id="virtual-tour-title">Chọn hành trình tham quan 360°</h2>
           <p>
             Khám phá tuyến đường 1C và nhiều phòng trưng bày tiêu biểu của hai
-            bảo tàng. Chọn một không gian bên dưới rồi kéo trên ảnh để quan sát
-            toàn cảnh.
+            bảo tàng. Chọn một không gian bên dưới, sau đó mở tour 360 trên
+            website chính thức của đơn vị cung cấp.
           </p>
 
           <div className="virtual-tour-picker">
@@ -202,25 +228,12 @@ export function Museum360Experience() {
             <p>{activeTour.description}</p>
           </div>
 
-          <div className="virtual-tour-actions">
-            <a
-              className="button button-cream button-large"
-              href={activeTour.tourUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-describedby="virtual-tour-note"
-            >
-              <RotateIcon />
-              Mở trong tab mới
-              <ArrowIcon />
-            </a>
-          </div>
           <p className="virtual-tour-note" id="virtual-tour-note">
-            Có thể kéo để xoay, chạm các điểm dẫn đường hoặc mở tour trong tab
-            mới nếu màn hình điện thoại quá nhỏ.
+            Liên kết mở trong tab mới. Các hình ảnh và dữ liệu 360 vẫn được lưu
+            trữ trên website nguồn.
           </p>
           <p className="virtual-tour-source">
-            Nguồn: {" "}
+            Nguồn nội dung: {" "}
             <a
               href={activeTour.sourceUrl}
               target="_blank"
@@ -228,6 +241,18 @@ export function Museum360Experience() {
             >
               {activeTour.sourceLabel}
             </a>
+            {activeTour.platformUrl && activeTour.platformLabel ? (
+              <>
+                {" · "}Nền tảng 360: {" "}
+                <a
+                  href={activeTour.platformUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {activeTour.platformLabel}
+                </a>
+              </>
+            ) : null}
             .
           </p>
         </div>

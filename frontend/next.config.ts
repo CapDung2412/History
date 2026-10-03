@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
           {
             key: "Permissions-Policy",
             value:
-              'camera=(self), microphone=(), geolocation=(), fullscreen=(self "https://btctct.apptgs.vn" "https://duong1c.apptgs.vn" "https://sanpham.starglobal3d.com"), accelerometer=(self "https://btctct.apptgs.vn" "https://duong1c.apptgs.vn" "https://sanpham.starglobal3d.com"), gyroscope=(self "https://btctct.apptgs.vn" "https://duong1c.apptgs.vn" "https://sanpham.starglobal3d.com")',
+              "camera=(self), microphone=(), geolocation=(), fullscreen=(self), accelerometer=(), gyroscope=()",
           },
         ],
       },
